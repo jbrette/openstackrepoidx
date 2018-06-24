@@ -54,6 +54,39 @@ def findrepo(officialrepos, subdict):
         officialrepoclass = 'Unknown'
     return officialrepoclass
 
+def update_classification(repo, iproject, iclass):
+    repo.update({'internal_project': iproject, 'internal_classification': iclass})
+
+# WARNING. Order is important
+STARTS_WITH=[
+    ('puppet-','puppet', 'installer'),
+    ('ansible-role-','tripleo', 'installer'),
+    ('ansible-','ansible', 'installer'),
+    ('fuel-cpp-','fuel-cpp', 'installer'),
+    ('fuel-','fuel', 'installer'),
+    ('openstack-ansible-','openstack-ansible', 'installer'),
+    ('tripleo-','tripleo', 'installer'),
+    ('cookbook-','chef', 'installer'),
+    ('charm-','charm', 'installer'),
+    ('snap-','snap', 'installer'),
+    ('salt-formula-','salt', 'installer'),
+    ('airship-','helm', 'installer'),
+    ('openstack-helm','helm', 'installer'),
+    ('xstatic-','xstatic', 'packaging'),
+    ('deb-','deb', 'packaging'),
+    ('kolla-','kolla', 'packaging'),
+    ('loci','loci', 'packaging'),
+    ('devstack-','devstack', 'testing'),
+    ('tempest-','tempest', 'testing'),
+    ('oslo','oslo', 'openstack'),
+    ('python-','python', 'openstack'),
+    ('stx-','starlingx', 'openstack'),
+    ('stacktach-','stacktach', 'openstack')
+]
+
+ENDS_WITH=[
+    ('-tempest-plugin','tempest', 'testing')
+]
 
 def readrepolist(fulldict, officialprojects, officialrepos):
     with open('review.openstack.org.json', 'r') as f:
@@ -67,63 +100,29 @@ def readrepolist(fulldict, officialprojects, officialrepos):
         officialproject = findproject(officialprojects, repo)
         officialrepoclass = findrepo(officialrepos, subdict)
 
-        fulldict[maindict][subdict] = {'url': repolist[repo]['web_links'][0]['url']}
-        fulldict[maindict][subdict].update({'fullname': repo,
-                                            'internal_project': maindict, 'internal_classification': 'unknown',
-                                            'official_classification': officialrepoclass,
-                                            'official_project': officialproject})
-        if subdict.startswith('puppet-'):
-            fulldict[maindict][subdict].update({'internal_project': 'puppet', 'internal_classification': 'installer'})
-        elif subdict.startswith('ansible-role-'):
-            fulldict[maindict][subdict].update({'internal_project': 'tripleo', 'internal_classification': 'installer'})
-        elif subdict.startswith('ansible-'):
-            fulldict[maindict][subdict].update({'internal_project': 'ansible', 'internal_classification': 'installer'})
-        elif subdict.startswith('fuel-cpp-'):
-            fulldict[maindict][subdict].update({'internal_project': 'fuel-cpp', 'internal_classification': 'installer'})
-        elif subdict.startswith('fuel-'):
-            fulldict[maindict][subdict].update({'internal_project': 'fuel', 'internal_classification': 'installer'})
-        elif subdict.startswith('openstack-ansible-'):
-            fulldict[maindict][subdict].update({'internal_project': 'openstack-ansible', 'internal_classification': 'installer'})
-        elif subdict.startswith('tripleo-'):
-            fulldict[maindict][subdict].update({'internal_project': 'tripleo', 'internal_classification': 'installer'})
-        elif subdict.startswith('cookbook-'):
-            fulldict[maindict][subdict].update({'internal_project': 'chef', 'internal_classification': 'installer'})
-        elif subdict.startswith('charm-'):
-            fulldict[maindict][subdict].update({'internal_project': 'charm', 'internal_classification': 'installer'})
-        elif subdict.startswith('snap-'):
-            fulldict[maindict][subdict].update({'internal_project': 'snap', 'internal_classification': 'installer'})
-        elif subdict.startswith('salt-formula-'):
-            fulldict[maindict][subdict].update({'internal_project': 'salt', 'internal_classification': 'installer'})
-        elif subdict.startswith('airship-'):
-            fulldict[maindict][subdict].update({'internal_project': 'helm', 'internal_classification': 'installer'})
-        elif subdict.startswith('openstack-helm'):
-            fulldict[maindict][subdict].update({'internal_project': 'helm', 'internal_classification': 'installer'})
-        elif subdict.startswith('xstatic-'):
-            fulldict[maindict][subdict].update({'internal_project': 'xstatic', 'internal_classification': 'packaging'})
-        elif subdict.startswith('deb-'):
-            fulldict[maindict][subdict].update({'internal_project': 'deb', 'internal_classification': 'packaging'})
-        elif subdict.startswith('kolla-'):
-            fulldict[maindict][subdict].update({'internal_project': 'kolla', 'internal_classification': 'packaging'})
-        elif subdict.startswith('loci'):
-            fulldict[maindict][subdict].update({'internal_project': 'loci', 'internal_classification': 'packaging'})
-        elif subdict.startswith('devstack-'):
-            fulldict[maindict][subdict].update({'internal_project': 'devstack', 'internal_classification': 'testing'})
-        elif subdict.startswith('tempest-'):
-            fulldict[maindict][subdict].update({'internal_project': 'tempest', 'internal_classification': 'testing'})
-        elif subdict.startswith('oslo'):
-            fulldict[maindict][subdict].update({'internal_project': 'oslo', 'internal_classification': 'openstack'})
-        elif subdict.startswith('python-'):
-            fulldict[maindict][subdict].update({'internal_project': 'python', 'internal_classification': 'openstack'})
-        elif subdict.startswith('stx-'):
-            fulldict[maindict][subdict].update({'internal_project': 'starlingx', 'internal_classification': 'openstack'})
-        elif subdict.startswith('stacktach-'):
-            fulldict[maindict][subdict].update({'internal_project': 'stacktach', 'internal_classification': 'openstack'})
-        elif subdict.endswith('-tempest-plugin'):
-            fulldict[maindict][subdict].update({'internal_project': 'tempest', 'internal_classification': 'testing'})
-        else:
-            if maindict == "openstack":
-                # print repo
-                pass
+        repodesc = {'url': repolist[repo]['web_links'][0]['url']}
+        repodesc.update({'fullname': repo,
+                         'internal_project': maindict, 
+                         'internal_classification': 'unknown',
+                         'official_classification': officialrepoclass,
+                         'official_project': officialproject})
+
+        rulename = None 
+        for rule in STARTS_WITH:
+            if not rulename and subdict.startswith(rule[0]):
+                rulename = rule[0]
+                update_classification(repodesc ,rule[1], rule[2])
+
+        for rule in ENDS_WITH:
+            if not rulename and subdict.endswith(rule[0]):
+                rulename = rule[0]
+                update_classification(repodesc ,rule[1], rule[2])
+
+        if not rulename and maindict == "openstack":
+            # print repo
+            pass
+
+        fulldict[maindict][subdict] = repodesc
 
 
 def dumpyaml(fulldict):
