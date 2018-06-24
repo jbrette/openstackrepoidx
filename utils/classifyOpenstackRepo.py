@@ -56,7 +56,7 @@ def findrepo(officialrepos, subdict):
 
 
 def readrepolist(fulldict, officialprojects, officialrepos):
-    with open('openstackrepolist.json', 'r') as f:
+    with open('review.openstack.org.json', 'r') as f:
         repolist = json.load(f)
 
     for repo in repolist.keys():
@@ -69,14 +69,17 @@ def readrepolist(fulldict, officialprojects, officialrepos):
 
         fulldict[maindict][subdict] = {'url': repolist[repo]['web_links'][0]['url']}
         fulldict[maindict][subdict].update({'fullname': repo,
-                                            'internal_project': 'unknown', 'internal_classification': 'unknown',
+                                            'internal_project': maindict, 'internal_classification': 'unknown',
                                             'official_classification': officialrepoclass,
                                             'official_project': officialproject})
-
         if subdict.startswith('puppet-'):
             fulldict[maindict][subdict].update({'internal_project': 'puppet', 'internal_classification': 'installer'})
+        elif subdict.startswith('ansible-role-'):
+            fulldict[maindict][subdict].update({'internal_project': 'tripleo', 'internal_classification': 'installer'})
         elif subdict.startswith('ansible-'):
             fulldict[maindict][subdict].update({'internal_project': 'ansible', 'internal_classification': 'installer'})
+        elif subdict.startswith('fuel-cpp-'):
+            fulldict[maindict][subdict].update({'internal_project': 'fuel-cpp', 'internal_classification': 'installer'})
         elif subdict.startswith('fuel-'):
             fulldict[maindict][subdict].update({'internal_project': 'fuel', 'internal_classification': 'installer'})
         elif subdict.startswith('openstack-ansible-'):
@@ -125,10 +128,13 @@ def readrepolist(fulldict, officialprojects, officialrepos):
 
 def dumpyaml(fulldict):
     yaml.add_representer(unicode, unicode_representer)
-    print yaml.dump(fulldict, default_flow_style=False)
 
-    # for key,value in fulldict.items():
-    #   print "{} has {} repos".format(key,len(value.keys()))
+    with open('review.openstack.org.yaml', 'w') as outfile:
+        yaml.dump(fulldict, outfile, default_flow_style=False)
+
+    with open('../openstackrepolist.yaml', 'w') as outfile:
+        yaml.dump(fulldict['openstack'], outfile, default_flow_style=False)
+
 
 def showinconsistencies(officialprojects, officialrepos):
     # Show detected issues

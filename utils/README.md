@@ -9,7 +9,7 @@ curl https://releases.openstack.org/rocky/index.html > openstackrepo.html
 ~~~
 
 ~~~
-curl https://review.openstack.org/projects/ > openstackrepolist.json.html
+curl https://review.openstack.org/projects/ > review.openstack.org.json
 ~~~
 
 ~~~
