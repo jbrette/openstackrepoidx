@@ -30,8 +30,9 @@ def findproject(officialprojects, reponame):
     for projectname, projectdesc in officialprojects.items():
         deliverables = projectdesc['deliverables'] if 'deliverables' in projectdesc else {}
         for delivername, deliverartifact in deliverables.items():
-            repos = deliverartifact['repos'] if 'repos' in deliverartifact else {}
+            repos = deliverartifact['repos'] if 'repos' in deliverartifact else []
             if reponame in repos:
+                repos.remove(reponame)
                 return projectname
     return "Unknown"
 
@@ -129,6 +130,17 @@ def dumpyaml(fulldict):
     # for key,value in fulldict.items():
     #   print "{} has {} repos".format(key,len(value.keys()))
 
+def showinconsistencies(officialprojects, officialrepos):
+    # Show detected issues
+    if officialrepos:
+        print officialrepos
+
+    for projectname, projectdesc in officialprojects.items():
+        deliverables = projectdesc['deliverables'] if 'deliverables' in projectdesc else {}
+        for delivername, deliverartifact in deliverables.items():
+            repos = deliverartifact['repos'] if 'repos' in deliverartifact else []
+            if repos:
+                print "{}.{} still contains reference to {}".format(projectname, delivername, repr(repos))
 
 def main(args):
     fulldict = {
@@ -149,8 +161,7 @@ def main(args):
     readrepolist(fulldict, officialprojects, officialrepos)
     dumpyaml(fulldict)
 
-    if officialrepos:
-        print officialrepos
+    showinconsistencies(officialprojects, officialrepos)
 
 if __name__ == '__main__':
     import argparse
