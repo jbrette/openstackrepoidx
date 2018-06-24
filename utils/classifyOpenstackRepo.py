@@ -10,13 +10,24 @@ def unicode_representer(dumper, uni):
     return node
 
 
-def readofficialprojectcsv():
+def readofficialservicecsv():
     official = {}
-    with open('official.csv', 'rb') as csvfile:
+    with open('openstack.projects.csv', 'rb') as csvfile:
         csvreader = csv.reader(csvfile, delimiter=',', quotechar="'")
         for row in csvreader:
-            official[row[0]] = row[1]
+            official[row[0].lower()] = {
+                "service_name": row[0],
+                'description': row[1],
+                'service_group': row[2]
+            }
     return official
+
+
+def match_official_service(officialservices, reponame):
+    for servicename in officialservices.keys():
+        if servicename in reponame:
+            return servicename
+    return "Unknown"
 
 
 def readofficialprojectyaml():
@@ -26,7 +37,7 @@ def readofficialprojectyaml():
     return official
 
 
-def findproject(officialprojects, reponame):
+def find_official_project(officialprojects, reponame):
     for projectname, projectdesc in officialprojects.items():
         deliverables = projectdesc['deliverables'] if 'deliverables' in projectdesc else {}
         for delivername, deliverartifact in deliverables.items():
@@ -39,90 +50,97 @@ def findproject(officialprojects, reponame):
 
 def readofficialrepo():
     official = {}
-    with open('openstackrepo.csv', 'rb') as csvfile:
+    with open('openstack.repos.csv', 'rb') as csvfile:
         csvreader = csv.reader(csvfile, delimiter=',', quotechar="'")
         for row in csvreader:
             official[row[0]] = row[1]
     return official
 
 
-def findrepo(officialrepos, subdict):
-    if subdict in officialrepos:
-        officialrepoclass = officialrepos[subdict]
-        officialrepos.pop(subdict)
+def find_official_repo(officialrepos, subrepo):
+    if subrepo in officialrepos:
+        officialrepoclass = officialrepos[subrepo]
+        officialrepos.pop(subrepo)
     else:
         officialrepoclass = 'Unknown'
     return officialrepoclass
 
+
 def update_classification(repo, iproject, iclass):
-    repo.update({'internal_project': iproject, 'internal_classification': iclass})
+    repo.update({'matched_project': iproject, 'matched_classification': iclass})
 
 # WARNING. Order is important
-STARTS_WITH=[
-    ('puppet-','puppet', 'installer'),
-    ('ansible-role-','tripleo', 'installer'),
-    ('ansible-','ansible', 'installer'),
-    ('fuel-cpp-','fuel-cpp', 'installer'),
-    ('fuel-','fuel', 'installer'),
-    ('openstack-ansible-','openstack-ansible', 'installer'),
-    ('tripleo-','tripleo', 'installer'),
-    ('cookbook-','chef', 'installer'),
-    ('charm-','charm', 'installer'),
-    ('snap-','snap', 'installer'),
-    ('salt-formula-','salt', 'installer'),
-    ('airship-','helm', 'installer'),
-    ('openstack-helm','helm', 'installer'),
-    ('xstatic-','xstatic', 'packaging'),
-    ('deb-','deb', 'packaging'),
-    ('kolla-','kolla', 'packaging'),
-    ('loci','loci', 'packaging'),
-    ('devstack-','devstack', 'testing'),
-    ('tempest-','tempest', 'testing'),
-    ('oslo','oslo', 'openstack'),
-    ('python-','python', 'openstack'),
-    ('stx-','starlingx', 'openstack'),
-    ('stacktach-','stacktach', 'openstack')
+STARTS_WITH = [
+    ('puppet-', 'puppet', 'installer'),
+    ('ansible-role-', 'tripleo', 'installer'),
+    ('ansible-', 'ansible', 'installer'),
+    ('fuel-cpp-', 'fuel-cpp', 'installer'),
+    ('fuel-', 'fuel', 'installer'),
+    ('openstack-ansible-', 'openstack-ansible', 'installer'),
+    ('tripleo-', 'tripleo', 'installer'),
+    ('cookbook-', 'chef', 'installer'),
+    ('charm-', 'charm', 'installer'),
+    ('snap-', 'snap', 'installer'),
+    ('salt-formula-', 'salt', 'installer'),
+    ('airship-', 'helm', 'installer'),
+    ('openstack-helm', 'helm', 'installer'),
+    ('xstatic-', 'xstatic', 'packaging'),
+    ('deb-', 'deb', 'packaging'),
+    ('kolla-', 'kolla', 'packaging'),
+    ('loci', 'loci', 'packaging'),
+    ('devstack-', 'devstack', 'testing'),
+    ('tempest-', 'tempest', 'testing'),
+    ('oslo', 'oslo', 'openstack'),
+    ('python-', 'python', 'openstack'),
+    ('stx-', 'starlingx', 'openstack'),
+    ('stacktach-', 'stacktach', 'openstack')
 ]
 
-ENDS_WITH=[
-    ('-tempest-plugin','tempest', 'testing')
+ENDS_WITH = [
+    ('-tempest-plugin', 'tempest', 'testing')
 ]
 
-def readrepolist(fulldict, officialprojects, officialrepos):
+
+def readrepolist(fulldict, officialservices, officialprojects, officialrepos):
     with open('review.openstack.org.json', 'r') as f:
         repolist = json.load(f)
 
     for repo in repolist.keys():
-        substr = repo.split("/")
-        maindict = substr[0]
-        subdict = substr[1] if len(substr) == 2 else "all"
+        reposubstr = repo.split("/")
+        mainrepo = reposubstr[0]
+        subrepo = reposubstr[1] if len(reposubstr) == 2 else "all"
 
-        officialproject = findproject(officialprojects, repo)
-        officialrepoclass = findrepo(officialrepos, subdict)
+        matched_service = match_official_service(officialservices, subrepo)
+        matched_project = mainrepo if mainrepo != 'openstack' else 'unknown'
+        matched_classification = 'unknown'
+
+        official_project = find_official_project(officialprojects, repo)
+        official_repoclass = find_official_repo(officialrepos, subrepo)
 
         repodesc = {'url': repolist[repo]['web_links'][0]['url']}
         repodesc.update({'fullname': repo,
-                         'internal_project': maindict, 
-                         'internal_classification': 'unknown',
-                         'official_classification': officialrepoclass,
-                         'official_project': officialproject})
+                         'matched_service': matched_service,
+                         'matched_project': matched_project,
+                         'matched_classification': matched_classification,
+                         'official_classification': official_repoclass,
+                         'official_project': official_project})
 
-        rulename = None 
+        rulename = None
         for rule in STARTS_WITH:
-            if not rulename and subdict.startswith(rule[0]):
+            if not rulename and subrepo.startswith(rule[0]):
                 rulename = rule[0]
-                update_classification(repodesc ,rule[1], rule[2])
+                update_classification(repodesc, rule[1], rule[2])
 
         for rule in ENDS_WITH:
-            if not rulename and subdict.endswith(rule[0]):
+            if not rulename and subrepo.endswith(rule[0]):
                 rulename = rule[0]
-                update_classification(repodesc ,rule[1], rule[2])
+                update_classification(repodesc, rule[1], rule[2])
 
-        if not rulename and maindict == "openstack":
+        if not rulename and mainrepo == "openstack":
             # print repo
             pass
 
-        fulldict[maindict][subdict] = repodesc
+        fulldict[mainrepo][subrepo] = repodesc
 
 
 def dumpyaml(fulldict):
@@ -147,6 +165,7 @@ def showinconsistencies(officialprojects, officialrepos):
             if repos:
                 print "{}.{} still contains reference to {}".format(projectname, delivername, repr(repos))
 
+
 def main(args):
     fulldict = {
         'All-Projects': {},
@@ -160,10 +179,10 @@ def main(args):
         'stackforge-attic': {}
     }
 
-    officialprojectcsv = readofficialprojectcsv()
+    officialservices = readofficialservicecsv()
     officialprojects = readofficialprojectyaml()
     officialrepos = readofficialrepo()
-    readrepolist(fulldict, officialprojects, officialrepos)
+    readrepolist(fulldict, officialservices, officialprojects, officialrepos)
     dumpyaml(fulldict)
 
     showinconsistencies(officialprojects, officialrepos)

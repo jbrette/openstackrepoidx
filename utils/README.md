@@ -1,11 +1,11 @@
 # Source of data
 
 ~~~
-curl https://www.openstack.org/software/project-navigator/ > official.html
+curl https://www.openstack.org/software/project-navigator/ > openstack.projects.html
 ~~~
 
 ~~~
-curl https://releases.openstack.org/rocky/index.html > openstackrepo.html
+curl https://releases.openstack.org/rocky/index.html > openstack.repos.html
 ~~~
 
 ~~~
