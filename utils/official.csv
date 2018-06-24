@@ -1,0 +1,40 @@
+HORIZON,Dashboard,Web frontend
+SAHARA,Big Data Processing Framework Provisioning,Workload provisioning
+MAGNUM,Container Orchestration Engine Provisioning,Workload provisioning
+TROVE,Database as a Service,Workload provisioning
+MURANO,Application Catalog,Application lifecycle
+FREEZER,Backup, Restore, and Disaster Recovery,Application lifecycle
+SOLUM,Software Development Lifecycle Automation,Application lifecycle
+AODH,Alarming Service,Orchestration
+SENLIN,Clustering service,Orchestration
+ZAQAR,Messaging Service,Orchestration
+HEAT,Orchestration,Orchestration
+MISTRAL,Workflow service,Orchestration
+IRONIC,Bare Metal Provisioning Service,Compute
+NOVA,Compute Service,Compute
+ZUN,Containers Service,Compute
+DESIGNATE,DNS Service,Networking
+OCTAVIA,Load Balancer,Networking
+NEUTRON,Networking,Networking
+CINDER,Block Storage,Storage
+SWIFT,Object Store,Storage
+MANILA,Shared Filesystems,Storage
+KARBOR,Application Data Protection as a Service,Shared services
+KEYSTONE,Identity service,Shared services
+GLANCE,Image Service,Shared services
+SEARCHLIGHT,Indexing and Search,Shared services
+BARBICAN,Key Management,Shared services
+PANKO,Event, Metadata Indexing Service,Monitoring tools
+CEILOMETER,Metering & Data Collection Service,Monitoring tools
+MONASCA,Monitoring,Monitoring tools
+RALLY,Benchmark service,Optimization
+CONGRESS,Governance,Optimization
+WATCHER,Optimization Service,Optimization
+VITRAGE,RCA Root Cause Analysis service,Optimization
+CLOUDKITTY,Billing and chargebacks,Billing / Business logic
+TRICIRCLE,Networking Automation for Multi-Region Deployments,Multi-region tools
+OPENSTACK-ANSIBLE,Ansible Playbooks for OpenStack,Deployment/Lifecycle tools
+KOLLA,Container deployment,Deployment/Lifecycle tools
+TRIPLEO,Deployment service,Deployment/Lifecycle tools
+KURYR,Container plugin,Container infrastructure
+TACKER,NFV Orchestration,NFV

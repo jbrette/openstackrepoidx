@@ -1,0 +1,205 @@
+barbican,Service
+blazar,Service
+cinder,Service
+congress,Service
+cyborg,Service
+designate,Service
+freezer,Service
+glance,Service
+heat,Service
+horizon,Service
+keystone,Service
+manila,Service
+masakari,Service
+mistral,Service
+monasca-api,Service
+murano,Service
+neutron,Service
+nova,Service
+octavia,Service
+qinling,Service
+sahara,Service
+searchlight,Service
+senlin,Service
+storlets,Service
+swift,Service
+trove,Service
+vitrage,Service
+watcher,Service
+zaqar,Service
+python-aodhclient,Service Client
+python-blazarclient,Service Client
+python-brick-cinderclient-ext,Service Client
+python-cinderclient,Service Client
+python-congressclient,Service Client
+python-cyborgclient,Service Client
+python-freezerclient,Service Client
+python-glanceclient,Service Client
+python-heatclient,Service Client
+python-ironic-inspector-client,Service Client
+python-ironicclient,Service Client
+python-keystoneclient,Service Client
+python-manilaclient,Service Client
+python-masakariclient,Service Client
+python-mistralclient,Service Client
+python-monascaclient,Service Client
+python-neutronclient,Service Client
+python-novaclient,Service Client
+python-octaviaclient,Service Client
+python-qinlingclient,Service Client
+python-saharaclient,Service Client
+python-tackerclient,Service Client
+python-troveclient,Service Client
+python-vitrageclient,Service Client
+python-watcherclient,Service Client
+python-zunclient,Service Client
+blazar-nova,Library
+castellan,Library
+cliff,Library
+futurist,Library
+glance_store,Library
+heat-translator,Library
+instack,Library
+ironic-lib,Library
+keystoneauth,Library
+keystonemiddleware,Library
+kuryr,Library
+mistral-lib,Library
+monasca-common,Library
+monasca-statsd,Library
+mox3,Library
+neutron-lib,Library
+openstacksdk,Library
+os-brick,Library
+os-client-config,Library
+os-traits,Library
+os-vif,Library
+os-win,Library
+osc-lib,Library
+osc-placement,Library
+oslo.cache,Library
+oslo.concurrency,Library
+oslo.config,Library
+oslo.context,Library
+oslo.db,Library
+oslo.i18n,Library
+oslo.log,Library
+oslo.messaging,Library
+oslo.middleware,Library
+oslo.policy,Library
+oslo.privsep,Library
+oslo.reports,Library
+oslo.rootwrap,Library
+oslo.serialization,Library
+oslo.service,Library
+oslo.utils,Library
+oslo.versionedobjects,Library
+oslo.vmware,Library
+oslotest,Library
+osprofiler,Library
+ovsdbapp,Library
+sahara-extra,Library
+shade,Library
+sushy,Library
+tooz,Library
+tosca-parser,Library
+blazar-dashboard,Horizon Plugins
+congress-dashboard,Horizon Plugins
+designate-dashboard,Horizon Plugins
+freezer-web-ui,Horizon Plugins
+heat-dashboard,Horizon Plugins
+manila-ui,Horizon Plugins
+monasca-ui,Horizon Plugins
+murano-dashboard,Horizon Plugins
+neutron-fwaas-dashboard,Horizon Plugins
+neutron-lbaas-dashboard,Horizon Plugins
+neutron-vpnaas-dashboard,Horizon Plugins
+octavia-dashboard,Horizon Plugins
+sahara-dashboard,Horizon Plugins
+searchlight-ui,Horizon Plugins
+trove-dashboard,Horizon Plugins
+vitrage-dashboard,Horizon Plugins
+watcher-dashboard,Horizon Plugins
+zaqar-ui,Horizon Plugins
+ceilometer-powervm,Other
+heat-agents,Other
+instack-undercloud,Other
+ironic-inspector,Other
+masakari-monitors,Other
+monasca-agent,Other
+monasca-ceilometer,Other
+monasca-persister,Other
+monasca-thresh,Other
+monasca-transform,Other
+networking-bagpipe,Other
+networking-bgpvpn,Other
+networking-midonet,Other
+networking-odl,Other
+networking-ovn,Other
+networking-powervm,Other
+networking-sfc,Other
+neutron-dynamic-routing,Other
+neutron-fwaas,Other
+neutron-lbaas,Other
+neutron-vpnaas,Other
+nova-powervm,Other
+os-apply-config,Other
+os-collect-config,Other
+os-net-config,Other
+os-refresh-config,Other
+python-openstackclient,Other
+release-test,Other
+sahara-image-elements,Other
+tripleo-ipsec,Other
+tripleo-ui,Other
+tripleo-validations,Other
+kolla,Deployment and Packaging Tools
+kolla-ansible,Deployment and Packaging Tools
+openstack-ansible,Deployment and Packaging Tools
+paunch,Deployment and Packaging Tools
+puppet-aodh,Deployment and Packaging Tools
+puppet-barbican,Deployment and Packaging Tools
+puppet-ceilometer,Deployment and Packaging Tools
+puppet-cinder,Deployment and Packaging Tools
+puppet-cloudkitty,Deployment and Packaging Tools
+puppet-congress,Deployment and Packaging Tools
+puppet-designate,Deployment and Packaging Tools
+puppet-ec2api,Deployment and Packaging Tools
+puppet-freezer,Deployment and Packaging Tools
+puppet-glance,Deployment and Packaging Tools
+puppet-glare,Deployment and Packaging Tools
+puppet-gnocchi,Deployment and Packaging Tools
+puppet-heat,Deployment and Packaging Tools
+puppet-horizon,Deployment and Packaging Tools
+puppet-ironic,Deployment and Packaging Tools
+puppet-keystone,Deployment and Packaging Tools
+puppet-magnum,Deployment and Packaging Tools
+puppet-manila,Deployment and Packaging Tools
+puppet-mistral,Deployment and Packaging Tools
+puppet-monasca,Deployment and Packaging Tools
+puppet-murano,Deployment and Packaging Tools
+puppet-neutron,Deployment and Packaging Tools
+puppet-nova,Deployment and Packaging Tools
+puppet-octavia,Deployment and Packaging Tools
+puppet-openstack_extras,Deployment and Packaging Tools
+puppet-openstacklib,Deployment and Packaging Tools
+puppet-oslo,Deployment and Packaging Tools
+puppet-ovn,Deployment and Packaging Tools
+puppet-panko,Deployment and Packaging Tools
+puppet-qdr,Deployment and Packaging Tools
+puppet-rally,Deployment and Packaging Tools
+puppet-sahara,Deployment and Packaging Tools
+puppet-swift,Deployment and Packaging Tools
+puppet-tacker,Deployment and Packaging Tools
+puppet-tempest,Deployment and Packaging Tools
+puppet-tripleo,Deployment and Packaging Tools
+puppet-trove,Deployment and Packaging Tools
+puppet-vitrage,Deployment and Packaging Tools
+puppet-vswitch,Deployment and Packaging Tools
+puppet-watcher,Deployment and Packaging Tools
+puppet-zaqar,Deployment and Packaging Tools
+python-tripleoclient,Deployment and Packaging Tools
+tripleo-common,Deployment and Packaging Tools
+tripleo-heat-templates,Deployment and Packaging Tools
+tripleo-image-elements,Deployment and Packaging Tools
+tripleo-puppet-elements,Deployment and Packaging Tools
