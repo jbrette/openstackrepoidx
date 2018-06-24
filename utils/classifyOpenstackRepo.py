@@ -4,40 +4,46 @@ import json
 import yaml
 import csv
 
+
 def unicode_representer(dumper, uni):
     node = yaml.ScalarNode(tag=u'tag:yaml.org,2002:str', value=uni)
     return node
 
+
 def readofficialprojectcsv():
-    official= {}
+    official = {}
     with open('official.csv', 'rb') as csvfile:
         csvreader = csv.reader(csvfile, delimiter=',', quotechar="'")
         for row in csvreader:
             official[row[0]] = row[1]
     return official
 
+
 def readofficialprojectyaml():
-    official= {}
+    official = {}
     with open('projects.yaml', 'rb') as yamlfile:
         official = yaml.safe_load(yamlfile)
     return official
 
+
 def findproject(officialprojects, reponame):
-    for projectname,projectdesc in officialprojects.items():
+    for projectname, projectdesc in officialprojects.items():
         deliverables = projectdesc['deliverables'] if 'deliverables' in projectdesc else {}
-        for delivername,deliverartifact in deliverables.items():
+        for delivername, deliverartifact in deliverables.items():
             repos = deliverartifact['repos'] if 'repos' in deliverartifact else {}
             if reponame in repos:
-                 return projectname
+                return projectname
     return "Unknown"
 
+
 def readofficialrepo():
-    official= {}
+    official = {}
     with open('openstackrepo.csv', 'rb') as csvfile:
         csvreader = csv.reader(csvfile, delimiter=',', quotechar="'")
         for row in csvreader:
             official[row[0]] = row[1]
     return official
+
 
 def findrepo(officialrepos, subdict):
     if subdict in officialrepos:
@@ -59,12 +65,12 @@ def readrepolist(fulldict, officialprojects, officialrepos):
 
         officialproject = findproject(officialprojects, repo)
         officialrepoclass = findrepo(officialrepos, subdict)
- 
+
         fulldict[maindict][subdict] = {'url': repolist[repo]['web_links'][0]['url']}
-        fulldict[maindict][subdict].update({'fullname': repo, 
-                                            'internal_project': 'unknown', 'internal_classification': 'unknown', 
+        fulldict[maindict][subdict].update({'fullname': repo,
+                                            'internal_project': 'unknown', 'internal_classification': 'unknown',
                                             'official_classification': officialrepoclass,
-                                            'official-project': officialproject })
+                                            'official_project': officialproject})
 
         if subdict.startswith('puppet-'):
             fulldict[maindict][subdict].update({'internal_project': 'puppet', 'internal_classification': 'installer'})
@@ -113,7 +119,8 @@ def readrepolist(fulldict, officialprojects, officialrepos):
         else:
             if maindict == "openstack":
                 # print repo
-                pass 
+                pass
+
 
 def dumpyaml(fulldict):
     yaml.add_representer(unicode, unicode_representer)
@@ -121,6 +128,7 @@ def dumpyaml(fulldict):
 
     # for key,value in fulldict.items():
     #   print "{} has {} repos".format(key,len(value.keys()))
+
 
 def main(args):
     fulldict = {
@@ -149,4 +157,3 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Git Repo Classification')
     args = parser.parse_args()
     main(args)
-
