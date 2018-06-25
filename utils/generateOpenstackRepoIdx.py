@@ -47,7 +47,10 @@ def sortby(fulldict, newkey):
         if newidxvalue not in res:
             res[newidxvalue] = []
         res[newidxvalue].append(value)
-    return OrderedDict(sorted(res.items(), key=lambda t: t[0]))
+    res2 = OrderedDict(sorted(res.items(), key=lambda t: t[0]))
+    for key, value in res2.items():
+        res2[key] = sorted(res2[key], key=lambda k: k['fullname'])
+    return res2
     
 def main(args):
     repolist = readopenstackrepolistyaml()
