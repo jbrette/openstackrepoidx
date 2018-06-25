@@ -1,6 +1,11 @@
-# Oveview { ctxtitle }
+# Oveview {{ ctxtitle }}
 
 {% for key in ctxdict %}
-## { key }
+## {{ key }} {{ ctxdict[key]|length }} repos 
+
+| Repo                    | URL     |
+| ----------------------- | ---------- |
+{% for entry in ctxdict[key] %}| {{ entry['fullname']}}  | {{entry['url']}} |
+{% endfor %}
 
 {% endfor %}

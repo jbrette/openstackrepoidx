@@ -16,8 +16,8 @@ def readopenstackrepolistyaml():
         official = yaml.safe_load(yamlfile)
     return official
 
-def rendertemmplate(fulldict, newfile):
-    context={ 'thedict': fulldict, 'title': title }
+def rendertemmplate(fulldict, newfile, title):
+    context={ 'ctxdict': fulldict, 'ctxtitle': title }
     theenv = Environment(autoescape=False,
                          loader=FileSystemLoader('./'),
                          trim_blocks=False)
@@ -25,7 +25,7 @@ def rendertemmplate(fulldict, newfile):
 
     try:
         fh = open(newfile, "wt")
-        fh.write(template.render(context))
+        fh.write(thetemplate.render(context))
         fh.close()
     except Exception as e:
         print e
@@ -52,7 +52,13 @@ def main(args):
     repolist = readopenstackrepolistyaml()
 
     res = sortby(repolist, 'matched_classification')
-    dumpyaml(res, '../classification.yaml')
+    rendertemmplate(res, '../BY_MATCHED_CLASSIFIACTION.md', 'By matched classifiaction')
+
+    res = sortby(repolist, 'matched_project')
+    rendertemmplate(res, '../BY_MATCHED_PROJECT.md', 'By matched project')
+
+    res = sortby(repolist, 'matched_service')
+    rendertemmplate(res, '../BY_MATCHED_SERIVCE.md', 'By matched service')
 
 if __name__ == '__main__':
     import argparse
