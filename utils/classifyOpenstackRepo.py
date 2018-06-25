@@ -125,7 +125,11 @@ def readrepolist(fulldict, officialservices, officialprojects, officialrepos):
         official_project = find_official_project(officialprojects, repo)
         official_repoclass = find_official_repo(officialrepos, subrepo)
 
-        repodesc = {'url': repolist[repo]['web_links'][0]['url']}
+        summaryurl = repolist[repo]['web_links'][0]['url']
+        httpsclone = summaryurl.replace('/summary','').replace('cgit/','')
+        gitclone = httpsclone.replace('https','git')
+
+        repodesc = {'url': summaryurl, 'httpsclone': httpsclone, 'gitclone': gitclone}
         repodesc.update({'fullname': repo,
                          'matched_service': matched_service,
                          'matched_project': matched_project,
