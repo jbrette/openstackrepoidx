@@ -96,14 +96,15 @@ STARTS_WITH = [
     ('rpm-packaging', 'rpm-packaging', 'packaging'),
     ('devstack-', 'devstack', 'testing'),
     ('tempest-', 'tempest', 'testing'),
-    ('oslo', 'oslo', 'openstack'),
+    ('oslo', 'oslo', 'library'),
     ('python-', 'python', 'openstack'),
     ('stx-', 'starlingx', 'openstack'),
     ('stacktach-', 'stacktach', 'openstack')
 ]
 
 ENDS_WITH = [
-    ('-tempest-plugin', 'tempest', 'testing')
+    ('-tempest-plugin', 'tempest', 'testing'),
+    ('-specs', 'openstack', 'documentation')
 ]
 
 

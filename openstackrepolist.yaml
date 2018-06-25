@@ -648,8 +648,8 @@ barbican:
   url: https://git.openstack.org/cgit/openstack/barbican/summary
 barbican-specs:
   fullname: openstack/barbican-specs
-  matched_classification: service
-  matched_project: barbican
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: barbican
   official_classification: Unknown
   official_project: barbican
@@ -704,8 +704,8 @@ bareon-ironic:
   url: https://git.openstack.org/cgit/openstack/bareon-ironic/summary
 bareon-specs:
   fullname: openstack/bareon-specs
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
@@ -1600,8 +1600,8 @@ cinder-fusioncompute:
   url: https://git.openstack.org/cgit/openstack/cinder-fusioncompute/summary
 cinder-specs:
   fullname: openstack/cinder-specs
-  matched_classification: service
-  matched_project: cinder
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: cinder
   official_classification: Unknown
   official_project: cinder
@@ -1688,8 +1688,8 @@ cloudkitty-dashboard:
   url: https://git.openstack.org/cgit/openstack/cloudkitty-dashboard/summary
 cloudkitty-specs:
   fullname: openstack/cloudkitty-specs
-  matched_classification: service
-  matched_project: cloudkitty
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: cloudkitty
   official_classification: Unknown
   official_project: cloudkitty
@@ -1768,8 +1768,8 @@ compass-install:
   url: https://git.openstack.org/cgit/openstack/compass-install/summary
 compass-specs:
   fullname: openstack/compass-specs
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
@@ -1808,8 +1808,8 @@ congress-dashboard:
   url: https://git.openstack.org/cgit/openstack/congress-dashboard/summary
 congress-specs:
   fullname: openstack/congress-specs
-  matched_classification: service
-  matched_project: congress
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: congress
   official_classification: Unknown
   official_project: congress
@@ -2080,8 +2080,8 @@ cyborg:
   url: https://git.openstack.org/cgit/openstack/cyborg/summary
 cyborg-specs:
   fullname: openstack/cyborg-specs
-  matched_classification: service
-  matched_project: cyborg
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: Unknown
   official_classification: Unknown
   official_project: cyborg
@@ -4904,8 +4904,8 @@ designate-msdnsagent:
   url: https://git.openstack.org/cgit/openstack/designate-msdnsagent/summary
 designate-specs:
   fullname: openstack/designate-specs
-  matched_classification: service
-  matched_project: designate
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: designate
   official_classification: Unknown
   official_project: designate
@@ -5128,8 +5128,8 @@ docker-machine-openstack:
   url: https://git.openstack.org/cgit/openstack/docker-machine-openstack/summary
 docs-specs:
   fullname: openstack/docs-specs
-  matched_classification: service
-  matched_project: Documentation
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: Unknown
   official_classification: Unknown
   official_project: Documentation
@@ -5320,8 +5320,8 @@ freezer-dr:
   url: https://git.openstack.org/cgit/openstack/freezer-dr/summary
 freezer-specs:
   fullname: openstack/freezer-specs
-  matched_classification: service
-  matched_project: freezer
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: freezer
   official_classification: Unknown
   official_project: freezer
@@ -6672,8 +6672,8 @@ glance:
   url: https://git.openstack.org/cgit/openstack/glance/summary
 glance-specs:
   fullname: openstack/glance-specs
-  matched_classification: service
-  matched_project: glance
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: glance
   official_classification: Unknown
   official_project: glance
@@ -6696,8 +6696,8 @@ glare:
   url: https://git.openstack.org/cgit/openstack/glare/summary
 glare-specs:
   fullname: openstack/glare-specs
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
@@ -6800,8 +6800,8 @@ group-based-policy-automation:
   url: https://git.openstack.org/cgit/openstack/group-based-policy-automation/summary
 group-based-policy-specs:
   fullname: openstack/group-based-policy-specs
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
@@ -6856,8 +6856,8 @@ heat-dashboard:
   url: https://git.openstack.org/cgit/openstack/heat-dashboard/summary
 heat-specs:
   fullname: openstack/heat-specs
-  matched_classification: service
-  matched_project: heat
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: heat
   official_classification: Unknown
   official_project: heat
@@ -6928,8 +6928,8 @@ i18n:
   url: https://git.openstack.org/cgit/openstack/i18n/summary
 i18n-specs:
   fullname: openstack/i18n-specs
-  matched_classification: service
-  matched_project: I18n
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: Unknown
   official_classification: Unknown
   official_project: I18n
@@ -7040,8 +7040,8 @@ ironic-inspector:
   url: https://git.openstack.org/cgit/openstack/ironic-inspector/summary
 ironic-inspector-specs:
   fullname: openstack/ironic-inspector-specs
-  matched_classification: service
-  matched_project: ironic
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: ironic
   official_classification: Unknown
   official_project: ironic
@@ -7080,8 +7080,8 @@ ironic-python-agent-builder:
   url: https://git.openstack.org/cgit/openstack/ironic-python-agent-builder/summary
 ironic-specs:
   fullname: openstack/ironic-specs
-  matched_classification: service
-  matched_project: ironic
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: ironic
   official_classification: Unknown
   official_project: ironic
@@ -7208,8 +7208,8 @@ keystone:
   url: https://git.openstack.org/cgit/openstack/keystone/summary
 keystone-specs:
   fullname: openstack/keystone-specs
-  matched_classification: service
-  matched_project: keystone
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: keystone
   official_classification: Unknown
   official_project: keystone
@@ -7336,8 +7336,8 @@ kosmos:
   url: https://git.openstack.org/cgit/openstack/kosmos/summary
 kosmos-specs:
   fullname: openstack/kosmos-specs
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
@@ -7520,8 +7520,8 @@ magnetodb:
   url: https://git.openstack.org/cgit/openstack/magnetodb/summary
 magnetodb-specs:
   fullname: openstack/magnetodb-specs
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
@@ -7536,8 +7536,8 @@ magnum:
   url: https://git.openstack.org/cgit/openstack/magnum/summary
 magnum-specs:
   fullname: openstack/magnum-specs
-  matched_classification: service
-  matched_project: magnum
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: magnum
   official_classification: Unknown
   official_project: magnum
@@ -7576,8 +7576,8 @@ manila-image-elements:
   url: https://git.openstack.org/cgit/openstack/manila-image-elements/summary
 manila-specs:
   fullname: openstack/manila-specs
-  matched_classification: service
-  matched_project: manila
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: manila
   official_classification: Unknown
   official_project: manila
@@ -7640,8 +7640,8 @@ masakari-monitors:
   url: https://git.openstack.org/cgit/openstack/masakari-monitors/summary
 masakari-specs:
   fullname: openstack/masakari-specs
-  matched_classification: service
-  matched_project: masakari
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: Unknown
   official_classification: Unknown
   official_project: masakari
@@ -7728,8 +7728,8 @@ mistral-lib:
   url: https://git.openstack.org/cgit/openstack/mistral-lib/summary
 mistral-specs:
   fullname: openstack/mistral-specs
-  matched_classification: service
-  matched_project: mistral
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: mistral
   official_classification: Unknown
   official_project: mistral
@@ -7768,8 +7768,8 @@ mogan:
   url: https://git.openstack.org/cgit/openstack/mogan/summary
 mogan-specs:
   fullname: openstack/mogan-specs
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
@@ -7880,8 +7880,8 @@ monasca-persister:
   url: https://git.openstack.org/cgit/openstack/monasca-persister/summary
 monasca-specs:
   fullname: openstack/monasca-specs
-  matched_classification: service
-  matched_project: monasca
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: monasca
   official_classification: Unknown
   official_project: monasca
@@ -8024,8 +8024,8 @@ murano-plugin-networking-sfc:
   url: https://git.openstack.org/cgit/openstack/murano-plugin-networking-sfc/summary
 murano-specs:
   fullname: openstack/murano-specs
-  matched_classification: service
-  matched_project: murano
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: murano
   official_classification: Unknown
   official_project: murano
@@ -8528,8 +8528,8 @@ neutron-lib:
   url: https://git.openstack.org/cgit/openstack/neutron-lib/summary
 neutron-specs:
   fullname: openstack/neutron-specs
-  matched_classification: service
-  matched_project: neutron
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: neutron
   official_classification: Unknown
   official_project: neutron
@@ -8632,8 +8632,8 @@ nova-solver-scheduler:
   url: https://git.openstack.org/cgit/openstack/nova-solver-scheduler/summary
 nova-specs:
   fullname: openstack/nova-specs
-  matched_classification: service
-  matched_project: nova
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: nova
   official_classification: Unknown
   official_project: nova
@@ -9256,8 +9256,8 @@ openstack-chef-repo:
   url: https://git.openstack.org/cgit/openstack/openstack-chef-repo/summary
 openstack-chef-specs:
   fullname: openstack/openstack-chef-specs
-  matched_classification: service
-  matched_project: Chef OpenStack
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: Unknown
   official_classification: Unknown
   official_project: Chef OpenStack
@@ -9336,8 +9336,8 @@ openstack-resource-agents:
   url: https://git.openstack.org/cgit/openstack/openstack-resource-agents/summary
 openstack-resource-agents-specs:
   fullname: openstack/openstack-resource-agents-specs
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
@@ -9352,8 +9352,8 @@ openstack-salt:
   url: https://git.openstack.org/cgit/openstack/openstack-salt/summary
 openstack-salt-specs:
   fullname: openstack/openstack-salt-specs
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
@@ -9376,8 +9376,8 @@ openstack-spaceport:
   url: https://git.openstack.org/cgit/openstack/openstack-spaceport/summary
 openstack-specs:
   fullname: openstack/openstack-specs
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
@@ -9616,7 +9616,7 @@ osel:
   url: https://git.openstack.org/cgit/openstack/osel/summary
 oslo-incubator:
   fullname: openstack/oslo-incubator
-  matched_classification: openstack
+  matched_classification: library
   matched_project: oslo
   matched_service: Unknown
   official_classification: Unknown
@@ -9624,7 +9624,7 @@ oslo-incubator:
   url: https://git.openstack.org/cgit/openstack/oslo-incubator/summary
 oslo-specs:
   fullname: openstack/oslo-specs
-  matched_classification: openstack
+  matched_classification: library
   matched_project: oslo
   matched_service: Unknown
   official_classification: Unknown
@@ -9632,7 +9632,7 @@ oslo-specs:
   url: https://git.openstack.org/cgit/openstack/oslo-specs/summary
 oslo.cache:
   fullname: openstack/oslo.cache
-  matched_classification: openstack
+  matched_classification: library
   matched_project: oslo
   matched_service: Unknown
   official_classification: Library
@@ -9640,7 +9640,7 @@ oslo.cache:
   url: https://git.openstack.org/cgit/openstack/oslo.cache/summary
 oslo.concurrency:
   fullname: openstack/oslo.concurrency
-  matched_classification: openstack
+  matched_classification: library
   matched_project: oslo
   matched_service: Unknown
   official_classification: Library
@@ -9648,7 +9648,7 @@ oslo.concurrency:
   url: https://git.openstack.org/cgit/openstack/oslo.concurrency/summary
 oslo.config:
   fullname: openstack/oslo.config
-  matched_classification: openstack
+  matched_classification: library
   matched_project: oslo
   matched_service: Unknown
   official_classification: Library
@@ -9656,7 +9656,7 @@ oslo.config:
   url: https://git.openstack.org/cgit/openstack/oslo.config/summary
 oslo.context:
   fullname: openstack/oslo.context
-  matched_classification: openstack
+  matched_classification: library
   matched_project: oslo
   matched_service: Unknown
   official_classification: Library
@@ -9664,7 +9664,7 @@ oslo.context:
   url: https://git.openstack.org/cgit/openstack/oslo.context/summary
 oslo.db:
   fullname: openstack/oslo.db
-  matched_classification: openstack
+  matched_classification: library
   matched_project: oslo
   matched_service: Unknown
   official_classification: Library
@@ -9672,7 +9672,7 @@ oslo.db:
   url: https://git.openstack.org/cgit/openstack/oslo.db/summary
 oslo.i18n:
   fullname: openstack/oslo.i18n
-  matched_classification: openstack
+  matched_classification: library
   matched_project: oslo
   matched_service: Unknown
   official_classification: Library
@@ -9680,7 +9680,7 @@ oslo.i18n:
   url: https://git.openstack.org/cgit/openstack/oslo.i18n/summary
 oslo.limit:
   fullname: openstack/oslo.limit
-  matched_classification: openstack
+  matched_classification: library
   matched_project: oslo
   matched_service: Unknown
   official_classification: Unknown
@@ -9688,7 +9688,7 @@ oslo.limit:
   url: https://git.openstack.org/cgit/openstack/oslo.limit/summary
 oslo.log:
   fullname: openstack/oslo.log
-  matched_classification: openstack
+  matched_classification: library
   matched_project: oslo
   matched_service: Unknown
   official_classification: Library
@@ -9696,7 +9696,7 @@ oslo.log:
   url: https://git.openstack.org/cgit/openstack/oslo.log/summary
 oslo.messaging:
   fullname: openstack/oslo.messaging
-  matched_classification: openstack
+  matched_classification: library
   matched_project: oslo
   matched_service: Unknown
   official_classification: Library
@@ -9704,7 +9704,7 @@ oslo.messaging:
   url: https://git.openstack.org/cgit/openstack/oslo.messaging/summary
 oslo.middleware:
   fullname: openstack/oslo.middleware
-  matched_classification: openstack
+  matched_classification: library
   matched_project: oslo
   matched_service: Unknown
   official_classification: Library
@@ -9712,7 +9712,7 @@ oslo.middleware:
   url: https://git.openstack.org/cgit/openstack/oslo.middleware/summary
 oslo.policy:
   fullname: openstack/oslo.policy
-  matched_classification: openstack
+  matched_classification: library
   matched_project: oslo
   matched_service: Unknown
   official_classification: Library
@@ -9720,7 +9720,7 @@ oslo.policy:
   url: https://git.openstack.org/cgit/openstack/oslo.policy/summary
 oslo.privsep:
   fullname: openstack/oslo.privsep
-  matched_classification: openstack
+  matched_classification: library
   matched_project: oslo
   matched_service: Unknown
   official_classification: Library
@@ -9728,7 +9728,7 @@ oslo.privsep:
   url: https://git.openstack.org/cgit/openstack/oslo.privsep/summary
 oslo.reports:
   fullname: openstack/oslo.reports
-  matched_classification: openstack
+  matched_classification: library
   matched_project: oslo
   matched_service: Unknown
   official_classification: Library
@@ -9736,7 +9736,7 @@ oslo.reports:
   url: https://git.openstack.org/cgit/openstack/oslo.reports/summary
 oslo.rootwrap:
   fullname: openstack/oslo.rootwrap
-  matched_classification: openstack
+  matched_classification: library
   matched_project: oslo
   matched_service: Unknown
   official_classification: Library
@@ -9744,7 +9744,7 @@ oslo.rootwrap:
   url: https://git.openstack.org/cgit/openstack/oslo.rootwrap/summary
 oslo.serialization:
   fullname: openstack/oslo.serialization
-  matched_classification: openstack
+  matched_classification: library
   matched_project: oslo
   matched_service: Unknown
   official_classification: Library
@@ -9752,7 +9752,7 @@ oslo.serialization:
   url: https://git.openstack.org/cgit/openstack/oslo.serialization/summary
 oslo.service:
   fullname: openstack/oslo.service
-  matched_classification: openstack
+  matched_classification: library
   matched_project: oslo
   matched_service: Unknown
   official_classification: Library
@@ -9760,7 +9760,7 @@ oslo.service:
   url: https://git.openstack.org/cgit/openstack/oslo.service/summary
 oslo.tools:
   fullname: openstack/oslo.tools
-  matched_classification: openstack
+  matched_classification: library
   matched_project: oslo
   matched_service: Unknown
   official_classification: Unknown
@@ -9768,7 +9768,7 @@ oslo.tools:
   url: https://git.openstack.org/cgit/openstack/oslo.tools/summary
 oslo.utils:
   fullname: openstack/oslo.utils
-  matched_classification: openstack
+  matched_classification: library
   matched_project: oslo
   matched_service: Unknown
   official_classification: Library
@@ -9776,7 +9776,7 @@ oslo.utils:
   url: https://git.openstack.org/cgit/openstack/oslo.utils/summary
 oslo.versionedobjects:
   fullname: openstack/oslo.versionedobjects
-  matched_classification: openstack
+  matched_classification: library
   matched_project: oslo
   matched_service: Unknown
   official_classification: Library
@@ -9784,7 +9784,7 @@ oslo.versionedobjects:
   url: https://git.openstack.org/cgit/openstack/oslo.versionedobjects/summary
 oslo.vmware:
   fullname: openstack/oslo.vmware
-  matched_classification: openstack
+  matched_classification: library
   matched_project: oslo
   matched_service: Unknown
   official_classification: Library
@@ -9792,7 +9792,7 @@ oslo.vmware:
   url: https://git.openstack.org/cgit/openstack/oslo.vmware/summary
 oslosphinx:
   fullname: openstack/oslosphinx
-  matched_classification: openstack
+  matched_classification: library
   matched_project: oslo
   matched_service: Unknown
   official_classification: Unknown
@@ -9800,7 +9800,7 @@ oslosphinx:
   url: https://git.openstack.org/cgit/openstack/oslosphinx/summary
 oslotest:
   fullname: openstack/oslotest
-  matched_classification: openstack
+  matched_classification: library
   matched_project: oslo
   matched_service: Unknown
   official_classification: Library
@@ -9904,8 +9904,8 @@ packetary:
   url: https://git.openstack.org/cgit/openstack/packetary/summary
 packetary-specs:
   fullname: openstack/packetary-specs
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
@@ -11248,8 +11248,8 @@ python-zunclient:
   url: https://git.openstack.org/cgit/openstack/python-zunclient/summary
 qa-specs:
   fullname: openstack/qa-specs
-  matched_classification: service
-  matched_project: Quality Assurance
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: Unknown
   official_classification: Unknown
   official_project: Quality Assurance
@@ -11472,8 +11472,8 @@ sahara-image-elements:
   url: https://git.openstack.org/cgit/openstack/sahara-image-elements/summary
 sahara-specs:
   fullname: openstack/sahara-specs
-  matched_classification: service
-  matched_project: sahara
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: sahara
   official_classification: Unknown
   official_project: sahara
@@ -11608,8 +11608,8 @@ searchlight:
   url: https://git.openstack.org/cgit/openstack/searchlight/summary
 searchlight-specs:
   fullname: openstack/searchlight-specs
-  matched_classification: service
-  matched_project: searchlight
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: searchlight
   official_classification: Unknown
   official_project: searchlight
@@ -11640,8 +11640,8 @@ security-doc:
   url: https://git.openstack.org/cgit/openstack/security-doc/summary
 security-specs:
   fullname: openstack/security-specs
-  matched_classification: service
-  matched_project: Security
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: Unknown
   official_classification: Unknown
   official_project: Security
@@ -11864,8 +11864,8 @@ solum-infra-guestagent:
   url: https://git.openstack.org/cgit/openstack/solum-infra-guestagent/summary
 solum-specs:
   fullname: openstack/solum-specs
-  matched_classification: service
-  matched_project: solum
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: solum
   official_classification: Unknown
   official_project: solum
@@ -12216,8 +12216,8 @@ surveil:
   url: https://git.openstack.org/cgit/openstack/surveil/summary
 surveil-specs:
   fullname: openstack/surveil-specs
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
@@ -12272,8 +12272,8 @@ swift-ceph-backend:
   url: https://git.openstack.org/cgit/openstack/swift-ceph-backend/summary
 swift-specs:
   fullname: openstack/swift-specs
-  matched_classification: service
-  matched_project: swift
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: swift
   official_classification: Unknown
   official_project: swift
@@ -12360,8 +12360,8 @@ tacker-horizon:
   url: https://git.openstack.org/cgit/openstack/tacker-horizon/summary
 tacker-specs:
   fullname: openstack/tacker-specs
-  matched_classification: service
-  matched_project: tacker
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: tacker
   official_classification: Unknown
   official_project: tacker
@@ -12424,8 +12424,8 @@ telcowg-usecases:
   url: https://git.openstack.org/cgit/openstack/telcowg-usecases/summary
 telemetry-specs:
   fullname: openstack/telemetry-specs
-  matched_classification: service
-  matched_project: Telemetry
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: Unknown
   official_classification: Unknown
   official_project: Telemetry
@@ -12728,8 +12728,8 @@ trove-integration:
   url: https://git.openstack.org/cgit/openstack/trove-integration/summary
 trove-specs:
   fullname: openstack/trove-specs
-  matched_classification: service
-  matched_project: trove
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: trove
   official_classification: Unknown
   official_project: trove
@@ -12816,8 +12816,8 @@ valence:
   url: https://git.openstack.org/cgit/openstack/valence/summary
 valence-specs:
   fullname: openstack/valence-specs
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
@@ -12864,8 +12864,8 @@ vitrage-dashboard:
   url: https://git.openstack.org/cgit/openstack/vitrage-dashboard/summary
 vitrage-specs:
   fullname: openstack/vitrage-specs
-  matched_classification: service
-  matched_project: vitrage
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: vitrage
   official_classification: Unknown
   official_project: vitrage
@@ -12944,8 +12944,8 @@ watcher-dashboard:
   url: https://git.openstack.org/cgit/openstack/watcher-dashboard/summary
 watcher-specs:
   fullname: openstack/watcher-specs
-  matched_classification: service
-  matched_project: watcher
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: watcher
   official_classification: Unknown
   official_project: watcher
@@ -13304,8 +13304,8 @@ zaqar:
   url: https://git.openstack.org/cgit/openstack/zaqar/summary
 zaqar-specs:
   fullname: openstack/zaqar-specs
-  matched_classification: service
-  matched_project: zaqar
+  matched_classification: documentation
+  matched_project: openstack
   matched_service: zaqar
   official_classification: Unknown
   official_project: zaqar
