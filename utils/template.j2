@@ -5,7 +5,7 @@
 
 | Repo                    | URL     |
 | ----------------------- | ---------- |
-{% for entry in ctxdict[key] %}| {{ entry['fullname']}}  | {{entry['url']}} |
+{% for entry in ctxdict[key] %}| {{ entry['fullname']}}  | [summary]({{entry['url']}}) |
 {% endfor %}
 
 {% endfor %}

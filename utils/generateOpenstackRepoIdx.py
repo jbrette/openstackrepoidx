@@ -52,7 +52,7 @@ def main(args):
     repolist = readopenstackrepolistyaml()
 
     res = sortby(repolist, 'matched_classification')
-    rendertemmplate(res, '../BY_MATCHED_CLASSIFIACTION.md', 'By matched classifiaction')
+    rendertemmplate(res, '../BY_MATCHED_CLASSIFICATION.md', 'By matched classification')
 
     res = sortby(repolist, 'matched_project')
     rendertemmplate(res, '../BY_MATCHED_PROJECT.md', 'By matched project')
