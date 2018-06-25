@@ -3,7 +3,7 @@
 import json
 import yaml
 import csv
-
+import copy
 
 def unicode_representer(dumper, uni):
     node = yaml.ScalarNode(tag=u'tag:yaml.org,2002:str', value=uni)
@@ -24,7 +24,12 @@ def readofficialservicecsv():
 
 
 def match_official_service(officialservices, reponame):
-    for servicename in officialservices.keys():
+   # For some reasons out of the 10 installers only 3 are listed
+    servicenames = set(copy.deepcopy(officialservices.keys()))
+    servicenames.remove('tripleo')
+    servicenames.remove('kolla')
+    servicenames.remove('openstack-ansible')
+    for servicename in servicenames:
         if servicename in reponame:
             return servicename
     return "Unknown"
@@ -137,9 +142,7 @@ def readrepolist(fulldict, officialservices, officialprojects, officialrepos):
                 rulename = rule[0]
                 update_classification(repodesc, rule[1], rule[2])
 
-        if (not rulename) and (mainrepo == "openstack") \
-           and (official_project not in ['Unknown', 'tripleo', 'kolla', 'openstack-ansible']):
-           # For some reasons out of the 10 installers only 3 are listed
+        if (not rulename) and (mainrepo == "openstack") and official_project != 'Unknown':
            update_classification(repodesc, official_project, 'service') 
 
         fulldict[mainrepo][subrepo] = repodesc

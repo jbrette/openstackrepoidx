@@ -298,7 +298,7 @@ ansible-role-k8s-tripleo:
   fullname: openstack/ansible-role-k8s-tripleo
   matched_classification: installer
   matched_project: tripleo
-  matched_service: tripleo
+  matched_service: Unknown
   official_classification: Unknown
   official_project: tripleo
   url: https://git.openstack.org/cgit/openstack/ansible-role-k8s-tripleo/summary
@@ -426,7 +426,7 @@ ansible-role-tripleo-modify-image:
   fullname: openstack/ansible-role-tripleo-modify-image
   matched_classification: installer
   matched_project: tripleo
-  matched_service: tripleo
+  matched_service: Unknown
   official_classification: Unknown
   official_project: tripleo
   url: https://git.openstack.org/cgit/openstack/ansible-role-tripleo-modify-image/summary
@@ -5064,8 +5064,8 @@ devstack-tools:
   url: https://git.openstack.org/cgit/openstack/devstack-tools/summary
 dib-utils:
   fullname: openstack/dib-utils
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: tripleo
   matched_service: Unknown
   official_classification: Unknown
   official_project: tripleo
@@ -6944,16 +6944,16 @@ inception:
   url: https://git.openstack.org/cgit/openstack/inception/summary
 instack:
   fullname: openstack/instack
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: tripleo
   matched_service: Unknown
   official_classification: Library
   official_project: tripleo
   url: https://git.openstack.org/cgit/openstack/instack/summary
 instack-undercloud:
   fullname: openstack/instack-undercloud
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: tripleo
   matched_service: Unknown
   official_classification: Other
   official_project: tripleo
@@ -7288,9 +7288,9 @@ kloudbuster:
   url: https://git.openstack.org/cgit/openstack/kloudbuster/summary
 kolla:
   fullname: openstack/kolla
-  matched_classification: unknown
-  matched_project: unknown
-  matched_service: kolla
+  matched_classification: service
+  matched_project: kolla
+  matched_service: Unknown
   official_classification: Deployment and Packaging Tools
   official_project: kolla
   url: https://git.openstack.org/cgit/openstack/kolla/summary
@@ -7298,7 +7298,7 @@ kolla-ansible:
   fullname: openstack/kolla-ansible
   matched_classification: packaging
   matched_project: kolla
-  matched_service: kolla
+  matched_service: Unknown
   official_classification: Deployment and Packaging Tools
   official_project: kolla
   url: https://git.openstack.org/cgit/openstack/kolla-ansible/summary
@@ -7306,7 +7306,7 @@ kolla-cli:
   fullname: openstack/kolla-cli
   matched_classification: packaging
   matched_project: kolla
-  matched_service: kolla
+  matched_service: Unknown
   official_classification: Unknown
   official_project: kolla
   url: https://git.openstack.org/cgit/openstack/kolla-cli/summary
@@ -7314,7 +7314,7 @@ kolla-kubernetes:
   fullname: openstack/kolla-kubernetes
   matched_classification: packaging
   matched_project: kolla
-  matched_service: kolla
+  matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/kolla-kubernetes/summary
@@ -7322,7 +7322,7 @@ kolla-mesos:
   fullname: openstack/kolla-mesos
   matched_classification: packaging
   matched_project: kolla
-  matched_service: kolla
+  matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/kolla-mesos/summary
@@ -8738,7 +8738,7 @@ openstack-ansible:
   fullname: openstack/openstack-ansible
   matched_classification: service
   matched_project: OpenStackAnsible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Deployment and Packaging Tools
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible/summary
@@ -8746,7 +8746,7 @@ openstack-ansible-apt_package_pinning:
   fullname: openstack/openstack-ansible-apt_package_pinning
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-apt_package_pinning/summary
@@ -8754,7 +8754,7 @@ openstack-ansible-ceph_client:
   fullname: openstack/openstack-ansible-ceph_client
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-ceph_client/summary
@@ -8762,7 +8762,7 @@ openstack-ansible-galera_client:
   fullname: openstack/openstack-ansible-galera_client
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-galera_client/summary
@@ -8770,7 +8770,7 @@ openstack-ansible-galera_server:
   fullname: openstack/openstack-ansible-galera_server
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-galera_server/summary
@@ -8778,7 +8778,7 @@ openstack-ansible-haproxy_server:
   fullname: openstack/openstack-ansible-haproxy_server
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-haproxy_server/summary
@@ -8786,7 +8786,7 @@ openstack-ansible-lxc_container_create:
   fullname: openstack/openstack-ansible-lxc_container_create
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-lxc_container_create/summary
@@ -8794,7 +8794,7 @@ openstack-ansible-lxc_hosts:
   fullname: openstack/openstack-ansible-lxc_hosts
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-lxc_hosts/summary
@@ -8802,7 +8802,7 @@ openstack-ansible-memcached_server:
   fullname: openstack/openstack-ansible-memcached_server
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-memcached_server/summary
@@ -8810,7 +8810,7 @@ openstack-ansible-nspawn_container_create:
   fullname: openstack/openstack-ansible-nspawn_container_create
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-nspawn_container_create/summary
@@ -8818,7 +8818,7 @@ openstack-ansible-nspawn_hosts:
   fullname: openstack/openstack-ansible-nspawn_hosts
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-nspawn_hosts/summary
@@ -8826,7 +8826,7 @@ openstack-ansible-openstack_hosts:
   fullname: openstack/openstack-ansible-openstack_hosts
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-openstack_hosts/summary
@@ -8834,7 +8834,7 @@ openstack-ansible-openstack_openrc:
   fullname: openstack/openstack-ansible-openstack_openrc
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-openstack_openrc/summary
@@ -8842,7 +8842,7 @@ openstack-ansible-ops:
   fullname: openstack/openstack-ansible-ops
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-ops/summary
@@ -8850,7 +8850,7 @@ openstack-ansible-os_almanach:
   fullname: openstack/openstack-ansible-os_almanach
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-os_almanach/summary
@@ -8874,7 +8874,7 @@ openstack-ansible-os_blazar:
   fullname: openstack/openstack-ansible-os_blazar
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-os_blazar/summary
@@ -8890,7 +8890,7 @@ openstack-ansible-os_cinder:
   fullname: openstack/openstack-ansible-os_cinder
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: cinder
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-os_cinder/summary
@@ -8938,7 +8938,7 @@ openstack-ansible-os_gnocchi:
   fullname: openstack/openstack-ansible-os_gnocchi
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-os_gnocchi/summary
@@ -8954,7 +8954,7 @@ openstack-ansible-os_horizon:
   fullname: openstack/openstack-ansible-os_horizon
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: horizon
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-os_horizon/summary
@@ -8994,7 +8994,7 @@ openstack-ansible-os_masakari:
   fullname: openstack/openstack-ansible-os_masakari
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-os_masakari/summary
@@ -9002,7 +9002,7 @@ openstack-ansible-os_molteniron:
   fullname: openstack/openstack-ansible-os_molteniron
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-os_molteniron/summary
@@ -9050,7 +9050,7 @@ openstack-ansible-os_octavia:
   fullname: openstack/openstack-ansible-os_octavia
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: octavia
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-os_octavia/summary
@@ -9058,7 +9058,7 @@ openstack-ansible-os_panko:
   fullname: openstack/openstack-ansible-os_panko
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: panko
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-os_panko/summary
@@ -9114,7 +9114,7 @@ openstack-ansible-os_tempest:
   fullname: openstack/openstack-ansible-os_tempest
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-os_tempest/summary
@@ -9146,7 +9146,7 @@ openstack-ansible-os_zun:
   fullname: openstack/openstack-ansible-os_zun
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: zun
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-os_zun/summary
@@ -9154,7 +9154,7 @@ openstack-ansible-pip_install:
   fullname: openstack/openstack-ansible-pip_install
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-pip_install/summary
@@ -9162,7 +9162,7 @@ openstack-ansible-pip_lock_down:
   fullname: openstack/openstack-ansible-pip_lock_down
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-pip_lock_down/summary
@@ -9170,7 +9170,7 @@ openstack-ansible-plugins:
   fullname: openstack/openstack-ansible-plugins
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-plugins/summary
@@ -9178,7 +9178,7 @@ openstack-ansible-py_from_git:
   fullname: openstack/openstack-ansible-py_from_git
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-py_from_git/summary
@@ -9186,7 +9186,7 @@ openstack-ansible-rabbitmq_server:
   fullname: openstack/openstack-ansible-rabbitmq_server
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-rabbitmq_server/summary
@@ -9194,7 +9194,7 @@ openstack-ansible-repo_build:
   fullname: openstack/openstack-ansible-repo_build
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-repo_build/summary
@@ -9202,7 +9202,7 @@ openstack-ansible-repo_server:
   fullname: openstack/openstack-ansible-repo_server
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-repo_server/summary
@@ -9210,7 +9210,7 @@ openstack-ansible-rsyslog_client:
   fullname: openstack/openstack-ansible-rsyslog_client
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-rsyslog_client/summary
@@ -9218,7 +9218,7 @@ openstack-ansible-rsyslog_server:
   fullname: openstack/openstack-ansible-rsyslog_server
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-rsyslog_server/summary
@@ -9226,7 +9226,7 @@ openstack-ansible-security:
   fullname: openstack/openstack-ansible-security
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-security/summary
@@ -9234,7 +9234,7 @@ openstack-ansible-specs:
   fullname: openstack/openstack-ansible-specs
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-specs/summary
@@ -9242,7 +9242,7 @@ openstack-ansible-tests:
   fullname: openstack/openstack-ansible-tests
   matched_classification: installer
   matched_project: openstack-ansible
-  matched_service: openstack-ansible
+  matched_service: Unknown
   official_classification: Unknown
   official_project: OpenStackAnsible
   url: https://git.openstack.org/cgit/openstack/openstack-ansible-tests/summary
@@ -9448,8 +9448,8 @@ os-api-ref:
   url: https://git.openstack.org/cgit/openstack/os-api-ref/summary
 os-apply-config:
   fullname: openstack/os-apply-config
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: tripleo
   matched_service: Unknown
   official_classification: Other
   official_project: tripleo
@@ -9480,8 +9480,8 @@ os-cloud-config:
   url: https://git.openstack.org/cgit/openstack/os-cloud-config/summary
 os-collect-config:
   fullname: openstack/os-collect-config
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: tripleo
   matched_service: Unknown
   official_classification: Other
   official_project: tripleo
@@ -9520,8 +9520,8 @@ os-namos:
   url: https://git.openstack.org/cgit/openstack/os-namos/summary
 os-net-config:
   fullname: openstack/os-net-config
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: tripleo
   matched_service: Unknown
   official_classification: Other
   official_project: tripleo
@@ -9536,8 +9536,8 @@ os-performance-tools:
   url: https://git.openstack.org/cgit/openstack/os-performance-tools/summary
 os-refresh-config:
   fullname: openstack/os-refresh-config
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: tripleo
   matched_service: Unknown
   official_classification: Other
   official_project: tripleo
@@ -9944,8 +9944,8 @@ patrole:
   url: https://git.openstack.org/cgit/openstack/patrole/summary
 paunch:
   fullname: openstack/paunch
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: tripleo
   matched_service: Unknown
   official_classification: Deployment and Packaging Tools
   official_project: tripleo
@@ -10458,7 +10458,7 @@ puppet-tripleo:
   fullname: openstack/puppet-tripleo
   matched_classification: installer
   matched_project: puppet
-  matched_service: tripleo
+  matched_service: Unknown
   official_classification: Deployment and Packaging Tools
   official_project: tripleo
   url: https://git.openstack.org/cgit/openstack/puppet-tripleo/summary
@@ -11178,7 +11178,7 @@ python-tripleoclient:
   fullname: openstack/python-tripleoclient
   matched_classification: openstack
   matched_project: python
-  matched_service: tripleo
+  matched_service: Unknown
   official_classification: Deployment and Packaging Tools
   official_project: tripleo
   url: https://git.openstack.org/cgit/openstack/python-tripleoclient/summary
@@ -12354,7 +12354,7 @@ tacker-horizon:
   fullname: openstack/tacker-horizon
   matched_classification: service
   matched_project: tacker
-  matched_service: tacker
+  matched_service: horizon
   official_classification: Unknown
   official_project: tacker
   url: https://git.openstack.org/cgit/openstack/tacker-horizon/summary
@@ -12482,7 +12482,7 @@ tempest-tripleo-ui:
   fullname: openstack/tempest-tripleo-ui
   matched_classification: testing
   matched_project: tempest
-  matched_service: tripleo
+  matched_service: Unknown
   official_classification: Unknown
   official_project: tripleo
   url: https://git.openstack.org/cgit/openstack/tempest-tripleo-ui/summary
@@ -12570,7 +12570,7 @@ tripleo-common:
   fullname: openstack/tripleo-common
   matched_classification: installer
   matched_project: tripleo
-  matched_service: tripleo
+  matched_service: Unknown
   official_classification: Deployment and Packaging Tools
   official_project: tripleo
   url: https://git.openstack.org/cgit/openstack/tripleo-common/summary
@@ -12578,7 +12578,7 @@ tripleo-common-tempest-plugin:
   fullname: openstack/tripleo-common-tempest-plugin
   matched_classification: installer
   matched_project: tripleo
-  matched_service: tripleo
+  matched_service: Unknown
   official_classification: Unknown
   official_project: tripleo
   url: https://git.openstack.org/cgit/openstack/tripleo-common-tempest-plugin/summary
@@ -12586,7 +12586,7 @@ tripleo-docs:
   fullname: openstack/tripleo-docs
   matched_classification: installer
   matched_project: tripleo
-  matched_service: tripleo
+  matched_service: Unknown
   official_classification: Unknown
   official_project: tripleo
   url: https://git.openstack.org/cgit/openstack/tripleo-docs/summary
@@ -12594,7 +12594,7 @@ tripleo-ha-utils:
   fullname: openstack/tripleo-ha-utils
   matched_classification: installer
   matched_project: tripleo
-  matched_service: tripleo
+  matched_service: Unknown
   official_classification: Unknown
   official_project: tripleo
   url: https://git.openstack.org/cgit/openstack/tripleo-ha-utils/summary
@@ -12610,7 +12610,7 @@ tripleo-image-elements:
   fullname: openstack/tripleo-image-elements
   matched_classification: installer
   matched_project: tripleo
-  matched_service: tripleo
+  matched_service: Unknown
   official_classification: Deployment and Packaging Tools
   official_project: tripleo
   url: https://git.openstack.org/cgit/openstack/tripleo-image-elements/summary
@@ -12618,7 +12618,7 @@ tripleo-incubator:
   fullname: openstack/tripleo-incubator
   matched_classification: installer
   matched_project: tripleo
-  matched_service: tripleo
+  matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/tripleo-incubator/summary
@@ -12626,7 +12626,7 @@ tripleo-ipsec:
   fullname: openstack/tripleo-ipsec
   matched_classification: installer
   matched_project: tripleo
-  matched_service: tripleo
+  matched_service: Unknown
   official_classification: Other
   official_project: tripleo
   url: https://git.openstack.org/cgit/openstack/tripleo-ipsec/summary
@@ -12634,7 +12634,7 @@ tripleo-puppet-elements:
   fullname: openstack/tripleo-puppet-elements
   matched_classification: installer
   matched_project: tripleo
-  matched_service: tripleo
+  matched_service: Unknown
   official_classification: Deployment and Packaging Tools
   official_project: tripleo
   url: https://git.openstack.org/cgit/openstack/tripleo-puppet-elements/summary
@@ -12642,7 +12642,7 @@ tripleo-quickstart:
   fullname: openstack/tripleo-quickstart
   matched_classification: installer
   matched_project: tripleo
-  matched_service: tripleo
+  matched_service: Unknown
   official_classification: Unknown
   official_project: tripleo
   url: https://git.openstack.org/cgit/openstack/tripleo-quickstart/summary
@@ -12650,7 +12650,7 @@ tripleo-quickstart-extras:
   fullname: openstack/tripleo-quickstart-extras
   matched_classification: installer
   matched_project: tripleo
-  matched_service: tripleo
+  matched_service: Unknown
   official_classification: Unknown
   official_project: tripleo
   url: https://git.openstack.org/cgit/openstack/tripleo-quickstart-extras/summary
@@ -12658,7 +12658,7 @@ tripleo-repos:
   fullname: openstack/tripleo-repos
   matched_classification: installer
   matched_project: tripleo
-  matched_service: tripleo
+  matched_service: Unknown
   official_classification: Unknown
   official_project: tripleo
   url: https://git.openstack.org/cgit/openstack/tripleo-repos/summary
@@ -12666,7 +12666,7 @@ tripleo-specs:
   fullname: openstack/tripleo-specs
   matched_classification: installer
   matched_project: tripleo
-  matched_service: tripleo
+  matched_service: Unknown
   official_classification: Unknown
   official_project: tripleo
   url: https://git.openstack.org/cgit/openstack/tripleo-specs/summary
@@ -12674,7 +12674,7 @@ tripleo-ui:
   fullname: openstack/tripleo-ui
   matched_classification: installer
   matched_project: tripleo
-  matched_service: tripleo
+  matched_service: Unknown
   official_classification: Other
   official_project: tripleo
   url: https://git.openstack.org/cgit/openstack/tripleo-ui/summary
@@ -12682,7 +12682,7 @@ tripleo-upgrade:
   fullname: openstack/tripleo-upgrade
   matched_classification: installer
   matched_project: tripleo
-  matched_service: tripleo
+  matched_service: Unknown
   official_classification: Unknown
   official_project: tripleo
   url: https://git.openstack.org/cgit/openstack/tripleo-upgrade/summary
@@ -12690,7 +12690,7 @@ tripleo-validations:
   fullname: openstack/tripleo-validations
   matched_classification: installer
   matched_project: tripleo
-  matched_service: tripleo
+  matched_service: Unknown
   official_classification: Other
   official_project: tripleo
   url: https://git.openstack.org/cgit/openstack/tripleo-validations/summary
