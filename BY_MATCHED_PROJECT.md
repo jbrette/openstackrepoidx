@@ -1850,6 +1850,93 @@
 
 
 
+## vitrage: 2 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/vitrage  | [summary](https://git.openstack.org/cgit/openstack/vitrage/summary) |
+| openstack/vitrage-dashboard  | [summary](https://git.openstack.org/cgit/openstack/vitrage-dashboard/summary) |
+
+
+
+## watcher: 2 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/watcher  | [summary](https://git.openstack.org/cgit/openstack/watcher/summary) |
+| openstack/watcher-dashboard  | [summary](https://git.openstack.org/cgit/openstack/watcher-dashboard/summary) |
+
+
+
+## winstackers: 1 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/os-win  | [summary](https://git.openstack.org/cgit/openstack/os-win/summary) |
+
+
+
+## xstatic: 36 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/xstatic-angular  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular/summary) |
+| openstack/xstatic-angular-bootstrap  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-bootstrap/summary) |
+| openstack/xstatic-angular-cookies  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-cookies/summary) |
+| openstack/xstatic-angular-fileupload  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-fileupload/summary) |
+| openstack/xstatic-angular-gettext  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-gettext/summary) |
+| openstack/xstatic-angular-lrdragndrop  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-lrdragndrop/summary) |
+| openstack/xstatic-angular-material  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-material/summary) |
+| openstack/xstatic-angular-mock  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-mock/summary) |
+| openstack/xstatic-angular-notify  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-notify/summary) |
+| openstack/xstatic-angular-sanitize  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-sanitize/summary) |
+| openstack/xstatic-angular-smart-table  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-smart-table/summary) |
+| openstack/xstatic-angular-ui-router  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-ui-router/summary) |
+| openstack/xstatic-angular-uuid  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-uuid/summary) |
+| openstack/xstatic-angular-vis  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-vis/summary) |
+| openstack/xstatic-bootstrap-datepicker  | [summary](https://git.openstack.org/cgit/openstack/xstatic-bootstrap-datepicker/summary) |
+| openstack/xstatic-bootstrap-scss  | [summary](https://git.openstack.org/cgit/openstack/xstatic-bootstrap-scss/summary) |
+| openstack/xstatic-bootswatch  | [summary](https://git.openstack.org/cgit/openstack/xstatic-bootswatch/summary) |
+| openstack/xstatic-d3  | [summary](https://git.openstack.org/cgit/openstack/xstatic-d3/summary) |
+| openstack/xstatic-filesaver  | [summary](https://git.openstack.org/cgit/openstack/xstatic-filesaver/summary) |
+| openstack/xstatic-font-awesome  | [summary](https://git.openstack.org/cgit/openstack/xstatic-font-awesome/summary) |
+| openstack/xstatic-hogan  | [summary](https://git.openstack.org/cgit/openstack/xstatic-hogan/summary) |
+| openstack/xstatic-jasmine  | [summary](https://git.openstack.org/cgit/openstack/xstatic-jasmine/summary) |
+| openstack/xstatic-jquery-migrate  | [summary](https://git.openstack.org/cgit/openstack/xstatic-jquery-migrate/summary) |
+| openstack/xstatic-jquery.bootstrap.wizard  | [summary](https://git.openstack.org/cgit/openstack/xstatic-jquery.bootstrap.wizard/summary) |
+| openstack/xstatic-jquery.quicksearch  | [summary](https://git.openstack.org/cgit/openstack/xstatic-jquery.quicksearch/summary) |
+| openstack/xstatic-jquery.tablesorter  | [summary](https://git.openstack.org/cgit/openstack/xstatic-jquery.tablesorter/summary) |
+| openstack/xstatic-js-yaml  | [summary](https://git.openstack.org/cgit/openstack/xstatic-js-yaml/summary) |
+| openstack/xstatic-jsencrypt  | [summary](https://git.openstack.org/cgit/openstack/xstatic-jsencrypt/summary) |
+| openstack/xstatic-json2yaml  | [summary](https://git.openstack.org/cgit/openstack/xstatic-json2yaml/summary) |
+| openstack/xstatic-magic-search  | [summary](https://git.openstack.org/cgit/openstack/xstatic-magic-search/summary) |
+| openstack/xstatic-mdi  | [summary](https://git.openstack.org/cgit/openstack/xstatic-mdi/summary) |
+| openstack/xstatic-qunit  | [summary](https://git.openstack.org/cgit/openstack/xstatic-qunit/summary) |
+| openstack/xstatic-rickshaw  | [summary](https://git.openstack.org/cgit/openstack/xstatic-rickshaw/summary) |
+| openstack/xstatic-roboto-fontface  | [summary](https://git.openstack.org/cgit/openstack/xstatic-roboto-fontface/summary) |
+| openstack/xstatic-spin  | [summary](https://git.openstack.org/cgit/openstack/xstatic-spin/summary) |
+| openstack/xstatic-vis  | [summary](https://git.openstack.org/cgit/openstack/xstatic-vis/summary) |
+
+
+
+## zaqar: 2 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/zaqar  | [summary](https://git.openstack.org/cgit/openstack/zaqar/summary) |
+| openstack/zaqar-ui  | [summary](https://git.openstack.org/cgit/openstack/zaqar-ui/summary) |
+
+
+
+## zun: 2 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/zun  | [summary](https://git.openstack.org/cgit/openstack/zun/summary) |
+| openstack/zun-ui  | [summary](https://git.openstack.org/cgit/openstack/zun-ui/summary) |
+
+
+
 ## unknown: 293 repos 
 
 | Repo                    | GIT Summary|
@@ -2147,92 +2234,5 @@
 | openstack/workload-ref-archs  | [summary](https://git.openstack.org/cgit/openstack/workload-ref-archs/summary) |
 | openstack/wsme  | [summary](https://git.openstack.org/cgit/openstack/wsme/summary) |
 | openstack/xenapi-os-testing  | [summary](https://git.openstack.org/cgit/openstack/xenapi-os-testing/summary) |
-
-
-
-## vitrage: 2 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/vitrage  | [summary](https://git.openstack.org/cgit/openstack/vitrage/summary) |
-| openstack/vitrage-dashboard  | [summary](https://git.openstack.org/cgit/openstack/vitrage-dashboard/summary) |
-
-
-
-## watcher: 2 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/watcher  | [summary](https://git.openstack.org/cgit/openstack/watcher/summary) |
-| openstack/watcher-dashboard  | [summary](https://git.openstack.org/cgit/openstack/watcher-dashboard/summary) |
-
-
-
-## winstackers: 1 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/os-win  | [summary](https://git.openstack.org/cgit/openstack/os-win/summary) |
-
-
-
-## xstatic: 36 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/xstatic-angular  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular/summary) |
-| openstack/xstatic-angular-bootstrap  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-bootstrap/summary) |
-| openstack/xstatic-angular-cookies  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-cookies/summary) |
-| openstack/xstatic-angular-fileupload  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-fileupload/summary) |
-| openstack/xstatic-angular-gettext  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-gettext/summary) |
-| openstack/xstatic-angular-lrdragndrop  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-lrdragndrop/summary) |
-| openstack/xstatic-angular-material  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-material/summary) |
-| openstack/xstatic-angular-mock  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-mock/summary) |
-| openstack/xstatic-angular-notify  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-notify/summary) |
-| openstack/xstatic-angular-sanitize  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-sanitize/summary) |
-| openstack/xstatic-angular-smart-table  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-smart-table/summary) |
-| openstack/xstatic-angular-ui-router  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-ui-router/summary) |
-| openstack/xstatic-angular-uuid  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-uuid/summary) |
-| openstack/xstatic-angular-vis  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-vis/summary) |
-| openstack/xstatic-bootstrap-datepicker  | [summary](https://git.openstack.org/cgit/openstack/xstatic-bootstrap-datepicker/summary) |
-| openstack/xstatic-bootstrap-scss  | [summary](https://git.openstack.org/cgit/openstack/xstatic-bootstrap-scss/summary) |
-| openstack/xstatic-bootswatch  | [summary](https://git.openstack.org/cgit/openstack/xstatic-bootswatch/summary) |
-| openstack/xstatic-d3  | [summary](https://git.openstack.org/cgit/openstack/xstatic-d3/summary) |
-| openstack/xstatic-filesaver  | [summary](https://git.openstack.org/cgit/openstack/xstatic-filesaver/summary) |
-| openstack/xstatic-font-awesome  | [summary](https://git.openstack.org/cgit/openstack/xstatic-font-awesome/summary) |
-| openstack/xstatic-hogan  | [summary](https://git.openstack.org/cgit/openstack/xstatic-hogan/summary) |
-| openstack/xstatic-jasmine  | [summary](https://git.openstack.org/cgit/openstack/xstatic-jasmine/summary) |
-| openstack/xstatic-jquery-migrate  | [summary](https://git.openstack.org/cgit/openstack/xstatic-jquery-migrate/summary) |
-| openstack/xstatic-jquery.bootstrap.wizard  | [summary](https://git.openstack.org/cgit/openstack/xstatic-jquery.bootstrap.wizard/summary) |
-| openstack/xstatic-jquery.quicksearch  | [summary](https://git.openstack.org/cgit/openstack/xstatic-jquery.quicksearch/summary) |
-| openstack/xstatic-jquery.tablesorter  | [summary](https://git.openstack.org/cgit/openstack/xstatic-jquery.tablesorter/summary) |
-| openstack/xstatic-js-yaml  | [summary](https://git.openstack.org/cgit/openstack/xstatic-js-yaml/summary) |
-| openstack/xstatic-jsencrypt  | [summary](https://git.openstack.org/cgit/openstack/xstatic-jsencrypt/summary) |
-| openstack/xstatic-json2yaml  | [summary](https://git.openstack.org/cgit/openstack/xstatic-json2yaml/summary) |
-| openstack/xstatic-magic-search  | [summary](https://git.openstack.org/cgit/openstack/xstatic-magic-search/summary) |
-| openstack/xstatic-mdi  | [summary](https://git.openstack.org/cgit/openstack/xstatic-mdi/summary) |
-| openstack/xstatic-qunit  | [summary](https://git.openstack.org/cgit/openstack/xstatic-qunit/summary) |
-| openstack/xstatic-rickshaw  | [summary](https://git.openstack.org/cgit/openstack/xstatic-rickshaw/summary) |
-| openstack/xstatic-roboto-fontface  | [summary](https://git.openstack.org/cgit/openstack/xstatic-roboto-fontface/summary) |
-| openstack/xstatic-spin  | [summary](https://git.openstack.org/cgit/openstack/xstatic-spin/summary) |
-| openstack/xstatic-vis  | [summary](https://git.openstack.org/cgit/openstack/xstatic-vis/summary) |
-
-
-
-## zaqar: 2 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/zaqar  | [summary](https://git.openstack.org/cgit/openstack/zaqar/summary) |
-| openstack/zaqar-ui  | [summary](https://git.openstack.org/cgit/openstack/zaqar-ui/summary) |
-
-
-
-## zun: 2 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/zun  | [summary](https://git.openstack.org/cgit/openstack/zun/summary) |
-| openstack/zun-ui  | [summary](https://git.openstack.org/cgit/openstack/zun-ui/summary) |
 
 

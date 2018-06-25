@@ -50,6 +50,15 @@ def sortby(fulldict, newkey):
     res2 = OrderedDict(sorted(res.items(), key=lambda t: t[0]))
     for key, value in res2.items():
         res2[key] = sorted(res2[key], key=lambda k: k['fullname'])
+
+    # Let's force unknown to be the last in the list
+    if 'unknown' in res2:
+        lastentry = res2.pop('unknown')
+        res2['unknown'] = lastentry
+    if 'Unknown' in res2:
+        lastentry = res2.pop('Unknown')
+        res2['Unknown'] = lastentry
+
     return res2
     
 def main(args):
