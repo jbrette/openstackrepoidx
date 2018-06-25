@@ -58,7 +58,13 @@ def main(args):
     rendertemmplate(res, '../BY_MATCHED_PROJECT.md', 'By matched project')
 
     res = sortby(repolist, 'matched_service')
-    rendertemmplate(res, '../BY_MATCHED_SERIVCE.md', 'By matched service')
+    rendertemmplate(res, '../BY_MATCHED_SERVICE.md', 'By matched service')
+
+    res = sortby(repolist, 'official_classification')
+    rendertemmplate(res, '../BY_CLASSIFICATION.md', 'By classification')
+
+    res = sortby(repolist, 'official_project')
+    rendertemmplate(res, '../BY_PROJECT.md', 'By project')
 
 if __name__ == '__main__':
     import argparse

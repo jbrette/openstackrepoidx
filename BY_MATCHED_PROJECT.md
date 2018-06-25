@@ -1,9 +1,9 @@
 # Oveview By matched project
 
 
-## OpenStackSDK 3 repos 
+## OpenStackSDK: 3 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/os-client-config  | [summary](https://git.openstack.org/cgit/openstack/os-client-config/summary) |
 | openstack/openstacksdk  | [summary](https://git.openstack.org/cgit/openstack/openstacksdk/summary) |
@@ -11,9 +11,9 @@
 
 
 
-## masakari 3 repos 
+## masakari: 3 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/masakari-dashboard  | [summary](https://git.openstack.org/cgit/openstack/masakari-dashboard/summary) |
 | openstack/masakari  | [summary](https://git.openstack.org/cgit/openstack/masakari/summary) |
@@ -21,27 +21,27 @@
 
 
 
-## rpm-packaging 2 repos 
+## rpm-packaging: 2 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/rpm-packaging-tools  | [summary](https://git.openstack.org/cgit/openstack/rpm-packaging-tools/summary) |
 | openstack/rpm-packaging  | [summary](https://git.openstack.org/cgit/openstack/rpm-packaging/summary) |
 
 
 
-## senlin 2 repos 
+## senlin: 2 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/senlin-dashboard  | [summary](https://git.openstack.org/cgit/openstack/senlin-dashboard/summary) |
 | openstack/senlin  | [summary](https://git.openstack.org/cgit/openstack/senlin/summary) |
 
 
 
-## OpenStackClient 3 repos 
+## OpenStackClient: 3 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/openstackclient  | [summary](https://git.openstack.org/cgit/openstack/openstackclient/summary) |
 | openstack/osc-lib  | [summary](https://git.openstack.org/cgit/openstack/osc-lib/summary) |
@@ -49,9 +49,9 @@
 
 
 
-## loci 14 repos 
+## loci: 14 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/loci-horizon  | [summary](https://git.openstack.org/cgit/openstack/loci-horizon/summary) |
 | openstack/loci-murano  | [summary](https://git.openstack.org/cgit/openstack/loci-murano/summary) |
@@ -70,9 +70,9 @@
 
 
 
-## Telemetry 4 repos 
+## Telemetry: 4 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/panko  | [summary](https://git.openstack.org/cgit/openstack/panko/summary) |
 | openstack/ceilometer  | [summary](https://git.openstack.org/cgit/openstack/ceilometer/summary) |
@@ -81,18 +81,18 @@
 
 
 
-## watcher 2 repos 
+## watcher: 2 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/watcher-dashboard  | [summary](https://git.openstack.org/cgit/openstack/watcher-dashboard/summary) |
 | openstack/watcher  | [summary](https://git.openstack.org/cgit/openstack/watcher/summary) |
 
 
 
-## chef 20 repos 
+## chef: 20 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/cookbook-openstack-application-catalog  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-application-catalog/summary) |
 | openstack/cookbook-openstack-ops-database  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-ops-database/summary) |
@@ -117,9 +117,9 @@
 
 
 
-## ironic 11 repos 
+## ironic: 11 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/virtualbmc  | [summary](https://git.openstack.org/cgit/openstack/virtualbmc/summary) |
 | openstack/bifrost  | [summary](https://git.openstack.org/cgit/openstack/bifrost/summary) |
@@ -135,18 +135,18 @@
 
 
 
-## ansible 2 repos 
+## ansible: 2 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/ansible-config_template  | [summary](https://git.openstack.org/cgit/openstack/ansible-config_template/summary) |
 | openstack/ansible-hardening  | [summary](https://git.openstack.org/cgit/openstack/ansible-hardening/summary) |
 
 
 
-## sahara 5 repos 
+## sahara: 5 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/sahara-extra  | [summary](https://git.openstack.org/cgit/openstack/sahara-extra/summary) |
 | openstack/sahara-image-elements  | [summary](https://git.openstack.org/cgit/openstack/sahara-image-elements/summary) |
@@ -156,9 +156,9 @@
 
 
 
-## kuryr 6 repos 
+## kuryr: 6 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/kuryr  | [summary](https://git.openstack.org/cgit/openstack/kuryr/summary) |
 | openstack/kuryr-kubernetes  | [summary](https://git.openstack.org/cgit/openstack/kuryr-kubernetes/summary) |
@@ -169,9 +169,9 @@
 
 
 
-## rally 3 repos 
+## rally: 3 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/performance-docs  | [summary](https://git.openstack.org/cgit/openstack/performance-docs/summary) |
 | openstack/rally  | [summary](https://git.openstack.org/cgit/openstack/rally/summary) |
@@ -179,9 +179,9 @@
 
 
 
-## helm 13 repos 
+## helm: 13 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/airship-divingbell  | [summary](https://git.openstack.org/cgit/openstack/airship-divingbell/summary) |
 | openstack/airship-promenade  | [summary](https://git.openstack.org/cgit/openstack/airship-promenade/summary) |
@@ -199,9 +199,9 @@
 
 
 
-## openstack 48 repos 
+## openstack: 48 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/mogan-specs  | [summary](https://git.openstack.org/cgit/openstack/mogan-specs/summary) |
 | openstack/openstack-chef-specs  | [summary](https://git.openstack.org/cgit/openstack/openstack-chef-specs/summary) |
@@ -254,26 +254,26 @@
 
 
 
-## glance 2 repos 
+## glance: 2 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/glance  | [summary](https://git.openstack.org/cgit/openstack/glance/summary) |
 | openstack/glance_store  | [summary](https://git.openstack.org/cgit/openstack/glance_store/summary) |
 
 
 
-## OpenStackAnsible 1 repos 
+## OpenStackAnsible: 1 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/openstack-ansible  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible/summary) |
 
 
 
-## tempest 36 repos 
+## tempest: 36 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/barbican-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/barbican-tempest-plugin/summary) |
 | openstack/ironic-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/ironic-tempest-plugin/summary) |
@@ -314,34 +314,34 @@
 
 
 
-## I18n 1 repos 
+## I18n: 1 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/i18n  | [summary](https://git.openstack.org/cgit/openstack/i18n/summary) |
 
 
 
-## tricircle 1 repos 
+## tricircle: 1 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/tricircle  | [summary](https://git.openstack.org/cgit/openstack/tricircle/summary) |
 
 
 
-## OpenStack Charms 2 repos 
+## OpenStack Charms: 2 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/charms.ceph  | [summary](https://git.openstack.org/cgit/openstack/charms.ceph/summary) |
 | openstack/charms.openstack  | [summary](https://git.openstack.org/cgit/openstack/charms.openstack/summary) |
 
 
 
-## monasca 15 repos 
+## monasca: 15 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/monasca-api  | [summary](https://git.openstack.org/cgit/openstack/monasca-api/summary) |
 | openstack/monasca-kibana-plugin  | [summary](https://git.openstack.org/cgit/openstack/monasca-kibana-plugin/summary) |
@@ -361,18 +361,18 @@
 
 
 
-## barbican 2 repos 
+## barbican: 2 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/castellan-ui  | [summary](https://git.openstack.org/cgit/openstack/castellan-ui/summary) |
 | openstack/barbican  | [summary](https://git.openstack.org/cgit/openstack/barbican/summary) |
 
 
 
-## Infrastructure 4 repos 
+## Infrastructure: 4 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/openstack-planet  | [summary](https://git.openstack.org/cgit/openstack/openstack-planet/summary) |
 | openstack/diskimage-builder  | [summary](https://git.openstack.org/cgit/openstack/diskimage-builder/summary) |
@@ -381,17 +381,17 @@
 
 
 
-## requirements 1 repos 
+## requirements: 1 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/requirements  | [summary](https://git.openstack.org/cgit/openstack/requirements/summary) |
 
 
 
-## starlingx 17 repos 
+## starlingx: 17 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/stx-nfv  | [summary](https://git.openstack.org/cgit/openstack/stx-nfv/summary) |
 | openstack/stx-root  | [summary](https://git.openstack.org/cgit/openstack/stx-root/summary) |
@@ -413,18 +413,18 @@
 
 
 
-## zaqar 2 repos 
+## zaqar: 2 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/zaqar-ui  | [summary](https://git.openstack.org/cgit/openstack/zaqar-ui/summary) |
 | openstack/zaqar  | [summary](https://git.openstack.org/cgit/openstack/zaqar/summary) |
 
 
 
-## unknown 293 repos 
+## unknown: 293 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/entropy  | [summary](https://git.openstack.org/cgit/openstack/entropy/summary) |
 | openstack/cloudcafe  | [summary](https://git.openstack.org/cgit/openstack/cloudcafe/summary) |
@@ -722,26 +722,26 @@
 
 
 
-## cloudkitty 2 repos 
+## cloudkitty: 2 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/cloudkitty  | [summary](https://git.openstack.org/cgit/openstack/cloudkitty/summary) |
 | openstack/cloudkitty-dashboard  | [summary](https://git.openstack.org/cgit/openstack/cloudkitty-dashboard/summary) |
 
 
 
-## ec2-api 1 repos 
+## ec2-api: 1 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/ec2-api  | [summary](https://git.openstack.org/cgit/openstack/ec2-api/summary) |
 
 
 
-## nova 4 repos 
+## nova: 4 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/os-traits  | [summary](https://git.openstack.org/cgit/openstack/os-traits/summary) |
 | openstack/os-vif  | [summary](https://git.openstack.org/cgit/openstack/os-vif/summary) |
@@ -750,9 +750,9 @@
 
 
 
-## mistral 4 repos 
+## mistral: 4 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/mistral-extra  | [summary](https://git.openstack.org/cgit/openstack/mistral-extra/summary) |
 | openstack/mistral-lib  | [summary](https://git.openstack.org/cgit/openstack/mistral-lib/summary) |
@@ -761,9 +761,9 @@
 
 
 
-## murano 7 repos 
+## murano: 7 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/yaql  | [summary](https://git.openstack.org/cgit/openstack/yaql/summary) |
 | openstack/murano-agent  | [summary](https://git.openstack.org/cgit/openstack/murano-agent/summary) |
@@ -775,18 +775,18 @@
 
 
 
-## PowerVMStackers 2 repos 
+## PowerVMStackers: 2 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/ceilometer-powervm  | [summary](https://git.openstack.org/cgit/openstack/ceilometer-powervm/summary) |
 | openstack/nova-powervm  | [summary](https://git.openstack.org/cgit/openstack/nova-powervm/summary) |
 
 
 
-## keystone 5 repos 
+## keystone: 5 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/keystonemiddleware  | [summary](https://git.openstack.org/cgit/openstack/keystonemiddleware/summary) |
 | openstack/pycadf  | [summary](https://git.openstack.org/cgit/openstack/pycadf/summary) |
@@ -796,9 +796,9 @@
 
 
 
-## stacktach 11 repos 
+## stacktach: 11 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/stacktach-simport  | [summary](https://git.openstack.org/cgit/openstack/stacktach-simport/summary) |
 | openstack/stacktach-notigen  | [summary](https://git.openstack.org/cgit/openstack/stacktach-notigen/summary) |
@@ -814,17 +814,17 @@
 
 
 
-## qinling 1 repos 
+## qinling: 1 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/qinling  | [summary](https://git.openstack.org/cgit/openstack/qinling/summary) |
 
 
 
-## freezer 4 repos 
+## freezer: 4 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/freezer-api  | [summary](https://git.openstack.org/cgit/openstack/freezer-api/summary) |
 | openstack/freezer  | [summary](https://git.openstack.org/cgit/openstack/freezer/summary) |
@@ -833,9 +833,9 @@
 
 
 
-## fuel 153 repos 
+## fuel: 153 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/fuel-plugin-midonet  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-midonet/summary) |
 | openstack/fuel-plugin-zabbix-monitoring-extreme-networks  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-zabbix-monitoring-extreme-networks/summary) |
@@ -993,26 +993,26 @@
 
 
 
-## magnum 2 repos 
+## magnum: 2 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/magnum  | [summary](https://git.openstack.org/cgit/openstack/magnum/summary) |
 | openstack/magnum-ui  | [summary](https://git.openstack.org/cgit/openstack/magnum-ui/summary) |
 
 
 
-## cyborg 1 repos 
+## cyborg: 1 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/cyborg  | [summary](https://git.openstack.org/cgit/openstack/cyborg/summary) |
 
 
 
-## neutron 57 repos 
+## neutron: 57 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/networking-huawei  | [summary](https://git.openstack.org/cgit/openstack/networking-huawei/summary) |
 | openstack/networking-ovn  | [summary](https://git.openstack.org/cgit/openstack/networking-ovn/summary) |
@@ -1074,9 +1074,9 @@
 
 
 
-## Quality Assurance 9 repos 
+## Quality Assurance: 9 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/patrole  | [summary](https://git.openstack.org/cgit/openstack/patrole/summary) |
 | openstack/tempest  | [summary](https://git.openstack.org/cgit/openstack/tempest/summary) |
@@ -1090,18 +1090,18 @@
 
 
 
-## searchlight 2 repos 
+## searchlight: 2 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/searchlight  | [summary](https://git.openstack.org/cgit/openstack/searchlight/summary) |
 | openstack/searchlight-ui  | [summary](https://git.openstack.org/cgit/openstack/searchlight-ui/summary) |
 
 
 
-## manila 4 repos 
+## manila: 4 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/manila-ui  | [summary](https://git.openstack.org/cgit/openstack/manila-ui/summary) |
 | openstack/manila-test-image  | [summary](https://git.openstack.org/cgit/openstack/manila-test-image/summary) |
@@ -1110,18 +1110,18 @@
 
 
 
-## congress 2 repos 
+## congress: 2 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/congress-dashboard  | [summary](https://git.openstack.org/cgit/openstack/congress-dashboard/summary) |
 | openstack/congress  | [summary](https://git.openstack.org/cgit/openstack/congress/summary) |
 
 
 
-## python 87 repos 
+## python: 87 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/python-magnetodbclient  | [summary](https://git.openstack.org/cgit/openstack/python-magnetodbclient/summary) |
 | openstack/python-openstackclient  | [summary](https://git.openstack.org/cgit/openstack/python-openstackclient/summary) |
@@ -1213,17 +1213,17 @@
 
 
 
-## Chef OpenStack 1 repos 
+## Chef OpenStack: 1 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/openstack-chef-repo  | [summary](https://git.openstack.org/cgit/openstack/openstack-chef-repo/summary) |
 
 
 
-## Documentation 10 repos 
+## Documentation: 10 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/openstackdocstheme  | [summary](https://git.openstack.org/cgit/openstack/openstackdocstheme/summary) |
 | openstack/os-api-ref  | [summary](https://git.openstack.org/cgit/openstack/os-api-ref/summary) |
@@ -1238,18 +1238,18 @@
 
 
 
-## karbor 2 repos 
+## karbor: 2 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/karbor  | [summary](https://git.openstack.org/cgit/openstack/karbor/summary) |
 | openstack/karbor-dashboard  | [summary](https://git.openstack.org/cgit/openstack/karbor-dashboard/summary) |
 
 
 
-## snap 11 repos 
+## snap: 11 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/snap-nova-hypervisor  | [summary](https://git.openstack.org/cgit/openstack/snap-nova-hypervisor/summary) |
 | openstack/snap-rally  | [summary](https://git.openstack.org/cgit/openstack/snap-rally/summary) |
@@ -1265,9 +1265,9 @@
 
 
 
-## heat 7 repos 
+## heat: 7 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/heat-templates  | [summary](https://git.openstack.org/cgit/openstack/heat-templates/summary) |
 | openstack/heat-cfntools  | [summary](https://git.openstack.org/cgit/openstack/heat-cfntools/summary) |
@@ -1279,9 +1279,9 @@
 
 
 
-## charm 85 repos 
+## charm: 85 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/charm-interface-openstack-ha  | [summary](https://git.openstack.org/cgit/openstack/charm-interface-openstack-ha/summary) |
 | openstack/charm-interface-neutron-plugin-api-subordinate  | [summary](https://git.openstack.org/cgit/openstack/charm-interface-neutron-plugin-api-subordinate/summary) |
@@ -1371,18 +1371,18 @@
 
 
 
-## RefStack 2 repos 
+## RefStack: 2 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/refstack-client  | [summary](https://git.openstack.org/cgit/openstack/refstack-client/summary) |
 | openstack/refstack  | [summary](https://git.openstack.org/cgit/openstack/refstack/summary) |
 
 
 
-## Release Management 4 repos 
+## Release Management: 4 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/release-test  | [summary](https://git.openstack.org/cgit/openstack/release-test/summary) |
 | openstack/release-schedule-generator  | [summary](https://git.openstack.org/cgit/openstack/release-schedule-generator/summary) |
@@ -1391,18 +1391,18 @@
 
 
 
-## cinder 2 repos 
+## cinder: 2 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/cinder  | [summary](https://git.openstack.org/cgit/openstack/cinder/summary) |
 | openstack/os-brick  | [summary](https://git.openstack.org/cgit/openstack/os-brick/summary) |
 
 
 
-## tripleo 63 repos 
+## tripleo: 63 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/ansible-role-systemd_networkd  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-systemd_networkd/summary) |
 | openstack/ansible-role-fedmsg  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-fedmsg/summary) |
@@ -1470,17 +1470,17 @@
 
 
 
-## storlets 1 repos 
+## storlets: 1 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/storlets  | [summary](https://git.openstack.org/cgit/openstack/storlets/summary) |
 
 
 
-## Security 7 repos 
+## Security: 7 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/anchor  | [summary](https://git.openstack.org/cgit/openstack/anchor/summary) |
 | openstack/security-doc  | [summary](https://git.openstack.org/cgit/openstack/security-doc/summary) |
@@ -1492,9 +1492,9 @@
 
 
 
-## devstack 17 repos 
+## devstack: 17 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/devstack-plugin-sheepdog  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-sheepdog/summary) |
 | openstack/devstack-plugin-additional-pkg-repos  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-additional-pkg-repos/summary) |
@@ -1516,44 +1516,44 @@
 
 
 
-## swift 2 repos 
+## swift: 2 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/swift-bench  | [summary](https://git.openstack.org/cgit/openstack/swift-bench/summary) |
 | openstack/swift  | [summary](https://git.openstack.org/cgit/openstack/swift/summary) |
 
 
 
-## solum 2 repos 
+## solum: 2 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/solum  | [summary](https://git.openstack.org/cgit/openstack/solum/summary) |
 | openstack/solum-dashboard  | [summary](https://git.openstack.org/cgit/openstack/solum-dashboard/summary) |
 
 
 
-## Packaging-rpm 2 repos 
+## Packaging-rpm: 2 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/renderspec  | [summary](https://git.openstack.org/cgit/openstack/renderspec/summary) |
 | openstack/pymod2pkg  | [summary](https://git.openstack.org/cgit/openstack/pymod2pkg/summary) |
 
 
 
-## dragonflow 1 repos 
+## dragonflow: 1 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/dragonflow  | [summary](https://git.openstack.org/cgit/openstack/dragonflow/summary) |
 
 
 
-## blazar 3 repos 
+## blazar: 3 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/blazar-dashboard  | [summary](https://git.openstack.org/cgit/openstack/blazar-dashboard/summary) |
 | openstack/blazar-nova  | [summary](https://git.openstack.org/cgit/openstack/blazar-nova/summary) |
@@ -1561,36 +1561,36 @@
 
 
 
-## zun 2 repos 
+## zun: 2 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/zun  | [summary](https://git.openstack.org/cgit/openstack/zun/summary) |
 | openstack/zun-ui  | [summary](https://git.openstack.org/cgit/openstack/zun-ui/summary) |
 
 
 
-## trove 2 repos 
+## trove: 2 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/trove  | [summary](https://git.openstack.org/cgit/openstack/trove/summary) |
 | openstack/trove-dashboard  | [summary](https://git.openstack.org/cgit/openstack/trove-dashboard/summary) |
 
 
 
-## tacker 2 repos 
+## tacker: 2 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/tacker  | [summary](https://git.openstack.org/cgit/openstack/tacker/summary) |
 | openstack/tacker-horizon  | [summary](https://git.openstack.org/cgit/openstack/tacker-horizon/summary) |
 
 
 
-## openstack-ansible 63 repos 
+## openstack-ansible: 63 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/openstack-ansible-os_monasca-ui  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_monasca-ui/summary) |
 | openstack/openstack-ansible-specs  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-specs/summary) |
@@ -1658,26 +1658,26 @@
 
 
 
-## vitrage 2 repos 
+## vitrage: 2 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/vitrage  | [summary](https://git.openstack.org/cgit/openstack/vitrage/summary) |
 | openstack/vitrage-dashboard  | [summary](https://git.openstack.org/cgit/openstack/vitrage-dashboard/summary) |
 
 
 
-## winstackers 1 repos 
+## winstackers: 1 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/os-win  | [summary](https://git.openstack.org/cgit/openstack/os-win/summary) |
 
 
 
-## octavia 4 repos 
+## octavia: 4 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/octavia-dashboard  | [summary](https://git.openstack.org/cgit/openstack/octavia-dashboard/summary) |
 | openstack/neutron-lbaas  | [summary](https://git.openstack.org/cgit/openstack/neutron-lbaas/summary) |
@@ -1686,9 +1686,9 @@
 
 
 
-## kolla 5 repos 
+## kolla: 5 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/kolla-kubernetes  | [summary](https://git.openstack.org/cgit/openstack/kolla-kubernetes/summary) |
 | openstack/kolla-cli  | [summary](https://git.openstack.org/cgit/openstack/kolla-cli/summary) |
@@ -1698,9 +1698,9 @@
 
 
 
-## horizon 3 repos 
+## horizon: 3 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/horizon  | [summary](https://git.openstack.org/cgit/openstack/horizon/summary) |
 | openstack/django_openstack_auth  | [summary](https://git.openstack.org/cgit/openstack/django_openstack_auth/summary) |
@@ -1708,9 +1708,9 @@
 
 
 
-## oslo 34 repos 
+## oslo: 34 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/sphinx-feature-classification  | [summary](https://git.openstack.org/cgit/openstack/sphinx-feature-classification/summary) |
 | openstack/oslo.service  | [summary](https://git.openstack.org/cgit/openstack/oslo.service/summary) |
@@ -1749,9 +1749,9 @@
 
 
 
-## puppet 58 repos 
+## puppet: 58 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/puppet-mistral  | [summary](https://git.openstack.org/cgit/openstack/puppet-mistral/summary) |
 | openstack/puppet-tempest  | [summary](https://git.openstack.org/cgit/openstack/puppet-tempest/summary) |
@@ -1814,9 +1814,9 @@
 
 
 
-## deb 345 repos 
+## deb: 345 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/deb-python-manilaclient  | [summary](https://git.openstack.org/cgit/openstack/deb-python-manilaclient/summary) |
 | openstack/deb-python-nosehtmloutput  | [summary](https://git.openstack.org/cgit/openstack/deb-python-nosehtmloutput/summary) |
@@ -2166,18 +2166,18 @@
 
 
 
-## designate 2 repos 
+## designate: 2 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/designate  | [summary](https://git.openstack.org/cgit/openstack/designate/summary) |
 | openstack/designate-dashboard  | [summary](https://git.openstack.org/cgit/openstack/designate-dashboard/summary) |
 
 
 
-## salt 12 repos 
+## salt: 12 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/salt-formula-nova  | [summary](https://git.openstack.org/cgit/openstack/salt-formula-nova/summary) |
 | openstack/salt-formula-keystone  | [summary](https://git.openstack.org/cgit/openstack/salt-formula-keystone/summary) |
@@ -2194,9 +2194,9 @@
 
 
 
-## xstatic 36 repos 
+## xstatic: 36 repos 
 
-| Repo                    | URL     |
+| Repo                    | GIT Summary|
 | ----------------------- | ---------- |
 | openstack/xstatic-bootswatch  | [summary](https://git.openstack.org/cgit/openstack/xstatic-bootswatch/summary) |
 | openstack/xstatic-angular-smart-table  | [summary](https://git.openstack.org/cgit/openstack/xstatic-angular-smart-table/summary) |
