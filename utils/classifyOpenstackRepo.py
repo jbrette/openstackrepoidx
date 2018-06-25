@@ -88,6 +88,7 @@ STARTS_WITH = [
     ('deb-', 'deb', 'packaging'),
     ('kolla-', 'kolla', 'packaging'),
     ('loci', 'loci', 'packaging'),
+    ('rpm-packaging', 'rpm-packaging', 'packaging'),
     ('devstack-', 'devstack', 'testing'),
     ('tempest-', 'tempest', 'testing'),
     ('oslo', 'oslo', 'openstack'),
@@ -136,9 +137,10 @@ def readrepolist(fulldict, officialservices, officialprojects, officialrepos):
                 rulename = rule[0]
                 update_classification(repodesc, rule[1], rule[2])
 
-        if not rulename and mainrepo == "openstack":
-            # print repo
-            pass
+        if (not rulename) and (mainrepo == "openstack") \
+           and (official_project not in ['Unknown', 'tripleo', 'kolla', 'openstack-ansible']):
+           # For some reasons out of the 10 installers only 3 are listed
+           update_classification(repodesc, official_project, 'service') 
 
         fulldict[mainrepo][subrepo] = repodesc
 
