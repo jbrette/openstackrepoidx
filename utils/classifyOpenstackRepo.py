@@ -97,6 +97,7 @@ STARTS_WITH = [
     ('devstack-', 'devstack', 'testing'),
     ('tempest-', 'tempest', 'testing'),
     ('oslo', 'oslo', 'library'),
+    ('networking-', 'neutron', 'service'),
     ('python-', 'python', 'openstack'),
     ('stx-', 'starlingx', 'openstack'),
     ('stacktach-', 'stacktach', 'openstack')

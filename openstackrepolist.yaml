@@ -8072,40 +8072,40 @@ network-checker:
   url: https://git.openstack.org/cgit/openstack/network-checker/summary
 networking-6wind:
   fullname: openstack/networking-6wind
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-6wind/summary
 networking-ale-omniswitch:
   fullname: openstack/networking-ale-omniswitch
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-ale-omniswitch/summary
 networking-ansible:
   fullname: openstack/networking-ansible
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-ansible/summary
 networking-arista:
   fullname: openstack/networking-arista
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-arista/summary
 networking-avaya:
   fullname: openstack/networking-avaya
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
@@ -8121,7 +8121,7 @@ networking-bagpipe:
 networking-baremetal:
   fullname: openstack/networking-baremetal
   matched_classification: service
-  matched_project: ironic
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: ironic
@@ -8136,80 +8136,80 @@ networking-bgpvpn:
   url: https://git.openstack.org/cgit/openstack/networking-bgpvpn/summary
 networking-bigswitch:
   fullname: openstack/networking-bigswitch
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-bigswitch/summary
 networking-brocade:
   fullname: openstack/networking-brocade
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-brocade/summary
 networking-calico:
   fullname: openstack/networking-calico
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-calico/summary
 networking-cisco:
   fullname: openstack/networking-cisco
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-cisco/summary
 networking-cumulus:
   fullname: openstack/networking-cumulus
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-cumulus/summary
 networking-dpm:
   fullname: openstack/networking-dpm
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-dpm/summary
 networking-edge-vpn:
   fullname: openstack/networking-edge-vpn
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-edge-vpn/summary
 networking-extreme:
   fullname: openstack/networking-extreme
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-extreme/summary
 networking-fortinet:
   fullname: openstack/networking-fortinet
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-fortinet/summary
 networking-fujitsu:
   fullname: openstack/networking-fujitsu
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
@@ -8217,47 +8217,47 @@ networking-fujitsu:
 networking-generic-switch:
   fullname: openstack/networking-generic-switch
   matched_classification: service
-  matched_project: ironic
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: ironic
   url: https://git.openstack.org/cgit/openstack/networking-generic-switch/summary
 networking-generic-switch-tempest-plugin:
   fullname: openstack/networking-generic-switch-tempest-plugin
-  matched_classification: testing
-  matched_project: tempest
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: ironic
   url: https://git.openstack.org/cgit/openstack/networking-generic-switch-tempest-plugin/summary
 networking-gluon:
   fullname: openstack/networking-gluon
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-gluon/summary
 networking-h3c:
   fullname: openstack/networking-h3c
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-h3c/summary
 networking-hpe:
   fullname: openstack/networking-hpe
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-hpe/summary
 networking-huawei:
   fullname: openstack/networking-huawei
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
@@ -8265,55 +8265,55 @@ networking-huawei:
 networking-hyperv:
   fullname: openstack/networking-hyperv
   matched_classification: service
-  matched_project: winstackers
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: winstackers
   url: https://git.openstack.org/cgit/openstack/networking-hyperv/summary
 networking-icc:
   fullname: openstack/networking-icc
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-icc/summary
 networking-infoblox:
   fullname: openstack/networking-infoblox
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-infoblox/summary
 networking-l2gw:
   fullname: openstack/networking-l2gw
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-l2gw/summary
 networking-l2gw-tempest-plugin:
   fullname: openstack/networking-l2gw-tempest-plugin
-  matched_classification: testing
-  matched_project: tempest
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-l2gw-tempest-plugin/summary
 networking-lagopus:
   fullname: openstack/networking-lagopus
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-lagopus/summary
 networking-lenovo:
   fullname: openstack/networking-lenovo
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
@@ -8328,16 +8328,16 @@ networking-midonet:
   url: https://git.openstack.org/cgit/openstack/networking-midonet/summary
 networking-mlnx:
   fullname: openstack/networking-mlnx
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-mlnx/summary
 networking-nec:
   fullname: openstack/networking-nec
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
@@ -8352,24 +8352,24 @@ networking-odl:
   url: https://git.openstack.org/cgit/openstack/networking-odl/summary
 networking-ofagent:
   fullname: openstack/networking-ofagent
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-ofagent/summary
 networking-onos:
   fullname: openstack/networking-onos
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-onos/summary
 networking-opencontrail:
   fullname: openstack/networking-opencontrail
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
@@ -8384,24 +8384,24 @@ networking-ovn:
   url: https://git.openstack.org/cgit/openstack/networking-ovn/summary
 networking-ovs-dpdk:
   fullname: openstack/networking-ovs-dpdk
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-ovs-dpdk/summary
 networking-peregrine:
   fullname: openstack/networking-peregrine
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-peregrine/summary
 networking-plumgrid:
   fullname: openstack/networking-plumgrid
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
@@ -8409,7 +8409,7 @@ networking-plumgrid:
 networking-powervm:
   fullname: openstack/networking-powervm
   matched_classification: service
-  matched_project: PowerVMStackers
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Other
   official_project: PowerVMStackers
@@ -8424,40 +8424,40 @@ networking-sfc:
   url: https://git.openstack.org/cgit/openstack/networking-sfc/summary
 networking-spp:
   fullname: openstack/networking-spp
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-spp/summary
 networking-vpp:
   fullname: openstack/networking-vpp
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-vpp/summary
 networking-vsphere:
   fullname: openstack/networking-vsphere
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-vsphere/summary
 networking-zte:
   fullname: openstack/networking-zte
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
   url: https://git.openstack.org/cgit/openstack/networking-zte/summary
 networking-zvm:
   fullname: openstack/networking-zvm
-  matched_classification: unknown
-  matched_project: unknown
+  matched_classification: service
+  matched_project: neutron
   matched_service: Unknown
   official_classification: Unknown
   official_project: Unknown
