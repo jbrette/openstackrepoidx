@@ -1,4 +1,4 @@
-# Oveview By project
+# Overview By project
 
 
 ## Chef OpenStack: 18 repos 
@@ -25,6 +25,29 @@
 | openstack/openstack-chef-specs  | [summary](https://git.openstack.org/cgit/openstack/openstack-chef-specs/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/cookbook-openstack-application-catalog
+git clone git://git.openstack.org/openstack/cookbook-openstack-block-storage
+git clone git://git.openstack.org/openstack/cookbook-openstack-client
+git clone git://git.openstack.org/openstack/cookbook-openstack-common
+git clone git://git.openstack.org/openstack/cookbook-openstack-compute
+git clone git://git.openstack.org/openstack/cookbook-openstack-dashboard
+git clone git://git.openstack.org/openstack/cookbook-openstack-dns
+git clone git://git.openstack.org/openstack/cookbook-openstack-identity
+git clone git://git.openstack.org/openstack/cookbook-openstack-image
+git clone git://git.openstack.org/openstack/cookbook-openstack-integration-test
+git clone git://git.openstack.org/openstack/cookbook-openstack-network
+git clone git://git.openstack.org/openstack/cookbook-openstack-ops-database
+git clone git://git.openstack.org/openstack/cookbook-openstack-ops-messaging
+git clone git://git.openstack.org/openstack/cookbook-openstack-orchestration
+git clone git://git.openstack.org/openstack/cookbook-openstack-telemetry
+git clone git://git.openstack.org/openstack/cookbook-openstackclient
+git clone git://git.openstack.org/openstack/openstack-chef-repo
+git clone git://git.openstack.org/openstack/openstack-chef-specs
+
+~~~
+
 
 ## Documentation: 11 repos 
 
@@ -43,6 +66,22 @@
 | openstack/whereto  | [summary](https://git.openstack.org/cgit/openstack/whereto/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/constellations
+git clone git://git.openstack.org/openstack/contributor-guide
+git clone git://git.openstack.org/openstack/docs-specs
+git clone git://git.openstack.org/openstack/openstack-doc-tools
+git clone git://git.openstack.org/openstack/openstack-manuals
+git clone git://git.openstack.org/openstack/openstackdocstheme
+git clone git://git.openstack.org/openstack/os-api-ref
+git clone git://git.openstack.org/openstack/rst2bash
+git clone git://git.openstack.org/openstack/training-guides
+git clone git://git.openstack.org/openstack/training-labs
+git clone git://git.openstack.org/openstack/whereto
+
+~~~
+
 
 ## I18n: 2 repos 
 
@@ -51,6 +90,13 @@
 | openstack/i18n  | [summary](https://git.openstack.org/cgit/openstack/i18n/summary) |
 | openstack/i18n-specs  | [summary](https://git.openstack.org/cgit/openstack/i18n-specs/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/i18n
+git clone git://git.openstack.org/openstack/i18n-specs
+
+~~~
 
 
 ## Infrastructure: 4 repos 
@@ -62,6 +108,15 @@
 | openstack/openstack-planet  | [summary](https://git.openstack.org/cgit/openstack/openstack-planet/summary) |
 | openstack/ptgbot  | [summary](https://git.openstack.org/cgit/openstack/ptgbot/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/diskimage-builder
+git clone git://git.openstack.org/openstack/js-openstack-lib
+git clone git://git.openstack.org/openstack/openstack-planet
+git clone git://git.openstack.org/openstack/ptgbot
+
+~~~
 
 
 ## OpenStack Charms: 80 repos 
@@ -150,6 +205,91 @@
 | openstack/charms.openstack  | [summary](https://git.openstack.org/cgit/openstack/charms.openstack/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/charm-aodh
+git clone git://git.openstack.org/openstack/charm-barbican
+git clone git://git.openstack.org/openstack/charm-barbican-softhsm
+git clone git://git.openstack.org/openstack/charm-ceilometer
+git clone git://git.openstack.org/openstack/charm-ceilometer-agent
+git clone git://git.openstack.org/openstack/charm-ceph
+git clone git://git.openstack.org/openstack/charm-ceph-fs
+git clone git://git.openstack.org/openstack/charm-ceph-mon
+git clone git://git.openstack.org/openstack/charm-ceph-osd
+git clone git://git.openstack.org/openstack/charm-ceph-proxy
+git clone git://git.openstack.org/openstack/charm-ceph-radosgw
+git clone git://git.openstack.org/openstack/charm-cinder
+git clone git://git.openstack.org/openstack/charm-cinder-backup
+git clone git://git.openstack.org/openstack/charm-cinder-ceph
+git clone git://git.openstack.org/openstack/charm-cloudkitty
+git clone git://git.openstack.org/openstack/charm-deployment-guide
+git clone git://git.openstack.org/openstack/charm-designate
+git clone git://git.openstack.org/openstack/charm-designate-bind
+git clone git://git.openstack.org/openstack/charm-glance
+git clone git://git.openstack.org/openstack/charm-glance-simplestreams-sync
+git clone git://git.openstack.org/openstack/charm-glusterfs
+git clone git://git.openstack.org/openstack/charm-gnocchi
+git clone git://git.openstack.org/openstack/charm-guide
+git clone git://git.openstack.org/openstack/charm-hacluster
+git clone git://git.openstack.org/openstack/charm-heat
+git clone git://git.openstack.org/openstack/charm-interface-bgp
+git clone git://git.openstack.org/openstack/charm-interface-bind-rndc
+git clone git://git.openstack.org/openstack/charm-interface-ceph-client
+git clone git://git.openstack.org/openstack/charm-interface-ceph-mds
+git clone git://git.openstack.org/openstack/charm-interface-designate
+git clone git://git.openstack.org/openstack/charm-interface-gnocchi
+git clone git://git.openstack.org/openstack/charm-interface-hacluster
+git clone git://git.openstack.org/openstack/charm-interface-keystone
+git clone git://git.openstack.org/openstack/charm-interface-keystone-admin
+git clone git://git.openstack.org/openstack/charm-interface-keystone-credentials
+git clone git://git.openstack.org/openstack/charm-interface-keystone-domain-backend
+git clone git://git.openstack.org/openstack/charm-interface-manila-plugin
+git clone git://git.openstack.org/openstack/charm-interface-mysql-shared
+git clone git://git.openstack.org/openstack/charm-interface-neutron-plugin
+git clone git://git.openstack.org/openstack/charm-interface-neutron-plugin-api-subordinate
+git clone git://git.openstack.org/openstack/charm-interface-odl-controller-api
+git clone git://git.openstack.org/openstack/charm-interface-openstack-ha
+git clone git://git.openstack.org/openstack/charm-interface-ovsdb-manager
+git clone git://git.openstack.org/openstack/charm-interface-rabbitmq
+git clone git://git.openstack.org/openstack/charm-interface-service-control
+git clone git://git.openstack.org/openstack/charm-ironic
+git clone git://git.openstack.org/openstack/charm-keystone
+git clone git://git.openstack.org/openstack/charm-keystone-ldap
+git clone git://git.openstack.org/openstack/charm-layer-ceph-base
+git clone git://git.openstack.org/openstack/charm-layer-openstack
+git clone git://git.openstack.org/openstack/charm-layer-openstack-api
+git clone git://git.openstack.org/openstack/charm-layer-openstack-principle
+git clone git://git.openstack.org/openstack/charm-lxd
+git clone git://git.openstack.org/openstack/charm-manila
+git clone git://git.openstack.org/openstack/charm-manila-generic
+git clone git://git.openstack.org/openstack/charm-manila-glusterfs
+git clone git://git.openstack.org/openstack/charm-mistral
+git clone git://git.openstack.org/openstack/charm-murano
+git clone git://git.openstack.org/openstack/charm-neutron-api
+git clone git://git.openstack.org/openstack/charm-neutron-api-genericswitch
+git clone git://git.openstack.org/openstack/charm-neutron-api-odl
+git clone git://git.openstack.org/openstack/charm-neutron-dynamic-routing
+git clone git://git.openstack.org/openstack/charm-neutron-gateway
+git clone git://git.openstack.org/openstack/charm-neutron-openvswitch
+git clone git://git.openstack.org/openstack/charm-nova-cloud-controller
+git clone git://git.openstack.org/openstack/charm-nova-compute
+git clone git://git.openstack.org/openstack/charm-nova-compute-proxy
+git clone git://git.openstack.org/openstack/charm-odl-controller
+git clone git://git.openstack.org/openstack/charm-openstack-dashboard
+git clone git://git.openstack.org/openstack/charm-openvswitch-odl
+git clone git://git.openstack.org/openstack/charm-panko
+git clone git://git.openstack.org/openstack/charm-percona-cluster
+git clone git://git.openstack.org/openstack/charm-rabbitmq-server
+git clone git://git.openstack.org/openstack/charm-specs
+git clone git://git.openstack.org/openstack/charm-swift-proxy
+git clone git://git.openstack.org/openstack/charm-swift-storage
+git clone git://git.openstack.org/openstack/charm-tempest
+git clone git://git.openstack.org/openstack/charm-trove
+git clone git://git.openstack.org/openstack/charms.ceph
+git clone git://git.openstack.org/openstack/charms.openstack
+
+~~~
+
 
 ## OpenStack-Helm: 3 repos 
 
@@ -159,6 +299,14 @@
 | openstack/openstack-helm-addons  | [summary](https://git.openstack.org/cgit/openstack/openstack-helm-addons/summary) |
 | openstack/openstack-helm-infra  | [summary](https://git.openstack.org/cgit/openstack/openstack-helm-infra/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/openstack-helm
+git clone git://git.openstack.org/openstack/openstack-helm-addons
+git clone git://git.openstack.org/openstack/openstack-helm-infra
+
+~~~
 
 
 ## OpenStackAnsible: 69 repos 
@@ -236,6 +384,80 @@
 | openstack/openstack-ansible-tests  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-tests/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/ansible-config_template
+git clone git://git.openstack.org/openstack/ansible-hardening
+git clone git://git.openstack.org/openstack/ansible-role-python_venv_build
+git clone git://git.openstack.org/openstack/ansible-role-qdrouterd
+git clone git://git.openstack.org/openstack/ansible-role-systemd_mount
+git clone git://git.openstack.org/openstack/ansible-role-systemd_networkd
+git clone git://git.openstack.org/openstack/ansible-role-systemd_service
+git clone git://git.openstack.org/openstack/openstack-ansible
+git clone git://git.openstack.org/openstack/openstack-ansible-apt_package_pinning
+git clone git://git.openstack.org/openstack/openstack-ansible-ceph_client
+git clone git://git.openstack.org/openstack/openstack-ansible-galera_client
+git clone git://git.openstack.org/openstack/openstack-ansible-galera_server
+git clone git://git.openstack.org/openstack/openstack-ansible-haproxy_server
+git clone git://git.openstack.org/openstack/openstack-ansible-lxc_container_create
+git clone git://git.openstack.org/openstack/openstack-ansible-lxc_hosts
+git clone git://git.openstack.org/openstack/openstack-ansible-memcached_server
+git clone git://git.openstack.org/openstack/openstack-ansible-nspawn_container_create
+git clone git://git.openstack.org/openstack/openstack-ansible-nspawn_hosts
+git clone git://git.openstack.org/openstack/openstack-ansible-openstack_hosts
+git clone git://git.openstack.org/openstack/openstack-ansible-openstack_openrc
+git clone git://git.openstack.org/openstack/openstack-ansible-ops
+git clone git://git.openstack.org/openstack/openstack-ansible-os_almanach
+git clone git://git.openstack.org/openstack/openstack-ansible-os_aodh
+git clone git://git.openstack.org/openstack/openstack-ansible-os_barbican
+git clone git://git.openstack.org/openstack/openstack-ansible-os_blazar
+git clone git://git.openstack.org/openstack/openstack-ansible-os_ceilometer
+git clone git://git.openstack.org/openstack/openstack-ansible-os_cinder
+git clone git://git.openstack.org/openstack/openstack-ansible-os_cloudkitty
+git clone git://git.openstack.org/openstack/openstack-ansible-os_congress
+git clone git://git.openstack.org/openstack/openstack-ansible-os_designate
+git clone git://git.openstack.org/openstack/openstack-ansible-os_freezer
+git clone git://git.openstack.org/openstack/openstack-ansible-os_glance
+git clone git://git.openstack.org/openstack/openstack-ansible-os_gnocchi
+git clone git://git.openstack.org/openstack/openstack-ansible-os_heat
+git clone git://git.openstack.org/openstack/openstack-ansible-os_horizon
+git clone git://git.openstack.org/openstack/openstack-ansible-os_ironic
+git clone git://git.openstack.org/openstack/openstack-ansible-os_karbor
+git clone git://git.openstack.org/openstack/openstack-ansible-os_keystone
+git clone git://git.openstack.org/openstack/openstack-ansible-os_magnum
+git clone git://git.openstack.org/openstack/openstack-ansible-os_masakari
+git clone git://git.openstack.org/openstack/openstack-ansible-os_molteniron
+git clone git://git.openstack.org/openstack/openstack-ansible-os_monasca
+git clone git://git.openstack.org/openstack/openstack-ansible-os_monasca-agent
+git clone git://git.openstack.org/openstack/openstack-ansible-os_monasca-ui
+git clone git://git.openstack.org/openstack/openstack-ansible-os_neutron
+git clone git://git.openstack.org/openstack/openstack-ansible-os_nova
+git clone git://git.openstack.org/openstack/openstack-ansible-os_octavia
+git clone git://git.openstack.org/openstack/openstack-ansible-os_panko
+git clone git://git.openstack.org/openstack/openstack-ansible-os_rally
+git clone git://git.openstack.org/openstack/openstack-ansible-os_sahara
+git clone git://git.openstack.org/openstack/openstack-ansible-os_searchlight
+git clone git://git.openstack.org/openstack/openstack-ansible-os_swift
+git clone git://git.openstack.org/openstack/openstack-ansible-os_tacker
+git clone git://git.openstack.org/openstack/openstack-ansible-os_tempest
+git clone git://git.openstack.org/openstack/openstack-ansible-os_trove
+git clone git://git.openstack.org/openstack/openstack-ansible-os_watcher
+git clone git://git.openstack.org/openstack/openstack-ansible-os_zaqar
+git clone git://git.openstack.org/openstack/openstack-ansible-os_zun
+git clone git://git.openstack.org/openstack/openstack-ansible-pip_install
+git clone git://git.openstack.org/openstack/openstack-ansible-pip_lock_down
+git clone git://git.openstack.org/openstack/openstack-ansible-plugins
+git clone git://git.openstack.org/openstack/openstack-ansible-rabbitmq_server
+git clone git://git.openstack.org/openstack/openstack-ansible-repo_build
+git clone git://git.openstack.org/openstack/openstack-ansible-repo_server
+git clone git://git.openstack.org/openstack/openstack-ansible-rsyslog_client
+git clone git://git.openstack.org/openstack/openstack-ansible-rsyslog_server
+git clone git://git.openstack.org/openstack/openstack-ansible-security
+git clone git://git.openstack.org/openstack/openstack-ansible-specs
+git clone git://git.openstack.org/openstack/openstack-ansible-tests
+
+~~~
+
 
 ## OpenStackClient: 4 repos 
 
@@ -247,6 +469,15 @@
 | openstack/python-openstackclient  | [summary](https://git.openstack.org/cgit/openstack/python-openstackclient/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/cliff
+git clone git://git.openstack.org/openstack/openstackclient
+git clone git://git.openstack.org/openstack/osc-lib
+git clone git://git.openstack.org/openstack/python-openstackclient
+
+~~~
+
 
 ## OpenStackSDK: 3 repos 
 
@@ -256,6 +487,14 @@
 | openstack/os-client-config  | [summary](https://git.openstack.org/cgit/openstack/os-client-config/summary) |
 | openstack/os-service-types  | [summary](https://git.openstack.org/cgit/openstack/os-service-types/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/openstacksdk
+git clone git://git.openstack.org/openstack/os-client-config
+git clone git://git.openstack.org/openstack/os-service-types
+
+~~~
 
 
 ## Packaging-rpm: 4 repos 
@@ -268,6 +507,15 @@
 | openstack/rpm-packaging-tools  | [summary](https://git.openstack.org/cgit/openstack/rpm-packaging-tools/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/pymod2pkg
+git clone git://git.openstack.org/openstack/renderspec
+git clone git://git.openstack.org/openstack/rpm-packaging
+git clone git://git.openstack.org/openstack/rpm-packaging-tools
+
+~~~
+
 
 ## PowerVMStackers: 3 repos 
 
@@ -277,6 +525,14 @@
 | openstack/networking-powervm  | [summary](https://git.openstack.org/cgit/openstack/networking-powervm/summary) |
 | openstack/nova-powervm  | [summary](https://git.openstack.org/cgit/openstack/nova-powervm/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/ceilometer-powervm
+git clone git://git.openstack.org/openstack/networking-powervm
+git clone git://git.openstack.org/openstack/nova-powervm
+
+~~~
 
 
 ## Puppet OpenStack: 47 repos 
@@ -332,6 +588,58 @@
 | openstack/puppet-zaqar  | [summary](https://git.openstack.org/cgit/openstack/puppet-zaqar/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/puppet-aodh
+git clone git://git.openstack.org/openstack/puppet-barbican
+git clone git://git.openstack.org/openstack/puppet-ceilometer
+git clone git://git.openstack.org/openstack/puppet-ceph
+git clone git://git.openstack.org/openstack/puppet-cinder
+git clone git://git.openstack.org/openstack/puppet-cloudkitty
+git clone git://git.openstack.org/openstack/puppet-congress
+git clone git://git.openstack.org/openstack/puppet-designate
+git clone git://git.openstack.org/openstack/puppet-ec2api
+git clone git://git.openstack.org/openstack/puppet-freezer
+git clone git://git.openstack.org/openstack/puppet-glance
+git clone git://git.openstack.org/openstack/puppet-glare
+git clone git://git.openstack.org/openstack/puppet-gnocchi
+git clone git://git.openstack.org/openstack/puppet-heat
+git clone git://git.openstack.org/openstack/puppet-horizon
+git clone git://git.openstack.org/openstack/puppet-ironic
+git clone git://git.openstack.org/openstack/puppet-keystone
+git clone git://git.openstack.org/openstack/puppet-magnum
+git clone git://git.openstack.org/openstack/puppet-manila
+git clone git://git.openstack.org/openstack/puppet-mistral
+git clone git://git.openstack.org/openstack/puppet-monasca
+git clone git://git.openstack.org/openstack/puppet-murano
+git clone git://git.openstack.org/openstack/puppet-neutron
+git clone git://git.openstack.org/openstack/puppet-nova
+git clone git://git.openstack.org/openstack/puppet-octavia
+git clone git://git.openstack.org/openstack/puppet-openstack-cookiecutter
+git clone git://git.openstack.org/openstack/puppet-openstack-guide
+git clone git://git.openstack.org/openstack/puppet-openstack-integration
+git clone git://git.openstack.org/openstack/puppet-openstack-specs
+git clone git://git.openstack.org/openstack/puppet-openstack_extras
+git clone git://git.openstack.org/openstack/puppet-openstack_spec_helper
+git clone git://git.openstack.org/openstack/puppet-openstacklib
+git clone git://git.openstack.org/openstack/puppet-oslo
+git clone git://git.openstack.org/openstack/puppet-ovn
+git clone git://git.openstack.org/openstack/puppet-panko
+git clone git://git.openstack.org/openstack/puppet-qdr
+git clone git://git.openstack.org/openstack/puppet-rally
+git clone git://git.openstack.org/openstack/puppet-sahara
+git clone git://git.openstack.org/openstack/puppet-senlin
+git clone git://git.openstack.org/openstack/puppet-swift
+git clone git://git.openstack.org/openstack/puppet-tacker
+git clone git://git.openstack.org/openstack/puppet-tempest
+git clone git://git.openstack.org/openstack/puppet-trove
+git clone git://git.openstack.org/openstack/puppet-vitrage
+git clone git://git.openstack.org/openstack/puppet-vswitch
+git clone git://git.openstack.org/openstack/puppet-watcher
+git clone git://git.openstack.org/openstack/puppet-zaqar
+
+~~~
+
 
 ## Quality Assurance: 16 repos 
 
@@ -355,6 +663,27 @@
 | openstack/tempest-stress  | [summary](https://git.openstack.org/cgit/openstack/tempest-stress/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/coverage2sql
+git clone git://git.openstack.org/openstack/devstack-plugin-ceph
+git clone git://git.openstack.org/openstack/devstack-plugin-container
+git clone git://git.openstack.org/openstack/devstack-tools
+git clone git://git.openstack.org/openstack/eslint-config-openstack
+git clone git://git.openstack.org/openstack/karma-subunit-reporter
+git clone git://git.openstack.org/openstack/openstack-health
+git clone git://git.openstack.org/openstack/os-performance-tools
+git clone git://git.openstack.org/openstack/os-testr
+git clone git://git.openstack.org/openstack/patrole
+git clone git://git.openstack.org/openstack/qa-specs
+git clone git://git.openstack.org/openstack/stackviz
+git clone git://git.openstack.org/openstack/tempest
+git clone git://git.openstack.org/openstack/tempest-lib
+git clone git://git.openstack.org/openstack/tempest-plugin-cookiecutter
+git clone git://git.openstack.org/openstack/tempest-stress
+
+~~~
+
 
 ## RefStack: 3 repos 
 
@@ -364,6 +693,14 @@
 | openstack/refstack  | [summary](https://git.openstack.org/cgit/openstack/refstack/summary) |
 | openstack/refstack-client  | [summary](https://git.openstack.org/cgit/openstack/refstack-client/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/python-tempestconf
+git clone git://git.openstack.org/openstack/refstack
+git clone git://git.openstack.org/openstack/refstack-client
+
+~~~
 
 
 ## Release Management: 4 repos 
@@ -375,6 +712,15 @@
 | openstack/releases  | [summary](https://git.openstack.org/cgit/openstack/releases/summary) |
 | openstack/reno  | [summary](https://git.openstack.org/cgit/openstack/reno/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/release-schedule-generator
+git clone git://git.openstack.org/openstack/release-test
+git clone git://git.openstack.org/openstack/releases
+git clone git://git.openstack.org/openstack/reno
+
+~~~
 
 
 ## Security: 8 repos 
@@ -391,6 +737,19 @@
 | openstack/syntribos-payloads  | [summary](https://git.openstack.org/cgit/openstack/syntribos-payloads/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/anchor
+git clone git://git.openstack.org/openstack/ossa
+git clone git://git.openstack.org/openstack/security-analysis
+git clone git://git.openstack.org/openstack/security-doc
+git clone git://git.openstack.org/openstack/security-specs
+git clone git://git.openstack.org/openstack/syntribos
+git clone git://git.openstack.org/openstack/syntribos-openstack-templates
+git clone git://git.openstack.org/openstack/syntribos-payloads
+
+~~~
+
 
 ## Telemetry: 8 repos 
 
@@ -406,6 +765,19 @@
 | openstack/telemetry-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/telemetry-tempest-plugin/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/aodh
+git clone git://git.openstack.org/openstack/ceilometer
+git clone git://git.openstack.org/openstack/ceilometermiddleware
+git clone git://git.openstack.org/openstack/panko
+git clone git://git.openstack.org/openstack/python-aodhclient
+git clone git://git.openstack.org/openstack/python-pankoclient
+git clone git://git.openstack.org/openstack/telemetry-specs
+git clone git://git.openstack.org/openstack/telemetry-tempest-plugin
+
+~~~
+
 
 ## barbican: 5 repos 
 
@@ -418,6 +790,16 @@
 | openstack/python-barbicanclient  | [summary](https://git.openstack.org/cgit/openstack/python-barbicanclient/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/barbican
+git clone git://git.openstack.org/openstack/barbican-specs
+git clone git://git.openstack.org/openstack/barbican-tempest-plugin
+git clone git://git.openstack.org/openstack/castellan-ui
+git clone git://git.openstack.org/openstack/python-barbicanclient
+
+~~~
+
 
 ## blazar: 5 repos 
 
@@ -429,6 +811,16 @@
 | openstack/blazar-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/blazar-tempest-plugin/summary) |
 | openstack/python-blazarclient  | [summary](https://git.openstack.org/cgit/openstack/python-blazarclient/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/blazar
+git clone git://git.openstack.org/openstack/blazar-dashboard
+git clone git://git.openstack.org/openstack/blazar-nova
+git clone git://git.openstack.org/openstack/blazar-tempest-plugin
+git clone git://git.openstack.org/openstack/python-blazarclient
+
+~~~
 
 
 ## cinder: 6 repos 
@@ -443,6 +835,17 @@
 | openstack/python-cinderclient  | [summary](https://git.openstack.org/cgit/openstack/python-cinderclient/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/cinder
+git clone git://git.openstack.org/openstack/cinder-specs
+git clone git://git.openstack.org/openstack/cinder-tempest-plugin
+git clone git://git.openstack.org/openstack/os-brick
+git clone git://git.openstack.org/openstack/python-brick-cinderclient-ext
+git clone git://git.openstack.org/openstack/python-cinderclient
+
+~~~
+
 
 ## cloudkitty: 5 repos 
 
@@ -454,6 +857,16 @@
 | openstack/cloudkitty-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/cloudkitty-tempest-plugin/summary) |
 | openstack/python-cloudkittyclient  | [summary](https://git.openstack.org/cgit/openstack/python-cloudkittyclient/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/cloudkitty
+git clone git://git.openstack.org/openstack/cloudkitty-dashboard
+git clone git://git.openstack.org/openstack/cloudkitty-specs
+git clone git://git.openstack.org/openstack/cloudkitty-tempest-plugin
+git clone git://git.openstack.org/openstack/python-cloudkittyclient
+
+~~~
 
 
 ## congress: 5 repos 
@@ -467,6 +880,16 @@
 | openstack/python-congressclient  | [summary](https://git.openstack.org/cgit/openstack/python-congressclient/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/congress
+git clone git://git.openstack.org/openstack/congress-dashboard
+git clone git://git.openstack.org/openstack/congress-specs
+git clone git://git.openstack.org/openstack/congress-tempest-plugin
+git clone git://git.openstack.org/openstack/python-congressclient
+
+~~~
+
 
 ## cyborg: 3 repos 
 
@@ -476,6 +899,14 @@
 | openstack/cyborg-specs  | [summary](https://git.openstack.org/cgit/openstack/cyborg-specs/summary) |
 | openstack/python-cyborgclient  | [summary](https://git.openstack.org/cgit/openstack/python-cyborgclient/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/cyborg
+git clone git://git.openstack.org/openstack/cyborg-specs
+git clone git://git.openstack.org/openstack/python-cyborgclient
+
+~~~
 
 
 ## designate: 5 repos 
@@ -489,6 +920,16 @@
 | openstack/python-designateclient  | [summary](https://git.openstack.org/cgit/openstack/python-designateclient/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/designate
+git clone git://git.openstack.org/openstack/designate-dashboard
+git clone git://git.openstack.org/openstack/designate-specs
+git clone git://git.openstack.org/openstack/designate-tempest-plugin
+git clone git://git.openstack.org/openstack/python-designateclient
+
+~~~
+
 
 ## dragonflow: 1 repos 
 
@@ -496,6 +937,12 @@
 | ----------------------- | ---------- |
 | openstack/dragonflow  | [summary](https://git.openstack.org/cgit/openstack/dragonflow/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/dragonflow
+
+~~~
 
 
 ## ec2-api: 2 repos 
@@ -505,6 +952,13 @@
 | openstack/ec2-api  | [summary](https://git.openstack.org/cgit/openstack/ec2-api/summary) |
 | openstack/ec2api-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/ec2api-tempest-plugin/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/ec2-api
+git clone git://git.openstack.org/openstack/ec2api-tempest-plugin
+
+~~~
 
 
 ## freezer: 7 repos 
@@ -520,6 +974,18 @@
 | openstack/python-freezerclient  | [summary](https://git.openstack.org/cgit/openstack/python-freezerclient/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/freezer
+git clone git://git.openstack.org/openstack/freezer-api
+git clone git://git.openstack.org/openstack/freezer-dr
+git clone git://git.openstack.org/openstack/freezer-specs
+git clone git://git.openstack.org/openstack/freezer-tempest-plugin
+git clone git://git.openstack.org/openstack/freezer-web-ui
+git clone git://git.openstack.org/openstack/python-freezerclient
+
+~~~
+
 
 ## glance: 4 repos 
 
@@ -530,6 +996,15 @@
 | openstack/glance_store  | [summary](https://git.openstack.org/cgit/openstack/glance_store/summary) |
 | openstack/python-glanceclient  | [summary](https://git.openstack.org/cgit/openstack/python-glanceclient/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/glance
+git clone git://git.openstack.org/openstack/glance-specs
+git clone git://git.openstack.org/openstack/glance_store
+git clone git://git.openstack.org/openstack/python-glanceclient
+
+~~~
 
 
 ## heat: 10 repos 
@@ -547,6 +1022,21 @@
 | openstack/python-heatclient  | [summary](https://git.openstack.org/cgit/openstack/python-heatclient/summary) |
 | openstack/tosca-parser  | [summary](https://git.openstack.org/cgit/openstack/tosca-parser/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/heat
+git clone git://git.openstack.org/openstack/heat-agents
+git clone git://git.openstack.org/openstack/heat-cfntools
+git clone git://git.openstack.org/openstack/heat-dashboard
+git clone git://git.openstack.org/openstack/heat-specs
+git clone git://git.openstack.org/openstack/heat-tempest-plugin
+git clone git://git.openstack.org/openstack/heat-templates
+git clone git://git.openstack.org/openstack/heat-translator
+git clone git://git.openstack.org/openstack/python-heatclient
+git clone git://git.openstack.org/openstack/tosca-parser
+
+~~~
 
 
 ## horizon: 34 repos 
@@ -589,6 +1079,45 @@
 | openstack/xstatic-vis  | [summary](https://git.openstack.org/cgit/openstack/xstatic-vis/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/django_openstack_auth
+git clone git://git.openstack.org/openstack/horizon
+git clone git://git.openstack.org/openstack/tempest-horizon
+git clone git://git.openstack.org/openstack/ui-cookiecutter
+git clone git://git.openstack.org/openstack/xstatic-angular
+git clone git://git.openstack.org/openstack/xstatic-angular-bootstrap
+git clone git://git.openstack.org/openstack/xstatic-angular-gettext
+git clone git://git.openstack.org/openstack/xstatic-angular-lrdragndrop
+git clone git://git.openstack.org/openstack/xstatic-angular-material
+git clone git://git.openstack.org/openstack/xstatic-angular-notify
+git clone git://git.openstack.org/openstack/xstatic-angular-smart-table
+git clone git://git.openstack.org/openstack/xstatic-angular-ui-router
+git clone git://git.openstack.org/openstack/xstatic-angular-uuid
+git clone git://git.openstack.org/openstack/xstatic-angular-vis
+git clone git://git.openstack.org/openstack/xstatic-bootstrap-datepicker
+git clone git://git.openstack.org/openstack/xstatic-bootstrap-scss
+git clone git://git.openstack.org/openstack/xstatic-bootswatch
+git clone git://git.openstack.org/openstack/xstatic-d3
+git clone git://git.openstack.org/openstack/xstatic-filesaver
+git clone git://git.openstack.org/openstack/xstatic-font-awesome
+git clone git://git.openstack.org/openstack/xstatic-hogan
+git clone git://git.openstack.org/openstack/xstatic-jasmine
+git clone git://git.openstack.org/openstack/xstatic-jquery-migrate
+git clone git://git.openstack.org/openstack/xstatic-jquery.quicksearch
+git clone git://git.openstack.org/openstack/xstatic-jquery.tablesorter
+git clone git://git.openstack.org/openstack/xstatic-js-yaml
+git clone git://git.openstack.org/openstack/xstatic-jsencrypt
+git clone git://git.openstack.org/openstack/xstatic-json2yaml
+git clone git://git.openstack.org/openstack/xstatic-magic-search
+git clone git://git.openstack.org/openstack/xstatic-mdi
+git clone git://git.openstack.org/openstack/xstatic-rickshaw
+git clone git://git.openstack.org/openstack/xstatic-roboto-fontface
+git clone git://git.openstack.org/openstack/xstatic-spin
+git clone git://git.openstack.org/openstack/xstatic-vis
+
+~~~
+
 
 ## ironic: 19 repos 
 
@@ -615,6 +1144,30 @@
 | openstack/virtualbmc  | [summary](https://git.openstack.org/cgit/openstack/virtualbmc/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/bifrost
+git clone git://git.openstack.org/openstack/ironic
+git clone git://git.openstack.org/openstack/ironic-inspector
+git clone git://git.openstack.org/openstack/ironic-inspector-specs
+git clone git://git.openstack.org/openstack/ironic-lib
+git clone git://git.openstack.org/openstack/ironic-python-agent
+git clone git://git.openstack.org/openstack/ironic-python-agent-builder
+git clone git://git.openstack.org/openstack/ironic-specs
+git clone git://git.openstack.org/openstack/ironic-tempest-plugin
+git clone git://git.openstack.org/openstack/ironic-ui
+git clone git://git.openstack.org/openstack/molteniron
+git clone git://git.openstack.org/openstack/networking-baremetal
+git clone git://git.openstack.org/openstack/networking-generic-switch
+git clone git://git.openstack.org/openstack/networking-generic-switch-tempest-plugin
+git clone git://git.openstack.org/openstack/python-ironic-inspector-client
+git clone git://git.openstack.org/openstack/python-ironicclient
+git clone git://git.openstack.org/openstack/sushy
+git clone git://git.openstack.org/openstack/sushy-tools
+git clone git://git.openstack.org/openstack/virtualbmc
+
+~~~
+
 
 ## karbor: 3 repos 
 
@@ -624,6 +1177,14 @@
 | openstack/karbor-dashboard  | [summary](https://git.openstack.org/cgit/openstack/karbor-dashboard/summary) |
 | openstack/python-karborclient  | [summary](https://git.openstack.org/cgit/openstack/python-karborclient/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/karbor
+git clone git://git.openstack.org/openstack/karbor-dashboard
+git clone git://git.openstack.org/openstack/python-karborclient
+
+~~~
 
 
 ## keystone: 8 repos 
@@ -640,6 +1201,19 @@
 | openstack/python-keystoneclient  | [summary](https://git.openstack.org/cgit/openstack/python-keystoneclient/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/keystone
+git clone git://git.openstack.org/openstack/keystone-specs
+git clone git://git.openstack.org/openstack/keystone-tempest-plugin
+git clone git://git.openstack.org/openstack/keystoneauth
+git clone git://git.openstack.org/openstack/keystonemiddleware
+git clone git://git.openstack.org/openstack/ldappool
+git clone git://git.openstack.org/openstack/pycadf
+git clone git://git.openstack.org/openstack/python-keystoneclient
+
+~~~
+
 
 ## kolla: 3 repos 
 
@@ -649,6 +1223,14 @@
 | openstack/kolla-ansible  | [summary](https://git.openstack.org/cgit/openstack/kolla-ansible/summary) |
 | openstack/kolla-cli  | [summary](https://git.openstack.org/cgit/openstack/kolla-cli/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/kolla
+git clone git://git.openstack.org/openstack/kolla-ansible
+git clone git://git.openstack.org/openstack/kolla-cli
+
+~~~
 
 
 ## kuryr: 7 repos 
@@ -664,6 +1246,18 @@
 | openstack/kuryr-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/kuryr-tempest-plugin/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/fuxi
+git clone git://git.openstack.org/openstack/fuxi-golang
+git clone git://git.openstack.org/openstack/fuxi-kubernetes
+git clone git://git.openstack.org/openstack/kuryr
+git clone git://git.openstack.org/openstack/kuryr-kubernetes
+git clone git://git.openstack.org/openstack/kuryr-libnetwork
+git clone git://git.openstack.org/openstack/kuryr-tempest-plugin
+
+~~~
+
 
 ## loci: 1 repos 
 
@@ -671,6 +1265,12 @@
 | ----------------------- | ---------- |
 | openstack/loci  | [summary](https://git.openstack.org/cgit/openstack/loci/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/loci
+
+~~~
 
 
 ## magnum: 5 repos 
@@ -683,6 +1283,16 @@
 | openstack/magnum-ui  | [summary](https://git.openstack.org/cgit/openstack/magnum-ui/summary) |
 | openstack/python-magnumclient  | [summary](https://git.openstack.org/cgit/openstack/python-magnumclient/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/magnum
+git clone git://git.openstack.org/openstack/magnum-specs
+git clone git://git.openstack.org/openstack/magnum-tempest-plugin
+git clone git://git.openstack.org/openstack/magnum-ui
+git clone git://git.openstack.org/openstack/python-magnumclient
+
+~~~
 
 
 ## manila: 7 repos 
@@ -698,6 +1308,18 @@
 | openstack/python-manilaclient  | [summary](https://git.openstack.org/cgit/openstack/python-manilaclient/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/manila
+git clone git://git.openstack.org/openstack/manila-image-elements
+git clone git://git.openstack.org/openstack/manila-specs
+git clone git://git.openstack.org/openstack/manila-tempest-plugin
+git clone git://git.openstack.org/openstack/manila-test-image
+git clone git://git.openstack.org/openstack/manila-ui
+git clone git://git.openstack.org/openstack/python-manilaclient
+
+~~~
+
 
 ## masakari: 5 repos 
 
@@ -709,6 +1331,16 @@
 | openstack/masakari-specs  | [summary](https://git.openstack.org/cgit/openstack/masakari-specs/summary) |
 | openstack/python-masakariclient  | [summary](https://git.openstack.org/cgit/openstack/python-masakariclient/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/masakari
+git clone git://git.openstack.org/openstack/masakari-dashboard
+git clone git://git.openstack.org/openstack/masakari-monitors
+git clone git://git.openstack.org/openstack/masakari-specs
+git clone git://git.openstack.org/openstack/python-masakariclient
+
+~~~
 
 
 ## mistral: 7 repos 
@@ -723,6 +1355,18 @@
 | openstack/mistral-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/mistral-tempest-plugin/summary) |
 | openstack/python-mistralclient  | [summary](https://git.openstack.org/cgit/openstack/python-mistralclient/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/mistral
+git clone git://git.openstack.org/openstack/mistral-dashboard
+git clone git://git.openstack.org/openstack/mistral-extra
+git clone git://git.openstack.org/openstack/mistral-lib
+git clone git://git.openstack.org/openstack/mistral-specs
+git clone git://git.openstack.org/openstack/mistral-tempest-plugin
+git clone git://git.openstack.org/openstack/python-mistralclient
+
+~~~
 
 
 ## monasca: 18 repos 
@@ -749,6 +1393,29 @@
 | openstack/python-monascaclient  | [summary](https://git.openstack.org/cgit/openstack/python-monascaclient/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/monasca-agent
+git clone git://git.openstack.org/openstack/monasca-analytics
+git clone git://git.openstack.org/openstack/monasca-api
+git clone git://git.openstack.org/openstack/monasca-ceilometer
+git clone git://git.openstack.org/openstack/monasca-common
+git clone git://git.openstack.org/openstack/monasca-events-api
+git clone git://git.openstack.org/openstack/monasca-grafana-datasource
+git clone git://git.openstack.org/openstack/monasca-kibana-plugin
+git clone git://git.openstack.org/openstack/monasca-log-api
+git clone git://git.openstack.org/openstack/monasca-notification
+git clone git://git.openstack.org/openstack/monasca-persister
+git clone git://git.openstack.org/openstack/monasca-specs
+git clone git://git.openstack.org/openstack/monasca-statsd
+git clone git://git.openstack.org/openstack/monasca-tempest-plugin
+git clone git://git.openstack.org/openstack/monasca-thresh
+git clone git://git.openstack.org/openstack/monasca-transform
+git clone git://git.openstack.org/openstack/monasca-ui
+git clone git://git.openstack.org/openstack/python-monascaclient
+
+~~~
+
 
 ## murano: 10 repos 
 
@@ -765,6 +1432,21 @@
 | openstack/python-muranoclient  | [summary](https://git.openstack.org/cgit/openstack/python-muranoclient/summary) |
 | openstack/yaql  | [summary](https://git.openstack.org/cgit/openstack/yaql/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/murano
+git clone git://git.openstack.org/openstack/murano-agent
+git clone git://git.openstack.org/openstack/murano-apps
+git clone git://git.openstack.org/openstack/murano-dashboard
+git clone git://git.openstack.org/openstack/murano-deployment
+git clone git://git.openstack.org/openstack/murano-pkg-check
+git clone git://git.openstack.org/openstack/murano-specs
+git clone git://git.openstack.org/openstack/murano-tempest-plugin
+git clone git://git.openstack.org/openstack/python-muranoclient
+git clone git://git.openstack.org/openstack/yaql
+
+~~~
 
 
 ## neutron: 17 repos 
@@ -790,6 +1472,28 @@
 | openstack/python-neutronclient  | [summary](https://git.openstack.org/cgit/openstack/python-neutronclient/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/networking-bagpipe
+git clone git://git.openstack.org/openstack/networking-bgpvpn
+git clone git://git.openstack.org/openstack/networking-midonet
+git clone git://git.openstack.org/openstack/networking-odl
+git clone git://git.openstack.org/openstack/networking-ovn
+git clone git://git.openstack.org/openstack/networking-sfc
+git clone git://git.openstack.org/openstack/neutron
+git clone git://git.openstack.org/openstack/neutron-dynamic-routing
+git clone git://git.openstack.org/openstack/neutron-fwaas
+git clone git://git.openstack.org/openstack/neutron-fwaas-dashboard
+git clone git://git.openstack.org/openstack/neutron-lib
+git clone git://git.openstack.org/openstack/neutron-specs
+git clone git://git.openstack.org/openstack/neutron-tempest-plugin
+git clone git://git.openstack.org/openstack/neutron-vpnaas
+git clone git://git.openstack.org/openstack/neutron-vpnaas-dashboard
+git clone git://git.openstack.org/openstack/ovsdbapp
+git clone git://git.openstack.org/openstack/python-neutronclient
+
+~~~
+
 
 ## nova: 6 repos 
 
@@ -803,6 +1507,17 @@
 | openstack/python-novaclient  | [summary](https://git.openstack.org/cgit/openstack/python-novaclient/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/nova
+git clone git://git.openstack.org/openstack/nova-specs
+git clone git://git.openstack.org/openstack/os-traits
+git clone git://git.openstack.org/openstack/os-vif
+git clone git://git.openstack.org/openstack/osc-placement
+git clone git://git.openstack.org/openstack/python-novaclient
+
+~~~
+
 
 ## octavia: 6 repos 
 
@@ -815,6 +1530,17 @@
 | openstack/octavia-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/octavia-tempest-plugin/summary) |
 | openstack/python-octaviaclient  | [summary](https://git.openstack.org/cgit/openstack/python-octaviaclient/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/neutron-lbaas
+git clone git://git.openstack.org/openstack/neutron-lbaas-dashboard
+git clone git://git.openstack.org/openstack/octavia
+git clone git://git.openstack.org/openstack/octavia-dashboard
+git clone git://git.openstack.org/openstack/octavia-tempest-plugin
+git clone git://git.openstack.org/openstack/python-octaviaclient
+
+~~~
 
 
 ## oslo: 37 repos 
@@ -860,6 +1586,48 @@
 | openstack/tooz  | [summary](https://git.openstack.org/cgit/openstack/tooz/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/automaton
+git clone git://git.openstack.org/openstack/castellan
+git clone git://git.openstack.org/openstack/debtcollector
+git clone git://git.openstack.org/openstack/devstack-plugin-amqp1
+git clone git://git.openstack.org/openstack/devstack-plugin-kafka
+git clone git://git.openstack.org/openstack/devstack-plugin-pika
+git clone git://git.openstack.org/openstack/devstack-plugin-zmq
+git clone git://git.openstack.org/openstack/futurist
+git clone git://git.openstack.org/openstack/mox3
+git clone git://git.openstack.org/openstack/oslo-specs
+git clone git://git.openstack.org/openstack/oslo.cache
+git clone git://git.openstack.org/openstack/oslo.concurrency
+git clone git://git.openstack.org/openstack/oslo.config
+git clone git://git.openstack.org/openstack/oslo.context
+git clone git://git.openstack.org/openstack/oslo.db
+git clone git://git.openstack.org/openstack/oslo.i18n
+git clone git://git.openstack.org/openstack/oslo.limit
+git clone git://git.openstack.org/openstack/oslo.log
+git clone git://git.openstack.org/openstack/oslo.messaging
+git clone git://git.openstack.org/openstack/oslo.middleware
+git clone git://git.openstack.org/openstack/oslo.policy
+git clone git://git.openstack.org/openstack/oslo.privsep
+git clone git://git.openstack.org/openstack/oslo.reports
+git clone git://git.openstack.org/openstack/oslo.rootwrap
+git clone git://git.openstack.org/openstack/oslo.serialization
+git clone git://git.openstack.org/openstack/oslo.service
+git clone git://git.openstack.org/openstack/oslo.tools
+git clone git://git.openstack.org/openstack/oslo.utils
+git clone git://git.openstack.org/openstack/oslo.versionedobjects
+git clone git://git.openstack.org/openstack/oslo.vmware
+git clone git://git.openstack.org/openstack/oslosphinx
+git clone git://git.openstack.org/openstack/oslotest
+git clone git://git.openstack.org/openstack/osprofiler
+git clone git://git.openstack.org/openstack/sphinx-feature-classification
+git clone git://git.openstack.org/openstack/stevedore
+git clone git://git.openstack.org/openstack/taskflow
+git clone git://git.openstack.org/openstack/tooz
+
+~~~
+
 
 ## qinling: 2 repos 
 
@@ -868,6 +1636,13 @@
 | openstack/python-qinlingclient  | [summary](https://git.openstack.org/cgit/openstack/python-qinlingclient/summary) |
 | openstack/qinling  | [summary](https://git.openstack.org/cgit/openstack/qinling/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/python-qinlingclient
+git clone git://git.openstack.org/openstack/qinling
+
+~~~
 
 
 ## rally: 3 repos 
@@ -879,6 +1654,14 @@
 | openstack/rally-openstack  | [summary](https://git.openstack.org/cgit/openstack/rally-openstack/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/performance-docs
+git clone git://git.openstack.org/openstack/rally
+git clone git://git.openstack.org/openstack/rally-openstack
+
+~~~
+
 
 ## requirements: 1 repos 
 
@@ -886,6 +1669,12 @@
 | ----------------------- | ---------- |
 | openstack/requirements  | [summary](https://git.openstack.org/cgit/openstack/requirements/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/requirements
+
+~~~
 
 
 ## sahara: 7 repos 
@@ -901,6 +1690,18 @@
 | openstack/sahara-tests  | [summary](https://git.openstack.org/cgit/openstack/sahara-tests/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/python-saharaclient
+git clone git://git.openstack.org/openstack/sahara
+git clone git://git.openstack.org/openstack/sahara-dashboard
+git clone git://git.openstack.org/openstack/sahara-extra
+git clone git://git.openstack.org/openstack/sahara-image-elements
+git clone git://git.openstack.org/openstack/sahara-specs
+git clone git://git.openstack.org/openstack/sahara-tests
+
+~~~
+
 
 ## searchlight: 4 repos 
 
@@ -912,6 +1713,15 @@
 | openstack/searchlight-ui  | [summary](https://git.openstack.org/cgit/openstack/searchlight-ui/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/python-searchlightclient
+git clone git://git.openstack.org/openstack/searchlight
+git clone git://git.openstack.org/openstack/searchlight-specs
+git clone git://git.openstack.org/openstack/searchlight-ui
+
+~~~
+
 
 ## senlin: 4 repos 
 
@@ -922,6 +1732,15 @@
 | openstack/senlin-dashboard  | [summary](https://git.openstack.org/cgit/openstack/senlin-dashboard/summary) |
 | openstack/senlin-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/senlin-tempest-plugin/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/python-senlinclient
+git clone git://git.openstack.org/openstack/senlin
+git clone git://git.openstack.org/openstack/senlin-dashboard
+git clone git://git.openstack.org/openstack/senlin-tempest-plugin
+
+~~~
 
 
 ## solum: 5 repos 
@@ -935,6 +1754,16 @@
 | openstack/solum-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/solum-tempest-plugin/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/python-solumclient
+git clone git://git.openstack.org/openstack/solum
+git clone git://git.openstack.org/openstack/solum-dashboard
+git clone git://git.openstack.org/openstack/solum-specs
+git clone git://git.openstack.org/openstack/solum-tempest-plugin
+
+~~~
+
 
 ## storlets: 1 repos 
 
@@ -942,6 +1771,12 @@
 | ----------------------- | ---------- |
 | openstack/storlets  | [summary](https://git.openstack.org/cgit/openstack/storlets/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/storlets
+
+~~~
 
 
 ## swift: 4 repos 
@@ -954,6 +1789,15 @@
 | openstack/swift-specs  | [summary](https://git.openstack.org/cgit/openstack/swift-specs/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/python-swiftclient
+git clone git://git.openstack.org/openstack/swift
+git clone git://git.openstack.org/openstack/swift-bench
+git clone git://git.openstack.org/openstack/swift-specs
+
+~~~
+
 
 ## tacker: 4 repos 
 
@@ -965,6 +1809,15 @@
 | openstack/tacker-specs  | [summary](https://git.openstack.org/cgit/openstack/tacker-specs/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/python-tackerclient
+git clone git://git.openstack.org/openstack/tacker
+git clone git://git.openstack.org/openstack/tacker-horizon
+git clone git://git.openstack.org/openstack/tacker-specs
+
+~~~
+
 
 ## tricircle: 2 repos 
 
@@ -973,6 +1826,13 @@
 | openstack/python-tricircleclient  | [summary](https://git.openstack.org/cgit/openstack/python-tricircleclient/summary) |
 | openstack/tricircle  | [summary](https://git.openstack.org/cgit/openstack/tricircle/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/python-tricircleclient
+git clone git://git.openstack.org/openstack/tricircle
+
+~~~
 
 
 ## tripleo: 38 repos 
@@ -1019,6 +1879,49 @@
 | openstack/tripleo-validations  | [summary](https://git.openstack.org/cgit/openstack/tripleo-validations/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/ansible-role-container-registry
+git clone git://git.openstack.org/openstack/ansible-role-k8s-cinder
+git clone git://git.openstack.org/openstack/ansible-role-k8s-cookiecutter
+git clone git://git.openstack.org/openstack/ansible-role-k8s-glance
+git clone git://git.openstack.org/openstack/ansible-role-k8s-keystone
+git clone git://git.openstack.org/openstack/ansible-role-k8s-mariadb
+git clone git://git.openstack.org/openstack/ansible-role-k8s-rabbitmq
+git clone git://git.openstack.org/openstack/ansible-role-k8s-tripleo
+git clone git://git.openstack.org/openstack/ansible-role-redhat-subscription
+git clone git://git.openstack.org/openstack/ansible-role-tripleo-keystone
+git clone git://git.openstack.org/openstack/ansible-role-tripleo-modify-image
+git clone git://git.openstack.org/openstack/dib-utils
+git clone git://git.openstack.org/openstack/instack
+git clone git://git.openstack.org/openstack/instack-undercloud
+git clone git://git.openstack.org/openstack/os-apply-config
+git clone git://git.openstack.org/openstack/os-collect-config
+git clone git://git.openstack.org/openstack/os-net-config
+git clone git://git.openstack.org/openstack/os-refresh-config
+git clone git://git.openstack.org/openstack/paunch
+git clone git://git.openstack.org/openstack/puppet-pacemaker
+git clone git://git.openstack.org/openstack/puppet-tripleo
+git clone git://git.openstack.org/openstack/python-tripleoclient
+git clone git://git.openstack.org/openstack/tempest-tripleo-ui
+git clone git://git.openstack.org/openstack/tripleo-common
+git clone git://git.openstack.org/openstack/tripleo-common-tempest-plugin
+git clone git://git.openstack.org/openstack/tripleo-docs
+git clone git://git.openstack.org/openstack/tripleo-ha-utils
+git clone git://git.openstack.org/openstack/tripleo-heat-templates
+git clone git://git.openstack.org/openstack/tripleo-image-elements
+git clone git://git.openstack.org/openstack/tripleo-ipsec
+git clone git://git.openstack.org/openstack/tripleo-puppet-elements
+git clone git://git.openstack.org/openstack/tripleo-quickstart
+git clone git://git.openstack.org/openstack/tripleo-quickstart-extras
+git clone git://git.openstack.org/openstack/tripleo-repos
+git clone git://git.openstack.org/openstack/tripleo-specs
+git clone git://git.openstack.org/openstack/tripleo-ui
+git clone git://git.openstack.org/openstack/tripleo-upgrade
+git clone git://git.openstack.org/openstack/tripleo-validations
+
+~~~
+
 
 ## trove: 5 repos 
 
@@ -1030,6 +1933,16 @@
 | openstack/trove-specs  | [summary](https://git.openstack.org/cgit/openstack/trove-specs/summary) |
 | openstack/trove-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/trove-tempest-plugin/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/python-troveclient
+git clone git://git.openstack.org/openstack/trove
+git clone git://git.openstack.org/openstack/trove-dashboard
+git clone git://git.openstack.org/openstack/trove-specs
+git clone git://git.openstack.org/openstack/trove-tempest-plugin
+
+~~~
 
 
 ## vitrage: 5 repos 
@@ -1043,6 +1956,16 @@
 | openstack/vitrage-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/vitrage-tempest-plugin/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/python-vitrageclient
+git clone git://git.openstack.org/openstack/vitrage
+git clone git://git.openstack.org/openstack/vitrage-dashboard
+git clone git://git.openstack.org/openstack/vitrage-specs
+git clone git://git.openstack.org/openstack/vitrage-tempest-plugin
+
+~~~
+
 
 ## watcher: 5 repos 
 
@@ -1055,6 +1978,16 @@
 | openstack/watcher-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/watcher-tempest-plugin/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/python-watcherclient
+git clone git://git.openstack.org/openstack/watcher
+git clone git://git.openstack.org/openstack/watcher-dashboard
+git clone git://git.openstack.org/openstack/watcher-specs
+git clone git://git.openstack.org/openstack/watcher-tempest-plugin
+
+~~~
+
 
 ## winstackers: 3 repos 
 
@@ -1064,6 +1997,14 @@
 | openstack/os-win  | [summary](https://git.openstack.org/cgit/openstack/os-win/summary) |
 | openstack/oswin-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/oswin-tempest-plugin/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/networking-hyperv
+git clone git://git.openstack.org/openstack/os-win
+git clone git://git.openstack.org/openstack/oswin-tempest-plugin
+
+~~~
 
 
 ## zaqar: 5 repos 
@@ -1077,6 +2018,16 @@
 | openstack/zaqar-ui  | [summary](https://git.openstack.org/cgit/openstack/zaqar-ui/summary) |
 
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/python-zaqarclient
+git clone git://git.openstack.org/openstack/zaqar
+git clone git://git.openstack.org/openstack/zaqar-specs
+git clone git://git.openstack.org/openstack/zaqar-tempest-plugin
+git clone git://git.openstack.org/openstack/zaqar-ui
+
+~~~
+
 
 ## zun: 4 repos 
 
@@ -1087,6 +2038,15 @@
 | openstack/zun-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/zun-tempest-plugin/summary) |
 | openstack/zun-ui  | [summary](https://git.openstack.org/cgit/openstack/zun-ui/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/python-zunclient
+git clone git://git.openstack.org/openstack/zun
+git clone git://git.openstack.org/openstack/zun-tempest-plugin
+git clone git://git.openstack.org/openstack/zun-ui
+
+~~~
 
 
 ## Unknown: 1029 repos 
@@ -2123,4 +3083,1038 @@
 | openstack/xstatic-jquery.bootstrap.wizard  | [summary](https://git.openstack.org/cgit/openstack/xstatic-jquery.bootstrap.wizard/summary) |
 | openstack/xstatic-qunit  | [summary](https://git.openstack.org/cgit/openstack/xstatic-qunit/summary) |
 
+
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/adjutant
+git clone git://git.openstack.org/openstack/adjutant-ui
+git clone git://git.openstack.org/openstack/aeromancer
+git clone git://git.openstack.org/openstack/ailuropoda
+git clone git://git.openstack.org/openstack/airship-armada
+git clone git://git.openstack.org/openstack/airship-berth
+git clone git://git.openstack.org/openstack/airship-deckhand
+git clone git://git.openstack.org/openstack/airship-divingbell
+git clone git://git.openstack.org/openstack/airship-drydock
+git clone git://git.openstack.org/openstack/airship-in-a-bottle
+git clone git://git.openstack.org/openstack/airship-maas
+git clone git://git.openstack.org/openstack/airship-pegleg
+git clone git://git.openstack.org/openstack/airship-promenade
+git clone git://git.openstack.org/openstack/airship-shipyard
+git clone git://git.openstack.org/openstack/alexandria
+git clone git://git.openstack.org/openstack/almanach
+git clone git://git.openstack.org/openstack/ansible-role-ara
+git clone git://git.openstack.org/openstack/ansible-role-bindep
+git clone git://git.openstack.org/openstack/ansible-role-carbon
+git clone git://git.openstack.org/openstack/ansible-role-cloud-launcher
+git clone git://git.openstack.org/openstack/ansible-role-diskimage-builder
+git clone git://git.openstack.org/openstack/ansible-role-fedmsg
+git clone git://git.openstack.org/openstack/ansible-role-gearman
+git clone git://git.openstack.org/openstack/ansible-role-grafyaml
+git clone git://git.openstack.org/openstack/ansible-role-jenkins
+git clone git://git.openstack.org/openstack/ansible-role-jenkins-job-builder
+git clone git://git.openstack.org/openstack/ansible-role-jenkins-plugins
+git clone git://git.openstack.org/openstack/ansible-role-logrotate
+git clone git://git.openstack.org/openstack/ansible-role-nginx
+git clone git://git.openstack.org/openstack/ansible-role-nodepool
+git clone git://git.openstack.org/openstack/ansible-role-openstacksdk
+git clone git://git.openstack.org/openstack/ansible-role-shade
+git clone git://git.openstack.org/openstack/ansible-role-ssh
+git clone git://git.openstack.org/openstack/ansible-role-statsd
+git clone git://git.openstack.org/openstack/ansible-role-sudoers
+git clone git://git.openstack.org/openstack/ansible-role-virtualenv
+git clone git://git.openstack.org/openstack/ansible-role-whisper
+git clone git://git.openstack.org/openstack/ansible-role-zookeeper
+git clone git://git.openstack.org/openstack/ansible-role-zuul
+git clone git://git.openstack.org/openstack/anvil
+git clone git://git.openstack.org/openstack/api-site
+git clone git://git.openstack.org/openstack/api-wg
+git clone git://git.openstack.org/openstack/apmec
+git clone git://git.openstack.org/openstack/apmec-horizon
+git clone git://git.openstack.org/openstack/app-catalog
+git clone git://git.openstack.org/openstack/app-catalog-common
+git clone git://git.openstack.org/openstack/app-catalog-ui
+git clone git://git.openstack.org/openstack/ara
+git clone git://git.openstack.org/openstack/ara-clients
+git clone git://git.openstack.org/openstack/ara-plugins
+git clone git://git.openstack.org/openstack/ara-server
+git clone git://git.openstack.org/openstack/ara-web
+git clone git://git.openstack.org/openstack/arch-wg
+git clone git://git.openstack.org/openstack/astara
+git clone git://git.openstack.org/openstack/astara-appliance
+git clone git://git.openstack.org/openstack/astara-horizon
+git clone git://git.openstack.org/openstack/astara-neutron
+git clone git://git.openstack.org/openstack/bandit
+git clone git://git.openstack.org/openstack/bansho
+git clone git://git.openstack.org/openstack/bareon
+git clone git://git.openstack.org/openstack/bareon-allocator
+git clone git://git.openstack.org/openstack/bareon-api
+git clone git://git.openstack.org/openstack/bareon-image-elements
+git clone git://git.openstack.org/openstack/bareon-ironic
+git clone git://git.openstack.org/openstack/bareon-specs
+git clone git://git.openstack.org/openstack/bilean
+git clone git://git.openstack.org/openstack/boartty
+git clone git://git.openstack.org/openstack/broadview-collector
+git clone git://git.openstack.org/openstack/broadview-lib
+git clone git://git.openstack.org/openstack/broadview-ui
+git clone git://git.openstack.org/openstack/browbeat
+git clone git://git.openstack.org/openstack/cathead
+git clone git://git.openstack.org/openstack/ceilometer-zvm
+git clone git://git.openstack.org/openstack/cerberus
+git clone git://git.openstack.org/openstack/cerberus-dashboard
+git clone git://git.openstack.org/openstack/certbot-dns-openstack
+git clone git://git.openstack.org/openstack/charm-6wind-virtual-accelerator
+git clone git://git.openstack.org/openstack/charm-interface-barbican-hsm
+git clone git://git.openstack.org/openstack/charm-neutron-api-plumgrid
+git clone git://git.openstack.org/openstack/charm-plumgrid-director
+git clone git://git.openstack.org/openstack/charm-plumgrid-edge
+git clone git://git.openstack.org/openstack/charm-plumgrid-gateway
+git clone git://git.openstack.org/openstack/charm-vault
+git clone git://git.openstack.org/openstack/ci-cd-pipeline-app-murano
+git clone git://git.openstack.org/openstack/cinder-fusioncompute
+git clone git://git.openstack.org/openstack/cisco-ironic-contrib
+git clone git://git.openstack.org/openstack/cl-openstack-client
+git clone git://git.openstack.org/openstack/cloud-init
+git clone git://git.openstack.org/openstack/cloudbase-init
+git clone git://git.openstack.org/openstack/cloudcafe
+git clone git://git.openstack.org/openstack/clouddocs-maven-plugin
+git clone git://git.openstack.org/openstack/cloudpulse
+git clone git://git.openstack.org/openstack/cloudroast
+git clone git://git.openstack.org/openstack/cloudv-ostf-adapter
+git clone git://git.openstack.org/openstack/cognitive
+git clone git://git.openstack.org/openstack/collectd-openstack-plugins
+git clone git://git.openstack.org/openstack/compass-adapters
+git clone git://git.openstack.org/openstack/compass-core
+git clone git://git.openstack.org/openstack/compass-install
+git clone git://git.openstack.org/openstack/compass-specs
+git clone git://git.openstack.org/openstack/compass-web
+git clone git://git.openstack.org/openstack/compute-hyperv
+git clone git://git.openstack.org/openstack/conveyor
+git clone git://git.openstack.org/openstack/cookbook-openstack-bare-metal
+git clone git://git.openstack.org/openstack/cookbook-openstack-data-processing
+git clone git://git.openstack.org/openstack/cookbook-openstack-database
+git clone git://git.openstack.org/openstack/cookbook-openstack-object-storage
+git clone git://git.openstack.org/openstack/coreos-image-builder
+git clone git://git.openstack.org/openstack/coupler
+git clone git://git.openstack.org/openstack/craton
+git clone git://git.openstack.org/openstack/craton-dashboard
+git clone git://git.openstack.org/openstack/cue
+git clone git://git.openstack.org/openstack/cue-dashboard
+git clone git://git.openstack.org/openstack/cursive
+git clone git://git.openstack.org/openstack/daisycloud-core
+git clone git://git.openstack.org/openstack/dash-stack
+git clone git://git.openstack.org/openstack/deb-alembic
+git clone git://git.openstack.org/openstack/deb-aodh
+git clone git://git.openstack.org/openstack/deb-auto-backports
+git clone git://git.openstack.org/openstack/deb-bandit
+git clone git://git.openstack.org/openstack/deb-barbican
+git clone git://git.openstack.org/openstack/deb-ceilometer
+git clone git://git.openstack.org/openstack/deb-ceilometermiddleware
+git clone git://git.openstack.org/openstack/deb-cinder
+git clone git://git.openstack.org/openstack/deb-congress
+git clone git://git.openstack.org/openstack/deb-designate
+git clone git://git.openstack.org/openstack/deb-designate-dashboard
+git clone git://git.openstack.org/openstack/deb-fonts-materialdesignicons-webfont
+git clone git://git.openstack.org/openstack/deb-fonts-roboto-fontface
+git clone git://git.openstack.org/openstack/deb-git-review
+git clone git://git.openstack.org/openstack/deb-glance
+git clone git://git.openstack.org/openstack/deb-glare
+git clone git://git.openstack.org/openstack/deb-gnocchi
+git clone git://git.openstack.org/openstack/deb-heat
+git clone git://git.openstack.org/openstack/deb-heat-cfntools
+git clone git://git.openstack.org/openstack/deb-horizon
+git clone git://git.openstack.org/openstack/deb-ironic
+git clone git://git.openstack.org/openstack/deb-ironic-inspector
+git clone git://git.openstack.org/openstack/deb-ironic-ui
+git clone git://git.openstack.org/openstack/deb-kazoo
+git clone git://git.openstack.org/openstack/deb-keystone
+git clone git://git.openstack.org/openstack/deb-liberasurecode
+git clone git://git.openstack.org/openstack/deb-libisal
+git clone git://git.openstack.org/openstack/deb-magnum
+git clone git://git.openstack.org/openstack/deb-manila
+git clone git://git.openstack.org/openstack/deb-manila-ui
+git clone git://git.openstack.org/openstack/deb-migrate
+git clone git://git.openstack.org/openstack/deb-mistral
+git clone git://git.openstack.org/openstack/deb-msgpack-python
+git clone git://git.openstack.org/openstack/deb-murano
+git clone git://git.openstack.org/openstack/deb-murano-agent
+git clone git://git.openstack.org/openstack/deb-murano-dashboard
+git clone git://git.openstack.org/openstack/deb-networking-arista
+git clone git://git.openstack.org/openstack/deb-networking-cisco
+git clone git://git.openstack.org/openstack/deb-networking-hyperv
+git clone git://git.openstack.org/openstack/deb-networking-l2gw
+git clone git://git.openstack.org/openstack/deb-networking-midonet
+git clone git://git.openstack.org/openstack/deb-networking-mlnx
+git clone git://git.openstack.org/openstack/deb-networking-nec
+git clone git://git.openstack.org/openstack/deb-networking-odl
+git clone git://git.openstack.org/openstack/deb-networking-ovn
+git clone git://git.openstack.org/openstack/deb-neutron
+git clone git://git.openstack.org/openstack/deb-neutron-fwaas
+git clone git://git.openstack.org/openstack/deb-neutron-lbaas
+git clone git://git.openstack.org/openstack/deb-neutron-taas
+git clone git://git.openstack.org/openstack/deb-neutron-vpnaas
+git clone git://git.openstack.org/openstack/deb-nodepool
+git clone git://git.openstack.org/openstack/deb-nova
+git clone git://git.openstack.org/openstack/deb-novnc
+git clone git://git.openstack.org/openstack/deb-openstack-doc-tools
+git clone git://git.openstack.org/openstack/deb-openstack-meta-packages
+git clone git://git.openstack.org/openstack/deb-openstack-nose
+git clone git://git.openstack.org/openstack/deb-openstack-pkg-tools
+git clone git://git.openstack.org/openstack/deb-openstack-trove
+git clone git://git.openstack.org/openstack/deb-os-apply-config
+git clone git://git.openstack.org/openstack/deb-os-brick
+git clone git://git.openstack.org/openstack/deb-os-client-config
+git clone git://git.openstack.org/openstack/deb-os-cloud-config
+git clone git://git.openstack.org/openstack/deb-os-collect-config
+git clone git://git.openstack.org/openstack/deb-os-net-config
+git clone git://git.openstack.org/openstack/deb-os-refresh-config
+git clone git://git.openstack.org/openstack/deb-os-testr
+git clone git://git.openstack.org/openstack/deb-os-vif
+git clone git://git.openstack.org/openstack/deb-os-win
+git clone git://git.openstack.org/openstack/deb-oslo.cache
+git clone git://git.openstack.org/openstack/deb-oslo.concurrency
+git clone git://git.openstack.org/openstack/deb-oslo.config
+git clone git://git.openstack.org/openstack/deb-oslo.context
+git clone git://git.openstack.org/openstack/deb-oslo.db
+git clone git://git.openstack.org/openstack/deb-oslo.i18n
+git clone git://git.openstack.org/openstack/deb-oslo.log
+git clone git://git.openstack.org/openstack/deb-oslo.messaging
+git clone git://git.openstack.org/openstack/deb-oslo.middleware
+git clone git://git.openstack.org/openstack/deb-oslo.policy
+git clone git://git.openstack.org/openstack/deb-oslo.privsep
+git clone git://git.openstack.org/openstack/deb-oslo.reports
+git clone git://git.openstack.org/openstack/deb-oslo.rootwrap
+git clone git://git.openstack.org/openstack/deb-oslo.serialization
+git clone git://git.openstack.org/openstack/deb-oslo.service
+git clone git://git.openstack.org/openstack/deb-oslo.utils
+git clone git://git.openstack.org/openstack/deb-oslo.versionedobjects
+git clone git://git.openstack.org/openstack/deb-oslo.vmware
+git clone git://git.openstack.org/openstack/deb-oslosphinx
+git clone git://git.openstack.org/openstack/deb-oslotest
+git clone git://git.openstack.org/openstack/deb-python-aioeventlet
+git clone git://git.openstack.org/openstack/deb-python-aodhclient
+git clone git://git.openstack.org/openstack/deb-python-autobahn
+git clone git://git.openstack.org/openstack/deb-python-automaton
+git clone git://git.openstack.org/openstack/deb-python-barbicanclient
+git clone git://git.openstack.org/openstack/deb-python-bashate
+git clone git://git.openstack.org/openstack/deb-python-cassandra-driver
+git clone git://git.openstack.org/openstack/deb-python-castellan
+git clone git://git.openstack.org/openstack/deb-python-ceilometerclient
+git clone git://git.openstack.org/openstack/deb-python-ceilometermiddleware
+git clone git://git.openstack.org/openstack/deb-python-cinderclient
+git clone git://git.openstack.org/openstack/deb-python-cliff
+git clone git://git.openstack.org/openstack/deb-python-coffin
+git clone git://git.openstack.org/openstack/deb-python-colander
+git clone git://git.openstack.org/openstack/deb-python-concurrent.futures
+git clone git://git.openstack.org/openstack/deb-python-congressclient
+git clone git://git.openstack.org/openstack/deb-python-cotyledon
+git clone git://git.openstack.org/openstack/deb-python-couleur
+git clone git://git.openstack.org/openstack/deb-python-crank
+git clone git://git.openstack.org/openstack/deb-python-croniter
+git clone git://git.openstack.org/openstack/deb-python-csscompressor
+git clone git://git.openstack.org/openstack/deb-python-cursive
+git clone git://git.openstack.org/openstack/deb-python-daemonize
+git clone git://git.openstack.org/openstack/deb-python-dcos
+git clone git://git.openstack.org/openstack/deb-python-ddt
+git clone git://git.openstack.org/openstack/deb-python-debtcollector
+git clone git://git.openstack.org/openstack/deb-python-designateclient
+git clone git://git.openstack.org/openstack/deb-python-dib-utils
+git clone git://git.openstack.org/openstack/deb-python-diskimage-builder
+git clone git://git.openstack.org/openstack/deb-python-django-appconf
+git clone git://git.openstack.org/openstack/deb-python-django-babel
+git clone git://git.openstack.org/openstack/deb-python-django-bootstrap-form
+git clone git://git.openstack.org/openstack/deb-python-django-compressor
+git clone git://git.openstack.org/openstack/deb-python-django-discover-runner
+git clone git://git.openstack.org/openstack/deb-python-django-formtools
+git clone git://git.openstack.org/openstack/deb-python-django-openstack-auth
+git clone git://git.openstack.org/openstack/deb-python-django-overextends
+git clone git://git.openstack.org/openstack/deb-python-django-pyscss
+git clone git://git.openstack.org/openstack/deb-python-doc8
+git clone git://git.openstack.org/openstack/deb-python-dogpile.cache
+git clone git://git.openstack.org/openstack/deb-python-dogpile.core
+git clone git://git.openstack.org/openstack/deb-python-editor
+git clone git://git.openstack.org/openstack/deb-python-eventlet
+git clone git://git.openstack.org/openstack/deb-python-extras
+git clone git://git.openstack.org/openstack/deb-python-falcon
+git clone git://git.openstack.org/openstack/deb-python-fasteners
+git clone git://git.openstack.org/openstack/deb-python-fixtures
+git clone git://git.openstack.org/openstack/deb-python-frozendict
+git clone git://git.openstack.org/openstack/deb-python-fuelclient
+git clone git://git.openstack.org/openstack/deb-python-funcsigs
+git clone git://git.openstack.org/openstack/deb-python-functools32
+git clone git://git.openstack.org/openstack/deb-python-futurist
+git clone git://git.openstack.org/openstack/deb-python-gabbi
+git clone git://git.openstack.org/openstack/deb-python-glance-store
+git clone git://git.openstack.org/openstack/deb-python-glanceclient
+git clone git://git.openstack.org/openstack/deb-python-gnocchiclient
+git clone git://git.openstack.org/openstack/deb-python-greenio
+git clone git://git.openstack.org/openstack/deb-python-hacking
+git clone git://git.openstack.org/openstack/deb-python-happybase
+git clone git://git.openstack.org/openstack/deb-python-heatclient
+git clone git://git.openstack.org/openstack/deb-python-hplefthandclient
+git clone git://git.openstack.org/openstack/deb-python-httpretty
+git clone git://git.openstack.org/openstack/deb-python-ironic-inspector-client
+git clone git://git.openstack.org/openstack/deb-python-ironic-lib
+git clone git://git.openstack.org/openstack/deb-python-ironicclient
+git clone git://git.openstack.org/openstack/deb-python-jingo
+git clone git://git.openstack.org/openstack/deb-python-json-patch
+git clone git://git.openstack.org/openstack/deb-python-json-pointer
+git clone git://git.openstack.org/openstack/deb-python-jsonpath-rw
+git clone git://git.openstack.org/openstack/deb-python-jsonpath-rw-ext
+git clone git://git.openstack.org/openstack/deb-python-jsonrpclib
+git clone git://git.openstack.org/openstack/deb-python-jsonschema
+git clone git://git.openstack.org/openstack/deb-python-k8sclient
+git clone git://git.openstack.org/openstack/deb-python-kafka
+git clone git://git.openstack.org/openstack/deb-python-keystoneauth1
+git clone git://git.openstack.org/openstack/deb-python-keystoneclient
+git clone git://git.openstack.org/openstack/deb-python-keystonemiddleware
+git clone git://git.openstack.org/openstack/deb-python-kmip
+git clone git://git.openstack.org/openstack/deb-python-ldappool
+git clone git://git.openstack.org/openstack/deb-python-lesscpy
+git clone git://git.openstack.org/openstack/deb-python-linecache2
+git clone git://git.openstack.org/openstack/deb-python-magnumclient
+git clone git://git.openstack.org/openstack/deb-python-manilaclient
+git clone git://git.openstack.org/openstack/deb-python-memcache
+git clone git://git.openstack.org/openstack/deb-python-microversion-parse
+git clone git://git.openstack.org/openstack/deb-python-misaka
+git clone git://git.openstack.org/openstack/deb-python-mistralclient
+git clone git://git.openstack.org/openstack/deb-python-monascaclient
+git clone git://git.openstack.org/openstack/deb-python-monotonic
+git clone git://git.openstack.org/openstack/deb-python-mox3
+git clone git://git.openstack.org/openstack/deb-python-multi-key-dict
+git clone git://git.openstack.org/openstack/deb-python-muranoclient
+git clone git://git.openstack.org/openstack/deb-python-neutron-lib
+git clone git://git.openstack.org/openstack/deb-python-neutronclient
+git clone git://git.openstack.org/openstack/deb-python-nose-exclude
+git clone git://git.openstack.org/openstack/deb-python-nose-parameterized
+git clone git://git.openstack.org/openstack/deb-python-nose-timer
+git clone git://git.openstack.org/openstack/deb-python-nosehtmloutput
+git clone git://git.openstack.org/openstack/deb-python-novaclient
+git clone git://git.openstack.org/openstack/deb-python-oauth2client
+git clone git://git.openstack.org/openstack/deb-python-openstackclient
+git clone git://git.openstack.org/openstack/deb-python-openstackdocstheme
+git clone git://git.openstack.org/openstack/deb-python-openstacksdk
+git clone git://git.openstack.org/openstack/deb-python-os-api-ref
+git clone git://git.openstack.org/openstack/deb-python-os-apply-config
+git clone git://git.openstack.org/openstack/deb-python-os-brick
+git clone git://git.openstack.org/openstack/deb-python-os-client-config
+git clone git://git.openstack.org/openstack/deb-python-os-cloud-config
+git clone git://git.openstack.org/openstack/deb-python-os-collect-config
+git clone git://git.openstack.org/openstack/deb-python-os-net-config
+git clone git://git.openstack.org/openstack/deb-python-os-refresh-config
+git clone git://git.openstack.org/openstack/deb-python-os-testr
+git clone git://git.openstack.org/openstack/deb-python-os-vif
+git clone git://git.openstack.org/openstack/deb-python-os-win
+git clone git://git.openstack.org/openstack/deb-python-osc-lib
+git clone git://git.openstack.org/openstack/deb-python-oslo.cache
+git clone git://git.openstack.org/openstack/deb-python-oslo.concurrency
+git clone git://git.openstack.org/openstack/deb-python-oslo.config
+git clone git://git.openstack.org/openstack/deb-python-oslo.context
+git clone git://git.openstack.org/openstack/deb-python-oslo.db
+git clone git://git.openstack.org/openstack/deb-python-oslo.i18n
+git clone git://git.openstack.org/openstack/deb-python-oslo.log
+git clone git://git.openstack.org/openstack/deb-python-oslo.messaging
+git clone git://git.openstack.org/openstack/deb-python-oslo.middleware
+git clone git://git.openstack.org/openstack/deb-python-oslo.policy
+git clone git://git.openstack.org/openstack/deb-python-oslo.privsep
+git clone git://git.openstack.org/openstack/deb-python-oslo.reports
+git clone git://git.openstack.org/openstack/deb-python-oslo.rootwrap
+git clone git://git.openstack.org/openstack/deb-python-oslo.serialization
+git clone git://git.openstack.org/openstack/deb-python-oslo.service
+git clone git://git.openstack.org/openstack/deb-python-oslo.utils
+git clone git://git.openstack.org/openstack/deb-python-oslo.versionedobjects
+git clone git://git.openstack.org/openstack/deb-python-oslo.vmware
+git clone git://git.openstack.org/openstack/deb-python-oslotest
+git clone git://git.openstack.org/openstack/deb-python-osprofiler
+git clone git://git.openstack.org/openstack/deb-python-pager
+git clone git://git.openstack.org/openstack/deb-python-pbr
+git clone git://git.openstack.org/openstack/deb-python-pecan
+git clone git://git.openstack.org/openstack/deb-python-pika-pool
+git clone git://git.openstack.org/openstack/deb-python-pint
+git clone git://git.openstack.org/openstack/deb-python-positional
+git clone git://git.openstack.org/openstack/deb-python-proliantutils
+git clone git://git.openstack.org/openstack/deb-python-pulp
+git clone git://git.openstack.org/openstack/deb-python-pycadf
+git clone git://git.openstack.org/openstack/deb-python-pydot-ng
+git clone git://git.openstack.org/openstack/deb-python-pydotplus
+git clone git://git.openstack.org/openstack/deb-python-pyeclib
+git clone git://git.openstack.org/openstack/deb-python-pyghmi
+git clone git://git.openstack.org/openstack/deb-python-pygit2
+git clone git://git.openstack.org/openstack/deb-python-pykmip
+git clone git://git.openstack.org/openstack/deb-python-pyldap
+git clone git://git.openstack.org/openstack/deb-python-pymemcache
+git clone git://git.openstack.org/openstack/deb-python-pymysql
+git clone git://git.openstack.org/openstack/deb-python-pyngus
+git clone git://git.openstack.org/openstack/deb-python-pysaml2
+git clone git://git.openstack.org/openstack/deb-python-pytimeparse
+git clone git://git.openstack.org/openstack/deb-python-pyvmomi
+git clone git://git.openstack.org/openstack/deb-python-quantumclient
+git clone git://git.openstack.org/openstack/deb-python-rcssmin
+git clone git://git.openstack.org/openstack/deb-python-rednose
+git clone git://git.openstack.org/openstack/deb-python-reno
+git clone git://git.openstack.org/openstack/deb-python-requestbuilder
+git clone git://git.openstack.org/openstack/deb-python-requests-kerberos
+git clone git://git.openstack.org/openstack/deb-python-requests-mock
+git clone git://git.openstack.org/openstack/deb-python-requests-unixsocket
+git clone git://git.openstack.org/openstack/deb-python-requestsexceptions
+git clone git://git.openstack.org/openstack/deb-python-retrying
+git clone git://git.openstack.org/openstack/deb-python-rfc3986
+git clone git://git.openstack.org/openstack/deb-python-rjsmin
+git clone git://git.openstack.org/openstack/deb-python-rtslib-fb
+git clone git://git.openstack.org/openstack/deb-python-saharaclient
+git clone git://git.openstack.org/openstack/deb-python-savannaclient
+git clone git://git.openstack.org/openstack/deb-python-scciclient
+git clone git://git.openstack.org/openstack/deb-python-seamicroclient
+git clone git://git.openstack.org/openstack/deb-python-semantic-version
+git clone git://git.openstack.org/openstack/deb-python-semver
+git clone git://git.openstack.org/openstack/deb-python-senlinclient
+git clone git://git.openstack.org/openstack/deb-python-shotgun
+git clone git://git.openstack.org/openstack/deb-python-sqlalchemy-utils
+git clone git://git.openstack.org/openstack/deb-python-steadymark
+git clone git://git.openstack.org/openstack/deb-python-swiftclient
+git clone git://git.openstack.org/openstack/deb-python-tackerclient
+git clone git://git.openstack.org/openstack/deb-python-taskflow
+git clone git://git.openstack.org/openstack/deb-python-tempest-lib
+git clone git://git.openstack.org/openstack/deb-python-testtools
+git clone git://git.openstack.org/openstack/deb-python-toml
+git clone git://git.openstack.org/openstack/deb-python-tooz
+git clone git://git.openstack.org/openstack/deb-python-tosca-parser
+git clone git://git.openstack.org/openstack/deb-python-traceback2
+git clone git://git.openstack.org/openstack/deb-python-trollius
+git clone git://git.openstack.org/openstack/deb-python-troveclient
+git clone git://git.openstack.org/openstack/deb-python-tuskarclient
+git clone git://git.openstack.org/openstack/deb-python-txaio
+git clone git://git.openstack.org/openstack/deb-python-warlock
+git clone git://git.openstack.org/openstack/deb-python-watcherclient
+git clone git://git.openstack.org/openstack/deb-python-weakrefmethod
+git clone git://git.openstack.org/openstack/deb-python-websocket-client
+git clone git://git.openstack.org/openstack/deb-python-wrapt
+git clone git://git.openstack.org/openstack/deb-python-wsgi-intercept
+git clone git://git.openstack.org/openstack/deb-python-wsme
+git clone git://git.openstack.org/openstack/deb-python-xstatic
+git clone git://git.openstack.org/openstack/deb-python-xstatic-angular
+git clone git://git.openstack.org/openstack/deb-python-xstatic-angular-bootstrap
+git clone git://git.openstack.org/openstack/deb-python-xstatic-angular-cookies
+git clone git://git.openstack.org/openstack/deb-python-xstatic-angular-fileupload
+git clone git://git.openstack.org/openstack/deb-python-xstatic-angular-gettext
+git clone git://git.openstack.org/openstack/deb-python-xstatic-angular-lrdragndrop
+git clone git://git.openstack.org/openstack/deb-python-xstatic-angular-mock
+git clone git://git.openstack.org/openstack/deb-python-xstatic-angular-schema-form
+git clone git://git.openstack.org/openstack/deb-python-xstatic-bootstrap-datepicker
+git clone git://git.openstack.org/openstack/deb-python-xstatic-bootstrap-scss
+git clone git://git.openstack.org/openstack/deb-python-xstatic-bootswatch
+git clone git://git.openstack.org/openstack/deb-python-xstatic-d3
+git clone git://git.openstack.org/openstack/deb-python-xstatic-font-awesome
+git clone git://git.openstack.org/openstack/deb-python-xstatic-hogan
+git clone git://git.openstack.org/openstack/deb-python-xstatic-jasmine
+git clone git://git.openstack.org/openstack/deb-python-xstatic-jquery
+git clone git://git.openstack.org/openstack/deb-python-xstatic-jquery-migrate
+git clone git://git.openstack.org/openstack/deb-python-xstatic-jquery-ui
+git clone git://git.openstack.org/openstack/deb-python-xstatic-jquery.bootstrap.wizard
+git clone git://git.openstack.org/openstack/deb-python-xstatic-jquery.quicksearch
+git clone git://git.openstack.org/openstack/deb-python-xstatic-jquery.tablesorter
+git clone git://git.openstack.org/openstack/deb-python-xstatic-jsencrypt
+git clone git://git.openstack.org/openstack/deb-python-xstatic-magic-search
+git clone git://git.openstack.org/openstack/deb-python-xstatic-mdi
+git clone git://git.openstack.org/openstack/deb-python-xstatic-objectpath
+git clone git://git.openstack.org/openstack/deb-python-xstatic-qunit
+git clone git://git.openstack.org/openstack/deb-python-xstatic-rickshaw
+git clone git://git.openstack.org/openstack/deb-python-xstatic-roboto-fontface
+git clone git://git.openstack.org/openstack/deb-python-xstatic-smart-table
+git clone git://git.openstack.org/openstack/deb-python-xstatic-spin
+git clone git://git.openstack.org/openstack/deb-python-xstatic-term.js
+git clone git://git.openstack.org/openstack/deb-python-xstatic-tv4
+git clone git://git.openstack.org/openstack/deb-python-xvfbwrapper
+git clone git://git.openstack.org/openstack/deb-python-yaql
+git clone git://git.openstack.org/openstack/deb-python-zaqarclient
+git clone git://git.openstack.org/openstack/deb-rally
+git clone git://git.openstack.org/openstack/deb-ryu
+git clone git://git.openstack.org/openstack/deb-sahara
+git clone git://git.openstack.org/openstack/deb-sahara-dashboard
+git clone git://git.openstack.org/openstack/deb-senlin
+git clone git://git.openstack.org/openstack/deb-senlin-dashboard
+git clone git://git.openstack.org/openstack/deb-spice-html5
+git clone git://git.openstack.org/openstack/deb-stevedore
+git clone git://git.openstack.org/openstack/deb-subunit
+git clone git://git.openstack.org/openstack/deb-swauth
+git clone git://git.openstack.org/openstack/deb-swift
+git clone git://git.openstack.org/openstack/deb-swift-bench
+git clone git://git.openstack.org/openstack/deb-swift-plugin-s3
+git clone git://git.openstack.org/openstack/deb-tempest
+git clone git://git.openstack.org/openstack/deb-testresources
+git clone git://git.openstack.org/openstack/deb-trove
+git clone git://git.openstack.org/openstack/deb-trove-dashboard
+git clone git://git.openstack.org/openstack/deb-watcher
+git clone git://git.openstack.org/openstack/deb-websockify
+git clone git://git.openstack.org/openstack/deb-zaqar
+git clone git://git.openstack.org/openstack/deb-zaqar-ui
+git clone git://git.openstack.org/openstack/delimiter
+git clone git://git.openstack.org/openstack/designate-msdnsagent
+git clone git://git.openstack.org/openstack/development-proposals
+git clone git://git.openstack.org/openstack/devstack-plugin-additional-pkg-repos
+git clone git://git.openstack.org/openstack/devstack-plugin-bdd
+git clone git://git.openstack.org/openstack/devstack-plugin-glusterfs
+git clone git://git.openstack.org/openstack/devstack-plugin-hdfs
+git clone git://git.openstack.org/openstack/devstack-plugin-libvirt-qemu
+git clone git://git.openstack.org/openstack/devstack-plugin-mariadb
+git clone git://git.openstack.org/openstack/devstack-plugin-nfs
+git clone git://git.openstack.org/openstack/devstack-plugin-sheepdog
+git clone git://git.openstack.org/openstack/devstack-plugin-tar-installer
+git clone git://git.openstack.org/openstack/devstack-plugin-vmax
+git clone git://git.openstack.org/openstack/distil
+git clone git://git.openstack.org/openstack/distil-ui
+git clone git://git.openstack.org/openstack/django-openstack-auth-kerberos
+git clone git://git.openstack.org/openstack/doc8
+git clone git://git.openstack.org/openstack/docker-machine-openstack
+git clone git://git.openstack.org/openstack/downpour
+git clone git://git.openstack.org/openstack/dox
+git clone git://git.openstack.org/openstack/drbd-devstack
+git clone git://git.openstack.org/openstack/driverlog
+git clone git://git.openstack.org/openstack/ec2-driver
+git clone git://git.openstack.org/openstack/ekko
+git clone git://git.openstack.org/openstack/election
+git clone git://git.openstack.org/openstack/enterprise-wg
+git clone git://git.openstack.org/openstack/entropy
+git clone git://git.openstack.org/openstack/evoque
+git clone git://git.openstack.org/openstack/evoque-dashboard
+git clone git://git.openstack.org/openstack/faafo
+git clone git://git.openstack.org/openstack/fairy-slipper
+git clone git://git.openstack.org/openstack/fixtures-git
+git clone git://git.openstack.org/openstack/flame
+git clone git://git.openstack.org/openstack/foxnut
+git clone git://git.openstack.org/openstack/fuel-agent
+git clone git://git.openstack.org/openstack/fuel-astute
+git clone git://git.openstack.org/openstack/fuel-ccp
+git clone git://git.openstack.org/openstack/fuel-ccp-ceph
+git clone git://git.openstack.org/openstack/fuel-ccp-ci-config
+git clone git://git.openstack.org/openstack/fuel-ccp-cinder
+git clone git://git.openstack.org/openstack/fuel-ccp-debian-base
+git clone git://git.openstack.org/openstack/fuel-ccp-designate
+git clone git://git.openstack.org/openstack/fuel-ccp-elasticsearch
+git clone git://git.openstack.org/openstack/fuel-ccp-entrypoint
+git clone git://git.openstack.org/openstack/fuel-ccp-etcd
+git clone git://git.openstack.org/openstack/fuel-ccp-galera
+git clone git://git.openstack.org/openstack/fuel-ccp-glance
+git clone git://git.openstack.org/openstack/fuel-ccp-grafana
+git clone git://git.openstack.org/openstack/fuel-ccp-heat
+git clone git://git.openstack.org/openstack/fuel-ccp-horizon
+git clone git://git.openstack.org/openstack/fuel-ccp-installer
+git clone git://git.openstack.org/openstack/fuel-ccp-ironic
+git clone git://git.openstack.org/openstack/fuel-ccp-keystone
+git clone git://git.openstack.org/openstack/fuel-ccp-mariadb
+git clone git://git.openstack.org/openstack/fuel-ccp-memcached
+git clone git://git.openstack.org/openstack/fuel-ccp-murano
+git clone git://git.openstack.org/openstack/fuel-ccp-neutron
+git clone git://git.openstack.org/openstack/fuel-ccp-nginx
+git clone git://git.openstack.org/openstack/fuel-ccp-nova
+git clone git://git.openstack.org/openstack/fuel-ccp-openstack-base
+git clone git://git.openstack.org/openstack/fuel-ccp-rabbitmq
+git clone git://git.openstack.org/openstack/fuel-ccp-rally
+git clone git://git.openstack.org/openstack/fuel-ccp-sahara
+git clone git://git.openstack.org/openstack/fuel-ccp-searchlight
+git clone git://git.openstack.org/openstack/fuel-ccp-specs
+git clone git://git.openstack.org/openstack/fuel-ccp-stacklight
+git clone git://git.openstack.org/openstack/fuel-ccp-tests
+git clone git://git.openstack.org/openstack/fuel-ccp-zmq
+git clone git://git.openstack.org/openstack/fuel-dev-tools
+git clone git://git.openstack.org/openstack/fuel-devops
+git clone git://git.openstack.org/openstack/fuel-docs
+git clone git://git.openstack.org/openstack/fuel-library
+git clone git://git.openstack.org/openstack/fuel-main
+git clone git://git.openstack.org/openstack/fuel-menu
+git clone git://git.openstack.org/openstack/fuel-mirror
+git clone git://git.openstack.org/openstack/fuel-nailgun-agent
+git clone git://git.openstack.org/openstack/fuel-nailgun-extension-cluster-upgrade
+git clone git://git.openstack.org/openstack/fuel-nailgun-extension-converted-serializers
+git clone git://git.openstack.org/openstack/fuel-nailgun-extension-iac
+git clone git://git.openstack.org/openstack/fuel-noop-fixtures
+git clone git://git.openstack.org/openstack/fuel-octane
+git clone git://git.openstack.org/openstack/fuel-ostf
+git clone git://git.openstack.org/openstack/fuel-plugin-6wind-virtual-accelerator
+git clone git://git.openstack.org/openstack/fuel-plugin-astara
+git clone git://git.openstack.org/openstack/fuel-plugin-availability-zones
+git clone git://git.openstack.org/openstack/fuel-plugin-bgpvpn
+git clone git://git.openstack.org/openstack/fuel-plugin-bigswitch
+git clone git://git.openstack.org/openstack/fuel-plugin-block-device
+git clone git://git.openstack.org/openstack/fuel-plugin-calamari
+git clone git://git.openstack.org/openstack/fuel-plugin-calico
+git clone git://git.openstack.org/openstack/fuel-plugin-ceilometer-redis
+git clone git://git.openstack.org/openstack/fuel-plugin-ceph-multibackend
+git clone git://git.openstack.org/openstack/fuel-plugin-ci
+git clone git://git.openstack.org/openstack/fuel-plugin-cinder-gcs
+git clone git://git.openstack.org/openstack/fuel-plugin-cinder-kaminario
+git clone git://git.openstack.org/openstack/fuel-plugin-cinder-netapp
+git clone git://git.openstack.org/openstack/fuel-plugin-cisco-aci
+git clone git://git.openstack.org/openstack/fuel-plugin-congress
+git clone git://git.openstack.org/openstack/fuel-plugin-contrail
+git clone git://git.openstack.org/openstack/fuel-plugin-datera-cinder
+git clone git://git.openstack.org/openstack/fuel-plugin-dbaas-trove
+git clone git://git.openstack.org/openstack/fuel-plugin-debug
+git clone git://git.openstack.org/openstack/fuel-plugin-designate
+git clone git://git.openstack.org/openstack/fuel-plugin-detach-database
+git clone git://git.openstack.org/openstack/fuel-plugin-detach-haproxy
+git clone git://git.openstack.org/openstack/fuel-plugin-detach-horizon
+git clone git://git.openstack.org/openstack/fuel-plugin-detach-keystone
+git clone git://git.openstack.org/openstack/fuel-plugin-detach-netnode
+git clone git://git.openstack.org/openstack/fuel-plugin-detach-rabbitmq
+git clone git://git.openstack.org/openstack/fuel-plugin-detach-swift
+git clone git://git.openstack.org/openstack/fuel-plugin-dns-updater
+git clone git://git.openstack.org/openstack/fuel-plugin-dynatrace
+git clone git://git.openstack.org/openstack/fuel-plugin-elasticsearch-kibana
+git clone git://git.openstack.org/openstack/fuel-plugin-emailnotifyd
+git clone git://git.openstack.org/openstack/fuel-plugin-external-emc
+git clone git://git.openstack.org/openstack/fuel-plugin-external-glusterfs
+git clone git://git.openstack.org/openstack/fuel-plugin-external-lb
+git clone git://git.openstack.org/openstack/fuel-plugin-external-zabbix
+git clone git://git.openstack.org/openstack/fuel-plugin-fortinet
+git clone git://git.openstack.org/openstack/fuel-plugin-glance-nfs
+git clone git://git.openstack.org/openstack/fuel-plugin-gluon
+git clone git://git.openstack.org/openstack/fuel-plugin-ha-fencing
+git clone git://git.openstack.org/openstack/fuel-plugin-hedvig-cinder
+git clone git://git.openstack.org/openstack/fuel-plugin-influxdb-grafana
+git clone git://git.openstack.org/openstack/fuel-plugin-inkscope
+git clone git://git.openstack.org/openstack/fuel-plugin-ironic
+git clone git://git.openstack.org/openstack/fuel-plugin-kafka
+git clone git://git.openstack.org/openstack/fuel-plugin-ldap
+git clone git://git.openstack.org/openstack/fuel-plugin-ldap-slaves
+git clone git://git.openstack.org/openstack/fuel-plugin-lma-collector
+git clone git://git.openstack.org/openstack/fuel-plugin-lma-infrastructure-alerting
+git clone git://git.openstack.org/openstack/fuel-plugin-manila
+git clone git://git.openstack.org/openstack/fuel-plugin-mellanox
+git clone git://git.openstack.org/openstack/fuel-plugin-midonet
+git clone git://git.openstack.org/openstack/fuel-plugin-mistral
+git clone git://git.openstack.org/openstack/fuel-plugin-murano
+git clone git://git.openstack.org/openstack/fuel-plugin-murano-networking-sfc
+git clone git://git.openstack.org/openstack/fuel-plugin-murano-tests
+git clone git://git.openstack.org/openstack/fuel-plugin-network-node
+git clone git://git.openstack.org/openstack/fuel-plugin-networking-sfc
+git clone git://git.openstack.org/openstack/fuel-plugin-neutron-fwaas
+git clone git://git.openstack.org/openstack/fuel-plugin-neutron-lbaas
+git clone git://git.openstack.org/openstack/fuel-plugin-neutron-vpnaas
+git clone git://git.openstack.org/openstack/fuel-plugin-nimblestorage-cinder
+git clone git://git.openstack.org/openstack/fuel-plugin-nitrous
+git clone git://git.openstack.org/openstack/fuel-plugin-nova-nfs
+git clone git://git.openstack.org/openstack/fuel-plugin-nsx-t
+git clone git://git.openstack.org/openstack/fuel-plugin-nsxv
+git clone git://git.openstack.org/openstack/fuel-plugin-nuage
+git clone git://git.openstack.org/openstack/fuel-plugin-onos
+git clone git://git.openstack.org/openstack/fuel-plugin-openbook
+git clone git://git.openstack.org/openstack/fuel-plugin-opendaylight
+git clone git://git.openstack.org/openstack/fuel-plugin-openstack-telemetry
+git clone git://git.openstack.org/openstack/fuel-plugin-ovs
+git clone git://git.openstack.org/openstack/fuel-plugin-plumgrid
+git clone git://git.openstack.org/openstack/fuel-plugin-purestorage-cinder
+git clone git://git.openstack.org/openstack/fuel-plugin-qemu
+git clone git://git.openstack.org/openstack/fuel-plugin-qlogic-sriov-vxlan
+git clone git://git.openstack.org/openstack/fuel-plugin-rally
+git clone git://git.openstack.org/openstack/fuel-plugin-saltstack
+git clone git://git.openstack.org/openstack/fuel-plugin-scaleio
+git clone git://git.openstack.org/openstack/fuel-plugin-scaleio-cinder
+git clone git://git.openstack.org/openstack/fuel-plugin-sensu
+git clone git://git.openstack.org/openstack/fuel-plugin-solidfire-cinder
+git clone git://git.openstack.org/openstack/fuel-plugin-swiftstack
+git clone git://git.openstack.org/openstack/fuel-plugin-tacker
+git clone git://git.openstack.org/openstack/fuel-plugin-tempest
+git clone git://git.openstack.org/openstack/fuel-plugin-tintri-cinder
+git clone git://git.openstack.org/openstack/fuel-plugin-tls
+git clone git://git.openstack.org/openstack/fuel-plugin-unity
+git clone git://git.openstack.org/openstack/fuel-plugin-vmware-dvs
+git clone git://git.openstack.org/openstack/fuel-plugin-vxlan
+git clone git://git.openstack.org/openstack/fuel-plugin-watcher
+git clone git://git.openstack.org/openstack/fuel-plugin-wstunnel
+git clone git://git.openstack.org/openstack/fuel-plugin-xenserver
+git clone git://git.openstack.org/openstack/fuel-plugin-zabbix-agents
+git clone git://git.openstack.org/openstack/fuel-plugin-zabbix-monitoring-emc
+git clone git://git.openstack.org/openstack/fuel-plugin-zabbix-monitoring-extreme-networks
+git clone git://git.openstack.org/openstack/fuel-plugin-zabbix-snmptrapd
+git clone git://git.openstack.org/openstack/fuel-plugins
+git clone git://git.openstack.org/openstack/fuel-qa
+git clone git://git.openstack.org/openstack/fuel-specs
+git clone git://git.openstack.org/openstack/fuel-stats
+git clone git://git.openstack.org/openstack/fuel-ui
+git clone git://git.openstack.org/openstack/fuel-upgrade
+git clone git://git.openstack.org/openstack/fuel-virtualbox
+git clone git://git.openstack.org/openstack/fuel-web
+git clone git://git.openstack.org/openstack/gantt
+git clone git://git.openstack.org/openstack/gce-api
+git clone git://git.openstack.org/openstack/gerrit-dash-creator
+git clone git://git.openstack.org/openstack/gertty
+git clone git://git.openstack.org/openstack/giftwrap
+git clone git://git.openstack.org/openstack/git-nit
+git clone git://git.openstack.org/openstack/git-repo-manifests
+git clone git://git.openstack.org/openstack/git-upstream
+git clone git://git.openstack.org/openstack/glare
+git clone git://git.openstack.org/openstack/glare-specs
+git clone git://git.openstack.org/openstack/gluon
+git clone git://git.openstack.org/openstack/gnocchi
+git clone git://git.openstack.org/openstack/goal-tools
+git clone git://git.openstack.org/openstack/golang-client
+git clone git://git.openstack.org/openstack/golang-commons
+git clone git://git.openstack.org/openstack/gos-brick
+git clone git://git.openstack.org/openstack/governance
+git clone git://git.openstack.org/openstack/governance-sigs
+git clone git://git.openstack.org/openstack/governance-uc
+git clone git://git.openstack.org/openstack/governance-website
+git clone git://git.openstack.org/openstack/group-based-policy
+git clone git://git.openstack.org/openstack/group-based-policy-automation
+git clone git://git.openstack.org/openstack/group-based-policy-specs
+git clone git://git.openstack.org/openstack/group-based-policy-ui
+git clone git://git.openstack.org/openstack/ha-guide
+git clone git://git.openstack.org/openstack/horizon-cisco-ui
+git clone git://git.openstack.org/openstack/horizon-mellanox
+git clone git://git.openstack.org/openstack/hurricane
+git clone git://git.openstack.org/openstack/inception
+git clone git://git.openstack.org/openstack/installguide-cookiecutter
+git clone git://git.openstack.org/openstack/intel-nfv-ci-tests
+git clone git://git.openstack.org/openstack/interop
+git clone git://git.openstack.org/openstack/interop-workloads
+git clone git://git.openstack.org/openstack/iotronic
+git clone git://git.openstack.org/openstack/iotronic-lightning-rod
+git clone git://git.openstack.org/openstack/iotronic-ui
+git clone git://git.openstack.org/openstack/ipa-example-hardware-managers
+git clone git://git.openstack.org/openstack/ironic-inspector-tempest-plugin
+git clone git://git.openstack.org/openstack/ironic-staging-drivers
+git clone git://git.openstack.org/openstack/ironic-webclient
+git clone git://git.openstack.org/openstack/jacket
+git clone git://git.openstack.org/openstack/jenkins-plugins-for-murano
+git clone git://git.openstack.org/openstack/k8s-cloud-provider
+git clone git://git.openstack.org/openstack/k8s-docker-suite-app-murano
+git clone git://git.openstack.org/openstack/kayobe
+git clone git://git.openstack.org/openstack/kayobe-config
+git clone git://git.openstack.org/openstack/keystoneauth-saml2
+git clone git://git.openstack.org/openstack/kiloeyes
+git clone git://git.openstack.org/openstack/kingbird
+git clone git://git.openstack.org/openstack/kingbird-dashboard
+git clone git://git.openstack.org/openstack/kite
+git clone git://git.openstack.org/openstack/kloudbuster
+git clone git://git.openstack.org/openstack/kolla-kubernetes
+git clone git://git.openstack.org/openstack/kolla-mesos
+git clone git://git.openstack.org/openstack/kosmos
+git clone git://git.openstack.org/openstack/kosmos-specs
+git clone git://git.openstack.org/openstack/kwapi
+git clone git://git.openstack.org/openstack/liberasurecode
+git clone git://git.openstack.org/openstack/loci-cinder
+git clone git://git.openstack.org/openstack/loci-designate
+git clone git://git.openstack.org/openstack/loci-glance
+git clone git://git.openstack.org/openstack/loci-heat
+git clone git://git.openstack.org/openstack/loci-horizon
+git clone git://git.openstack.org/openstack/loci-ironic
+git clone git://git.openstack.org/openstack/loci-keystone
+git clone git://git.openstack.org/openstack/loci-murano
+git clone git://git.openstack.org/openstack/loci-neutron
+git clone git://git.openstack.org/openstack/loci-nova
+git clone git://git.openstack.org/openstack/loci-requirements
+git clone git://git.openstack.org/openstack/loci-swift
+git clone git://git.openstack.org/openstack/loci-trove
+git clone git://git.openstack.org/openstack/magnetodb
+git clone git://git.openstack.org/openstack/magnetodb-specs
+git clone git://git.openstack.org/openstack/marshal
+git clone git://git.openstack.org/openstack/meghdwar
+git clone git://git.openstack.org/openstack/merlin
+git clone git://git.openstack.org/openstack/metalsmith
+git clone git://git.openstack.org/openstack/meteos
+git clone git://git.openstack.org/openstack/meteos-ui
+git clone git://git.openstack.org/openstack/microversion-parse
+git clone git://git.openstack.org/openstack/mitmstack
+git clone git://git.openstack.org/openstack/mixmatch
+git clone git://git.openstack.org/openstack/mogan
+git clone git://git.openstack.org/openstack/mogan-specs
+git clone git://git.openstack.org/openstack/mogan-ui
+git clone git://git.openstack.org/openstack/monasca-vagrant
+git clone git://git.openstack.org/openstack/monitoring-for-openstack
+git clone git://git.openstack.org/openstack/monitorstack
+git clone git://git.openstack.org/openstack/mors
+git clone git://git.openstack.org/openstack/murano-plugin-networking-sfc
+git clone git://git.openstack.org/openstack/namos
+git clone git://git.openstack.org/openstack/nemesis
+git clone git://git.openstack.org/openstack/nerd-reviewer
+git clone git://git.openstack.org/openstack/network-checker
+git clone git://git.openstack.org/openstack/networking-6wind
+git clone git://git.openstack.org/openstack/networking-ale-omniswitch
+git clone git://git.openstack.org/openstack/networking-ansible
+git clone git://git.openstack.org/openstack/networking-arista
+git clone git://git.openstack.org/openstack/networking-avaya
+git clone git://git.openstack.org/openstack/networking-bigswitch
+git clone git://git.openstack.org/openstack/networking-brocade
+git clone git://git.openstack.org/openstack/networking-calico
+git clone git://git.openstack.org/openstack/networking-cisco
+git clone git://git.openstack.org/openstack/networking-cumulus
+git clone git://git.openstack.org/openstack/networking-dpm
+git clone git://git.openstack.org/openstack/networking-edge-vpn
+git clone git://git.openstack.org/openstack/networking-extreme
+git clone git://git.openstack.org/openstack/networking-fortinet
+git clone git://git.openstack.org/openstack/networking-fujitsu
+git clone git://git.openstack.org/openstack/networking-gluon
+git clone git://git.openstack.org/openstack/networking-h3c
+git clone git://git.openstack.org/openstack/networking-hpe
+git clone git://git.openstack.org/openstack/networking-huawei
+git clone git://git.openstack.org/openstack/networking-icc
+git clone git://git.openstack.org/openstack/networking-infoblox
+git clone git://git.openstack.org/openstack/networking-l2gw
+git clone git://git.openstack.org/openstack/networking-l2gw-tempest-plugin
+git clone git://git.openstack.org/openstack/networking-lagopus
+git clone git://git.openstack.org/openstack/networking-lenovo
+git clone git://git.openstack.org/openstack/networking-mlnx
+git clone git://git.openstack.org/openstack/networking-nec
+git clone git://git.openstack.org/openstack/networking-ofagent
+git clone git://git.openstack.org/openstack/networking-onos
+git clone git://git.openstack.org/openstack/networking-opencontrail
+git clone git://git.openstack.org/openstack/networking-ovs-dpdk
+git clone git://git.openstack.org/openstack/networking-peregrine
+git clone git://git.openstack.org/openstack/networking-plumgrid
+git clone git://git.openstack.org/openstack/networking-spp
+git clone git://git.openstack.org/openstack/networking-vpp
+git clone git://git.openstack.org/openstack/networking-vsphere
+git clone git://git.openstack.org/openstack/networking-zte
+git clone git://git.openstack.org/openstack/networking-zvm
+git clone git://git.openstack.org/openstack/neutron-classifier
+git clone git://git.openstack.org/openstack/nfv-filters
+git clone git://git.openstack.org/openstack/nova-docker
+git clone git://git.openstack.org/openstack/nova-dpm
+git clone git://git.openstack.org/openstack/nova-fusioncompute
+git clone git://git.openstack.org/openstack/nova-lxd
+git clone git://git.openstack.org/openstack/nova-mksproxy
+git clone git://git.openstack.org/openstack/nova-solver-scheduler
+git clone git://git.openstack.org/openstack/nova-zvm-virt-driver
+git clone git://git.openstack.org/openstack/novajoin
+git clone git://git.openstack.org/openstack/novajoin-tempest-plugin
+git clone git://git.openstack.org/openstack/oaktree
+git clone git://git.openstack.org/openstack/oaktreemodel
+git clone git://git.openstack.org/openstack/omni
+git clone git://git.openstack.org/openstack/ooi
+git clone git://git.openstack.org/openstack/opencafe
+git clone git://git.openstack.org/openstack/openstack
+git clone git://git.openstack.org/openstack/openstack-ansible-os_swift_sync
+git clone git://git.openstack.org/openstack/openstack-ansible-py_from_git
+git clone git://git.openstack.org/openstack/openstack-mentoring-scripts
+git clone git://git.openstack.org/openstack/openstack-resource-agents
+git clone git://git.openstack.org/openstack/openstack-resource-agents-specs
+git clone git://git.openstack.org/openstack/openstack-salt
+git clone git://git.openstack.org/openstack/openstack-salt-specs
+git clone git://git.openstack.org/openstack/openstack-service-broker
+git clone git://git.openstack.org/openstack/openstack-spaceport
+git clone git://git.openstack.org/openstack/openstack-specs
+git clone git://git.openstack.org/openstack/openstack-ux
+git clone git://git.openstack.org/openstack/operations-guide
+git clone git://git.openstack.org/openstack/ops-tags-team
+git clone git://git.openstack.org/openstack/ops-telecom-nfv
+git clone git://git.openstack.org/openstack/os-cloud-config
+git clone git://git.openstack.org/openstack/os-dpm
+git clone git://git.openstack.org/openstack/os-faults
+git clone git://git.openstack.org/openstack/os-log-merger
+git clone git://git.openstack.org/openstack/os-namos
+git clone git://git.openstack.org/openstack/os-xenapi
+git clone git://git.openstack.org/openstack/osel
+git clone git://git.openstack.org/openstack/oslo-incubator
+git clone git://git.openstack.org/openstack/osops-coda
+git clone git://git.openstack.org/openstack/osops-example-configs
+git clone git://git.openstack.org/openstack/osops-tools-contrib
+git clone git://git.openstack.org/openstack/osops-tools-generic
+git clone git://git.openstack.org/openstack/osops-tools-logging
+git clone git://git.openstack.org/openstack/osops-tools-monitoring
+git clone git://git.openstack.org/openstack/ospurge
+git clone git://git.openstack.org/openstack/packetary
+git clone git://git.openstack.org/openstack/packetary-specs
+git clone git://git.openstack.org/openstack/packstack
+git clone git://git.openstack.org/openstack/pandaman
+git clone git://git.openstack.org/openstack/pbrx
+git clone git://git.openstack.org/openstack/performa
+git clone git://git.openstack.org/openstack/picasso
+git clone git://git.openstack.org/openstack/poppy
+git clone git://git.openstack.org/openstack/poppy-ui
+git clone git://git.openstack.org/openstack/powervc-driver
+git clone git://git.openstack.org/openstack/project-navigator-data
+git clone git://git.openstack.org/openstack/project-team-guide
+git clone git://git.openstack.org/openstack/proliantutils
+git clone git://git.openstack.org/openstack/publiccloud-wg
+git clone git://git.openstack.org/openstack/puppet-autossh
+git clone git://git.openstack.org/openstack/puppet-ganesha
+git clone git://git.openstack.org/openstack/puppet-midonet
+git clone git://git.openstack.org/openstack/puppet-modulesync-configs
+git clone git://git.openstack.org/openstack/puppet-n1k-vsm
+git clone git://git.openstack.org/openstack/puppet-openstack-release-tools
+git clone git://git.openstack.org/openstack/puppet-setproxy
+git clone git://git.openstack.org/openstack/puppet-surveil
+git clone git://git.openstack.org/openstack/puppet-tuskar
+git clone git://git.openstack.org/openstack/pyeclib
+git clone git://git.openstack.org/openstack/pyghmi
+git clone git://git.openstack.org/openstack/pylockfile
+git clone git://git.openstack.org/openstack/python-adjutantclient
+git clone git://git.openstack.org/openstack/python-almanachclient
+git clone git://git.openstack.org/openstack/python-apmecclient
+git clone git://git.openstack.org/openstack/python-appcatalogclient
+git clone git://git.openstack.org/openstack/python-bileanclient
+git clone git://git.openstack.org/openstack/python-ceilometerclient
+git clone git://git.openstack.org/openstack/python-cerberusclient
+git clone git://git.openstack.org/openstack/python-cloudpulseclient
+git clone git://git.openstack.org/openstack/python-cognitiveclient
+git clone git://git.openstack.org/openstack/python-cratonclient
+git clone git://git.openstack.org/openstack/python-cueclient
+git clone git://git.openstack.org/openstack/python-distilclient
+git clone git://git.openstack.org/openstack/python-don
+git clone git://git.openstack.org/openstack/python-dracclient
+git clone git://git.openstack.org/openstack/python-evoqueclient
+git clone git://git.openstack.org/openstack/python-fuelclient
+git clone git://git.openstack.org/openstack/python-ganttclient
+git clone git://git.openstack.org/openstack/python-glareclient
+git clone git://git.openstack.org/openstack/python-gnocchiclient
+git clone git://git.openstack.org/openstack/python-group-based-policy-client
+git clone git://git.openstack.org/openstack/python-hnvclient
+git clone git://git.openstack.org/openstack/python-iotronicclient
+git clone git://git.openstack.org/openstack/python-jenkins
+git clone git://git.openstack.org/openstack/python-k8sclient
+git clone git://git.openstack.org/openstack/python-keystoneclient-kerberos
+git clone git://git.openstack.org/openstack/python-kingbirdclient
+git clone git://git.openstack.org/openstack/python-kiteclient
+git clone git://git.openstack.org/openstack/python-magnetodbclient
+git clone git://git.openstack.org/openstack/python-meteosclient
+git clone git://git.openstack.org/openstack/python-moganclient
+git clone git://git.openstack.org/openstack/python-namosclient
+git clone git://git.openstack.org/openstack/python-neutron-pd-driver
+git clone git://git.openstack.org/openstack/python-oneviewclient
+git clone git://git.openstack.org/openstack/python-opentsdbclient
+git clone git://git.openstack.org/openstack/python-picassoclient
+git clone git://git.openstack.org/openstack/python-rackclient
+git clone git://git.openstack.org/openstack/python-redfish
+git clone git://git.openstack.org/openstack/python-rsdclient
+git clone git://git.openstack.org/openstack/python-scciclient
+git clone git://git.openstack.org/openstack/python-sticksclient
+git clone git://git.openstack.org/openstack/python-surveilclient
+git clone git://git.openstack.org/openstack/python-tatuclient
+git clone git://git.openstack.org/openstack/python-tuskarclient
+git clone git://git.openstack.org/openstack/python-valenceclient
+git clone git://git.openstack.org/openstack/python-wsmanclient
+git clone git://git.openstack.org/openstack/quark
+git clone git://git.openstack.org/openstack/rack
+git clone git://git.openstack.org/openstack/radar
+git clone git://git.openstack.org/openstack/ramdisk-func-test
+git clone git://git.openstack.org/openstack/ranger
+git clone git://git.openstack.org/openstack/ranger-agent
+git clone git://git.openstack.org/openstack/requests-mock
+git clone git://git.openstack.org/openstack/rsd-lib
+git clone git://git.openstack.org/openstack/sahara-ci-config
+git clone git://git.openstack.org/openstack/salt-formula-ceilometer
+git clone git://git.openstack.org/openstack/salt-formula-cinder
+git clone git://git.openstack.org/openstack/salt-formula-glance
+git clone git://git.openstack.org/openstack/salt-formula-heat
+git clone git://git.openstack.org/openstack/salt-formula-horizon
+git clone git://git.openstack.org/openstack/salt-formula-keystone
+git clone git://git.openstack.org/openstack/salt-formula-kubernetes
+git clone git://git.openstack.org/openstack/salt-formula-midonet
+git clone git://git.openstack.org/openstack/salt-formula-neutron
+git clone git://git.openstack.org/openstack/salt-formula-nova
+git clone git://git.openstack.org/openstack/salt-formula-opencontrail
+git clone git://git.openstack.org/openstack/salt-formula-swift
+git clone git://git.openstack.org/openstack/scalpels
+git clone git://git.openstack.org/openstack/scientific-wg
+git clone git://git.openstack.org/openstack/self-healing-sig
+git clone git://git.openstack.org/openstack/service-types-authority
+git clone git://git.openstack.org/openstack/shaker
+git clone git://git.openstack.org/openstack/shotgun
+git clone git://git.openstack.org/openstack/shovel
+git clone git://git.openstack.org/openstack/shovel-horizon
+git clone git://git.openstack.org/openstack/slogging
+git clone git://git.openstack.org/openstack/snap-ceilometer
+git clone git://git.openstack.org/openstack/snap-cinder
+git clone git://git.openstack.org/openstack/snap-glance
+git clone git://git.openstack.org/openstack/snap-gnocchi
+git clone git://git.openstack.org/openstack/snap-keystone
+git clone git://git.openstack.org/openstack/snap-neutron
+git clone git://git.openstack.org/openstack/snap-nova
+git clone git://git.openstack.org/openstack/snap-nova-hypervisor
+git clone git://git.openstack.org/openstack/snap-openstackclients
+git clone git://git.openstack.org/openstack/snap-rally
+git clone git://git.openstack.org/openstack/snap-tempest
+git clone git://git.openstack.org/openstack/snap.openstack
+git clone git://git.openstack.org/openstack/solar
+git clone git://git.openstack.org/openstack/solar-resources
+git clone git://git.openstack.org/openstack/solum-infra-guestagent
+git clone git://git.openstack.org/openstack/spanner
+git clone git://git.openstack.org/openstack/sqlalchemy-migrate
+git clone git://git.openstack.org/openstack/stackalytics
+git clone git://git.openstack.org/openstack/stacklight-integration-tests
+git clone git://git.openstack.org/openstack/stacktach
+git clone git://git.openstack.org/openstack/stacktach-klugman
+git clone git://git.openstack.org/openstack/stacktach-notification-utils
+git clone git://git.openstack.org/openstack/stacktach-notigen
+git clone git://git.openstack.org/openstack/stacktach-quince
+git clone git://git.openstack.org/openstack/stacktach-quincy
+git clone git://git.openstack.org/openstack/stacktach-sandbox
+git clone git://git.openstack.org/openstack/stacktach-shoebox
+git clone git://git.openstack.org/openstack/stacktach-simport
+git clone git://git.openstack.org/openstack/stacktach-stackdistiller
+git clone git://git.openstack.org/openstack/stacktach-timex
+git clone git://git.openstack.org/openstack/stacktach-winchester
+git clone git://git.openstack.org/openstack/stackube
+git clone git://git.openstack.org/openstack/steth
+git clone git://git.openstack.org/openstack/sticks
+git clone git://git.openstack.org/openstack/sticks-dashboard
+git clone git://git.openstack.org/openstack/stx-clients
+git clone git://git.openstack.org/openstack/stx-config
+git clone git://git.openstack.org/openstack/stx-fault
+git clone git://git.openstack.org/openstack/stx-gplv2
+git clone git://git.openstack.org/openstack/stx-gplv3
+git clone git://git.openstack.org/openstack/stx-gui
+git clone git://git.openstack.org/openstack/stx-ha
+git clone git://git.openstack.org/openstack/stx-integ
+git clone git://git.openstack.org/openstack/stx-manifest
+git clone git://git.openstack.org/openstack/stx-metal
+git clone git://git.openstack.org/openstack/stx-nfv
+git clone git://git.openstack.org/openstack/stx-root
+git clone git://git.openstack.org/openstack/stx-tis-repo
+git clone git://git.openstack.org/openstack/stx-tools
+git clone git://git.openstack.org/openstack/stx-update
+git clone git://git.openstack.org/openstack/stx-upstream
+git clone git://git.openstack.org/openstack/stx-utils
+git clone git://git.openstack.org/openstack/surveil
+git clone git://git.openstack.org/openstack/surveil-specs
+git clone git://git.openstack.org/openstack/swauth
+git clone git://git.openstack.org/openstack/swift-ceph-backend
+git clone git://git.openstack.org/openstack/swift3
+git clone git://git.openstack.org/openstack/swiftonfile
+git clone git://git.openstack.org/openstack/swiftonhpss
+git clone git://git.openstack.org/openstack/synergy-scheduler-manager
+git clone git://git.openstack.org/openstack/synergy-service
+git clone git://git.openstack.org/openstack/tap-as-a-service
+git clone git://git.openstack.org/openstack/tap-as-a-service-dashboard
+git clone git://git.openstack.org/openstack/tatu
+git clone git://git.openstack.org/openstack/tatu-dashboard
+git clone git://git.openstack.org/openstack/tc-as-a-service
+git clone git://git.openstack.org/openstack/telcowg-usecases
+git clone git://git.openstack.org/openstack/terracotta
+git clone git://git.openstack.org/openstack/third-party-ci-tools
+git clone git://git.openstack.org/openstack/timmy
+git clone git://git.openstack.org/openstack/transparency-policy
+git clone git://git.openstack.org/openstack/trio2o
+git clone git://git.openstack.org/openstack/tripleo-incubator
+git clone git://git.openstack.org/openstack/trove-image-builder
+git clone git://git.openstack.org/openstack/trove-integration
+git clone git://git.openstack.org/openstack/tuning-box
+git clone git://git.openstack.org/openstack/turbo-hipster
+git clone git://git.openstack.org/openstack/tuskar
+git clone git://git.openstack.org/openstack/tuskar-ui
+git clone git://git.openstack.org/openstack/uc-recognition
+git clone git://git.openstack.org/openstack/upstream-institute-virtual-environment
+git clone git://git.openstack.org/openstack/vahana
+git clone git://git.openstack.org/openstack/valence
+git clone git://git.openstack.org/openstack/valence-specs
+git clone git://git.openstack.org/openstack/valet
+git clone git://git.openstack.org/openstack/virtualpdu
+git clone git://git.openstack.org/openstack/vm-bm-wg
+git clone git://git.openstack.org/openstack/vmtp
+git clone git://git.openstack.org/openstack/vmware-nsx
+git clone git://git.openstack.org/openstack/vmware-nsx-tempest-plugin
+git clone git://git.openstack.org/openstack/vmware-nsxlib
+git clone git://git.openstack.org/openstack/vmware-vspc
+git clone git://git.openstack.org/openstack/windmill
+git clone git://git.openstack.org/openstack/workload-ref-archs
+git clone git://git.openstack.org/openstack/wsme
+git clone git://git.openstack.org/openstack/xenapi-os-testing
+git clone git://git.openstack.org/openstack/xstatic-angular-cookies
+git clone git://git.openstack.org/openstack/xstatic-angular-fileupload
+git clone git://git.openstack.org/openstack/xstatic-angular-mock
+git clone git://git.openstack.org/openstack/xstatic-angular-sanitize
+git clone git://git.openstack.org/openstack/xstatic-jquery.bootstrap.wizard
+git clone git://git.openstack.org/openstack/xstatic-qunit
+
+~~~
 

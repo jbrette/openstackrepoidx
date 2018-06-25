@@ -47,3 +47,34 @@ Those indexes aimed at helping to located the repo to clone
 | openstack/loci-swift  | [summary](https://git.openstack.org/cgit/openstack/loci-swift/summary) |
 | openstack/loci-trove  | [summary](https://git.openstack.org/cgit/openstack/loci-trove/summary) |
 
+To clone the corresponding repos, run the following commands:
+~~~
+git clone git://git.openstack.org/openstack/airship-armada
+git clone git://git.openstack.org/openstack/airship-berth
+git clone git://git.openstack.org/openstack/airship-deckhand
+git clone git://git.openstack.org/openstack/airship-divingbell
+git clone git://git.openstack.org/openstack/airship-drydock
+git clone git://git.openstack.org/openstack/airship-in-a-bottle
+git clone git://git.openstack.org/openstack/airship-maas
+git clone git://git.openstack.org/openstack/airship-pegleg
+git clone git://git.openstack.org/openstack/airship-promenade
+git clone git://git.openstack.org/openstack/airship-shipyard
+git clone git://git.openstack.org/openstack/openstack-helm
+git clone git://git.openstack.org/openstack/openstack-helm-addons
+git clone git://git.openstack.org/openstack/openstack-helm-infra
+git clone git://git.openstack.org/openstack/loci
+git clone git://git.openstack.org/openstack/loci-cinder
+git clone git://git.openstack.org/openstack/loci-designate
+git clone git://git.openstack.org/openstack/loci-glance
+git clone git://git.openstack.org/openstack/loci-heat
+git clone git://git.openstack.org/openstack/loci-horizon
+git clone git://git.openstack.org/openstack/loci-ironic
+git clone git://git.openstack.org/openstack/loci-keystone
+git clone git://git.openstack.org/openstack/loci-murano
+git clone git://git.openstack.org/openstack/loci-neutron
+git clone git://git.openstack.org/openstack/loci-nova
+git clone git://git.openstack.org/openstack/loci-requirements
+git clone git://git.openstack.org/openstack/loci-swift
+git clone git://git.openstack.org/openstack/loci-trove
+~~~
+

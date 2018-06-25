@@ -8,4 +8,10 @@
 {% for entry in ctxdict[key] %}| {{ entry['fullname']}}  | [summary]({{entry['url']}}) |
 {% endfor %}
 
+To clone the corresponding repos, run the following commands:
+~~~
+{% for entry in ctxdict[key] %}git clone {{entry['gitclone']}}
+{% endfor %}
+~~~
+
 {% endfor %}
