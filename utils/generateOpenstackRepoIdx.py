@@ -5,6 +5,7 @@ import yaml
 import csv
 import copy
 from jinja2 import Environment, FileSystemLoader
+from collections import OrderedDict
 
 def unicode_representer(dumper, uni):
     node = yaml.ScalarNode(tag=u'tag:yaml.org,2002:str', value=uni)
@@ -46,7 +47,7 @@ def sortby(fulldict, newkey):
         if newidxvalue not in res:
             res[newidxvalue] = []
         res[newidxvalue].append(value)
-    return res        
+    return OrderedDict(sorted(res.items(), key=lambda t: t[0]))
     
 def main(args):
     repolist = readopenstackrepolistyaml()

@@ -1,1218 +1,6 @@
 # Oveview By matched project
 
 
-## OpenStackSDK: 3 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/os-client-config  | [summary](https://git.openstack.org/cgit/openstack/os-client-config/summary) |
-| openstack/openstacksdk  | [summary](https://git.openstack.org/cgit/openstack/openstacksdk/summary) |
-| openstack/os-service-types  | [summary](https://git.openstack.org/cgit/openstack/os-service-types/summary) |
-
-
-
-## masakari: 3 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/masakari-dashboard  | [summary](https://git.openstack.org/cgit/openstack/masakari-dashboard/summary) |
-| openstack/masakari  | [summary](https://git.openstack.org/cgit/openstack/masakari/summary) |
-| openstack/masakari-monitors  | [summary](https://git.openstack.org/cgit/openstack/masakari-monitors/summary) |
-
-
-
-## rpm-packaging: 2 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/rpm-packaging-tools  | [summary](https://git.openstack.org/cgit/openstack/rpm-packaging-tools/summary) |
-| openstack/rpm-packaging  | [summary](https://git.openstack.org/cgit/openstack/rpm-packaging/summary) |
-
-
-
-## senlin: 2 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/senlin-dashboard  | [summary](https://git.openstack.org/cgit/openstack/senlin-dashboard/summary) |
-| openstack/senlin  | [summary](https://git.openstack.org/cgit/openstack/senlin/summary) |
-
-
-
-## OpenStackClient: 3 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/openstackclient  | [summary](https://git.openstack.org/cgit/openstack/openstackclient/summary) |
-| openstack/osc-lib  | [summary](https://git.openstack.org/cgit/openstack/osc-lib/summary) |
-| openstack/cliff  | [summary](https://git.openstack.org/cgit/openstack/cliff/summary) |
-
-
-
-## loci: 14 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/loci-horizon  | [summary](https://git.openstack.org/cgit/openstack/loci-horizon/summary) |
-| openstack/loci-murano  | [summary](https://git.openstack.org/cgit/openstack/loci-murano/summary) |
-| openstack/loci-ironic  | [summary](https://git.openstack.org/cgit/openstack/loci-ironic/summary) |
-| openstack/loci-heat  | [summary](https://git.openstack.org/cgit/openstack/loci-heat/summary) |
-| openstack/loci-keystone  | [summary](https://git.openstack.org/cgit/openstack/loci-keystone/summary) |
-| openstack/loci-trove  | [summary](https://git.openstack.org/cgit/openstack/loci-trove/summary) |
-| openstack/loci-neutron  | [summary](https://git.openstack.org/cgit/openstack/loci-neutron/summary) |
-| openstack/loci-requirements  | [summary](https://git.openstack.org/cgit/openstack/loci-requirements/summary) |
-| openstack/loci  | [summary](https://git.openstack.org/cgit/openstack/loci/summary) |
-| openstack/loci-designate  | [summary](https://git.openstack.org/cgit/openstack/loci-designate/summary) |
-| openstack/loci-swift  | [summary](https://git.openstack.org/cgit/openstack/loci-swift/summary) |
-| openstack/loci-glance  | [summary](https://git.openstack.org/cgit/openstack/loci-glance/summary) |
-| openstack/loci-nova  | [summary](https://git.openstack.org/cgit/openstack/loci-nova/summary) |
-| openstack/loci-cinder  | [summary](https://git.openstack.org/cgit/openstack/loci-cinder/summary) |
-
-
-
-## Telemetry: 4 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/panko  | [summary](https://git.openstack.org/cgit/openstack/panko/summary) |
-| openstack/ceilometer  | [summary](https://git.openstack.org/cgit/openstack/ceilometer/summary) |
-| openstack/aodh  | [summary](https://git.openstack.org/cgit/openstack/aodh/summary) |
-| openstack/ceilometermiddleware  | [summary](https://git.openstack.org/cgit/openstack/ceilometermiddleware/summary) |
-
-
-
-## watcher: 2 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/watcher-dashboard  | [summary](https://git.openstack.org/cgit/openstack/watcher-dashboard/summary) |
-| openstack/watcher  | [summary](https://git.openstack.org/cgit/openstack/watcher/summary) |
-
-
-
-## chef: 20 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/cookbook-openstack-application-catalog  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-application-catalog/summary) |
-| openstack/cookbook-openstack-ops-database  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-ops-database/summary) |
-| openstack/cookbook-openstack-data-processing  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-data-processing/summary) |
-| openstack/cookbook-openstack-dashboard  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-dashboard/summary) |
-| openstack/cookbook-openstackclient  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstackclient/summary) |
-| openstack/cookbook-openstack-block-storage  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-block-storage/summary) |
-| openstack/cookbook-openstack-dns  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-dns/summary) |
-| openstack/cookbook-openstack-orchestration  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-orchestration/summary) |
-| openstack/cookbook-openstack-ops-messaging  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-ops-messaging/summary) |
-| openstack/cookbook-openstack-database  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-database/summary) |
-| openstack/cookbook-openstack-object-storage  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-object-storage/summary) |
-| openstack/cookbook-openstack-network  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-network/summary) |
-| openstack/cookbook-openstack-image  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-image/summary) |
-| openstack/cookbook-openstack-telemetry  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-telemetry/summary) |
-| openstack/cookbook-openstack-integration-test  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-integration-test/summary) |
-| openstack/cookbook-openstack-identity  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-identity/summary) |
-| openstack/cookbook-openstack-client  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-client/summary) |
-| openstack/cookbook-openstack-common  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-common/summary) |
-| openstack/cookbook-openstack-bare-metal  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-bare-metal/summary) |
-| openstack/cookbook-openstack-compute  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-compute/summary) |
-
-
-
-## ironic: 11 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/virtualbmc  | [summary](https://git.openstack.org/cgit/openstack/virtualbmc/summary) |
-| openstack/bifrost  | [summary](https://git.openstack.org/cgit/openstack/bifrost/summary) |
-| openstack/sushy  | [summary](https://git.openstack.org/cgit/openstack/sushy/summary) |
-| openstack/ironic-inspector  | [summary](https://git.openstack.org/cgit/openstack/ironic-inspector/summary) |
-| openstack/ironic-ui  | [summary](https://git.openstack.org/cgit/openstack/ironic-ui/summary) |
-| openstack/ironic-lib  | [summary](https://git.openstack.org/cgit/openstack/ironic-lib/summary) |
-| openstack/sushy-tools  | [summary](https://git.openstack.org/cgit/openstack/sushy-tools/summary) |
-| openstack/molteniron  | [summary](https://git.openstack.org/cgit/openstack/molteniron/summary) |
-| openstack/ironic-python-agent  | [summary](https://git.openstack.org/cgit/openstack/ironic-python-agent/summary) |
-| openstack/ironic-python-agent-builder  | [summary](https://git.openstack.org/cgit/openstack/ironic-python-agent-builder/summary) |
-| openstack/ironic  | [summary](https://git.openstack.org/cgit/openstack/ironic/summary) |
-
-
-
-## ansible: 2 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/ansible-config_template  | [summary](https://git.openstack.org/cgit/openstack/ansible-config_template/summary) |
-| openstack/ansible-hardening  | [summary](https://git.openstack.org/cgit/openstack/ansible-hardening/summary) |
-
-
-
-## sahara: 5 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/sahara-extra  | [summary](https://git.openstack.org/cgit/openstack/sahara-extra/summary) |
-| openstack/sahara-image-elements  | [summary](https://git.openstack.org/cgit/openstack/sahara-image-elements/summary) |
-| openstack/sahara-dashboard  | [summary](https://git.openstack.org/cgit/openstack/sahara-dashboard/summary) |
-| openstack/sahara-tests  | [summary](https://git.openstack.org/cgit/openstack/sahara-tests/summary) |
-| openstack/sahara  | [summary](https://git.openstack.org/cgit/openstack/sahara/summary) |
-
-
-
-## kuryr: 6 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/kuryr  | [summary](https://git.openstack.org/cgit/openstack/kuryr/summary) |
-| openstack/kuryr-kubernetes  | [summary](https://git.openstack.org/cgit/openstack/kuryr-kubernetes/summary) |
-| openstack/fuxi  | [summary](https://git.openstack.org/cgit/openstack/fuxi/summary) |
-| openstack/fuxi-kubernetes  | [summary](https://git.openstack.org/cgit/openstack/fuxi-kubernetes/summary) |
-| openstack/kuryr-libnetwork  | [summary](https://git.openstack.org/cgit/openstack/kuryr-libnetwork/summary) |
-| openstack/fuxi-golang  | [summary](https://git.openstack.org/cgit/openstack/fuxi-golang/summary) |
-
-
-
-## rally: 3 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/performance-docs  | [summary](https://git.openstack.org/cgit/openstack/performance-docs/summary) |
-| openstack/rally  | [summary](https://git.openstack.org/cgit/openstack/rally/summary) |
-| openstack/rally-openstack  | [summary](https://git.openstack.org/cgit/openstack/rally-openstack/summary) |
-
-
-
-## helm: 13 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/airship-divingbell  | [summary](https://git.openstack.org/cgit/openstack/airship-divingbell/summary) |
-| openstack/airship-promenade  | [summary](https://git.openstack.org/cgit/openstack/airship-promenade/summary) |
-| openstack/airship-in-a-bottle  | [summary](https://git.openstack.org/cgit/openstack/airship-in-a-bottle/summary) |
-| openstack/airship-maas  | [summary](https://git.openstack.org/cgit/openstack/airship-maas/summary) |
-| openstack/airship-pegleg  | [summary](https://git.openstack.org/cgit/openstack/airship-pegleg/summary) |
-| openstack/airship-deckhand  | [summary](https://git.openstack.org/cgit/openstack/airship-deckhand/summary) |
-| openstack/airship-armada  | [summary](https://git.openstack.org/cgit/openstack/airship-armada/summary) |
-| openstack/openstack-helm-infra  | [summary](https://git.openstack.org/cgit/openstack/openstack-helm-infra/summary) |
-| openstack/airship-drydock  | [summary](https://git.openstack.org/cgit/openstack/airship-drydock/summary) |
-| openstack/airship-berth  | [summary](https://git.openstack.org/cgit/openstack/airship-berth/summary) |
-| openstack/openstack-helm  | [summary](https://git.openstack.org/cgit/openstack/openstack-helm/summary) |
-| openstack/airship-shipyard  | [summary](https://git.openstack.org/cgit/openstack/airship-shipyard/summary) |
-| openstack/openstack-helm-addons  | [summary](https://git.openstack.org/cgit/openstack/openstack-helm-addons/summary) |
-
-
-
-## openstack: 48 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/mogan-specs  | [summary](https://git.openstack.org/cgit/openstack/mogan-specs/summary) |
-| openstack/openstack-chef-specs  | [summary](https://git.openstack.org/cgit/openstack/openstack-chef-specs/summary) |
-| openstack/neutron-specs  | [summary](https://git.openstack.org/cgit/openstack/neutron-specs/summary) |
-| openstack/cloudkitty-specs  | [summary](https://git.openstack.org/cgit/openstack/cloudkitty-specs/summary) |
-| openstack/telemetry-specs  | [summary](https://git.openstack.org/cgit/openstack/telemetry-specs/summary) |
-| openstack/manila-specs  | [summary](https://git.openstack.org/cgit/openstack/manila-specs/summary) |
-| openstack/packetary-specs  | [summary](https://git.openstack.org/cgit/openstack/packetary-specs/summary) |
-| openstack/cinder-specs  | [summary](https://git.openstack.org/cgit/openstack/cinder-specs/summary) |
-| openstack/masakari-specs  | [summary](https://git.openstack.org/cgit/openstack/masakari-specs/summary) |
-| openstack/solum-specs  | [summary](https://git.openstack.org/cgit/openstack/solum-specs/summary) |
-| openstack/cyborg-specs  | [summary](https://git.openstack.org/cgit/openstack/cyborg-specs/summary) |
-| openstack/heat-specs  | [summary](https://git.openstack.org/cgit/openstack/heat-specs/summary) |
-| openstack/swift-specs  | [summary](https://git.openstack.org/cgit/openstack/swift-specs/summary) |
-| openstack/valence-specs  | [summary](https://git.openstack.org/cgit/openstack/valence-specs/summary) |
-| openstack/glance-specs  | [summary](https://git.openstack.org/cgit/openstack/glance-specs/summary) |
-| openstack/nova-specs  | [summary](https://git.openstack.org/cgit/openstack/nova-specs/summary) |
-| openstack/freezer-specs  | [summary](https://git.openstack.org/cgit/openstack/freezer-specs/summary) |
-| openstack/security-specs  | [summary](https://git.openstack.org/cgit/openstack/security-specs/summary) |
-| openstack/i18n-specs  | [summary](https://git.openstack.org/cgit/openstack/i18n-specs/summary) |
-| openstack/magnum-specs  | [summary](https://git.openstack.org/cgit/openstack/magnum-specs/summary) |
-| openstack/compass-specs  | [summary](https://git.openstack.org/cgit/openstack/compass-specs/summary) |
-| openstack/keystone-specs  | [summary](https://git.openstack.org/cgit/openstack/keystone-specs/summary) |
-| openstack/trove-specs  | [summary](https://git.openstack.org/cgit/openstack/trove-specs/summary) |
-| openstack/designate-specs  | [summary](https://git.openstack.org/cgit/openstack/designate-specs/summary) |
-| openstack/openstack-resource-agents-specs  | [summary](https://git.openstack.org/cgit/openstack/openstack-resource-agents-specs/summary) |
-| openstack/ironic-inspector-specs  | [summary](https://git.openstack.org/cgit/openstack/ironic-inspector-specs/summary) |
-| openstack/docs-specs  | [summary](https://git.openstack.org/cgit/openstack/docs-specs/summary) |
-| openstack/watcher-specs  | [summary](https://git.openstack.org/cgit/openstack/watcher-specs/summary) |
-| openstack/openstack-salt-specs  | [summary](https://git.openstack.org/cgit/openstack/openstack-salt-specs/summary) |
-| openstack/vitrage-specs  | [summary](https://git.openstack.org/cgit/openstack/vitrage-specs/summary) |
-| openstack/kosmos-specs  | [summary](https://git.openstack.org/cgit/openstack/kosmos-specs/summary) |
-| openstack/magnetodb-specs  | [summary](https://git.openstack.org/cgit/openstack/magnetodb-specs/summary) |
-| openstack/qa-specs  | [summary](https://git.openstack.org/cgit/openstack/qa-specs/summary) |
-| openstack/searchlight-specs  | [summary](https://git.openstack.org/cgit/openstack/searchlight-specs/summary) |
-| openstack/congress-specs  | [summary](https://git.openstack.org/cgit/openstack/congress-specs/summary) |
-| openstack/zaqar-specs  | [summary](https://git.openstack.org/cgit/openstack/zaqar-specs/summary) |
-| openstack/murano-specs  | [summary](https://git.openstack.org/cgit/openstack/murano-specs/summary) |
-| openstack/glare-specs  | [summary](https://git.openstack.org/cgit/openstack/glare-specs/summary) |
-| openstack/mistral-specs  | [summary](https://git.openstack.org/cgit/openstack/mistral-specs/summary) |
-| openstack/sahara-specs  | [summary](https://git.openstack.org/cgit/openstack/sahara-specs/summary) |
-| openstack/ironic-specs  | [summary](https://git.openstack.org/cgit/openstack/ironic-specs/summary) |
-| openstack/group-based-policy-specs  | [summary](https://git.openstack.org/cgit/openstack/group-based-policy-specs/summary) |
-| openstack/barbican-specs  | [summary](https://git.openstack.org/cgit/openstack/barbican-specs/summary) |
-| openstack/surveil-specs  | [summary](https://git.openstack.org/cgit/openstack/surveil-specs/summary) |
-| openstack/monasca-specs  | [summary](https://git.openstack.org/cgit/openstack/monasca-specs/summary) |
-| openstack/openstack-specs  | [summary](https://git.openstack.org/cgit/openstack/openstack-specs/summary) |
-| openstack/bareon-specs  | [summary](https://git.openstack.org/cgit/openstack/bareon-specs/summary) |
-| openstack/tacker-specs  | [summary](https://git.openstack.org/cgit/openstack/tacker-specs/summary) |
-
-
-
-## glance: 2 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/glance  | [summary](https://git.openstack.org/cgit/openstack/glance/summary) |
-| openstack/glance_store  | [summary](https://git.openstack.org/cgit/openstack/glance_store/summary) |
-
-
-
-## OpenStackAnsible: 1 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/openstack-ansible  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible/summary) |
-
-
-
-## tempest: 36 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/barbican-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/barbican-tempest-plugin/summary) |
-| openstack/ironic-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/ironic-tempest-plugin/summary) |
-| openstack/trove-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/trove-tempest-plugin/summary) |
-| openstack/ironic-inspector-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/ironic-inspector-tempest-plugin/summary) |
-| openstack/watcher-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/watcher-tempest-plugin/summary) |
-| openstack/senlin-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/senlin-tempest-plugin/summary) |
-| openstack/tempest-stress  | [summary](https://git.openstack.org/cgit/openstack/tempest-stress/summary) |
-| openstack/heat-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/heat-tempest-plugin/summary) |
-| openstack/freezer-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/freezer-tempest-plugin/summary) |
-| openstack/oswin-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/oswin-tempest-plugin/summary) |
-| openstack/octavia-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/octavia-tempest-plugin/summary) |
-| openstack/zun-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/zun-tempest-plugin/summary) |
-| openstack/mistral-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/mistral-tempest-plugin/summary) |
-| openstack/kuryr-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/kuryr-tempest-plugin/summary) |
-| openstack/neutron-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/neutron-tempest-plugin/summary) |
-| openstack/cinder-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/cinder-tempest-plugin/summary) |
-| openstack/keystone-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/keystone-tempest-plugin/summary) |
-| openstack/tempest-tripleo-ui  | [summary](https://git.openstack.org/cgit/openstack/tempest-tripleo-ui/summary) |
-| openstack/congress-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/congress-tempest-plugin/summary) |
-| openstack/monasca-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/monasca-tempest-plugin/summary) |
-| openstack/ec2api-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/ec2api-tempest-plugin/summary) |
-| openstack/vmware-nsx-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/vmware-nsx-tempest-plugin/summary) |
-| openstack/zaqar-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/zaqar-tempest-plugin/summary) |
-| openstack/cloudkitty-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/cloudkitty-tempest-plugin/summary) |
-| openstack/blazar-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/blazar-tempest-plugin/summary) |
-| openstack/tempest-horizon  | [summary](https://git.openstack.org/cgit/openstack/tempest-horizon/summary) |
-| openstack/manila-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/manila-tempest-plugin/summary) |
-| openstack/vitrage-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/vitrage-tempest-plugin/summary) |
-| openstack/telemetry-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/telemetry-tempest-plugin/summary) |
-| openstack/tempest-lib  | [summary](https://git.openstack.org/cgit/openstack/tempest-lib/summary) |
-| openstack/murano-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/murano-tempest-plugin/summary) |
-| openstack/tempest-plugin-cookiecutter  | [summary](https://git.openstack.org/cgit/openstack/tempest-plugin-cookiecutter/summary) |
-| openstack/magnum-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/magnum-tempest-plugin/summary) |
-| openstack/designate-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/designate-tempest-plugin/summary) |
-| openstack/solum-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/solum-tempest-plugin/summary) |
-| openstack/novajoin-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/novajoin-tempest-plugin/summary) |
-
-
-
-## I18n: 1 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/i18n  | [summary](https://git.openstack.org/cgit/openstack/i18n/summary) |
-
-
-
-## tricircle: 1 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/tricircle  | [summary](https://git.openstack.org/cgit/openstack/tricircle/summary) |
-
-
-
-## OpenStack Charms: 2 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/charms.ceph  | [summary](https://git.openstack.org/cgit/openstack/charms.ceph/summary) |
-| openstack/charms.openstack  | [summary](https://git.openstack.org/cgit/openstack/charms.openstack/summary) |
-
-
-
-## monasca: 15 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/monasca-api  | [summary](https://git.openstack.org/cgit/openstack/monasca-api/summary) |
-| openstack/monasca-kibana-plugin  | [summary](https://git.openstack.org/cgit/openstack/monasca-kibana-plugin/summary) |
-| openstack/monasca-statsd  | [summary](https://git.openstack.org/cgit/openstack/monasca-statsd/summary) |
-| openstack/monasca-common  | [summary](https://git.openstack.org/cgit/openstack/monasca-common/summary) |
-| openstack/monasca-notification  | [summary](https://git.openstack.org/cgit/openstack/monasca-notification/summary) |
-| openstack/monasca-thresh  | [summary](https://git.openstack.org/cgit/openstack/monasca-thresh/summary) |
-| openstack/monasca-persister  | [summary](https://git.openstack.org/cgit/openstack/monasca-persister/summary) |
-| openstack/monasca-ui  | [summary](https://git.openstack.org/cgit/openstack/monasca-ui/summary) |
-| openstack/monasca-grafana-datasource  | [summary](https://git.openstack.org/cgit/openstack/monasca-grafana-datasource/summary) |
-| openstack/monasca-transform  | [summary](https://git.openstack.org/cgit/openstack/monasca-transform/summary) |
-| openstack/monasca-analytics  | [summary](https://git.openstack.org/cgit/openstack/monasca-analytics/summary) |
-| openstack/monasca-log-api  | [summary](https://git.openstack.org/cgit/openstack/monasca-log-api/summary) |
-| openstack/monasca-agent  | [summary](https://git.openstack.org/cgit/openstack/monasca-agent/summary) |
-| openstack/monasca-events-api  | [summary](https://git.openstack.org/cgit/openstack/monasca-events-api/summary) |
-| openstack/monasca-ceilometer  | [summary](https://git.openstack.org/cgit/openstack/monasca-ceilometer/summary) |
-
-
-
-## barbican: 2 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/castellan-ui  | [summary](https://git.openstack.org/cgit/openstack/castellan-ui/summary) |
-| openstack/barbican  | [summary](https://git.openstack.org/cgit/openstack/barbican/summary) |
-
-
-
-## Infrastructure: 4 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/openstack-planet  | [summary](https://git.openstack.org/cgit/openstack/openstack-planet/summary) |
-| openstack/diskimage-builder  | [summary](https://git.openstack.org/cgit/openstack/diskimage-builder/summary) |
-| openstack/ptgbot  | [summary](https://git.openstack.org/cgit/openstack/ptgbot/summary) |
-| openstack/js-openstack-lib  | [summary](https://git.openstack.org/cgit/openstack/js-openstack-lib/summary) |
-
-
-
-## requirements: 1 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/requirements  | [summary](https://git.openstack.org/cgit/openstack/requirements/summary) |
-
-
-
-## starlingx: 17 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/stx-nfv  | [summary](https://git.openstack.org/cgit/openstack/stx-nfv/summary) |
-| openstack/stx-root  | [summary](https://git.openstack.org/cgit/openstack/stx-root/summary) |
-| openstack/stx-metal  | [summary](https://git.openstack.org/cgit/openstack/stx-metal/summary) |
-| openstack/stx-upstream  | [summary](https://git.openstack.org/cgit/openstack/stx-upstream/summary) |
-| openstack/stx-config  | [summary](https://git.openstack.org/cgit/openstack/stx-config/summary) |
-| openstack/stx-gui  | [summary](https://git.openstack.org/cgit/openstack/stx-gui/summary) |
-| openstack/stx-fault  | [summary](https://git.openstack.org/cgit/openstack/stx-fault/summary) |
-| openstack/stx-manifest  | [summary](https://git.openstack.org/cgit/openstack/stx-manifest/summary) |
-| openstack/stx-update  | [summary](https://git.openstack.org/cgit/openstack/stx-update/summary) |
-| openstack/stx-clients  | [summary](https://git.openstack.org/cgit/openstack/stx-clients/summary) |
-| openstack/stx-tools  | [summary](https://git.openstack.org/cgit/openstack/stx-tools/summary) |
-| openstack/stx-tis-repo  | [summary](https://git.openstack.org/cgit/openstack/stx-tis-repo/summary) |
-| openstack/stx-ha  | [summary](https://git.openstack.org/cgit/openstack/stx-ha/summary) |
-| openstack/stx-gplv2  | [summary](https://git.openstack.org/cgit/openstack/stx-gplv2/summary) |
-| openstack/stx-gplv3  | [summary](https://git.openstack.org/cgit/openstack/stx-gplv3/summary) |
-| openstack/stx-integ  | [summary](https://git.openstack.org/cgit/openstack/stx-integ/summary) |
-| openstack/stx-utils  | [summary](https://git.openstack.org/cgit/openstack/stx-utils/summary) |
-
-
-
-## zaqar: 2 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/zaqar-ui  | [summary](https://git.openstack.org/cgit/openstack/zaqar-ui/summary) |
-| openstack/zaqar  | [summary](https://git.openstack.org/cgit/openstack/zaqar/summary) |
-
-
-
-## unknown: 293 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/entropy  | [summary](https://git.openstack.org/cgit/openstack/entropy/summary) |
-| openstack/cloudcafe  | [summary](https://git.openstack.org/cgit/openstack/cloudcafe/summary) |
-| openstack/uc-recognition  | [summary](https://git.openstack.org/cgit/openstack/uc-recognition/summary) |
-| openstack/driverlog  | [summary](https://git.openstack.org/cgit/openstack/driverlog/summary) |
-| openstack/tuning-box  | [summary](https://git.openstack.org/cgit/openstack/tuning-box/summary) |
-| openstack/openstack-spaceport  | [summary](https://git.openstack.org/cgit/openstack/openstack-spaceport/summary) |
-| openstack/namos  | [summary](https://git.openstack.org/cgit/openstack/namos/summary) |
-| openstack/poppy  | [summary](https://git.openstack.org/cgit/openstack/poppy/summary) |
-| openstack/openstack-service-broker  | [summary](https://git.openstack.org/cgit/openstack/openstack-service-broker/summary) |
-| openstack/kayobe-config  | [summary](https://git.openstack.org/cgit/openstack/kayobe-config/summary) |
-| openstack/sticks-dashboard  | [summary](https://git.openstack.org/cgit/openstack/sticks-dashboard/summary) |
-| openstack/bareon-image-elements  | [summary](https://git.openstack.org/cgit/openstack/bareon-image-elements/summary) |
-| openstack/clouddocs-maven-plugin  | [summary](https://git.openstack.org/cgit/openstack/clouddocs-maven-plugin/summary) |
-| openstack/ranger  | [summary](https://git.openstack.org/cgit/openstack/ranger/summary) |
-| openstack/drbd-devstack  | [summary](https://git.openstack.org/cgit/openstack/drbd-devstack/summary) |
-| openstack/liberasurecode  | [summary](https://git.openstack.org/cgit/openstack/liberasurecode/summary) |
-| openstack/kwapi  | [summary](https://git.openstack.org/cgit/openstack/kwapi/summary) |
-| openstack/cl-openstack-client  | [summary](https://git.openstack.org/cgit/openstack/cl-openstack-client/summary) |
-| openstack/mors  | [summary](https://git.openstack.org/cgit/openstack/mors/summary) |
-| openstack/apmec  | [summary](https://git.openstack.org/cgit/openstack/apmec/summary) |
-| openstack/astara  | [summary](https://git.openstack.org/cgit/openstack/astara/summary) |
-| openstack/packetary  | [summary](https://git.openstack.org/cgit/openstack/packetary/summary) |
-| openstack/nova-mksproxy  | [summary](https://git.openstack.org/cgit/openstack/nova-mksproxy/summary) |
-| openstack/coupler  | [summary](https://git.openstack.org/cgit/openstack/coupler/summary) |
-| openstack/operations-guide  | [summary](https://git.openstack.org/cgit/openstack/operations-guide/summary) |
-| openstack/vm-bm-wg  | [summary](https://git.openstack.org/cgit/openstack/vm-bm-wg/summary) |
-| openstack/osops-tools-logging  | [summary](https://git.openstack.org/cgit/openstack/osops-tools-logging/summary) |
-| openstack/horizon-cisco-ui  | [summary](https://git.openstack.org/cgit/openstack/horizon-cisco-ui/summary) |
-| openstack/ara-server  | [summary](https://git.openstack.org/cgit/openstack/ara-server/summary) |
-| openstack/faafo  | [summary](https://git.openstack.org/cgit/openstack/faafo/summary) |
-| openstack/proliantutils  | [summary](https://git.openstack.org/cgit/openstack/proliantutils/summary) |
-| openstack/os-cloud-config  | [summary](https://git.openstack.org/cgit/openstack/os-cloud-config/summary) |
-| openstack/kingbird-dashboard  | [summary](https://git.openstack.org/cgit/openstack/kingbird-dashboard/summary) |
-| openstack/radar  | [summary](https://git.openstack.org/cgit/openstack/radar/summary) |
-| openstack/ha-guide  | [summary](https://git.openstack.org/cgit/openstack/ha-guide/summary) |
-| openstack/ospurge  | [summary](https://git.openstack.org/cgit/openstack/ospurge/summary) |
-| openstack/ekko  | [summary](https://git.openstack.org/cgit/openstack/ekko/summary) |
-| openstack/osops-tools-contrib  | [summary](https://git.openstack.org/cgit/openstack/osops-tools-contrib/summary) |
-| openstack/pbrx  | [summary](https://git.openstack.org/cgit/openstack/pbrx/summary) |
-| openstack/golang-commons  | [summary](https://git.openstack.org/cgit/openstack/golang-commons/summary) |
-| openstack/inception  | [summary](https://git.openstack.org/cgit/openstack/inception/summary) |
-| openstack/osops-tools-monitoring  | [summary](https://git.openstack.org/cgit/openstack/osops-tools-monitoring/summary) |
-| openstack/os-dpm  | [summary](https://git.openstack.org/cgit/openstack/os-dpm/summary) |
-| openstack/interop  | [summary](https://git.openstack.org/cgit/openstack/interop/summary) |
-| openstack/fixtures-git  | [summary](https://git.openstack.org/cgit/openstack/fixtures-git/summary) |
-| openstack/compass-web  | [summary](https://git.openstack.org/cgit/openstack/compass-web/summary) |
-| openstack/pylockfile  | [summary](https://git.openstack.org/cgit/openstack/pylockfile/summary) |
-| openstack/metalsmith  | [summary](https://git.openstack.org/cgit/openstack/metalsmith/summary) |
-| openstack/broadview-collector  | [summary](https://git.openstack.org/cgit/openstack/broadview-collector/summary) |
-| openstack/shotgun  | [summary](https://git.openstack.org/cgit/openstack/shotgun/summary) |
-| openstack/os-xenapi  | [summary](https://git.openstack.org/cgit/openstack/os-xenapi/summary) |
-| openstack/vmware-vspc  | [summary](https://git.openstack.org/cgit/openstack/vmware-vspc/summary) |
-| openstack/tatu  | [summary](https://git.openstack.org/cgit/openstack/tatu/summary) |
-| openstack/stackube  | [summary](https://git.openstack.org/cgit/openstack/stackube/summary) |
-| openstack/flame  | [summary](https://git.openstack.org/cgit/openstack/flame/summary) |
-| openstack/ec2-driver  | [summary](https://git.openstack.org/cgit/openstack/ec2-driver/summary) |
-| openstack/monitorstack  | [summary](https://git.openstack.org/cgit/openstack/monitorstack/summary) |
-| openstack/broadview-lib  | [summary](https://git.openstack.org/cgit/openstack/broadview-lib/summary) |
-| openstack/scientific-wg  | [summary](https://git.openstack.org/cgit/openstack/scientific-wg/summary) |
-| openstack/api-site  | [summary](https://git.openstack.org/cgit/openstack/api-site/summary) |
-| openstack/ironic-webclient  | [summary](https://git.openstack.org/cgit/openstack/ironic-webclient/summary) |
-| openstack/dox  | [summary](https://git.openstack.org/cgit/openstack/dox/summary) |
-| openstack/trio2o  | [summary](https://git.openstack.org/cgit/openstack/trio2o/summary) |
-| openstack/pyeclib  | [summary](https://git.openstack.org/cgit/openstack/pyeclib/summary) |
-| openstack/magnetodb  | [summary](https://git.openstack.org/cgit/openstack/magnetodb/summary) |
-| openstack/network-checker  | [summary](https://git.openstack.org/cgit/openstack/network-checker/summary) |
-| openstack/anvil  | [summary](https://git.openstack.org/cgit/openstack/anvil/summary) |
-| openstack/monitoring-for-openstack  | [summary](https://git.openstack.org/cgit/openstack/monitoring-for-openstack/summary) |
-| openstack/cerberus  | [summary](https://git.openstack.org/cgit/openstack/cerberus/summary) |
-| openstack/installguide-cookiecutter  | [summary](https://git.openstack.org/cgit/openstack/installguide-cookiecutter/summary) |
-| openstack/downpour  | [summary](https://git.openstack.org/cgit/openstack/downpour/summary) |
-| openstack/nova-dpm  | [summary](https://git.openstack.org/cgit/openstack/nova-dpm/summary) |
-| openstack/openstack-salt  | [summary](https://git.openstack.org/cgit/openstack/openstack-salt/summary) |
-| openstack/osops-example-configs  | [summary](https://git.openstack.org/cgit/openstack/osops-example-configs/summary) |
-| openstack/adjutant-ui  | [summary](https://git.openstack.org/cgit/openstack/adjutant-ui/summary) |
-| openstack/cue-dashboard  | [summary](https://git.openstack.org/cgit/openstack/cue-dashboard/summary) |
-| openstack/git-upstream  | [summary](https://git.openstack.org/cgit/openstack/git-upstream/summary) |
-| openstack/ara  | [summary](https://git.openstack.org/cgit/openstack/ara/summary) |
-| openstack/tap-as-a-service-dashboard  | [summary](https://git.openstack.org/cgit/openstack/tap-as-a-service-dashboard/summary) |
-| openstack/ceilometer-zvm  | [summary](https://git.openstack.org/cgit/openstack/ceilometer-zvm/summary) |
-| openstack/api-wg  | [summary](https://git.openstack.org/cgit/openstack/api-wg/summary) |
-| openstack/git-repo-manifests  | [summary](https://git.openstack.org/cgit/openstack/git-repo-manifests/summary) |
-| openstack/third-party-ci-tools  | [summary](https://git.openstack.org/cgit/openstack/third-party-ci-tools/summary) |
-| openstack/bandit  | [summary](https://git.openstack.org/cgit/openstack/bandit/summary) |
-| openstack/conveyor  | [summary](https://git.openstack.org/cgit/openstack/conveyor/summary) |
-| openstack/fairy-slipper  | [summary](https://git.openstack.org/cgit/openstack/fairy-slipper/summary) |
-| openstack/meghdwar  | [summary](https://git.openstack.org/cgit/openstack/meghdwar/summary) |
-| openstack/os-namos  | [summary](https://git.openstack.org/cgit/openstack/os-namos/summary) |
-| openstack/ara-plugins  | [summary](https://git.openstack.org/cgit/openstack/ara-plugins/summary) |
-| openstack/swiftonhpss  | [summary](https://git.openstack.org/cgit/openstack/swiftonhpss/summary) |
-| openstack/craton-dashboard  | [summary](https://git.openstack.org/cgit/openstack/craton-dashboard/summary) |
-| openstack/windmill  | [summary](https://git.openstack.org/cgit/openstack/windmill/summary) |
-| openstack/app-catalog-common  | [summary](https://git.openstack.org/cgit/openstack/app-catalog-common/summary) |
-| openstack/swift-ceph-backend  | [summary](https://git.openstack.org/cgit/openstack/swift-ceph-backend/summary) |
-| openstack/kloudbuster  | [summary](https://git.openstack.org/cgit/openstack/kloudbuster/summary) |
-| openstack/snap.openstack  | [summary](https://git.openstack.org/cgit/openstack/snap.openstack/summary) |
-| openstack/group-based-policy-automation  | [summary](https://git.openstack.org/cgit/openstack/group-based-policy-automation/summary) |
-| openstack/telcowg-usecases  | [summary](https://git.openstack.org/cgit/openstack/telcowg-usecases/summary) |
-| openstack/alexandria  | [summary](https://git.openstack.org/cgit/openstack/alexandria/summary) |
-| openstack/steth  | [summary](https://git.openstack.org/cgit/openstack/steth/summary) |
-| openstack/picasso  | [summary](https://git.openstack.org/cgit/openstack/picasso/summary) |
-| openstack/openstack  | [summary](https://git.openstack.org/cgit/openstack/openstack/summary) |
-| openstack/cue  | [summary](https://git.openstack.org/cgit/openstack/cue/summary) |
-| openstack/compute-hyperv  | [summary](https://git.openstack.org/cgit/openstack/compute-hyperv/summary) |
-| openstack/spanner  | [summary](https://git.openstack.org/cgit/openstack/spanner/summary) |
-| openstack/cognitive  | [summary](https://git.openstack.org/cgit/openstack/cognitive/summary) |
-| openstack/nova-zvm-virt-driver  | [summary](https://git.openstack.org/cgit/openstack/nova-zvm-virt-driver/summary) |
-| openstack/golang-client  | [summary](https://git.openstack.org/cgit/openstack/golang-client/summary) |
-| openstack/almanach  | [summary](https://git.openstack.org/cgit/openstack/almanach/summary) |
-| openstack/group-based-policy-ui  | [summary](https://git.openstack.org/cgit/openstack/group-based-policy-ui/summary) |
-| openstack/election  | [summary](https://git.openstack.org/cgit/openstack/election/summary) |
-| openstack/gerrit-dash-creator  | [summary](https://git.openstack.org/cgit/openstack/gerrit-dash-creator/summary) |
-| openstack/nfv-filters  | [summary](https://git.openstack.org/cgit/openstack/nfv-filters/summary) |
-| openstack/shaker  | [summary](https://git.openstack.org/cgit/openstack/shaker/summary) |
-| openstack/collectd-openstack-plugins  | [summary](https://git.openstack.org/cgit/openstack/collectd-openstack-plugins/summary) |
-| openstack/k8s-docker-suite-app-murano  | [summary](https://git.openstack.org/cgit/openstack/k8s-docker-suite-app-murano/summary) |
-| openstack/apmec-horizon  | [summary](https://git.openstack.org/cgit/openstack/apmec-horizon/summary) |
-| openstack/governance-sigs  | [summary](https://git.openstack.org/cgit/openstack/governance-sigs/summary) |
-| openstack/valence  | [summary](https://git.openstack.org/cgit/openstack/valence/summary) |
-| openstack/foxnut  | [summary](https://git.openstack.org/cgit/openstack/foxnut/summary) |
-| openstack/cloudv-ostf-adapter  | [summary](https://git.openstack.org/cgit/openstack/cloudv-ostf-adapter/summary) |
-| openstack/nova-lxd  | [summary](https://git.openstack.org/cgit/openstack/nova-lxd/summary) |
-| openstack/marshal  | [summary](https://git.openstack.org/cgit/openstack/marshal/summary) |
-| openstack/vmtp  | [summary](https://git.openstack.org/cgit/openstack/vmtp/summary) |
-| openstack/cloudbase-init  | [summary](https://git.openstack.org/cgit/openstack/cloudbase-init/summary) |
-| openstack/enterprise-wg  | [summary](https://git.openstack.org/cgit/openstack/enterprise-wg/summary) |
-| openstack/app-catalog  | [summary](https://git.openstack.org/cgit/openstack/app-catalog/summary) |
-| openstack/governance  | [summary](https://git.openstack.org/cgit/openstack/governance/summary) |
-| openstack/docker-machine-openstack  | [summary](https://git.openstack.org/cgit/openstack/docker-machine-openstack/summary) |
-| openstack/surveil  | [summary](https://git.openstack.org/cgit/openstack/surveil/summary) |
-| openstack/solar  | [summary](https://git.openstack.org/cgit/openstack/solar/summary) |
-| openstack/pyghmi  | [summary](https://git.openstack.org/cgit/openstack/pyghmi/summary) |
-| openstack/designate-msdnsagent  | [summary](https://git.openstack.org/cgit/openstack/designate-msdnsagent/summary) |
-| openstack/sticks  | [summary](https://git.openstack.org/cgit/openstack/sticks/summary) |
-| openstack/governance-uc  | [summary](https://git.openstack.org/cgit/openstack/governance-uc/summary) |
-| openstack/certbot-dns-openstack  | [summary](https://git.openstack.org/cgit/openstack/certbot-dns-openstack/summary) |
-| openstack/ci-cd-pipeline-app-murano  | [summary](https://git.openstack.org/cgit/openstack/ci-cd-pipeline-app-murano/summary) |
-| openstack/monasca-vagrant  | [summary](https://git.openstack.org/cgit/openstack/monasca-vagrant/summary) |
-| openstack/project-team-guide  | [summary](https://git.openstack.org/cgit/openstack/project-team-guide/summary) |
-| openstack/jacket  | [summary](https://git.openstack.org/cgit/openstack/jacket/summary) |
-| openstack/shovel-horizon  | [summary](https://git.openstack.org/cgit/openstack/shovel-horizon/summary) |
-| openstack/ops-tags-team  | [summary](https://git.openstack.org/cgit/openstack/ops-tags-team/summary) |
-| openstack/stacktach  | [summary](https://git.openstack.org/cgit/openstack/stacktach/summary) |
-| openstack/cloudpulse  | [summary](https://git.openstack.org/cgit/openstack/cloudpulse/summary) |
-| openstack/openstack-ux  | [summary](https://git.openstack.org/cgit/openstack/openstack-ux/summary) |
-| openstack/giftwrap  | [summary](https://git.openstack.org/cgit/openstack/giftwrap/summary) |
-| openstack/scalpels  | [summary](https://git.openstack.org/cgit/openstack/scalpels/summary) |
-| openstack/rack  | [summary](https://git.openstack.org/cgit/openstack/rack/summary) |
-| openstack/gnocchi  | [summary](https://git.openstack.org/cgit/openstack/gnocchi/summary) |
-| openstack/valet  | [summary](https://git.openstack.org/cgit/openstack/valet/summary) |
-| openstack/kosmos  | [summary](https://git.openstack.org/cgit/openstack/kosmos/summary) |
-| openstack/nemesis  | [summary](https://git.openstack.org/cgit/openstack/nemesis/summary) |
-| openstack/development-proposals  | [summary](https://git.openstack.org/cgit/openstack/development-proposals/summary) |
-| openstack/os-log-merger  | [summary](https://git.openstack.org/cgit/openstack/os-log-merger/summary) |
-| openstack/astara-appliance  | [summary](https://git.openstack.org/cgit/openstack/astara-appliance/summary) |
-| openstack/delimiter  | [summary](https://git.openstack.org/cgit/openstack/delimiter/summary) |
-| openstack/shovel  | [summary](https://git.openstack.org/cgit/openstack/shovel/summary) |
-| openstack/slogging  | [summary](https://git.openstack.org/cgit/openstack/slogging/summary) |
-| openstack/gluon  | [summary](https://git.openstack.org/cgit/openstack/gluon/summary) |
-| openstack/governance-website  | [summary](https://git.openstack.org/cgit/openstack/governance-website/summary) |
-| openstack/synergy-service  | [summary](https://git.openstack.org/cgit/openstack/synergy-service/summary) |
-| openstack/ooi  | [summary](https://git.openstack.org/cgit/openstack/ooi/summary) |
-| openstack/goal-tools  | [summary](https://git.openstack.org/cgit/openstack/goal-tools/summary) |
-| openstack/mogan  | [summary](https://git.openstack.org/cgit/openstack/mogan/summary) |
-| openstack/vmware-nsx  | [summary](https://git.openstack.org/cgit/openstack/vmware-nsx/summary) |
-| openstack/bansho  | [summary](https://git.openstack.org/cgit/openstack/bansho/summary) |
-| openstack/arch-wg  | [summary](https://git.openstack.org/cgit/openstack/arch-wg/summary) |
-| openstack/group-based-policy  | [summary](https://git.openstack.org/cgit/openstack/group-based-policy/summary) |
-| openstack/microversion-parse  | [summary](https://git.openstack.org/cgit/openstack/microversion-parse/summary) |
-| openstack/ailuropoda  | [summary](https://git.openstack.org/cgit/openstack/ailuropoda/summary) |
-| openstack/iotronic  | [summary](https://git.openstack.org/cgit/openstack/iotronic/summary) |
-| openstack/openstack-mentoring-scripts  | [summary](https://git.openstack.org/cgit/openstack/openstack-mentoring-scripts/summary) |
-| openstack/solum-infra-guestagent  | [summary](https://git.openstack.org/cgit/openstack/solum-infra-guestagent/summary) |
-| openstack/bareon-ironic  | [summary](https://git.openstack.org/cgit/openstack/bareon-ironic/summary) |
-| openstack/coreos-image-builder  | [summary](https://git.openstack.org/cgit/openstack/coreos-image-builder/summary) |
-| openstack/ipa-example-hardware-managers  | [summary](https://git.openstack.org/cgit/openstack/ipa-example-hardware-managers/summary) |
-| openstack/kingbird  | [summary](https://git.openstack.org/cgit/openstack/kingbird/summary) |
-| openstack/upstream-institute-virtual-environment  | [summary](https://git.openstack.org/cgit/openstack/upstream-institute-virtual-environment/summary) |
-| openstack/mitmstack  | [summary](https://git.openstack.org/cgit/openstack/mitmstack/summary) |
-| openstack/doc8  | [summary](https://git.openstack.org/cgit/openstack/doc8/summary) |
-| openstack/ops-telecom-nfv  | [summary](https://git.openstack.org/cgit/openstack/ops-telecom-nfv/summary) |
-| openstack/packstack  | [summary](https://git.openstack.org/cgit/openstack/packstack/summary) |
-| openstack/neutron-classifier  | [summary](https://git.openstack.org/cgit/openstack/neutron-classifier/summary) |
-| openstack/cathead  | [summary](https://git.openstack.org/cgit/openstack/cathead/summary) |
-| openstack/turbo-hipster  | [summary](https://git.openstack.org/cgit/openstack/turbo-hipster/summary) |
-| openstack/cursive  | [summary](https://git.openstack.org/cgit/openstack/cursive/summary) |
-| openstack/performa  | [summary](https://git.openstack.org/cgit/openstack/performa/summary) |
-| openstack/jenkins-plugins-for-murano  | [summary](https://git.openstack.org/cgit/openstack/jenkins-plugins-for-murano/summary) |
-| openstack/quark  | [summary](https://git.openstack.org/cgit/openstack/quark/summary) |
-| openstack/sqlalchemy-migrate  | [summary](https://git.openstack.org/cgit/openstack/sqlalchemy-migrate/summary) |
-| openstack/cloud-init  | [summary](https://git.openstack.org/cgit/openstack/cloud-init/summary) |
-| openstack/nova-docker  | [summary](https://git.openstack.org/cgit/openstack/nova-docker/summary) |
-| openstack/solar-resources  | [summary](https://git.openstack.org/cgit/openstack/solar-resources/summary) |
-| openstack/osops-coda  | [summary](https://git.openstack.org/cgit/openstack/osops-coda/summary) |
-| openstack/gertty  | [summary](https://git.openstack.org/cgit/openstack/gertty/summary) |
-| openstack/sahara-ci-config  | [summary](https://git.openstack.org/cgit/openstack/sahara-ci-config/summary) |
-| openstack/evoque  | [summary](https://git.openstack.org/cgit/openstack/evoque/summary) |
-| openstack/nova-fusioncompute  | [summary](https://git.openstack.org/cgit/openstack/nova-fusioncompute/summary) |
-| openstack/terracotta  | [summary](https://git.openstack.org/cgit/openstack/terracotta/summary) |
-| openstack/bareon  | [summary](https://git.openstack.org/cgit/openstack/bareon/summary) |
-| openstack/boartty  | [summary](https://git.openstack.org/cgit/openstack/boartty/summary) |
-| openstack/swiftonfile  | [summary](https://git.openstack.org/cgit/openstack/swiftonfile/summary) |
-| openstack/cisco-ironic-contrib  | [summary](https://git.openstack.org/cgit/openstack/cisco-ironic-contrib/summary) |
-| openstack/astara-neutron  | [summary](https://git.openstack.org/cgit/openstack/astara-neutron/summary) |
-| openstack/wsme  | [summary](https://git.openstack.org/cgit/openstack/wsme/summary) |
-| openstack/cerberus-dashboard  | [summary](https://git.openstack.org/cgit/openstack/cerberus-dashboard/summary) |
-| openstack/horizon-mellanox  | [summary](https://git.openstack.org/cgit/openstack/horizon-mellanox/summary) |
-| openstack/compass-adapters  | [summary](https://git.openstack.org/cgit/openstack/compass-adapters/summary) |
-| openstack/workload-ref-archs  | [summary](https://git.openstack.org/cgit/openstack/workload-ref-archs/summary) |
-| openstack/stackalytics  | [summary](https://git.openstack.org/cgit/openstack/stackalytics/summary) |
-| openstack/vahana  | [summary](https://git.openstack.org/cgit/openstack/vahana/summary) |
-| openstack/broadview-ui  | [summary](https://git.openstack.org/cgit/openstack/broadview-ui/summary) |
-| openstack/swauth  | [summary](https://git.openstack.org/cgit/openstack/swauth/summary) |
-| openstack/oaktreemodel  | [summary](https://git.openstack.org/cgit/openstack/oaktreemodel/summary) |
-| openstack/nerd-reviewer  | [summary](https://git.openstack.org/cgit/openstack/nerd-reviewer/summary) |
-| openstack/app-catalog-ui  | [summary](https://git.openstack.org/cgit/openstack/app-catalog-ui/summary) |
-| openstack/virtualpdu  | [summary](https://git.openstack.org/cgit/openstack/virtualpdu/summary) |
-| openstack/trove-integration  | [summary](https://git.openstack.org/cgit/openstack/trove-integration/summary) |
-| openstack/opencafe  | [summary](https://git.openstack.org/cgit/openstack/opencafe/summary) |
-| openstack/k8s-cloud-provider  | [summary](https://git.openstack.org/cgit/openstack/k8s-cloud-provider/summary) |
-| openstack/kite  | [summary](https://git.openstack.org/cgit/openstack/kite/summary) |
-| openstack/meteos-ui  | [summary](https://git.openstack.org/cgit/openstack/meteos-ui/summary) |
-| openstack/requests-mock  | [summary](https://git.openstack.org/cgit/openstack/requests-mock/summary) |
-| openstack/tc-as-a-service  | [summary](https://git.openstack.org/cgit/openstack/tc-as-a-service/summary) |
-| openstack/merlin  | [summary](https://git.openstack.org/cgit/openstack/merlin/summary) |
-| openstack/os-faults  | [summary](https://git.openstack.org/cgit/openstack/os-faults/summary) |
-| openstack/oaktree  | [summary](https://git.openstack.org/cgit/openstack/oaktree/summary) |
-| openstack/astara-horizon  | [summary](https://git.openstack.org/cgit/openstack/astara-horizon/summary) |
-| openstack/intel-nfv-ci-tests  | [summary](https://git.openstack.org/cgit/openstack/intel-nfv-ci-tests/summary) |
-| openstack/rsd-lib  | [summary](https://git.openstack.org/cgit/openstack/rsd-lib/summary) |
-| openstack/bilean  | [summary](https://git.openstack.org/cgit/openstack/bilean/summary) |
-| openstack/stacklight-integration-tests  | [summary](https://git.openstack.org/cgit/openstack/stacklight-integration-tests/summary) |
-| openstack/dash-stack  | [summary](https://git.openstack.org/cgit/openstack/dash-stack/summary) |
-| openstack/openstack-resource-agents  | [summary](https://git.openstack.org/cgit/openstack/openstack-resource-agents/summary) |
-| openstack/mixmatch  | [summary](https://git.openstack.org/cgit/openstack/mixmatch/summary) |
-| openstack/ramdisk-func-test  | [summary](https://git.openstack.org/cgit/openstack/ramdisk-func-test/summary) |
-| openstack/tuskar-ui  | [summary](https://git.openstack.org/cgit/openstack/tuskar-ui/summary) |
-| openstack/browbeat  | [summary](https://git.openstack.org/cgit/openstack/browbeat/summary) |
-| openstack/timmy  | [summary](https://git.openstack.org/cgit/openstack/timmy/summary) |
-| openstack/keystoneauth-saml2  | [summary](https://git.openstack.org/cgit/openstack/keystoneauth-saml2/summary) |
-| openstack/django-openstack-auth-kerberos  | [summary](https://git.openstack.org/cgit/openstack/django-openstack-auth-kerberos/summary) |
-| openstack/bareon-allocator  | [summary](https://git.openstack.org/cgit/openstack/bareon-allocator/summary) |
-| openstack/gantt  | [summary](https://git.openstack.org/cgit/openstack/gantt/summary) |
-| openstack/powervc-driver  | [summary](https://git.openstack.org/cgit/openstack/powervc-driver/summary) |
-| openstack/nova-solver-scheduler  | [summary](https://git.openstack.org/cgit/openstack/nova-solver-scheduler/summary) |
-| openstack/ara-clients  | [summary](https://git.openstack.org/cgit/openstack/ara-clients/summary) |
-| openstack/interop-workloads  | [summary](https://git.openstack.org/cgit/openstack/interop-workloads/summary) |
-| openstack/osops-tools-generic  | [summary](https://git.openstack.org/cgit/openstack/osops-tools-generic/summary) |
-| openstack/omni  | [summary](https://git.openstack.org/cgit/openstack/omni/summary) |
-| openstack/service-types-authority  | [summary](https://git.openstack.org/cgit/openstack/service-types-authority/summary) |
-| openstack/vmware-nsxlib  | [summary](https://git.openstack.org/cgit/openstack/vmware-nsxlib/summary) |
-| openstack/compass-install  | [summary](https://git.openstack.org/cgit/openstack/compass-install/summary) |
-| openstack/tap-as-a-service  | [summary](https://git.openstack.org/cgit/openstack/tap-as-a-service/summary) |
-| openstack/kiloeyes  | [summary](https://git.openstack.org/cgit/openstack/kiloeyes/summary) |
-| openstack/ranger-agent  | [summary](https://git.openstack.org/cgit/openstack/ranger-agent/summary) |
-| openstack/git-nit  | [summary](https://git.openstack.org/cgit/openstack/git-nit/summary) |
-| openstack/kayobe  | [summary](https://git.openstack.org/cgit/openstack/kayobe/summary) |
-| openstack/tatu-dashboard  | [summary](https://git.openstack.org/cgit/openstack/tatu-dashboard/summary) |
-| openstack/evoque-dashboard  | [summary](https://git.openstack.org/cgit/openstack/evoque-dashboard/summary) |
-| openstack/transparency-policy  | [summary](https://git.openstack.org/cgit/openstack/transparency-policy/summary) |
-| openstack/distil-ui  | [summary](https://git.openstack.org/cgit/openstack/distil-ui/summary) |
-| openstack/pandaman  | [summary](https://git.openstack.org/cgit/openstack/pandaman/summary) |
-| openstack/project-navigator-data  | [summary](https://git.openstack.org/cgit/openstack/project-navigator-data/summary) |
-| openstack/cinder-fusioncompute  | [summary](https://git.openstack.org/cgit/openstack/cinder-fusioncompute/summary) |
-| openstack/murano-plugin-networking-sfc  | [summary](https://git.openstack.org/cgit/openstack/murano-plugin-networking-sfc/summary) |
-| openstack/self-healing-sig  | [summary](https://git.openstack.org/cgit/openstack/self-healing-sig/summary) |
-| openstack/bareon-api  | [summary](https://git.openstack.org/cgit/openstack/bareon-api/summary) |
-| openstack/distil  | [summary](https://git.openstack.org/cgit/openstack/distil/summary) |
-| openstack/compass-core  | [summary](https://git.openstack.org/cgit/openstack/compass-core/summary) |
-| openstack/gos-brick  | [summary](https://git.openstack.org/cgit/openstack/gos-brick/summary) |
-| openstack/osel  | [summary](https://git.openstack.org/cgit/openstack/osel/summary) |
-| openstack/cloudroast  | [summary](https://git.openstack.org/cgit/openstack/cloudroast/summary) |
-| openstack/glare  | [summary](https://git.openstack.org/cgit/openstack/glare/summary) |
-| openstack/ironic-staging-drivers  | [summary](https://git.openstack.org/cgit/openstack/ironic-staging-drivers/summary) |
-| openstack/iotronic-lightning-rod  | [summary](https://git.openstack.org/cgit/openstack/iotronic-lightning-rod/summary) |
-| openstack/trove-image-builder  | [summary](https://git.openstack.org/cgit/openstack/trove-image-builder/summary) |
-| openstack/publiccloud-wg  | [summary](https://git.openstack.org/cgit/openstack/publiccloud-wg/summary) |
-| openstack/hurricane  | [summary](https://git.openstack.org/cgit/openstack/hurricane/summary) |
-| openstack/gce-api  | [summary](https://git.openstack.org/cgit/openstack/gce-api/summary) |
-| openstack/xenapi-os-testing  | [summary](https://git.openstack.org/cgit/openstack/xenapi-os-testing/summary) |
-| openstack/swift3  | [summary](https://git.openstack.org/cgit/openstack/swift3/summary) |
-| openstack/ara-web  | [summary](https://git.openstack.org/cgit/openstack/ara-web/summary) |
-| openstack/iotronic-ui  | [summary](https://git.openstack.org/cgit/openstack/iotronic-ui/summary) |
-| openstack/poppy-ui  | [summary](https://git.openstack.org/cgit/openstack/poppy-ui/summary) |
-| openstack/daisycloud-core  | [summary](https://git.openstack.org/cgit/openstack/daisycloud-core/summary) |
-| openstack/novajoin  | [summary](https://git.openstack.org/cgit/openstack/novajoin/summary) |
-| openstack/meteos  | [summary](https://git.openstack.org/cgit/openstack/meteos/summary) |
-| openstack/mogan-ui  | [summary](https://git.openstack.org/cgit/openstack/mogan-ui/summary) |
-| openstack/aeromancer  | [summary](https://git.openstack.org/cgit/openstack/aeromancer/summary) |
-| openstack/craton  | [summary](https://git.openstack.org/cgit/openstack/craton/summary) |
-| openstack/synergy-scheduler-manager  | [summary](https://git.openstack.org/cgit/openstack/synergy-scheduler-manager/summary) |
-| openstack/tuskar  | [summary](https://git.openstack.org/cgit/openstack/tuskar/summary) |
-| openstack/adjutant  | [summary](https://git.openstack.org/cgit/openstack/adjutant/summary) |
-
-
-
-## cloudkitty: 2 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/cloudkitty  | [summary](https://git.openstack.org/cgit/openstack/cloudkitty/summary) |
-| openstack/cloudkitty-dashboard  | [summary](https://git.openstack.org/cgit/openstack/cloudkitty-dashboard/summary) |
-
-
-
-## ec2-api: 1 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/ec2-api  | [summary](https://git.openstack.org/cgit/openstack/ec2-api/summary) |
-
-
-
-## nova: 4 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/os-traits  | [summary](https://git.openstack.org/cgit/openstack/os-traits/summary) |
-| openstack/os-vif  | [summary](https://git.openstack.org/cgit/openstack/os-vif/summary) |
-| openstack/nova  | [summary](https://git.openstack.org/cgit/openstack/nova/summary) |
-| openstack/osc-placement  | [summary](https://git.openstack.org/cgit/openstack/osc-placement/summary) |
-
-
-
-## mistral: 4 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/mistral-extra  | [summary](https://git.openstack.org/cgit/openstack/mistral-extra/summary) |
-| openstack/mistral-lib  | [summary](https://git.openstack.org/cgit/openstack/mistral-lib/summary) |
-| openstack/mistral  | [summary](https://git.openstack.org/cgit/openstack/mistral/summary) |
-| openstack/mistral-dashboard  | [summary](https://git.openstack.org/cgit/openstack/mistral-dashboard/summary) |
-
-
-
-## murano: 7 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/yaql  | [summary](https://git.openstack.org/cgit/openstack/yaql/summary) |
-| openstack/murano-agent  | [summary](https://git.openstack.org/cgit/openstack/murano-agent/summary) |
-| openstack/murano-deployment  | [summary](https://git.openstack.org/cgit/openstack/murano-deployment/summary) |
-| openstack/murano-pkg-check  | [summary](https://git.openstack.org/cgit/openstack/murano-pkg-check/summary) |
-| openstack/murano-apps  | [summary](https://git.openstack.org/cgit/openstack/murano-apps/summary) |
-| openstack/murano  | [summary](https://git.openstack.org/cgit/openstack/murano/summary) |
-| openstack/murano-dashboard  | [summary](https://git.openstack.org/cgit/openstack/murano-dashboard/summary) |
-
-
-
-## PowerVMStackers: 2 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/ceilometer-powervm  | [summary](https://git.openstack.org/cgit/openstack/ceilometer-powervm/summary) |
-| openstack/nova-powervm  | [summary](https://git.openstack.org/cgit/openstack/nova-powervm/summary) |
-
-
-
-## keystone: 5 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/keystonemiddleware  | [summary](https://git.openstack.org/cgit/openstack/keystonemiddleware/summary) |
-| openstack/pycadf  | [summary](https://git.openstack.org/cgit/openstack/pycadf/summary) |
-| openstack/keystoneauth  | [summary](https://git.openstack.org/cgit/openstack/keystoneauth/summary) |
-| openstack/ldappool  | [summary](https://git.openstack.org/cgit/openstack/ldappool/summary) |
-| openstack/keystone  | [summary](https://git.openstack.org/cgit/openstack/keystone/summary) |
-
-
-
-## stacktach: 11 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/stacktach-simport  | [summary](https://git.openstack.org/cgit/openstack/stacktach-simport/summary) |
-| openstack/stacktach-notigen  | [summary](https://git.openstack.org/cgit/openstack/stacktach-notigen/summary) |
-| openstack/stacktach-notification-utils  | [summary](https://git.openstack.org/cgit/openstack/stacktach-notification-utils/summary) |
-| openstack/stacktach-quince  | [summary](https://git.openstack.org/cgit/openstack/stacktach-quince/summary) |
-| openstack/stacktach-quincy  | [summary](https://git.openstack.org/cgit/openstack/stacktach-quincy/summary) |
-| openstack/stacktach-winchester  | [summary](https://git.openstack.org/cgit/openstack/stacktach-winchester/summary) |
-| openstack/stacktach-klugman  | [summary](https://git.openstack.org/cgit/openstack/stacktach-klugman/summary) |
-| openstack/stacktach-stackdistiller  | [summary](https://git.openstack.org/cgit/openstack/stacktach-stackdistiller/summary) |
-| openstack/stacktach-timex  | [summary](https://git.openstack.org/cgit/openstack/stacktach-timex/summary) |
-| openstack/stacktach-shoebox  | [summary](https://git.openstack.org/cgit/openstack/stacktach-shoebox/summary) |
-| openstack/stacktach-sandbox  | [summary](https://git.openstack.org/cgit/openstack/stacktach-sandbox/summary) |
-
-
-
-## qinling: 1 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/qinling  | [summary](https://git.openstack.org/cgit/openstack/qinling/summary) |
-
-
-
-## freezer: 4 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/freezer-api  | [summary](https://git.openstack.org/cgit/openstack/freezer-api/summary) |
-| openstack/freezer  | [summary](https://git.openstack.org/cgit/openstack/freezer/summary) |
-| openstack/freezer-dr  | [summary](https://git.openstack.org/cgit/openstack/freezer-dr/summary) |
-| openstack/freezer-web-ui  | [summary](https://git.openstack.org/cgit/openstack/freezer-web-ui/summary) |
-
-
-
-## fuel: 153 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/fuel-plugin-midonet  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-midonet/summary) |
-| openstack/fuel-plugin-zabbix-monitoring-extreme-networks  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-zabbix-monitoring-extreme-networks/summary) |
-| openstack/fuel-plugin-external-emc  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-external-emc/summary) |
-| openstack/fuel-plugin-neutron-vpnaas  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-neutron-vpnaas/summary) |
-| openstack/fuel-plugin-openstack-telemetry  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-openstack-telemetry/summary) |
-| openstack/fuel-plugin-nsx-t  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-nsx-t/summary) |
-| openstack/fuel-astute  | [summary](https://git.openstack.org/cgit/openstack/fuel-astute/summary) |
-| openstack/fuel-plugin-scaleio  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-scaleio/summary) |
-| openstack/fuel-docs  | [summary](https://git.openstack.org/cgit/openstack/fuel-docs/summary) |
-| openstack/fuel-plugin-hedvig-cinder  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-hedvig-cinder/summary) |
-| openstack/fuel-plugin-murano-tests  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-murano-tests/summary) |
-| openstack/fuel-ccp-ironic  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-ironic/summary) |
-| openstack/fuel-plugin-watcher  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-watcher/summary) |
-| openstack/fuel-plugin-cinder-kaminario  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-cinder-kaminario/summary) |
-| openstack/fuel-ccp-rally  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-rally/summary) |
-| openstack/fuel-plugin-inkscope  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-inkscope/summary) |
-| openstack/fuel-ccp-searchlight  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-searchlight/summary) |
-| openstack/fuel-ui  | [summary](https://git.openstack.org/cgit/openstack/fuel-ui/summary) |
-| openstack/fuel-ccp  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp/summary) |
-| openstack/fuel-plugin-designate  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-designate/summary) |
-| openstack/fuel-plugin-6wind-virtual-accelerator  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-6wind-virtual-accelerator/summary) |
-| openstack/fuel-plugin-wstunnel  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-wstunnel/summary) |
-| openstack/fuel-plugin-plumgrid  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-plumgrid/summary) |
-| openstack/fuel-plugin-neutron-lbaas  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-neutron-lbaas/summary) |
-| openstack/fuel-ccp-cinder  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-cinder/summary) |
-| openstack/fuel-ccp-memcached  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-memcached/summary) |
-| openstack/fuel-nailgun-extension-cluster-upgrade  | [summary](https://git.openstack.org/cgit/openstack/fuel-nailgun-extension-cluster-upgrade/summary) |
-| openstack/fuel-ccp-keystone  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-keystone/summary) |
-| openstack/fuel-ccp-galera  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-galera/summary) |
-| openstack/fuel-ccp-elasticsearch  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-elasticsearch/summary) |
-| openstack/fuel-plugin-mellanox  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-mellanox/summary) |
-| openstack/fuel-plugin-detach-database  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-detach-database/summary) |
-| openstack/fuel-plugin-congress  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-congress/summary) |
-| openstack/fuel-plugin-nitrous  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-nitrous/summary) |
-| openstack/fuel-ccp-neutron  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-neutron/summary) |
-| openstack/fuel-plugin-contrail  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-contrail/summary) |
-| openstack/fuel-plugin-murano  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-murano/summary) |
-| openstack/fuel-plugin-vmware-dvs  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-vmware-dvs/summary) |
-| openstack/fuel-ccp-entrypoint  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-entrypoint/summary) |
-| openstack/fuel-devops  | [summary](https://git.openstack.org/cgit/openstack/fuel-devops/summary) |
-| openstack/fuel-plugin-networking-sfc  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-networking-sfc/summary) |
-| openstack/fuel-plugin-zabbix-monitoring-emc  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-zabbix-monitoring-emc/summary) |
-| openstack/fuel-plugin-tintri-cinder  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-tintri-cinder/summary) |
-| openstack/fuel-nailgun-agent  | [summary](https://git.openstack.org/cgit/openstack/fuel-nailgun-agent/summary) |
-| openstack/fuel-qa  | [summary](https://git.openstack.org/cgit/openstack/fuel-qa/summary) |
-| openstack/fuel-plugin-saltstack  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-saltstack/summary) |
-| openstack/fuel-plugin-qemu  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-qemu/summary) |
-| openstack/fuel-plugin-fortinet  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-fortinet/summary) |
-| openstack/fuel-plugin-detach-horizon  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-detach-horizon/summary) |
-| openstack/fuel-plugin-ci  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-ci/summary) |
-| openstack/fuel-noop-fixtures  | [summary](https://git.openstack.org/cgit/openstack/fuel-noop-fixtures/summary) |
-| openstack/fuel-ccp-stacklight  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-stacklight/summary) |
-| openstack/fuel-plugin-purestorage-cinder  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-purestorage-cinder/summary) |
-| openstack/fuel-plugin-swiftstack  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-swiftstack/summary) |
-| openstack/fuel-plugin-network-node  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-network-node/summary) |
-| openstack/fuel-plugin-murano-networking-sfc  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-murano-networking-sfc/summary) |
-| openstack/fuel-plugin-tls  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-tls/summary) |
-| openstack/fuel-library  | [summary](https://git.openstack.org/cgit/openstack/fuel-library/summary) |
-| openstack/fuel-plugin-rally  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-rally/summary) |
-| openstack/fuel-plugin-qlogic-sriov-vxlan  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-qlogic-sriov-vxlan/summary) |
-| openstack/fuel-ccp-sahara  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-sahara/summary) |
-| openstack/fuel-ccp-glance  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-glance/summary) |
-| openstack/fuel-plugin-zabbix-agents  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-zabbix-agents/summary) |
-| openstack/fuel-plugin-elasticsearch-kibana  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-elasticsearch-kibana/summary) |
-| openstack/fuel-plugin-influxdb-grafana  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-influxdb-grafana/summary) |
-| openstack/fuel-dev-tools  | [summary](https://git.openstack.org/cgit/openstack/fuel-dev-tools/summary) |
-| openstack/fuel-plugin-ldap-slaves  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-ldap-slaves/summary) |
-| openstack/fuel-plugin-external-zabbix  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-external-zabbix/summary) |
-| openstack/fuel-plugin-cinder-gcs  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-cinder-gcs/summary) |
-| openstack/fuel-web  | [summary](https://git.openstack.org/cgit/openstack/fuel-web/summary) |
-| openstack/fuel-plugin-external-glusterfs  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-external-glusterfs/summary) |
-| openstack/fuel-ccp-debian-base  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-debian-base/summary) |
-| openstack/fuel-plugin-nimblestorage-cinder  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-nimblestorage-cinder/summary) |
-| openstack/fuel-plugin-cinder-netapp  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-cinder-netapp/summary) |
-| openstack/fuel-ccp-grafana  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-grafana/summary) |
-| openstack/fuel-plugin-gluon  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-gluon/summary) |
-| openstack/fuel-octane  | [summary](https://git.openstack.org/cgit/openstack/fuel-octane/summary) |
-| openstack/fuel-plugin-ceilometer-redis  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-ceilometer-redis/summary) |
-| openstack/fuel-specs  | [summary](https://git.openstack.org/cgit/openstack/fuel-specs/summary) |
-| openstack/fuel-plugin-calico  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-calico/summary) |
-| openstack/fuel-plugin-scaleio-cinder  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-scaleio-cinder/summary) |
-| openstack/fuel-ccp-installer  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-installer/summary) |
-| openstack/fuel-mirror  | [summary](https://git.openstack.org/cgit/openstack/fuel-mirror/summary) |
-| openstack/fuel-plugin-calamari  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-calamari/summary) |
-| openstack/fuel-plugin-vxlan  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-vxlan/summary) |
-| openstack/fuel-plugin-xenserver  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-xenserver/summary) |
-| openstack/fuel-plugin-sensu  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-sensu/summary) |
-| openstack/fuel-plugin-manila  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-manila/summary) |
-| openstack/fuel-ccp-murano  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-murano/summary) |
-| openstack/fuel-plugin-nova-nfs  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-nova-nfs/summary) |
-| openstack/fuel-plugin-detach-rabbitmq  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-detach-rabbitmq/summary) |
-| openstack/fuel-upgrade  | [summary](https://git.openstack.org/cgit/openstack/fuel-upgrade/summary) |
-| openstack/fuel-plugin-solidfire-cinder  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-solidfire-cinder/summary) |
-| openstack/fuel-plugin-cisco-aci  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-cisco-aci/summary) |
-| openstack/fuel-ccp-tests  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-tests/summary) |
-| openstack/fuel-agent  | [summary](https://git.openstack.org/cgit/openstack/fuel-agent/summary) |
-| openstack/fuel-plugin-emailnotifyd  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-emailnotifyd/summary) |
-| openstack/fuel-ccp-designate  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-designate/summary) |
-| openstack/fuel-plugin-detach-netnode  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-detach-netnode/summary) |
-| openstack/fuel-plugin-kafka  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-kafka/summary) |
-| openstack/fuel-ccp-mariadb  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-mariadb/summary) |
-| openstack/fuel-plugin-opendaylight  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-opendaylight/summary) |
-| openstack/fuel-plugin-ha-fencing  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-ha-fencing/summary) |
-| openstack/fuel-plugin-external-lb  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-external-lb/summary) |
-| openstack/fuel-plugin-zabbix-snmptrapd  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-zabbix-snmptrapd/summary) |
-| openstack/fuel-plugin-neutron-fwaas  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-neutron-fwaas/summary) |
-| openstack/fuel-plugin-datera-cinder  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-datera-cinder/summary) |
-| openstack/fuel-plugins  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugins/summary) |
-| openstack/fuel-main  | [summary](https://git.openstack.org/cgit/openstack/fuel-main/summary) |
-| openstack/fuel-plugin-availability-zones  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-availability-zones/summary) |
-| openstack/fuel-nailgun-extension-converted-serializers  | [summary](https://git.openstack.org/cgit/openstack/fuel-nailgun-extension-converted-serializers/summary) |
-| openstack/fuel-ccp-nova  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-nova/summary) |
-| openstack/fuel-virtualbox  | [summary](https://git.openstack.org/cgit/openstack/fuel-virtualbox/summary) |
-| openstack/fuel-ostf  | [summary](https://git.openstack.org/cgit/openstack/fuel-ostf/summary) |
-| openstack/fuel-plugin-tempest  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-tempest/summary) |
-| openstack/fuel-plugin-detach-swift  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-detach-swift/summary) |
-| openstack/fuel-plugin-lma-collector  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-lma-collector/summary) |
-| openstack/fuel-plugin-dbaas-trove  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-dbaas-trove/summary) |
-| openstack/fuel-nailgun-extension-iac  | [summary](https://git.openstack.org/cgit/openstack/fuel-nailgun-extension-iac/summary) |
-| openstack/fuel-ccp-rabbitmq  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-rabbitmq/summary) |
-| openstack/fuel-plugin-mistral  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-mistral/summary) |
-| openstack/fuel-plugin-debug  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-debug/summary) |
-| openstack/fuel-plugin-ovs  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-ovs/summary) |
-| openstack/fuel-plugin-detach-haproxy  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-detach-haproxy/summary) |
-| openstack/fuel-ccp-ceph  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-ceph/summary) |
-| openstack/fuel-plugin-dynatrace  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-dynatrace/summary) |
-| openstack/fuel-ccp-specs  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-specs/summary) |
-| openstack/fuel-plugin-onos  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-onos/summary) |
-| openstack/fuel-ccp-etcd  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-etcd/summary) |
-| openstack/fuel-plugin-openbook  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-openbook/summary) |
-| openstack/fuel-plugin-nsxv  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-nsxv/summary) |
-| openstack/fuel-menu  | [summary](https://git.openstack.org/cgit/openstack/fuel-menu/summary) |
-| openstack/fuel-plugin-nuage  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-nuage/summary) |
-| openstack/fuel-plugin-ldap  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-ldap/summary) |
-| openstack/fuel-ccp-horizon  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-horizon/summary) |
-| openstack/fuel-ccp-nginx  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-nginx/summary) |
-| openstack/fuel-plugin-ceph-multibackend  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-ceph-multibackend/summary) |
-| openstack/fuel-plugin-block-device  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-block-device/summary) |
-| openstack/fuel-ccp-heat  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-heat/summary) |
-| openstack/fuel-plugin-lma-infrastructure-alerting  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-lma-infrastructure-alerting/summary) |
-| openstack/fuel-plugin-unity  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-unity/summary) |
-| openstack/fuel-plugin-bigswitch  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-bigswitch/summary) |
-| openstack/fuel-ccp-ci-config  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-ci-config/summary) |
-| openstack/fuel-plugin-dns-updater  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-dns-updater/summary) |
-| openstack/fuel-stats  | [summary](https://git.openstack.org/cgit/openstack/fuel-stats/summary) |
-| openstack/fuel-ccp-openstack-base  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-openstack-base/summary) |
-| openstack/fuel-plugin-tacker  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-tacker/summary) |
-| openstack/fuel-plugin-ironic  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-ironic/summary) |
-| openstack/fuel-plugin-detach-keystone  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-detach-keystone/summary) |
-| openstack/fuel-plugin-bgpvpn  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-bgpvpn/summary) |
-| openstack/fuel-plugin-astara  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-astara/summary) |
-| openstack/fuel-ccp-zmq  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-zmq/summary) |
-| openstack/fuel-plugin-glance-nfs  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-glance-nfs/summary) |
-
-
-
-## magnum: 2 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/magnum  | [summary](https://git.openstack.org/cgit/openstack/magnum/summary) |
-| openstack/magnum-ui  | [summary](https://git.openstack.org/cgit/openstack/magnum-ui/summary) |
-
-
-
-## cyborg: 1 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/cyborg  | [summary](https://git.openstack.org/cgit/openstack/cyborg/summary) |
-
-
-
-## neutron: 57 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/networking-huawei  | [summary](https://git.openstack.org/cgit/openstack/networking-huawei/summary) |
-| openstack/networking-ovn  | [summary](https://git.openstack.org/cgit/openstack/networking-ovn/summary) |
-| openstack/networking-odl  | [summary](https://git.openstack.org/cgit/openstack/networking-odl/summary) |
-| openstack/networking-midonet  | [summary](https://git.openstack.org/cgit/openstack/networking-midonet/summary) |
-| openstack/neutron-vpnaas-dashboard  | [summary](https://git.openstack.org/cgit/openstack/neutron-vpnaas-dashboard/summary) |
-| openstack/networking-edge-vpn  | [summary](https://git.openstack.org/cgit/openstack/networking-edge-vpn/summary) |
-| openstack/networking-hyperv  | [summary](https://git.openstack.org/cgit/openstack/networking-hyperv/summary) |
-| openstack/networking-ansible  | [summary](https://git.openstack.org/cgit/openstack/networking-ansible/summary) |
-| openstack/networking-lagopus  | [summary](https://git.openstack.org/cgit/openstack/networking-lagopus/summary) |
-| openstack/networking-infoblox  | [summary](https://git.openstack.org/cgit/openstack/networking-infoblox/summary) |
-| openstack/networking-generic-switch  | [summary](https://git.openstack.org/cgit/openstack/networking-generic-switch/summary) |
-| openstack/networking-arista  | [summary](https://git.openstack.org/cgit/openstack/networking-arista/summary) |
-| openstack/networking-zvm  | [summary](https://git.openstack.org/cgit/openstack/networking-zvm/summary) |
-| openstack/networking-avaya  | [summary](https://git.openstack.org/cgit/openstack/networking-avaya/summary) |
-| openstack/ovsdbapp  | [summary](https://git.openstack.org/cgit/openstack/ovsdbapp/summary) |
-| openstack/neutron-lib  | [summary](https://git.openstack.org/cgit/openstack/neutron-lib/summary) |
-| openstack/networking-bgpvpn  | [summary](https://git.openstack.org/cgit/openstack/networking-bgpvpn/summary) |
-| openstack/networking-calico  | [summary](https://git.openstack.org/cgit/openstack/networking-calico/summary) |
-| openstack/networking-generic-switch-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/networking-generic-switch-tempest-plugin/summary) |
-| openstack/networking-spp  | [summary](https://git.openstack.org/cgit/openstack/networking-spp/summary) |
-| openstack/neutron  | [summary](https://git.openstack.org/cgit/openstack/neutron/summary) |
-| openstack/networking-ofagent  | [summary](https://git.openstack.org/cgit/openstack/networking-ofagent/summary) |
-| openstack/neutron-fwaas  | [summary](https://git.openstack.org/cgit/openstack/neutron-fwaas/summary) |
-| openstack/neutron-dynamic-routing  | [summary](https://git.openstack.org/cgit/openstack/neutron-dynamic-routing/summary) |
-| openstack/neutron-vpnaas  | [summary](https://git.openstack.org/cgit/openstack/neutron-vpnaas/summary) |
-| openstack/networking-h3c  | [summary](https://git.openstack.org/cgit/openstack/networking-h3c/summary) |
-| openstack/networking-vpp  | [summary](https://git.openstack.org/cgit/openstack/networking-vpp/summary) |
-| openstack/networking-ale-omniswitch  | [summary](https://git.openstack.org/cgit/openstack/networking-ale-omniswitch/summary) |
-| openstack/networking-powervm  | [summary](https://git.openstack.org/cgit/openstack/networking-powervm/summary) |
-| openstack/networking-cisco  | [summary](https://git.openstack.org/cgit/openstack/networking-cisco/summary) |
-| openstack/networking-plumgrid  | [summary](https://git.openstack.org/cgit/openstack/networking-plumgrid/summary) |
-| openstack/networking-cumulus  | [summary](https://git.openstack.org/cgit/openstack/networking-cumulus/summary) |
-| openstack/networking-6wind  | [summary](https://git.openstack.org/cgit/openstack/networking-6wind/summary) |
-| openstack/neutron-fwaas-dashboard  | [summary](https://git.openstack.org/cgit/openstack/neutron-fwaas-dashboard/summary) |
-| openstack/networking-bigswitch  | [summary](https://git.openstack.org/cgit/openstack/networking-bigswitch/summary) |
-| openstack/networking-gluon  | [summary](https://git.openstack.org/cgit/openstack/networking-gluon/summary) |
-| openstack/networking-mlnx  | [summary](https://git.openstack.org/cgit/openstack/networking-mlnx/summary) |
-| openstack/networking-baremetal  | [summary](https://git.openstack.org/cgit/openstack/networking-baremetal/summary) |
-| openstack/networking-ovs-dpdk  | [summary](https://git.openstack.org/cgit/openstack/networking-ovs-dpdk/summary) |
-| openstack/networking-dpm  | [summary](https://git.openstack.org/cgit/openstack/networking-dpm/summary) |
-| openstack/networking-fujitsu  | [summary](https://git.openstack.org/cgit/openstack/networking-fujitsu/summary) |
-| openstack/networking-fortinet  | [summary](https://git.openstack.org/cgit/openstack/networking-fortinet/summary) |
-| openstack/networking-icc  | [summary](https://git.openstack.org/cgit/openstack/networking-icc/summary) |
-| openstack/networking-brocade  | [summary](https://git.openstack.org/cgit/openstack/networking-brocade/summary) |
-| openstack/networking-bagpipe  | [summary](https://git.openstack.org/cgit/openstack/networking-bagpipe/summary) |
-| openstack/networking-extreme  | [summary](https://git.openstack.org/cgit/openstack/networking-extreme/summary) |
-| openstack/networking-hpe  | [summary](https://git.openstack.org/cgit/openstack/networking-hpe/summary) |
-| openstack/networking-nec  | [summary](https://git.openstack.org/cgit/openstack/networking-nec/summary) |
-| openstack/networking-lenovo  | [summary](https://git.openstack.org/cgit/openstack/networking-lenovo/summary) |
-| openstack/networking-onos  | [summary](https://git.openstack.org/cgit/openstack/networking-onos/summary) |
-| openstack/networking-l2gw  | [summary](https://git.openstack.org/cgit/openstack/networking-l2gw/summary) |
-| openstack/networking-peregrine  | [summary](https://git.openstack.org/cgit/openstack/networking-peregrine/summary) |
-| openstack/networking-opencontrail  | [summary](https://git.openstack.org/cgit/openstack/networking-opencontrail/summary) |
-| openstack/networking-sfc  | [summary](https://git.openstack.org/cgit/openstack/networking-sfc/summary) |
-| openstack/networking-vsphere  | [summary](https://git.openstack.org/cgit/openstack/networking-vsphere/summary) |
-| openstack/networking-l2gw-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/networking-l2gw-tempest-plugin/summary) |
-| openstack/networking-zte  | [summary](https://git.openstack.org/cgit/openstack/networking-zte/summary) |
-
-
-
-## Quality Assurance: 9 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/patrole  | [summary](https://git.openstack.org/cgit/openstack/patrole/summary) |
-| openstack/tempest  | [summary](https://git.openstack.org/cgit/openstack/tempest/summary) |
-| openstack/stackviz  | [summary](https://git.openstack.org/cgit/openstack/stackviz/summary) |
-| openstack/karma-subunit-reporter  | [summary](https://git.openstack.org/cgit/openstack/karma-subunit-reporter/summary) |
-| openstack/eslint-config-openstack  | [summary](https://git.openstack.org/cgit/openstack/eslint-config-openstack/summary) |
-| openstack/coverage2sql  | [summary](https://git.openstack.org/cgit/openstack/coverage2sql/summary) |
-| openstack/os-performance-tools  | [summary](https://git.openstack.org/cgit/openstack/os-performance-tools/summary) |
-| openstack/os-testr  | [summary](https://git.openstack.org/cgit/openstack/os-testr/summary) |
-| openstack/openstack-health  | [summary](https://git.openstack.org/cgit/openstack/openstack-health/summary) |
-
-
-
-## searchlight: 2 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/searchlight  | [summary](https://git.openstack.org/cgit/openstack/searchlight/summary) |
-| openstack/searchlight-ui  | [summary](https://git.openstack.org/cgit/openstack/searchlight-ui/summary) |
-
-
-
-## manila: 4 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/manila-ui  | [summary](https://git.openstack.org/cgit/openstack/manila-ui/summary) |
-| openstack/manila-test-image  | [summary](https://git.openstack.org/cgit/openstack/manila-test-image/summary) |
-| openstack/manila-image-elements  | [summary](https://git.openstack.org/cgit/openstack/manila-image-elements/summary) |
-| openstack/manila  | [summary](https://git.openstack.org/cgit/openstack/manila/summary) |
-
-
-
-## congress: 2 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/congress-dashboard  | [summary](https://git.openstack.org/cgit/openstack/congress-dashboard/summary) |
-| openstack/congress  | [summary](https://git.openstack.org/cgit/openstack/congress/summary) |
-
-
-
-## python: 87 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/python-magnetodbclient  | [summary](https://git.openstack.org/cgit/openstack/python-magnetodbclient/summary) |
-| openstack/python-openstackclient  | [summary](https://git.openstack.org/cgit/openstack/python-openstackclient/summary) |
-| openstack/python-valenceclient  | [summary](https://git.openstack.org/cgit/openstack/python-valenceclient/summary) |
-| openstack/python-fuelclient  | [summary](https://git.openstack.org/cgit/openstack/python-fuelclient/summary) |
-| openstack/python-glanceclient  | [summary](https://git.openstack.org/cgit/openstack/python-glanceclient/summary) |
-| openstack/python-tricircleclient  | [summary](https://git.openstack.org/cgit/openstack/python-tricircleclient/summary) |
-| openstack/python-zunclient  | [summary](https://git.openstack.org/cgit/openstack/python-zunclient/summary) |
-| openstack/python-rackclient  | [summary](https://git.openstack.org/cgit/openstack/python-rackclient/summary) |
-| openstack/python-cinderclient  | [summary](https://git.openstack.org/cgit/openstack/python-cinderclient/summary) |
-| openstack/python-magnumclient  | [summary](https://git.openstack.org/cgit/openstack/python-magnumclient/summary) |
-| openstack/python-hnvclient  | [summary](https://git.openstack.org/cgit/openstack/python-hnvclient/summary) |
-| openstack/python-kiteclient  | [summary](https://git.openstack.org/cgit/openstack/python-kiteclient/summary) |
-| openstack/python-iotronicclient  | [summary](https://git.openstack.org/cgit/openstack/python-iotronicclient/summary) |
-| openstack/python-appcatalogclient  | [summary](https://git.openstack.org/cgit/openstack/python-appcatalogclient/summary) |
-| openstack/python-keystoneclient-kerberos  | [summary](https://git.openstack.org/cgit/openstack/python-keystoneclient-kerberos/summary) |
-| openstack/python-ironic-inspector-client  | [summary](https://git.openstack.org/cgit/openstack/python-ironic-inspector-client/summary) |
-| openstack/python-octaviaclient  | [summary](https://git.openstack.org/cgit/openstack/python-octaviaclient/summary) |
-| openstack/python-gnocchiclient  | [summary](https://git.openstack.org/cgit/openstack/python-gnocchiclient/summary) |
-| openstack/python-ironicclient  | [summary](https://git.openstack.org/cgit/openstack/python-ironicclient/summary) |
-| openstack/python-solumclient  | [summary](https://git.openstack.org/cgit/openstack/python-solumclient/summary) |
-| openstack/python-kingbirdclient  | [summary](https://git.openstack.org/cgit/openstack/python-kingbirdclient/summary) |
-| openstack/python-cerberusclient  | [summary](https://git.openstack.org/cgit/openstack/python-cerberusclient/summary) |
-| openstack/python-saharaclient  | [summary](https://git.openstack.org/cgit/openstack/python-saharaclient/summary) |
-| openstack/python-meteosclient  | [summary](https://git.openstack.org/cgit/openstack/python-meteosclient/summary) |
-| openstack/python-cueclient  | [summary](https://git.openstack.org/cgit/openstack/python-cueclient/summary) |
-| openstack/python-neutronclient  | [summary](https://git.openstack.org/cgit/openstack/python-neutronclient/summary) |
-| openstack/python-jenkins  | [summary](https://git.openstack.org/cgit/openstack/python-jenkins/summary) |
-| openstack/python-pankoclient  | [summary](https://git.openstack.org/cgit/openstack/python-pankoclient/summary) |
-| openstack/python-masakariclient  | [summary](https://git.openstack.org/cgit/openstack/python-masakariclient/summary) |
-| openstack/python-tatuclient  | [summary](https://git.openstack.org/cgit/openstack/python-tatuclient/summary) |
-| openstack/python-adjutantclient  | [summary](https://git.openstack.org/cgit/openstack/python-adjutantclient/summary) |
-| openstack/python-karborclient  | [summary](https://git.openstack.org/cgit/openstack/python-karborclient/summary) |
-| openstack/python-aodhclient  | [summary](https://git.openstack.org/cgit/openstack/python-aodhclient/summary) |
-| openstack/python-monascaclient  | [summary](https://git.openstack.org/cgit/openstack/python-monascaclient/summary) |
-| openstack/python-ganttclient  | [summary](https://git.openstack.org/cgit/openstack/python-ganttclient/summary) |
-| openstack/python-manilaclient  | [summary](https://git.openstack.org/cgit/openstack/python-manilaclient/summary) |
-| openstack/python-muranoclient  | [summary](https://git.openstack.org/cgit/openstack/python-muranoclient/summary) |
-| openstack/python-distilclient  | [summary](https://git.openstack.org/cgit/openstack/python-distilclient/summary) |
-| openstack/python-don  | [summary](https://git.openstack.org/cgit/openstack/python-don/summary) |
-| openstack/python-oneviewclient  | [summary](https://git.openstack.org/cgit/openstack/python-oneviewclient/summary) |
-| openstack/python-apmecclient  | [summary](https://git.openstack.org/cgit/openstack/python-apmecclient/summary) |
-| openstack/python-cloudpulseclient  | [summary](https://git.openstack.org/cgit/openstack/python-cloudpulseclient/summary) |
-| openstack/python-searchlightclient  | [summary](https://git.openstack.org/cgit/openstack/python-searchlightclient/summary) |
-| openstack/python-namosclient  | [summary](https://git.openstack.org/cgit/openstack/python-namosclient/summary) |
-| openstack/python-zaqarclient  | [summary](https://git.openstack.org/cgit/openstack/python-zaqarclient/summary) |
-| openstack/python-blazarclient  | [summary](https://git.openstack.org/cgit/openstack/python-blazarclient/summary) |
-| openstack/python-vitrageclient  | [summary](https://git.openstack.org/cgit/openstack/python-vitrageclient/summary) |
-| openstack/python-keystoneclient  | [summary](https://git.openstack.org/cgit/openstack/python-keystoneclient/summary) |
-| openstack/python-freezerclient  | [summary](https://git.openstack.org/cgit/openstack/python-freezerclient/summary) |
-| openstack/python-barbicanclient  | [summary](https://git.openstack.org/cgit/openstack/python-barbicanclient/summary) |
-| openstack/python-mistralclient  | [summary](https://git.openstack.org/cgit/openstack/python-mistralclient/summary) |
-| openstack/python-cognitiveclient  | [summary](https://git.openstack.org/cgit/openstack/python-cognitiveclient/summary) |
-| openstack/python-tuskarclient  | [summary](https://git.openstack.org/cgit/openstack/python-tuskarclient/summary) |
-| openstack/python-group-based-policy-client  | [summary](https://git.openstack.org/cgit/openstack/python-group-based-policy-client/summary) |
-| openstack/python-cloudkittyclient  | [summary](https://git.openstack.org/cgit/openstack/python-cloudkittyclient/summary) |
-| openstack/python-neutron-pd-driver  | [summary](https://git.openstack.org/cgit/openstack/python-neutron-pd-driver/summary) |
-| openstack/python-troveclient  | [summary](https://git.openstack.org/cgit/openstack/python-troveclient/summary) |
-| openstack/python-cratonclient  | [summary](https://git.openstack.org/cgit/openstack/python-cratonclient/summary) |
-| openstack/python-watcherclient  | [summary](https://git.openstack.org/cgit/openstack/python-watcherclient/summary) |
-| openstack/python-scciclient  | [summary](https://git.openstack.org/cgit/openstack/python-scciclient/summary) |
-| openstack/python-moganclient  | [summary](https://git.openstack.org/cgit/openstack/python-moganclient/summary) |
-| openstack/python-qinlingclient  | [summary](https://git.openstack.org/cgit/openstack/python-qinlingclient/summary) |
-| openstack/python-wsmanclient  | [summary](https://git.openstack.org/cgit/openstack/python-wsmanclient/summary) |
-| openstack/python-cyborgclient  | [summary](https://git.openstack.org/cgit/openstack/python-cyborgclient/summary) |
-| openstack/python-swiftclient  | [summary](https://git.openstack.org/cgit/openstack/python-swiftclient/summary) |
-| openstack/python-congressclient  | [summary](https://git.openstack.org/cgit/openstack/python-congressclient/summary) |
-| openstack/python-ceilometerclient  | [summary](https://git.openstack.org/cgit/openstack/python-ceilometerclient/summary) |
-| openstack/python-almanachclient  | [summary](https://git.openstack.org/cgit/openstack/python-almanachclient/summary) |
-| openstack/python-surveilclient  | [summary](https://git.openstack.org/cgit/openstack/python-surveilclient/summary) |
-| openstack/python-senlinclient  | [summary](https://git.openstack.org/cgit/openstack/python-senlinclient/summary) |
-| openstack/python-tackerclient  | [summary](https://git.openstack.org/cgit/openstack/python-tackerclient/summary) |
-| openstack/python-designateclient  | [summary](https://git.openstack.org/cgit/openstack/python-designateclient/summary) |
-| openstack/python-evoqueclient  | [summary](https://git.openstack.org/cgit/openstack/python-evoqueclient/summary) |
-| openstack/python-opentsdbclient  | [summary](https://git.openstack.org/cgit/openstack/python-opentsdbclient/summary) |
-| openstack/python-heatclient  | [summary](https://git.openstack.org/cgit/openstack/python-heatclient/summary) |
-| openstack/python-redfish  | [summary](https://git.openstack.org/cgit/openstack/python-redfish/summary) |
-| openstack/python-novaclient  | [summary](https://git.openstack.org/cgit/openstack/python-novaclient/summary) |
-| openstack/python-tripleoclient  | [summary](https://git.openstack.org/cgit/openstack/python-tripleoclient/summary) |
-| openstack/python-tempestconf  | [summary](https://git.openstack.org/cgit/openstack/python-tempestconf/summary) |
-| openstack/python-rsdclient  | [summary](https://git.openstack.org/cgit/openstack/python-rsdclient/summary) |
-| openstack/python-bileanclient  | [summary](https://git.openstack.org/cgit/openstack/python-bileanclient/summary) |
-| openstack/python-brick-cinderclient-ext  | [summary](https://git.openstack.org/cgit/openstack/python-brick-cinderclient-ext/summary) |
-| openstack/python-glareclient  | [summary](https://git.openstack.org/cgit/openstack/python-glareclient/summary) |
-| openstack/python-picassoclient  | [summary](https://git.openstack.org/cgit/openstack/python-picassoclient/summary) |
-| openstack/python-dracclient  | [summary](https://git.openstack.org/cgit/openstack/python-dracclient/summary) |
-| openstack/python-k8sclient  | [summary](https://git.openstack.org/cgit/openstack/python-k8sclient/summary) |
-| openstack/python-sticksclient  | [summary](https://git.openstack.org/cgit/openstack/python-sticksclient/summary) |
-
-
-
 ## Chef OpenStack: 1 repos 
 
 | Repo                    | GIT Summary|
@@ -1238,44 +26,166 @@
 
 
 
-## karbor: 2 repos 
+## I18n: 1 repos 
 
 | Repo                    | GIT Summary|
 | ----------------------- | ---------- |
-| openstack/karbor  | [summary](https://git.openstack.org/cgit/openstack/karbor/summary) |
-| openstack/karbor-dashboard  | [summary](https://git.openstack.org/cgit/openstack/karbor-dashboard/summary) |
+| openstack/i18n  | [summary](https://git.openstack.org/cgit/openstack/i18n/summary) |
 
 
 
-## snap: 11 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/snap-nova-hypervisor  | [summary](https://git.openstack.org/cgit/openstack/snap-nova-hypervisor/summary) |
-| openstack/snap-rally  | [summary](https://git.openstack.org/cgit/openstack/snap-rally/summary) |
-| openstack/snap-cinder  | [summary](https://git.openstack.org/cgit/openstack/snap-cinder/summary) |
-| openstack/snap-gnocchi  | [summary](https://git.openstack.org/cgit/openstack/snap-gnocchi/summary) |
-| openstack/snap-glance  | [summary](https://git.openstack.org/cgit/openstack/snap-glance/summary) |
-| openstack/snap-nova  | [summary](https://git.openstack.org/cgit/openstack/snap-nova/summary) |
-| openstack/snap-keystone  | [summary](https://git.openstack.org/cgit/openstack/snap-keystone/summary) |
-| openstack/snap-ceilometer  | [summary](https://git.openstack.org/cgit/openstack/snap-ceilometer/summary) |
-| openstack/snap-neutron  | [summary](https://git.openstack.org/cgit/openstack/snap-neutron/summary) |
-| openstack/snap-tempest  | [summary](https://git.openstack.org/cgit/openstack/snap-tempest/summary) |
-| openstack/snap-openstackclients  | [summary](https://git.openstack.org/cgit/openstack/snap-openstackclients/summary) |
-
-
-
-## heat: 7 repos 
+## Infrastructure: 4 repos 
 
 | Repo                    | GIT Summary|
 | ----------------------- | ---------- |
-| openstack/heat-templates  | [summary](https://git.openstack.org/cgit/openstack/heat-templates/summary) |
-| openstack/heat-cfntools  | [summary](https://git.openstack.org/cgit/openstack/heat-cfntools/summary) |
-| openstack/heat  | [summary](https://git.openstack.org/cgit/openstack/heat/summary) |
-| openstack/heat-translator  | [summary](https://git.openstack.org/cgit/openstack/heat-translator/summary) |
-| openstack/tosca-parser  | [summary](https://git.openstack.org/cgit/openstack/tosca-parser/summary) |
-| openstack/heat-agents  | [summary](https://git.openstack.org/cgit/openstack/heat-agents/summary) |
-| openstack/heat-dashboard  | [summary](https://git.openstack.org/cgit/openstack/heat-dashboard/summary) |
+| openstack/openstack-planet  | [summary](https://git.openstack.org/cgit/openstack/openstack-planet/summary) |
+| openstack/diskimage-builder  | [summary](https://git.openstack.org/cgit/openstack/diskimage-builder/summary) |
+| openstack/ptgbot  | [summary](https://git.openstack.org/cgit/openstack/ptgbot/summary) |
+| openstack/js-openstack-lib  | [summary](https://git.openstack.org/cgit/openstack/js-openstack-lib/summary) |
+
+
+
+## OpenStack Charms: 2 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/charms.ceph  | [summary](https://git.openstack.org/cgit/openstack/charms.ceph/summary) |
+| openstack/charms.openstack  | [summary](https://git.openstack.org/cgit/openstack/charms.openstack/summary) |
+
+
+
+## OpenStackAnsible: 1 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/openstack-ansible  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible/summary) |
+
+
+
+## OpenStackClient: 3 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/openstackclient  | [summary](https://git.openstack.org/cgit/openstack/openstackclient/summary) |
+| openstack/osc-lib  | [summary](https://git.openstack.org/cgit/openstack/osc-lib/summary) |
+| openstack/cliff  | [summary](https://git.openstack.org/cgit/openstack/cliff/summary) |
+
+
+
+## OpenStackSDK: 3 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/os-client-config  | [summary](https://git.openstack.org/cgit/openstack/os-client-config/summary) |
+| openstack/openstacksdk  | [summary](https://git.openstack.org/cgit/openstack/openstacksdk/summary) |
+| openstack/os-service-types  | [summary](https://git.openstack.org/cgit/openstack/os-service-types/summary) |
+
+
+
+## Packaging-rpm: 2 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/renderspec  | [summary](https://git.openstack.org/cgit/openstack/renderspec/summary) |
+| openstack/pymod2pkg  | [summary](https://git.openstack.org/cgit/openstack/pymod2pkg/summary) |
+
+
+
+## PowerVMStackers: 2 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/ceilometer-powervm  | [summary](https://git.openstack.org/cgit/openstack/ceilometer-powervm/summary) |
+| openstack/nova-powervm  | [summary](https://git.openstack.org/cgit/openstack/nova-powervm/summary) |
+
+
+
+## Quality Assurance: 9 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/patrole  | [summary](https://git.openstack.org/cgit/openstack/patrole/summary) |
+| openstack/tempest  | [summary](https://git.openstack.org/cgit/openstack/tempest/summary) |
+| openstack/stackviz  | [summary](https://git.openstack.org/cgit/openstack/stackviz/summary) |
+| openstack/karma-subunit-reporter  | [summary](https://git.openstack.org/cgit/openstack/karma-subunit-reporter/summary) |
+| openstack/eslint-config-openstack  | [summary](https://git.openstack.org/cgit/openstack/eslint-config-openstack/summary) |
+| openstack/coverage2sql  | [summary](https://git.openstack.org/cgit/openstack/coverage2sql/summary) |
+| openstack/os-performance-tools  | [summary](https://git.openstack.org/cgit/openstack/os-performance-tools/summary) |
+| openstack/os-testr  | [summary](https://git.openstack.org/cgit/openstack/os-testr/summary) |
+| openstack/openstack-health  | [summary](https://git.openstack.org/cgit/openstack/openstack-health/summary) |
+
+
+
+## RefStack: 2 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/refstack-client  | [summary](https://git.openstack.org/cgit/openstack/refstack-client/summary) |
+| openstack/refstack  | [summary](https://git.openstack.org/cgit/openstack/refstack/summary) |
+
+
+
+## Release Management: 4 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/release-test  | [summary](https://git.openstack.org/cgit/openstack/release-test/summary) |
+| openstack/release-schedule-generator  | [summary](https://git.openstack.org/cgit/openstack/release-schedule-generator/summary) |
+| openstack/releases  | [summary](https://git.openstack.org/cgit/openstack/releases/summary) |
+| openstack/reno  | [summary](https://git.openstack.org/cgit/openstack/reno/summary) |
+
+
+
+## Security: 7 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/anchor  | [summary](https://git.openstack.org/cgit/openstack/anchor/summary) |
+| openstack/security-doc  | [summary](https://git.openstack.org/cgit/openstack/security-doc/summary) |
+| openstack/syntribos-openstack-templates  | [summary](https://git.openstack.org/cgit/openstack/syntribos-openstack-templates/summary) |
+| openstack/security-analysis  | [summary](https://git.openstack.org/cgit/openstack/security-analysis/summary) |
+| openstack/syntribos-payloads  | [summary](https://git.openstack.org/cgit/openstack/syntribos-payloads/summary) |
+| openstack/ossa  | [summary](https://git.openstack.org/cgit/openstack/ossa/summary) |
+| openstack/syntribos  | [summary](https://git.openstack.org/cgit/openstack/syntribos/summary) |
+
+
+
+## Telemetry: 4 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/panko  | [summary](https://git.openstack.org/cgit/openstack/panko/summary) |
+| openstack/ceilometer  | [summary](https://git.openstack.org/cgit/openstack/ceilometer/summary) |
+| openstack/aodh  | [summary](https://git.openstack.org/cgit/openstack/aodh/summary) |
+| openstack/ceilometermiddleware  | [summary](https://git.openstack.org/cgit/openstack/ceilometermiddleware/summary) |
+
+
+
+## ansible: 2 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/ansible-config_template  | [summary](https://git.openstack.org/cgit/openstack/ansible-config_template/summary) |
+| openstack/ansible-hardening  | [summary](https://git.openstack.org/cgit/openstack/ansible-hardening/summary) |
+
+
+
+## barbican: 2 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/castellan-ui  | [summary](https://git.openstack.org/cgit/openstack/castellan-ui/summary) |
+| openstack/barbican  | [summary](https://git.openstack.org/cgit/openstack/barbican/summary) |
+
+
+
+## blazar: 3 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/blazar-dashboard  | [summary](https://git.openstack.org/cgit/openstack/blazar-dashboard/summary) |
+| openstack/blazar-nova  | [summary](https://git.openstack.org/cgit/openstack/blazar-nova/summary) |
+| openstack/blazar  | [summary](https://git.openstack.org/cgit/openstack/blazar/summary) |
 
 
 
@@ -1371,23 +281,30 @@
 
 
 
-## RefStack: 2 repos 
+## chef: 20 repos 
 
 | Repo                    | GIT Summary|
 | ----------------------- | ---------- |
-| openstack/refstack-client  | [summary](https://git.openstack.org/cgit/openstack/refstack-client/summary) |
-| openstack/refstack  | [summary](https://git.openstack.org/cgit/openstack/refstack/summary) |
-
-
-
-## Release Management: 4 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/release-test  | [summary](https://git.openstack.org/cgit/openstack/release-test/summary) |
-| openstack/release-schedule-generator  | [summary](https://git.openstack.org/cgit/openstack/release-schedule-generator/summary) |
-| openstack/releases  | [summary](https://git.openstack.org/cgit/openstack/releases/summary) |
-| openstack/reno  | [summary](https://git.openstack.org/cgit/openstack/reno/summary) |
+| openstack/cookbook-openstack-application-catalog  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-application-catalog/summary) |
+| openstack/cookbook-openstack-ops-database  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-ops-database/summary) |
+| openstack/cookbook-openstack-data-processing  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-data-processing/summary) |
+| openstack/cookbook-openstack-dashboard  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-dashboard/summary) |
+| openstack/cookbook-openstackclient  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstackclient/summary) |
+| openstack/cookbook-openstack-block-storage  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-block-storage/summary) |
+| openstack/cookbook-openstack-dns  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-dns/summary) |
+| openstack/cookbook-openstack-orchestration  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-orchestration/summary) |
+| openstack/cookbook-openstack-ops-messaging  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-ops-messaging/summary) |
+| openstack/cookbook-openstack-database  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-database/summary) |
+| openstack/cookbook-openstack-object-storage  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-object-storage/summary) |
+| openstack/cookbook-openstack-network  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-network/summary) |
+| openstack/cookbook-openstack-image  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-image/summary) |
+| openstack/cookbook-openstack-telemetry  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-telemetry/summary) |
+| openstack/cookbook-openstack-integration-test  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-integration-test/summary) |
+| openstack/cookbook-openstack-identity  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-identity/summary) |
+| openstack/cookbook-openstack-client  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-client/summary) |
+| openstack/cookbook-openstack-common  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-common/summary) |
+| openstack/cookbook-openstack-bare-metal  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-bare-metal/summary) |
+| openstack/cookbook-openstack-compute  | [summary](https://git.openstack.org/cgit/openstack/cookbook-openstack-compute/summary) |
 
 
 
@@ -1400,417 +317,29 @@
 
 
 
-## tripleo: 63 repos 
+## cloudkitty: 2 repos 
 
 | Repo                    | GIT Summary|
 | ----------------------- | ---------- |
-| openstack/ansible-role-systemd_networkd  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-systemd_networkd/summary) |
-| openstack/ansible-role-fedmsg  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-fedmsg/summary) |
-| openstack/tripleo-ha-utils  | [summary](https://git.openstack.org/cgit/openstack/tripleo-ha-utils/summary) |
-| openstack/ansible-role-k8s-tripleo  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-k8s-tripleo/summary) |
-| openstack/ansible-role-qdrouterd  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-qdrouterd/summary) |
-| openstack/ansible-role-redhat-subscription  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-redhat-subscription/summary) |
-| openstack/ansible-role-zuul  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-zuul/summary) |
-| openstack/ansible-role-gearman  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-gearman/summary) |
-| openstack/ansible-role-cloud-launcher  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-cloud-launcher/summary) |
-| openstack/ansible-role-nodepool  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-nodepool/summary) |
-| openstack/ansible-role-jenkins-plugins  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-jenkins-plugins/summary) |
-| openstack/tripleo-upgrade  | [summary](https://git.openstack.org/cgit/openstack/tripleo-upgrade/summary) |
-| openstack/ansible-role-ssh  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-ssh/summary) |
-| openstack/ansible-role-systemd_mount  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-systemd_mount/summary) |
-| openstack/dib-utils  | [summary](https://git.openstack.org/cgit/openstack/dib-utils/summary) |
-| openstack/os-apply-config  | [summary](https://git.openstack.org/cgit/openstack/os-apply-config/summary) |
-| openstack/ansible-role-k8s-glance  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-k8s-glance/summary) |
-| openstack/instack-undercloud  | [summary](https://git.openstack.org/cgit/openstack/instack-undercloud/summary) |
-| openstack/ansible-role-tripleo-modify-image  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-tripleo-modify-image/summary) |
-| openstack/os-net-config  | [summary](https://git.openstack.org/cgit/openstack/os-net-config/summary) |
-| openstack/ansible-role-jenkins-job-builder  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-jenkins-job-builder/summary) |
-| openstack/tripleo-heat-templates  | [summary](https://git.openstack.org/cgit/openstack/tripleo-heat-templates/summary) |
-| openstack/tripleo-incubator  | [summary](https://git.openstack.org/cgit/openstack/tripleo-incubator/summary) |
-| openstack/os-collect-config  | [summary](https://git.openstack.org/cgit/openstack/os-collect-config/summary) |
-| openstack/tripleo-quickstart-extras  | [summary](https://git.openstack.org/cgit/openstack/tripleo-quickstart-extras/summary) |
-| openstack/ansible-role-tripleo-keystone  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-tripleo-keystone/summary) |
-| openstack/paunch  | [summary](https://git.openstack.org/cgit/openstack/paunch/summary) |
-| openstack/ansible-role-openstacksdk  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-openstacksdk/summary) |
-| openstack/ansible-role-statsd  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-statsd/summary) |
-| openstack/ansible-role-logrotate  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-logrotate/summary) |
-| openstack/ansible-role-carbon  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-carbon/summary) |
-| openstack/ansible-role-k8s-keystone  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-k8s-keystone/summary) |
-| openstack/ansible-role-bindep  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-bindep/summary) |
-| openstack/tripleo-common-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/tripleo-common-tempest-plugin/summary) |
-| openstack/tripleo-specs  | [summary](https://git.openstack.org/cgit/openstack/tripleo-specs/summary) |
-| openstack/tripleo-docs  | [summary](https://git.openstack.org/cgit/openstack/tripleo-docs/summary) |
-| openstack/ansible-role-grafyaml  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-grafyaml/summary) |
-| openstack/ansible-role-zookeeper  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-zookeeper/summary) |
-| openstack/ansible-role-sudoers  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-sudoers/summary) |
-| openstack/ansible-role-k8s-mariadb  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-k8s-mariadb/summary) |
-| openstack/tripleo-quickstart  | [summary](https://git.openstack.org/cgit/openstack/tripleo-quickstart/summary) |
-| openstack/ansible-role-diskimage-builder  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-diskimage-builder/summary) |
-| openstack/tripleo-validations  | [summary](https://git.openstack.org/cgit/openstack/tripleo-validations/summary) |
-| openstack/ansible-role-k8s-rabbitmq  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-k8s-rabbitmq/summary) |
-| openstack/ansible-role-k8s-cinder  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-k8s-cinder/summary) |
-| openstack/tripleo-ipsec  | [summary](https://git.openstack.org/cgit/openstack/tripleo-ipsec/summary) |
-| openstack/ansible-role-whisper  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-whisper/summary) |
-| openstack/ansible-role-virtualenv  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-virtualenv/summary) |
-| openstack/ansible-role-ara  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-ara/summary) |
-| openstack/ansible-role-python_venv_build  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-python_venv_build/summary) |
-| openstack/os-refresh-config  | [summary](https://git.openstack.org/cgit/openstack/os-refresh-config/summary) |
-| openstack/tripleo-image-elements  | [summary](https://git.openstack.org/cgit/openstack/tripleo-image-elements/summary) |
-| openstack/ansible-role-shade  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-shade/summary) |
-| openstack/ansible-role-nginx  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-nginx/summary) |
-| openstack/ansible-role-jenkins  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-jenkins/summary) |
-| openstack/tripleo-common  | [summary](https://git.openstack.org/cgit/openstack/tripleo-common/summary) |
-| openstack/tripleo-ui  | [summary](https://git.openstack.org/cgit/openstack/tripleo-ui/summary) |
-| openstack/ansible-role-container-registry  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-container-registry/summary) |
-| openstack/ansible-role-k8s-cookiecutter  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-k8s-cookiecutter/summary) |
-| openstack/instack  | [summary](https://git.openstack.org/cgit/openstack/instack/summary) |
-| openstack/tripleo-puppet-elements  | [summary](https://git.openstack.org/cgit/openstack/tripleo-puppet-elements/summary) |
-| openstack/ansible-role-systemd_service  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-systemd_service/summary) |
-| openstack/tripleo-repos  | [summary](https://git.openstack.org/cgit/openstack/tripleo-repos/summary) |
+| openstack/cloudkitty  | [summary](https://git.openstack.org/cgit/openstack/cloudkitty/summary) |
+| openstack/cloudkitty-dashboard  | [summary](https://git.openstack.org/cgit/openstack/cloudkitty-dashboard/summary) |
 
 
 
-## storlets: 1 repos 
+## congress: 2 repos 
 
 | Repo                    | GIT Summary|
 | ----------------------- | ---------- |
-| openstack/storlets  | [summary](https://git.openstack.org/cgit/openstack/storlets/summary) |
+| openstack/congress-dashboard  | [summary](https://git.openstack.org/cgit/openstack/congress-dashboard/summary) |
+| openstack/congress  | [summary](https://git.openstack.org/cgit/openstack/congress/summary) |
 
 
 
-## Security: 7 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/anchor  | [summary](https://git.openstack.org/cgit/openstack/anchor/summary) |
-| openstack/security-doc  | [summary](https://git.openstack.org/cgit/openstack/security-doc/summary) |
-| openstack/syntribos-openstack-templates  | [summary](https://git.openstack.org/cgit/openstack/syntribos-openstack-templates/summary) |
-| openstack/security-analysis  | [summary](https://git.openstack.org/cgit/openstack/security-analysis/summary) |
-| openstack/syntribos-payloads  | [summary](https://git.openstack.org/cgit/openstack/syntribos-payloads/summary) |
-| openstack/ossa  | [summary](https://git.openstack.org/cgit/openstack/ossa/summary) |
-| openstack/syntribos  | [summary](https://git.openstack.org/cgit/openstack/syntribos/summary) |
-
-
-
-## devstack: 17 repos 
+## cyborg: 1 repos 
 
 | Repo                    | GIT Summary|
 | ----------------------- | ---------- |
-| openstack/devstack-plugin-sheepdog  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-sheepdog/summary) |
-| openstack/devstack-plugin-additional-pkg-repos  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-additional-pkg-repos/summary) |
-| openstack/devstack-plugin-nfs  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-nfs/summary) |
-| openstack/devstack-plugin-container  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-container/summary) |
-| openstack/devstack-plugin-mariadb  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-mariadb/summary) |
-| openstack/devstack-plugin-amqp1  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-amqp1/summary) |
-| openstack/devstack-plugin-libvirt-qemu  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-libvirt-qemu/summary) |
-| openstack/devstack-plugin-hdfs  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-hdfs/summary) |
-| openstack/devstack-plugin-bdd  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-bdd/summary) |
-| openstack/devstack-plugin-kafka  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-kafka/summary) |
-| openstack/devstack-plugin-glusterfs  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-glusterfs/summary) |
-| openstack/devstack-plugin-pika  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-pika/summary) |
-| openstack/devstack-plugin-ceph  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-ceph/summary) |
-| openstack/devstack-tools  | [summary](https://git.openstack.org/cgit/openstack/devstack-tools/summary) |
-| openstack/devstack-plugin-vmax  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-vmax/summary) |
-| openstack/devstack-plugin-tar-installer  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-tar-installer/summary) |
-| openstack/devstack-plugin-zmq  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-zmq/summary) |
-
-
-
-## swift: 2 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/swift-bench  | [summary](https://git.openstack.org/cgit/openstack/swift-bench/summary) |
-| openstack/swift  | [summary](https://git.openstack.org/cgit/openstack/swift/summary) |
-
-
-
-## solum: 2 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/solum  | [summary](https://git.openstack.org/cgit/openstack/solum/summary) |
-| openstack/solum-dashboard  | [summary](https://git.openstack.org/cgit/openstack/solum-dashboard/summary) |
-
-
-
-## Packaging-rpm: 2 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/renderspec  | [summary](https://git.openstack.org/cgit/openstack/renderspec/summary) |
-| openstack/pymod2pkg  | [summary](https://git.openstack.org/cgit/openstack/pymod2pkg/summary) |
-
-
-
-## dragonflow: 1 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/dragonflow  | [summary](https://git.openstack.org/cgit/openstack/dragonflow/summary) |
-
-
-
-## blazar: 3 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/blazar-dashboard  | [summary](https://git.openstack.org/cgit/openstack/blazar-dashboard/summary) |
-| openstack/blazar-nova  | [summary](https://git.openstack.org/cgit/openstack/blazar-nova/summary) |
-| openstack/blazar  | [summary](https://git.openstack.org/cgit/openstack/blazar/summary) |
-
-
-
-## zun: 2 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/zun  | [summary](https://git.openstack.org/cgit/openstack/zun/summary) |
-| openstack/zun-ui  | [summary](https://git.openstack.org/cgit/openstack/zun-ui/summary) |
-
-
-
-## trove: 2 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/trove  | [summary](https://git.openstack.org/cgit/openstack/trove/summary) |
-| openstack/trove-dashboard  | [summary](https://git.openstack.org/cgit/openstack/trove-dashboard/summary) |
-
-
-
-## tacker: 2 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/tacker  | [summary](https://git.openstack.org/cgit/openstack/tacker/summary) |
-| openstack/tacker-horizon  | [summary](https://git.openstack.org/cgit/openstack/tacker-horizon/summary) |
-
-
-
-## openstack-ansible: 63 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/openstack-ansible-os_monasca-ui  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_monasca-ui/summary) |
-| openstack/openstack-ansible-specs  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-specs/summary) |
-| openstack/openstack-ansible-os_sahara  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_sahara/summary) |
-| openstack/openstack-ansible-os_ceilometer  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_ceilometer/summary) |
-| openstack/openstack-ansible-tests  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-tests/summary) |
-| openstack/openstack-ansible-rabbitmq_server  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-rabbitmq_server/summary) |
-| openstack/openstack-ansible-os_gnocchi  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_gnocchi/summary) |
-| openstack/openstack-ansible-lxc_hosts  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-lxc_hosts/summary) |
-| openstack/openstack-ansible-os_horizon  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_horizon/summary) |
-| openstack/openstack-ansible-os_monasca  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_monasca/summary) |
-| openstack/openstack-ansible-galera_client  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-galera_client/summary) |
-| openstack/openstack-ansible-ceph_client  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-ceph_client/summary) |
-| openstack/openstack-ansible-os_blazar  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_blazar/summary) |
-| openstack/openstack-ansible-rsyslog_server  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-rsyslog_server/summary) |
-| openstack/openstack-ansible-os_nova  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_nova/summary) |
-| openstack/openstack-ansible-security  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-security/summary) |
-| openstack/openstack-ansible-os_swift_sync  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_swift_sync/summary) |
-| openstack/openstack-ansible-galera_server  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-galera_server/summary) |
-| openstack/openstack-ansible-nspawn_container_create  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-nspawn_container_create/summary) |
-| openstack/openstack-ansible-os_neutron  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_neutron/summary) |
-| openstack/openstack-ansible-os_rally  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_rally/summary) |
-| openstack/openstack-ansible-memcached_server  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-memcached_server/summary) |
-| openstack/openstack-ansible-os_keystone  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_keystone/summary) |
-| openstack/openstack-ansible-os_masakari  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_masakari/summary) |
-| openstack/openstack-ansible-repo_server  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-repo_server/summary) |
-| openstack/openstack-ansible-os_almanach  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_almanach/summary) |
-| openstack/openstack-ansible-plugins  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-plugins/summary) |
-| openstack/openstack-ansible-repo_build  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-repo_build/summary) |
-| openstack/openstack-ansible-os_cloudkitty  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_cloudkitty/summary) |
-| openstack/openstack-ansible-pip_install  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-pip_install/summary) |
-| openstack/openstack-ansible-os_searchlight  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_searchlight/summary) |
-| openstack/openstack-ansible-apt_package_pinning  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-apt_package_pinning/summary) |
-| openstack/openstack-ansible-os_tacker  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_tacker/summary) |
-| openstack/openstack-ansible-haproxy_server  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-haproxy_server/summary) |
-| openstack/openstack-ansible-openstack_openrc  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-openstack_openrc/summary) |
-| openstack/openstack-ansible-os_cinder  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_cinder/summary) |
-| openstack/openstack-ansible-os_panko  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_panko/summary) |
-| openstack/openstack-ansible-os_karbor  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_karbor/summary) |
-| openstack/openstack-ansible-os_zun  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_zun/summary) |
-| openstack/openstack-ansible-os_heat  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_heat/summary) |
-| openstack/openstack-ansible-os_swift  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_swift/summary) |
-| openstack/openstack-ansible-pip_lock_down  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-pip_lock_down/summary) |
-| openstack/openstack-ansible-nspawn_hosts  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-nspawn_hosts/summary) |
-| openstack/openstack-ansible-os_freezer  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_freezer/summary) |
-| openstack/openstack-ansible-os_tempest  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_tempest/summary) |
-| openstack/openstack-ansible-lxc_container_create  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-lxc_container_create/summary) |
-| openstack/openstack-ansible-py_from_git  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-py_from_git/summary) |
-| openstack/openstack-ansible-os_glance  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_glance/summary) |
-| openstack/openstack-ansible-openstack_hosts  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-openstack_hosts/summary) |
-| openstack/openstack-ansible-os_trove  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_trove/summary) |
-| openstack/openstack-ansible-ops  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-ops/summary) |
-| openstack/openstack-ansible-os_monasca-agent  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_monasca-agent/summary) |
-| openstack/openstack-ansible-os_octavia  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_octavia/summary) |
-| openstack/openstack-ansible-os_molteniron  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_molteniron/summary) |
-| openstack/openstack-ansible-os_barbican  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_barbican/summary) |
-| openstack/openstack-ansible-os_watcher  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_watcher/summary) |
-| openstack/openstack-ansible-os_zaqar  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_zaqar/summary) |
-| openstack/openstack-ansible-os_designate  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_designate/summary) |
-| openstack/openstack-ansible-os_ironic  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_ironic/summary) |
-| openstack/openstack-ansible-os_magnum  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_magnum/summary) |
-| openstack/openstack-ansible-os_congress  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_congress/summary) |
-| openstack/openstack-ansible-os_aodh  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_aodh/summary) |
-| openstack/openstack-ansible-rsyslog_client  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-rsyslog_client/summary) |
-
-
-
-## vitrage: 2 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/vitrage  | [summary](https://git.openstack.org/cgit/openstack/vitrage/summary) |
-| openstack/vitrage-dashboard  | [summary](https://git.openstack.org/cgit/openstack/vitrage-dashboard/summary) |
-
-
-
-## winstackers: 1 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/os-win  | [summary](https://git.openstack.org/cgit/openstack/os-win/summary) |
-
-
-
-## octavia: 4 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/octavia-dashboard  | [summary](https://git.openstack.org/cgit/openstack/octavia-dashboard/summary) |
-| openstack/neutron-lbaas  | [summary](https://git.openstack.org/cgit/openstack/neutron-lbaas/summary) |
-| openstack/neutron-lbaas-dashboard  | [summary](https://git.openstack.org/cgit/openstack/neutron-lbaas-dashboard/summary) |
-| openstack/octavia  | [summary](https://git.openstack.org/cgit/openstack/octavia/summary) |
-
-
-
-## kolla: 5 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/kolla-kubernetes  | [summary](https://git.openstack.org/cgit/openstack/kolla-kubernetes/summary) |
-| openstack/kolla-cli  | [summary](https://git.openstack.org/cgit/openstack/kolla-cli/summary) |
-| openstack/kolla-ansible  | [summary](https://git.openstack.org/cgit/openstack/kolla-ansible/summary) |
-| openstack/kolla-mesos  | [summary](https://git.openstack.org/cgit/openstack/kolla-mesos/summary) |
-| openstack/kolla  | [summary](https://git.openstack.org/cgit/openstack/kolla/summary) |
-
-
-
-## horizon: 3 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/horizon  | [summary](https://git.openstack.org/cgit/openstack/horizon/summary) |
-| openstack/django_openstack_auth  | [summary](https://git.openstack.org/cgit/openstack/django_openstack_auth/summary) |
-| openstack/ui-cookiecutter  | [summary](https://git.openstack.org/cgit/openstack/ui-cookiecutter/summary) |
-
-
-
-## oslo: 34 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/sphinx-feature-classification  | [summary](https://git.openstack.org/cgit/openstack/sphinx-feature-classification/summary) |
-| openstack/oslo.service  | [summary](https://git.openstack.org/cgit/openstack/oslo.service/summary) |
-| openstack/oslo.limit  | [summary](https://git.openstack.org/cgit/openstack/oslo.limit/summary) |
-| openstack/oslo.policy  | [summary](https://git.openstack.org/cgit/openstack/oslo.policy/summary) |
-| openstack/oslo.vmware  | [summary](https://git.openstack.org/cgit/openstack/oslo.vmware/summary) |
-| openstack/taskflow  | [summary](https://git.openstack.org/cgit/openstack/taskflow/summary) |
-| openstack/oslo.i18n  | [summary](https://git.openstack.org/cgit/openstack/oslo.i18n/summary) |
-| openstack/oslo.utils  | [summary](https://git.openstack.org/cgit/openstack/oslo.utils/summary) |
-| openstack/oslo.rootwrap  | [summary](https://git.openstack.org/cgit/openstack/oslo.rootwrap/summary) |
-| openstack/tooz  | [summary](https://git.openstack.org/cgit/openstack/tooz/summary) |
-| openstack/castellan  | [summary](https://git.openstack.org/cgit/openstack/castellan/summary) |
-| openstack/oslo.cache  | [summary](https://git.openstack.org/cgit/openstack/oslo.cache/summary) |
-| openstack/oslo.privsep  | [summary](https://git.openstack.org/cgit/openstack/oslo.privsep/summary) |
-| openstack/oslo.reports  | [summary](https://git.openstack.org/cgit/openstack/oslo.reports/summary) |
-| openstack/oslo.log  | [summary](https://git.openstack.org/cgit/openstack/oslo.log/summary) |
-| openstack/oslotest  | [summary](https://git.openstack.org/cgit/openstack/oslotest/summary) |
-| openstack/automaton  | [summary](https://git.openstack.org/cgit/openstack/automaton/summary) |
-| openstack/oslo.versionedobjects  | [summary](https://git.openstack.org/cgit/openstack/oslo.versionedobjects/summary) |
-| openstack/futurist  | [summary](https://git.openstack.org/cgit/openstack/futurist/summary) |
-| openstack/osprofiler  | [summary](https://git.openstack.org/cgit/openstack/osprofiler/summary) |
-| openstack/stevedore  | [summary](https://git.openstack.org/cgit/openstack/stevedore/summary) |
-| openstack/oslo.concurrency  | [summary](https://git.openstack.org/cgit/openstack/oslo.concurrency/summary) |
-| openstack/mox3  | [summary](https://git.openstack.org/cgit/openstack/mox3/summary) |
-| openstack/debtcollector  | [summary](https://git.openstack.org/cgit/openstack/debtcollector/summary) |
-| openstack/oslo.context  | [summary](https://git.openstack.org/cgit/openstack/oslo.context/summary) |
-| openstack/oslo.db  | [summary](https://git.openstack.org/cgit/openstack/oslo.db/summary) |
-| openstack/oslo-incubator  | [summary](https://git.openstack.org/cgit/openstack/oslo-incubator/summary) |
-| openstack/oslo.middleware  | [summary](https://git.openstack.org/cgit/openstack/oslo.middleware/summary) |
-| openstack/oslo-specs  | [summary](https://git.openstack.org/cgit/openstack/oslo-specs/summary) |
-| openstack/oslo.serialization  | [summary](https://git.openstack.org/cgit/openstack/oslo.serialization/summary) |
-| openstack/oslo.messaging  | [summary](https://git.openstack.org/cgit/openstack/oslo.messaging/summary) |
-| openstack/oslo.tools  | [summary](https://git.openstack.org/cgit/openstack/oslo.tools/summary) |
-| openstack/oslosphinx  | [summary](https://git.openstack.org/cgit/openstack/oslosphinx/summary) |
-| openstack/oslo.config  | [summary](https://git.openstack.org/cgit/openstack/oslo.config/summary) |
-
-
-
-## puppet: 58 repos 
-
-| Repo                    | GIT Summary|
-| ----------------------- | ---------- |
-| openstack/puppet-mistral  | [summary](https://git.openstack.org/cgit/openstack/puppet-mistral/summary) |
-| openstack/puppet-tempest  | [summary](https://git.openstack.org/cgit/openstack/puppet-tempest/summary) |
-| openstack/puppet-openstack_spec_helper  | [summary](https://git.openstack.org/cgit/openstack/puppet-openstack_spec_helper/summary) |
-| openstack/puppet-glare  | [summary](https://git.openstack.org/cgit/openstack/puppet-glare/summary) |
-| openstack/puppet-openstack-specs  | [summary](https://git.openstack.org/cgit/openstack/puppet-openstack-specs/summary) |
-| openstack/puppet-openstack_extras  | [summary](https://git.openstack.org/cgit/openstack/puppet-openstack_extras/summary) |
-| openstack/puppet-congress  | [summary](https://git.openstack.org/cgit/openstack/puppet-congress/summary) |
-| openstack/puppet-ganesha  | [summary](https://git.openstack.org/cgit/openstack/puppet-ganesha/summary) |
-| openstack/puppet-monasca  | [summary](https://git.openstack.org/cgit/openstack/puppet-monasca/summary) |
-| openstack/puppet-autossh  | [summary](https://git.openstack.org/cgit/openstack/puppet-autossh/summary) |
-| openstack/puppet-nova  | [summary](https://git.openstack.org/cgit/openstack/puppet-nova/summary) |
-| openstack/puppet-setproxy  | [summary](https://git.openstack.org/cgit/openstack/puppet-setproxy/summary) |
-| openstack/puppet-manila  | [summary](https://git.openstack.org/cgit/openstack/puppet-manila/summary) |
-| openstack/puppet-midonet  | [summary](https://git.openstack.org/cgit/openstack/puppet-midonet/summary) |
-| openstack/puppet-ceph  | [summary](https://git.openstack.org/cgit/openstack/puppet-ceph/summary) |
-| openstack/puppet-horizon  | [summary](https://git.openstack.org/cgit/openstack/puppet-horizon/summary) |
-| openstack/puppet-rally  | [summary](https://git.openstack.org/cgit/openstack/puppet-rally/summary) |
-| openstack/puppet-gnocchi  | [summary](https://git.openstack.org/cgit/openstack/puppet-gnocchi/summary) |
-| openstack/puppet-freezer  | [summary](https://git.openstack.org/cgit/openstack/puppet-freezer/summary) |
-| openstack/puppet-ceilometer  | [summary](https://git.openstack.org/cgit/openstack/puppet-ceilometer/summary) |
-| openstack/puppet-oslo  | [summary](https://git.openstack.org/cgit/openstack/puppet-oslo/summary) |
-| openstack/puppet-ovn  | [summary](https://git.openstack.org/cgit/openstack/puppet-ovn/summary) |
-| openstack/puppet-zaqar  | [summary](https://git.openstack.org/cgit/openstack/puppet-zaqar/summary) |
-| openstack/puppet-tacker  | [summary](https://git.openstack.org/cgit/openstack/puppet-tacker/summary) |
-| openstack/puppet-tripleo  | [summary](https://git.openstack.org/cgit/openstack/puppet-tripleo/summary) |
-| openstack/puppet-murano  | [summary](https://git.openstack.org/cgit/openstack/puppet-murano/summary) |
-| openstack/puppet-neutron  | [summary](https://git.openstack.org/cgit/openstack/puppet-neutron/summary) |
-| openstack/puppet-ironic  | [summary](https://git.openstack.org/cgit/openstack/puppet-ironic/summary) |
-| openstack/puppet-magnum  | [summary](https://git.openstack.org/cgit/openstack/puppet-magnum/summary) |
-| openstack/puppet-pacemaker  | [summary](https://git.openstack.org/cgit/openstack/puppet-pacemaker/summary) |
-| openstack/puppet-senlin  | [summary](https://git.openstack.org/cgit/openstack/puppet-senlin/summary) |
-| openstack/puppet-aodh  | [summary](https://git.openstack.org/cgit/openstack/puppet-aodh/summary) |
-| openstack/puppet-openstacklib  | [summary](https://git.openstack.org/cgit/openstack/puppet-openstacklib/summary) |
-| openstack/puppet-openstack-release-tools  | [summary](https://git.openstack.org/cgit/openstack/puppet-openstack-release-tools/summary) |
-| openstack/puppet-modulesync-configs  | [summary](https://git.openstack.org/cgit/openstack/puppet-modulesync-configs/summary) |
-| openstack/puppet-designate  | [summary](https://git.openstack.org/cgit/openstack/puppet-designate/summary) |
-| openstack/puppet-keystone  | [summary](https://git.openstack.org/cgit/openstack/puppet-keystone/summary) |
-| openstack/puppet-barbican  | [summary](https://git.openstack.org/cgit/openstack/puppet-barbican/summary) |
-| openstack/puppet-openstack-integration  | [summary](https://git.openstack.org/cgit/openstack/puppet-openstack-integration/summary) |
-| openstack/puppet-qdr  | [summary](https://git.openstack.org/cgit/openstack/puppet-qdr/summary) |
-| openstack/puppet-surveil  | [summary](https://git.openstack.org/cgit/openstack/puppet-surveil/summary) |
-| openstack/puppet-sahara  | [summary](https://git.openstack.org/cgit/openstack/puppet-sahara/summary) |
-| openstack/puppet-swift  | [summary](https://git.openstack.org/cgit/openstack/puppet-swift/summary) |
-| openstack/puppet-ec2api  | [summary](https://git.openstack.org/cgit/openstack/puppet-ec2api/summary) |
-| openstack/puppet-trove  | [summary](https://git.openstack.org/cgit/openstack/puppet-trove/summary) |
-| openstack/puppet-octavia  | [summary](https://git.openstack.org/cgit/openstack/puppet-octavia/summary) |
-| openstack/puppet-vitrage  | [summary](https://git.openstack.org/cgit/openstack/puppet-vitrage/summary) |
-| openstack/puppet-cinder  | [summary](https://git.openstack.org/cgit/openstack/puppet-cinder/summary) |
-| openstack/puppet-openstack-guide  | [summary](https://git.openstack.org/cgit/openstack/puppet-openstack-guide/summary) |
-| openstack/puppet-vswitch  | [summary](https://git.openstack.org/cgit/openstack/puppet-vswitch/summary) |
-| openstack/puppet-watcher  | [summary](https://git.openstack.org/cgit/openstack/puppet-watcher/summary) |
-| openstack/puppet-cloudkitty  | [summary](https://git.openstack.org/cgit/openstack/puppet-cloudkitty/summary) |
-| openstack/puppet-tuskar  | [summary](https://git.openstack.org/cgit/openstack/puppet-tuskar/summary) |
-| openstack/puppet-n1k-vsm  | [summary](https://git.openstack.org/cgit/openstack/puppet-n1k-vsm/summary) |
-| openstack/puppet-panko  | [summary](https://git.openstack.org/cgit/openstack/puppet-panko/summary) |
-| openstack/puppet-heat  | [summary](https://git.openstack.org/cgit/openstack/puppet-heat/summary) |
-| openstack/puppet-openstack-cookiecutter  | [summary](https://git.openstack.org/cgit/openstack/puppet-openstack-cookiecutter/summary) |
-| openstack/puppet-glance  | [summary](https://git.openstack.org/cgit/openstack/puppet-glance/summary) |
+| openstack/cyborg  | [summary](https://git.openstack.org/cgit/openstack/cyborg/summary) |
 
 
 
@@ -2175,6 +704,890 @@
 
 
 
+## devstack: 17 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/devstack-plugin-sheepdog  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-sheepdog/summary) |
+| openstack/devstack-plugin-additional-pkg-repos  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-additional-pkg-repos/summary) |
+| openstack/devstack-plugin-nfs  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-nfs/summary) |
+| openstack/devstack-plugin-container  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-container/summary) |
+| openstack/devstack-plugin-mariadb  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-mariadb/summary) |
+| openstack/devstack-plugin-amqp1  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-amqp1/summary) |
+| openstack/devstack-plugin-libvirt-qemu  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-libvirt-qemu/summary) |
+| openstack/devstack-plugin-hdfs  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-hdfs/summary) |
+| openstack/devstack-plugin-bdd  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-bdd/summary) |
+| openstack/devstack-plugin-kafka  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-kafka/summary) |
+| openstack/devstack-plugin-glusterfs  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-glusterfs/summary) |
+| openstack/devstack-plugin-pika  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-pika/summary) |
+| openstack/devstack-plugin-ceph  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-ceph/summary) |
+| openstack/devstack-tools  | [summary](https://git.openstack.org/cgit/openstack/devstack-tools/summary) |
+| openstack/devstack-plugin-vmax  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-vmax/summary) |
+| openstack/devstack-plugin-tar-installer  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-tar-installer/summary) |
+| openstack/devstack-plugin-zmq  | [summary](https://git.openstack.org/cgit/openstack/devstack-plugin-zmq/summary) |
+
+
+
+## dragonflow: 1 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/dragonflow  | [summary](https://git.openstack.org/cgit/openstack/dragonflow/summary) |
+
+
+
+## ec2-api: 1 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/ec2-api  | [summary](https://git.openstack.org/cgit/openstack/ec2-api/summary) |
+
+
+
+## freezer: 4 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/freezer-api  | [summary](https://git.openstack.org/cgit/openstack/freezer-api/summary) |
+| openstack/freezer  | [summary](https://git.openstack.org/cgit/openstack/freezer/summary) |
+| openstack/freezer-dr  | [summary](https://git.openstack.org/cgit/openstack/freezer-dr/summary) |
+| openstack/freezer-web-ui  | [summary](https://git.openstack.org/cgit/openstack/freezer-web-ui/summary) |
+
+
+
+## fuel: 153 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/fuel-plugin-midonet  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-midonet/summary) |
+| openstack/fuel-plugin-zabbix-monitoring-extreme-networks  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-zabbix-monitoring-extreme-networks/summary) |
+| openstack/fuel-plugin-external-emc  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-external-emc/summary) |
+| openstack/fuel-plugin-neutron-vpnaas  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-neutron-vpnaas/summary) |
+| openstack/fuel-plugin-openstack-telemetry  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-openstack-telemetry/summary) |
+| openstack/fuel-plugin-nsx-t  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-nsx-t/summary) |
+| openstack/fuel-astute  | [summary](https://git.openstack.org/cgit/openstack/fuel-astute/summary) |
+| openstack/fuel-plugin-scaleio  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-scaleio/summary) |
+| openstack/fuel-docs  | [summary](https://git.openstack.org/cgit/openstack/fuel-docs/summary) |
+| openstack/fuel-plugin-hedvig-cinder  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-hedvig-cinder/summary) |
+| openstack/fuel-plugin-murano-tests  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-murano-tests/summary) |
+| openstack/fuel-ccp-ironic  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-ironic/summary) |
+| openstack/fuel-plugin-watcher  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-watcher/summary) |
+| openstack/fuel-plugin-cinder-kaminario  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-cinder-kaminario/summary) |
+| openstack/fuel-ccp-rally  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-rally/summary) |
+| openstack/fuel-plugin-inkscope  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-inkscope/summary) |
+| openstack/fuel-ccp-searchlight  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-searchlight/summary) |
+| openstack/fuel-ui  | [summary](https://git.openstack.org/cgit/openstack/fuel-ui/summary) |
+| openstack/fuel-ccp  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp/summary) |
+| openstack/fuel-plugin-designate  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-designate/summary) |
+| openstack/fuel-plugin-6wind-virtual-accelerator  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-6wind-virtual-accelerator/summary) |
+| openstack/fuel-plugin-wstunnel  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-wstunnel/summary) |
+| openstack/fuel-plugin-plumgrid  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-plumgrid/summary) |
+| openstack/fuel-plugin-neutron-lbaas  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-neutron-lbaas/summary) |
+| openstack/fuel-ccp-cinder  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-cinder/summary) |
+| openstack/fuel-ccp-memcached  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-memcached/summary) |
+| openstack/fuel-nailgun-extension-cluster-upgrade  | [summary](https://git.openstack.org/cgit/openstack/fuel-nailgun-extension-cluster-upgrade/summary) |
+| openstack/fuel-ccp-keystone  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-keystone/summary) |
+| openstack/fuel-ccp-galera  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-galera/summary) |
+| openstack/fuel-ccp-elasticsearch  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-elasticsearch/summary) |
+| openstack/fuel-plugin-mellanox  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-mellanox/summary) |
+| openstack/fuel-plugin-detach-database  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-detach-database/summary) |
+| openstack/fuel-plugin-congress  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-congress/summary) |
+| openstack/fuel-plugin-nitrous  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-nitrous/summary) |
+| openstack/fuel-ccp-neutron  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-neutron/summary) |
+| openstack/fuel-plugin-contrail  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-contrail/summary) |
+| openstack/fuel-plugin-murano  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-murano/summary) |
+| openstack/fuel-plugin-vmware-dvs  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-vmware-dvs/summary) |
+| openstack/fuel-ccp-entrypoint  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-entrypoint/summary) |
+| openstack/fuel-devops  | [summary](https://git.openstack.org/cgit/openstack/fuel-devops/summary) |
+| openstack/fuel-plugin-networking-sfc  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-networking-sfc/summary) |
+| openstack/fuel-plugin-zabbix-monitoring-emc  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-zabbix-monitoring-emc/summary) |
+| openstack/fuel-plugin-tintri-cinder  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-tintri-cinder/summary) |
+| openstack/fuel-nailgun-agent  | [summary](https://git.openstack.org/cgit/openstack/fuel-nailgun-agent/summary) |
+| openstack/fuel-qa  | [summary](https://git.openstack.org/cgit/openstack/fuel-qa/summary) |
+| openstack/fuel-plugin-saltstack  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-saltstack/summary) |
+| openstack/fuel-plugin-qemu  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-qemu/summary) |
+| openstack/fuel-plugin-fortinet  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-fortinet/summary) |
+| openstack/fuel-plugin-detach-horizon  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-detach-horizon/summary) |
+| openstack/fuel-plugin-ci  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-ci/summary) |
+| openstack/fuel-noop-fixtures  | [summary](https://git.openstack.org/cgit/openstack/fuel-noop-fixtures/summary) |
+| openstack/fuel-ccp-stacklight  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-stacklight/summary) |
+| openstack/fuel-plugin-purestorage-cinder  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-purestorage-cinder/summary) |
+| openstack/fuel-plugin-swiftstack  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-swiftstack/summary) |
+| openstack/fuel-plugin-network-node  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-network-node/summary) |
+| openstack/fuel-plugin-murano-networking-sfc  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-murano-networking-sfc/summary) |
+| openstack/fuel-plugin-tls  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-tls/summary) |
+| openstack/fuel-library  | [summary](https://git.openstack.org/cgit/openstack/fuel-library/summary) |
+| openstack/fuel-plugin-rally  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-rally/summary) |
+| openstack/fuel-plugin-qlogic-sriov-vxlan  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-qlogic-sriov-vxlan/summary) |
+| openstack/fuel-ccp-sahara  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-sahara/summary) |
+| openstack/fuel-ccp-glance  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-glance/summary) |
+| openstack/fuel-plugin-zabbix-agents  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-zabbix-agents/summary) |
+| openstack/fuel-plugin-elasticsearch-kibana  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-elasticsearch-kibana/summary) |
+| openstack/fuel-plugin-influxdb-grafana  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-influxdb-grafana/summary) |
+| openstack/fuel-dev-tools  | [summary](https://git.openstack.org/cgit/openstack/fuel-dev-tools/summary) |
+| openstack/fuel-plugin-ldap-slaves  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-ldap-slaves/summary) |
+| openstack/fuel-plugin-external-zabbix  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-external-zabbix/summary) |
+| openstack/fuel-plugin-cinder-gcs  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-cinder-gcs/summary) |
+| openstack/fuel-web  | [summary](https://git.openstack.org/cgit/openstack/fuel-web/summary) |
+| openstack/fuel-plugin-external-glusterfs  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-external-glusterfs/summary) |
+| openstack/fuel-ccp-debian-base  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-debian-base/summary) |
+| openstack/fuel-plugin-nimblestorage-cinder  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-nimblestorage-cinder/summary) |
+| openstack/fuel-plugin-cinder-netapp  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-cinder-netapp/summary) |
+| openstack/fuel-ccp-grafana  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-grafana/summary) |
+| openstack/fuel-plugin-gluon  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-gluon/summary) |
+| openstack/fuel-octane  | [summary](https://git.openstack.org/cgit/openstack/fuel-octane/summary) |
+| openstack/fuel-plugin-ceilometer-redis  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-ceilometer-redis/summary) |
+| openstack/fuel-specs  | [summary](https://git.openstack.org/cgit/openstack/fuel-specs/summary) |
+| openstack/fuel-plugin-calico  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-calico/summary) |
+| openstack/fuel-plugin-scaleio-cinder  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-scaleio-cinder/summary) |
+| openstack/fuel-ccp-installer  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-installer/summary) |
+| openstack/fuel-mirror  | [summary](https://git.openstack.org/cgit/openstack/fuel-mirror/summary) |
+| openstack/fuel-plugin-calamari  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-calamari/summary) |
+| openstack/fuel-plugin-vxlan  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-vxlan/summary) |
+| openstack/fuel-plugin-xenserver  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-xenserver/summary) |
+| openstack/fuel-plugin-sensu  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-sensu/summary) |
+| openstack/fuel-plugin-manila  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-manila/summary) |
+| openstack/fuel-ccp-murano  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-murano/summary) |
+| openstack/fuel-plugin-nova-nfs  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-nova-nfs/summary) |
+| openstack/fuel-plugin-detach-rabbitmq  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-detach-rabbitmq/summary) |
+| openstack/fuel-upgrade  | [summary](https://git.openstack.org/cgit/openstack/fuel-upgrade/summary) |
+| openstack/fuel-plugin-solidfire-cinder  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-solidfire-cinder/summary) |
+| openstack/fuel-plugin-cisco-aci  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-cisco-aci/summary) |
+| openstack/fuel-ccp-tests  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-tests/summary) |
+| openstack/fuel-agent  | [summary](https://git.openstack.org/cgit/openstack/fuel-agent/summary) |
+| openstack/fuel-plugin-emailnotifyd  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-emailnotifyd/summary) |
+| openstack/fuel-ccp-designate  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-designate/summary) |
+| openstack/fuel-plugin-detach-netnode  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-detach-netnode/summary) |
+| openstack/fuel-plugin-kafka  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-kafka/summary) |
+| openstack/fuel-ccp-mariadb  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-mariadb/summary) |
+| openstack/fuel-plugin-opendaylight  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-opendaylight/summary) |
+| openstack/fuel-plugin-ha-fencing  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-ha-fencing/summary) |
+| openstack/fuel-plugin-external-lb  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-external-lb/summary) |
+| openstack/fuel-plugin-zabbix-snmptrapd  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-zabbix-snmptrapd/summary) |
+| openstack/fuel-plugin-neutron-fwaas  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-neutron-fwaas/summary) |
+| openstack/fuel-plugin-datera-cinder  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-datera-cinder/summary) |
+| openstack/fuel-plugins  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugins/summary) |
+| openstack/fuel-main  | [summary](https://git.openstack.org/cgit/openstack/fuel-main/summary) |
+| openstack/fuel-plugin-availability-zones  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-availability-zones/summary) |
+| openstack/fuel-nailgun-extension-converted-serializers  | [summary](https://git.openstack.org/cgit/openstack/fuel-nailgun-extension-converted-serializers/summary) |
+| openstack/fuel-ccp-nova  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-nova/summary) |
+| openstack/fuel-virtualbox  | [summary](https://git.openstack.org/cgit/openstack/fuel-virtualbox/summary) |
+| openstack/fuel-ostf  | [summary](https://git.openstack.org/cgit/openstack/fuel-ostf/summary) |
+| openstack/fuel-plugin-tempest  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-tempest/summary) |
+| openstack/fuel-plugin-detach-swift  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-detach-swift/summary) |
+| openstack/fuel-plugin-lma-collector  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-lma-collector/summary) |
+| openstack/fuel-plugin-dbaas-trove  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-dbaas-trove/summary) |
+| openstack/fuel-nailgun-extension-iac  | [summary](https://git.openstack.org/cgit/openstack/fuel-nailgun-extension-iac/summary) |
+| openstack/fuel-ccp-rabbitmq  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-rabbitmq/summary) |
+| openstack/fuel-plugin-mistral  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-mistral/summary) |
+| openstack/fuel-plugin-debug  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-debug/summary) |
+| openstack/fuel-plugin-ovs  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-ovs/summary) |
+| openstack/fuel-plugin-detach-haproxy  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-detach-haproxy/summary) |
+| openstack/fuel-ccp-ceph  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-ceph/summary) |
+| openstack/fuel-plugin-dynatrace  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-dynatrace/summary) |
+| openstack/fuel-ccp-specs  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-specs/summary) |
+| openstack/fuel-plugin-onos  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-onos/summary) |
+| openstack/fuel-ccp-etcd  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-etcd/summary) |
+| openstack/fuel-plugin-openbook  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-openbook/summary) |
+| openstack/fuel-plugin-nsxv  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-nsxv/summary) |
+| openstack/fuel-menu  | [summary](https://git.openstack.org/cgit/openstack/fuel-menu/summary) |
+| openstack/fuel-plugin-nuage  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-nuage/summary) |
+| openstack/fuel-plugin-ldap  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-ldap/summary) |
+| openstack/fuel-ccp-horizon  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-horizon/summary) |
+| openstack/fuel-ccp-nginx  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-nginx/summary) |
+| openstack/fuel-plugin-ceph-multibackend  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-ceph-multibackend/summary) |
+| openstack/fuel-plugin-block-device  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-block-device/summary) |
+| openstack/fuel-ccp-heat  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-heat/summary) |
+| openstack/fuel-plugin-lma-infrastructure-alerting  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-lma-infrastructure-alerting/summary) |
+| openstack/fuel-plugin-unity  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-unity/summary) |
+| openstack/fuel-plugin-bigswitch  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-bigswitch/summary) |
+| openstack/fuel-ccp-ci-config  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-ci-config/summary) |
+| openstack/fuel-plugin-dns-updater  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-dns-updater/summary) |
+| openstack/fuel-stats  | [summary](https://git.openstack.org/cgit/openstack/fuel-stats/summary) |
+| openstack/fuel-ccp-openstack-base  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-openstack-base/summary) |
+| openstack/fuel-plugin-tacker  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-tacker/summary) |
+| openstack/fuel-plugin-ironic  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-ironic/summary) |
+| openstack/fuel-plugin-detach-keystone  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-detach-keystone/summary) |
+| openstack/fuel-plugin-bgpvpn  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-bgpvpn/summary) |
+| openstack/fuel-plugin-astara  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-astara/summary) |
+| openstack/fuel-ccp-zmq  | [summary](https://git.openstack.org/cgit/openstack/fuel-ccp-zmq/summary) |
+| openstack/fuel-plugin-glance-nfs  | [summary](https://git.openstack.org/cgit/openstack/fuel-plugin-glance-nfs/summary) |
+
+
+
+## glance: 2 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/glance  | [summary](https://git.openstack.org/cgit/openstack/glance/summary) |
+| openstack/glance_store  | [summary](https://git.openstack.org/cgit/openstack/glance_store/summary) |
+
+
+
+## heat: 7 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/heat-templates  | [summary](https://git.openstack.org/cgit/openstack/heat-templates/summary) |
+| openstack/heat-cfntools  | [summary](https://git.openstack.org/cgit/openstack/heat-cfntools/summary) |
+| openstack/heat  | [summary](https://git.openstack.org/cgit/openstack/heat/summary) |
+| openstack/heat-translator  | [summary](https://git.openstack.org/cgit/openstack/heat-translator/summary) |
+| openstack/tosca-parser  | [summary](https://git.openstack.org/cgit/openstack/tosca-parser/summary) |
+| openstack/heat-agents  | [summary](https://git.openstack.org/cgit/openstack/heat-agents/summary) |
+| openstack/heat-dashboard  | [summary](https://git.openstack.org/cgit/openstack/heat-dashboard/summary) |
+
+
+
+## helm: 13 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/airship-divingbell  | [summary](https://git.openstack.org/cgit/openstack/airship-divingbell/summary) |
+| openstack/airship-promenade  | [summary](https://git.openstack.org/cgit/openstack/airship-promenade/summary) |
+| openstack/airship-in-a-bottle  | [summary](https://git.openstack.org/cgit/openstack/airship-in-a-bottle/summary) |
+| openstack/airship-maas  | [summary](https://git.openstack.org/cgit/openstack/airship-maas/summary) |
+| openstack/airship-pegleg  | [summary](https://git.openstack.org/cgit/openstack/airship-pegleg/summary) |
+| openstack/airship-deckhand  | [summary](https://git.openstack.org/cgit/openstack/airship-deckhand/summary) |
+| openstack/airship-armada  | [summary](https://git.openstack.org/cgit/openstack/airship-armada/summary) |
+| openstack/openstack-helm-infra  | [summary](https://git.openstack.org/cgit/openstack/openstack-helm-infra/summary) |
+| openstack/airship-drydock  | [summary](https://git.openstack.org/cgit/openstack/airship-drydock/summary) |
+| openstack/airship-berth  | [summary](https://git.openstack.org/cgit/openstack/airship-berth/summary) |
+| openstack/openstack-helm  | [summary](https://git.openstack.org/cgit/openstack/openstack-helm/summary) |
+| openstack/airship-shipyard  | [summary](https://git.openstack.org/cgit/openstack/airship-shipyard/summary) |
+| openstack/openstack-helm-addons  | [summary](https://git.openstack.org/cgit/openstack/openstack-helm-addons/summary) |
+
+
+
+## horizon: 3 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/horizon  | [summary](https://git.openstack.org/cgit/openstack/horizon/summary) |
+| openstack/django_openstack_auth  | [summary](https://git.openstack.org/cgit/openstack/django_openstack_auth/summary) |
+| openstack/ui-cookiecutter  | [summary](https://git.openstack.org/cgit/openstack/ui-cookiecutter/summary) |
+
+
+
+## ironic: 11 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/virtualbmc  | [summary](https://git.openstack.org/cgit/openstack/virtualbmc/summary) |
+| openstack/bifrost  | [summary](https://git.openstack.org/cgit/openstack/bifrost/summary) |
+| openstack/sushy  | [summary](https://git.openstack.org/cgit/openstack/sushy/summary) |
+| openstack/ironic-inspector  | [summary](https://git.openstack.org/cgit/openstack/ironic-inspector/summary) |
+| openstack/ironic-ui  | [summary](https://git.openstack.org/cgit/openstack/ironic-ui/summary) |
+| openstack/ironic-lib  | [summary](https://git.openstack.org/cgit/openstack/ironic-lib/summary) |
+| openstack/sushy-tools  | [summary](https://git.openstack.org/cgit/openstack/sushy-tools/summary) |
+| openstack/molteniron  | [summary](https://git.openstack.org/cgit/openstack/molteniron/summary) |
+| openstack/ironic-python-agent  | [summary](https://git.openstack.org/cgit/openstack/ironic-python-agent/summary) |
+| openstack/ironic-python-agent-builder  | [summary](https://git.openstack.org/cgit/openstack/ironic-python-agent-builder/summary) |
+| openstack/ironic  | [summary](https://git.openstack.org/cgit/openstack/ironic/summary) |
+
+
+
+## karbor: 2 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/karbor  | [summary](https://git.openstack.org/cgit/openstack/karbor/summary) |
+| openstack/karbor-dashboard  | [summary](https://git.openstack.org/cgit/openstack/karbor-dashboard/summary) |
+
+
+
+## keystone: 5 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/keystonemiddleware  | [summary](https://git.openstack.org/cgit/openstack/keystonemiddleware/summary) |
+| openstack/pycadf  | [summary](https://git.openstack.org/cgit/openstack/pycadf/summary) |
+| openstack/keystoneauth  | [summary](https://git.openstack.org/cgit/openstack/keystoneauth/summary) |
+| openstack/ldappool  | [summary](https://git.openstack.org/cgit/openstack/ldappool/summary) |
+| openstack/keystone  | [summary](https://git.openstack.org/cgit/openstack/keystone/summary) |
+
+
+
+## kolla: 5 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/kolla-kubernetes  | [summary](https://git.openstack.org/cgit/openstack/kolla-kubernetes/summary) |
+| openstack/kolla-cli  | [summary](https://git.openstack.org/cgit/openstack/kolla-cli/summary) |
+| openstack/kolla-ansible  | [summary](https://git.openstack.org/cgit/openstack/kolla-ansible/summary) |
+| openstack/kolla-mesos  | [summary](https://git.openstack.org/cgit/openstack/kolla-mesos/summary) |
+| openstack/kolla  | [summary](https://git.openstack.org/cgit/openstack/kolla/summary) |
+
+
+
+## kuryr: 6 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/kuryr  | [summary](https://git.openstack.org/cgit/openstack/kuryr/summary) |
+| openstack/kuryr-kubernetes  | [summary](https://git.openstack.org/cgit/openstack/kuryr-kubernetes/summary) |
+| openstack/fuxi  | [summary](https://git.openstack.org/cgit/openstack/fuxi/summary) |
+| openstack/fuxi-kubernetes  | [summary](https://git.openstack.org/cgit/openstack/fuxi-kubernetes/summary) |
+| openstack/kuryr-libnetwork  | [summary](https://git.openstack.org/cgit/openstack/kuryr-libnetwork/summary) |
+| openstack/fuxi-golang  | [summary](https://git.openstack.org/cgit/openstack/fuxi-golang/summary) |
+
+
+
+## loci: 14 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/loci-horizon  | [summary](https://git.openstack.org/cgit/openstack/loci-horizon/summary) |
+| openstack/loci-murano  | [summary](https://git.openstack.org/cgit/openstack/loci-murano/summary) |
+| openstack/loci-ironic  | [summary](https://git.openstack.org/cgit/openstack/loci-ironic/summary) |
+| openstack/loci-heat  | [summary](https://git.openstack.org/cgit/openstack/loci-heat/summary) |
+| openstack/loci-keystone  | [summary](https://git.openstack.org/cgit/openstack/loci-keystone/summary) |
+| openstack/loci-trove  | [summary](https://git.openstack.org/cgit/openstack/loci-trove/summary) |
+| openstack/loci-neutron  | [summary](https://git.openstack.org/cgit/openstack/loci-neutron/summary) |
+| openstack/loci-requirements  | [summary](https://git.openstack.org/cgit/openstack/loci-requirements/summary) |
+| openstack/loci  | [summary](https://git.openstack.org/cgit/openstack/loci/summary) |
+| openstack/loci-designate  | [summary](https://git.openstack.org/cgit/openstack/loci-designate/summary) |
+| openstack/loci-swift  | [summary](https://git.openstack.org/cgit/openstack/loci-swift/summary) |
+| openstack/loci-glance  | [summary](https://git.openstack.org/cgit/openstack/loci-glance/summary) |
+| openstack/loci-nova  | [summary](https://git.openstack.org/cgit/openstack/loci-nova/summary) |
+| openstack/loci-cinder  | [summary](https://git.openstack.org/cgit/openstack/loci-cinder/summary) |
+
+
+
+## magnum: 2 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/magnum  | [summary](https://git.openstack.org/cgit/openstack/magnum/summary) |
+| openstack/magnum-ui  | [summary](https://git.openstack.org/cgit/openstack/magnum-ui/summary) |
+
+
+
+## manila: 4 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/manila-ui  | [summary](https://git.openstack.org/cgit/openstack/manila-ui/summary) |
+| openstack/manila-test-image  | [summary](https://git.openstack.org/cgit/openstack/manila-test-image/summary) |
+| openstack/manila-image-elements  | [summary](https://git.openstack.org/cgit/openstack/manila-image-elements/summary) |
+| openstack/manila  | [summary](https://git.openstack.org/cgit/openstack/manila/summary) |
+
+
+
+## masakari: 3 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/masakari-dashboard  | [summary](https://git.openstack.org/cgit/openstack/masakari-dashboard/summary) |
+| openstack/masakari  | [summary](https://git.openstack.org/cgit/openstack/masakari/summary) |
+| openstack/masakari-monitors  | [summary](https://git.openstack.org/cgit/openstack/masakari-monitors/summary) |
+
+
+
+## mistral: 4 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/mistral-extra  | [summary](https://git.openstack.org/cgit/openstack/mistral-extra/summary) |
+| openstack/mistral-lib  | [summary](https://git.openstack.org/cgit/openstack/mistral-lib/summary) |
+| openstack/mistral  | [summary](https://git.openstack.org/cgit/openstack/mistral/summary) |
+| openstack/mistral-dashboard  | [summary](https://git.openstack.org/cgit/openstack/mistral-dashboard/summary) |
+
+
+
+## monasca: 15 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/monasca-api  | [summary](https://git.openstack.org/cgit/openstack/monasca-api/summary) |
+| openstack/monasca-kibana-plugin  | [summary](https://git.openstack.org/cgit/openstack/monasca-kibana-plugin/summary) |
+| openstack/monasca-statsd  | [summary](https://git.openstack.org/cgit/openstack/monasca-statsd/summary) |
+| openstack/monasca-common  | [summary](https://git.openstack.org/cgit/openstack/monasca-common/summary) |
+| openstack/monasca-notification  | [summary](https://git.openstack.org/cgit/openstack/monasca-notification/summary) |
+| openstack/monasca-thresh  | [summary](https://git.openstack.org/cgit/openstack/monasca-thresh/summary) |
+| openstack/monasca-persister  | [summary](https://git.openstack.org/cgit/openstack/monasca-persister/summary) |
+| openstack/monasca-ui  | [summary](https://git.openstack.org/cgit/openstack/monasca-ui/summary) |
+| openstack/monasca-grafana-datasource  | [summary](https://git.openstack.org/cgit/openstack/monasca-grafana-datasource/summary) |
+| openstack/monasca-transform  | [summary](https://git.openstack.org/cgit/openstack/monasca-transform/summary) |
+| openstack/monasca-analytics  | [summary](https://git.openstack.org/cgit/openstack/monasca-analytics/summary) |
+| openstack/monasca-log-api  | [summary](https://git.openstack.org/cgit/openstack/monasca-log-api/summary) |
+| openstack/monasca-agent  | [summary](https://git.openstack.org/cgit/openstack/monasca-agent/summary) |
+| openstack/monasca-events-api  | [summary](https://git.openstack.org/cgit/openstack/monasca-events-api/summary) |
+| openstack/monasca-ceilometer  | [summary](https://git.openstack.org/cgit/openstack/monasca-ceilometer/summary) |
+
+
+
+## murano: 7 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/yaql  | [summary](https://git.openstack.org/cgit/openstack/yaql/summary) |
+| openstack/murano-agent  | [summary](https://git.openstack.org/cgit/openstack/murano-agent/summary) |
+| openstack/murano-deployment  | [summary](https://git.openstack.org/cgit/openstack/murano-deployment/summary) |
+| openstack/murano-pkg-check  | [summary](https://git.openstack.org/cgit/openstack/murano-pkg-check/summary) |
+| openstack/murano-apps  | [summary](https://git.openstack.org/cgit/openstack/murano-apps/summary) |
+| openstack/murano  | [summary](https://git.openstack.org/cgit/openstack/murano/summary) |
+| openstack/murano-dashboard  | [summary](https://git.openstack.org/cgit/openstack/murano-dashboard/summary) |
+
+
+
+## neutron: 57 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/networking-huawei  | [summary](https://git.openstack.org/cgit/openstack/networking-huawei/summary) |
+| openstack/networking-ovn  | [summary](https://git.openstack.org/cgit/openstack/networking-ovn/summary) |
+| openstack/networking-odl  | [summary](https://git.openstack.org/cgit/openstack/networking-odl/summary) |
+| openstack/networking-midonet  | [summary](https://git.openstack.org/cgit/openstack/networking-midonet/summary) |
+| openstack/neutron-vpnaas-dashboard  | [summary](https://git.openstack.org/cgit/openstack/neutron-vpnaas-dashboard/summary) |
+| openstack/networking-edge-vpn  | [summary](https://git.openstack.org/cgit/openstack/networking-edge-vpn/summary) |
+| openstack/networking-hyperv  | [summary](https://git.openstack.org/cgit/openstack/networking-hyperv/summary) |
+| openstack/networking-ansible  | [summary](https://git.openstack.org/cgit/openstack/networking-ansible/summary) |
+| openstack/networking-lagopus  | [summary](https://git.openstack.org/cgit/openstack/networking-lagopus/summary) |
+| openstack/networking-infoblox  | [summary](https://git.openstack.org/cgit/openstack/networking-infoblox/summary) |
+| openstack/networking-generic-switch  | [summary](https://git.openstack.org/cgit/openstack/networking-generic-switch/summary) |
+| openstack/networking-arista  | [summary](https://git.openstack.org/cgit/openstack/networking-arista/summary) |
+| openstack/networking-zvm  | [summary](https://git.openstack.org/cgit/openstack/networking-zvm/summary) |
+| openstack/networking-avaya  | [summary](https://git.openstack.org/cgit/openstack/networking-avaya/summary) |
+| openstack/ovsdbapp  | [summary](https://git.openstack.org/cgit/openstack/ovsdbapp/summary) |
+| openstack/neutron-lib  | [summary](https://git.openstack.org/cgit/openstack/neutron-lib/summary) |
+| openstack/networking-bgpvpn  | [summary](https://git.openstack.org/cgit/openstack/networking-bgpvpn/summary) |
+| openstack/networking-calico  | [summary](https://git.openstack.org/cgit/openstack/networking-calico/summary) |
+| openstack/networking-generic-switch-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/networking-generic-switch-tempest-plugin/summary) |
+| openstack/networking-spp  | [summary](https://git.openstack.org/cgit/openstack/networking-spp/summary) |
+| openstack/neutron  | [summary](https://git.openstack.org/cgit/openstack/neutron/summary) |
+| openstack/networking-ofagent  | [summary](https://git.openstack.org/cgit/openstack/networking-ofagent/summary) |
+| openstack/neutron-fwaas  | [summary](https://git.openstack.org/cgit/openstack/neutron-fwaas/summary) |
+| openstack/neutron-dynamic-routing  | [summary](https://git.openstack.org/cgit/openstack/neutron-dynamic-routing/summary) |
+| openstack/neutron-vpnaas  | [summary](https://git.openstack.org/cgit/openstack/neutron-vpnaas/summary) |
+| openstack/networking-h3c  | [summary](https://git.openstack.org/cgit/openstack/networking-h3c/summary) |
+| openstack/networking-vpp  | [summary](https://git.openstack.org/cgit/openstack/networking-vpp/summary) |
+| openstack/networking-ale-omniswitch  | [summary](https://git.openstack.org/cgit/openstack/networking-ale-omniswitch/summary) |
+| openstack/networking-powervm  | [summary](https://git.openstack.org/cgit/openstack/networking-powervm/summary) |
+| openstack/networking-cisco  | [summary](https://git.openstack.org/cgit/openstack/networking-cisco/summary) |
+| openstack/networking-plumgrid  | [summary](https://git.openstack.org/cgit/openstack/networking-plumgrid/summary) |
+| openstack/networking-cumulus  | [summary](https://git.openstack.org/cgit/openstack/networking-cumulus/summary) |
+| openstack/networking-6wind  | [summary](https://git.openstack.org/cgit/openstack/networking-6wind/summary) |
+| openstack/neutron-fwaas-dashboard  | [summary](https://git.openstack.org/cgit/openstack/neutron-fwaas-dashboard/summary) |
+| openstack/networking-bigswitch  | [summary](https://git.openstack.org/cgit/openstack/networking-bigswitch/summary) |
+| openstack/networking-gluon  | [summary](https://git.openstack.org/cgit/openstack/networking-gluon/summary) |
+| openstack/networking-mlnx  | [summary](https://git.openstack.org/cgit/openstack/networking-mlnx/summary) |
+| openstack/networking-baremetal  | [summary](https://git.openstack.org/cgit/openstack/networking-baremetal/summary) |
+| openstack/networking-ovs-dpdk  | [summary](https://git.openstack.org/cgit/openstack/networking-ovs-dpdk/summary) |
+| openstack/networking-dpm  | [summary](https://git.openstack.org/cgit/openstack/networking-dpm/summary) |
+| openstack/networking-fujitsu  | [summary](https://git.openstack.org/cgit/openstack/networking-fujitsu/summary) |
+| openstack/networking-fortinet  | [summary](https://git.openstack.org/cgit/openstack/networking-fortinet/summary) |
+| openstack/networking-icc  | [summary](https://git.openstack.org/cgit/openstack/networking-icc/summary) |
+| openstack/networking-brocade  | [summary](https://git.openstack.org/cgit/openstack/networking-brocade/summary) |
+| openstack/networking-bagpipe  | [summary](https://git.openstack.org/cgit/openstack/networking-bagpipe/summary) |
+| openstack/networking-extreme  | [summary](https://git.openstack.org/cgit/openstack/networking-extreme/summary) |
+| openstack/networking-hpe  | [summary](https://git.openstack.org/cgit/openstack/networking-hpe/summary) |
+| openstack/networking-nec  | [summary](https://git.openstack.org/cgit/openstack/networking-nec/summary) |
+| openstack/networking-lenovo  | [summary](https://git.openstack.org/cgit/openstack/networking-lenovo/summary) |
+| openstack/networking-onos  | [summary](https://git.openstack.org/cgit/openstack/networking-onos/summary) |
+| openstack/networking-l2gw  | [summary](https://git.openstack.org/cgit/openstack/networking-l2gw/summary) |
+| openstack/networking-peregrine  | [summary](https://git.openstack.org/cgit/openstack/networking-peregrine/summary) |
+| openstack/networking-opencontrail  | [summary](https://git.openstack.org/cgit/openstack/networking-opencontrail/summary) |
+| openstack/networking-sfc  | [summary](https://git.openstack.org/cgit/openstack/networking-sfc/summary) |
+| openstack/networking-vsphere  | [summary](https://git.openstack.org/cgit/openstack/networking-vsphere/summary) |
+| openstack/networking-l2gw-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/networking-l2gw-tempest-plugin/summary) |
+| openstack/networking-zte  | [summary](https://git.openstack.org/cgit/openstack/networking-zte/summary) |
+
+
+
+## nova: 4 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/os-traits  | [summary](https://git.openstack.org/cgit/openstack/os-traits/summary) |
+| openstack/os-vif  | [summary](https://git.openstack.org/cgit/openstack/os-vif/summary) |
+| openstack/nova  | [summary](https://git.openstack.org/cgit/openstack/nova/summary) |
+| openstack/osc-placement  | [summary](https://git.openstack.org/cgit/openstack/osc-placement/summary) |
+
+
+
+## octavia: 4 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/octavia-dashboard  | [summary](https://git.openstack.org/cgit/openstack/octavia-dashboard/summary) |
+| openstack/neutron-lbaas  | [summary](https://git.openstack.org/cgit/openstack/neutron-lbaas/summary) |
+| openstack/neutron-lbaas-dashboard  | [summary](https://git.openstack.org/cgit/openstack/neutron-lbaas-dashboard/summary) |
+| openstack/octavia  | [summary](https://git.openstack.org/cgit/openstack/octavia/summary) |
+
+
+
+## openstack: 48 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/mogan-specs  | [summary](https://git.openstack.org/cgit/openstack/mogan-specs/summary) |
+| openstack/openstack-chef-specs  | [summary](https://git.openstack.org/cgit/openstack/openstack-chef-specs/summary) |
+| openstack/neutron-specs  | [summary](https://git.openstack.org/cgit/openstack/neutron-specs/summary) |
+| openstack/cloudkitty-specs  | [summary](https://git.openstack.org/cgit/openstack/cloudkitty-specs/summary) |
+| openstack/telemetry-specs  | [summary](https://git.openstack.org/cgit/openstack/telemetry-specs/summary) |
+| openstack/manila-specs  | [summary](https://git.openstack.org/cgit/openstack/manila-specs/summary) |
+| openstack/packetary-specs  | [summary](https://git.openstack.org/cgit/openstack/packetary-specs/summary) |
+| openstack/cinder-specs  | [summary](https://git.openstack.org/cgit/openstack/cinder-specs/summary) |
+| openstack/masakari-specs  | [summary](https://git.openstack.org/cgit/openstack/masakari-specs/summary) |
+| openstack/solum-specs  | [summary](https://git.openstack.org/cgit/openstack/solum-specs/summary) |
+| openstack/cyborg-specs  | [summary](https://git.openstack.org/cgit/openstack/cyborg-specs/summary) |
+| openstack/heat-specs  | [summary](https://git.openstack.org/cgit/openstack/heat-specs/summary) |
+| openstack/swift-specs  | [summary](https://git.openstack.org/cgit/openstack/swift-specs/summary) |
+| openstack/valence-specs  | [summary](https://git.openstack.org/cgit/openstack/valence-specs/summary) |
+| openstack/glance-specs  | [summary](https://git.openstack.org/cgit/openstack/glance-specs/summary) |
+| openstack/nova-specs  | [summary](https://git.openstack.org/cgit/openstack/nova-specs/summary) |
+| openstack/freezer-specs  | [summary](https://git.openstack.org/cgit/openstack/freezer-specs/summary) |
+| openstack/security-specs  | [summary](https://git.openstack.org/cgit/openstack/security-specs/summary) |
+| openstack/i18n-specs  | [summary](https://git.openstack.org/cgit/openstack/i18n-specs/summary) |
+| openstack/magnum-specs  | [summary](https://git.openstack.org/cgit/openstack/magnum-specs/summary) |
+| openstack/compass-specs  | [summary](https://git.openstack.org/cgit/openstack/compass-specs/summary) |
+| openstack/keystone-specs  | [summary](https://git.openstack.org/cgit/openstack/keystone-specs/summary) |
+| openstack/trove-specs  | [summary](https://git.openstack.org/cgit/openstack/trove-specs/summary) |
+| openstack/designate-specs  | [summary](https://git.openstack.org/cgit/openstack/designate-specs/summary) |
+| openstack/openstack-resource-agents-specs  | [summary](https://git.openstack.org/cgit/openstack/openstack-resource-agents-specs/summary) |
+| openstack/ironic-inspector-specs  | [summary](https://git.openstack.org/cgit/openstack/ironic-inspector-specs/summary) |
+| openstack/docs-specs  | [summary](https://git.openstack.org/cgit/openstack/docs-specs/summary) |
+| openstack/watcher-specs  | [summary](https://git.openstack.org/cgit/openstack/watcher-specs/summary) |
+| openstack/openstack-salt-specs  | [summary](https://git.openstack.org/cgit/openstack/openstack-salt-specs/summary) |
+| openstack/vitrage-specs  | [summary](https://git.openstack.org/cgit/openstack/vitrage-specs/summary) |
+| openstack/kosmos-specs  | [summary](https://git.openstack.org/cgit/openstack/kosmos-specs/summary) |
+| openstack/magnetodb-specs  | [summary](https://git.openstack.org/cgit/openstack/magnetodb-specs/summary) |
+| openstack/qa-specs  | [summary](https://git.openstack.org/cgit/openstack/qa-specs/summary) |
+| openstack/searchlight-specs  | [summary](https://git.openstack.org/cgit/openstack/searchlight-specs/summary) |
+| openstack/congress-specs  | [summary](https://git.openstack.org/cgit/openstack/congress-specs/summary) |
+| openstack/zaqar-specs  | [summary](https://git.openstack.org/cgit/openstack/zaqar-specs/summary) |
+| openstack/murano-specs  | [summary](https://git.openstack.org/cgit/openstack/murano-specs/summary) |
+| openstack/glare-specs  | [summary](https://git.openstack.org/cgit/openstack/glare-specs/summary) |
+| openstack/mistral-specs  | [summary](https://git.openstack.org/cgit/openstack/mistral-specs/summary) |
+| openstack/sahara-specs  | [summary](https://git.openstack.org/cgit/openstack/sahara-specs/summary) |
+| openstack/ironic-specs  | [summary](https://git.openstack.org/cgit/openstack/ironic-specs/summary) |
+| openstack/group-based-policy-specs  | [summary](https://git.openstack.org/cgit/openstack/group-based-policy-specs/summary) |
+| openstack/barbican-specs  | [summary](https://git.openstack.org/cgit/openstack/barbican-specs/summary) |
+| openstack/surveil-specs  | [summary](https://git.openstack.org/cgit/openstack/surveil-specs/summary) |
+| openstack/monasca-specs  | [summary](https://git.openstack.org/cgit/openstack/monasca-specs/summary) |
+| openstack/openstack-specs  | [summary](https://git.openstack.org/cgit/openstack/openstack-specs/summary) |
+| openstack/bareon-specs  | [summary](https://git.openstack.org/cgit/openstack/bareon-specs/summary) |
+| openstack/tacker-specs  | [summary](https://git.openstack.org/cgit/openstack/tacker-specs/summary) |
+
+
+
+## openstack-ansible: 63 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/openstack-ansible-os_monasca-ui  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_monasca-ui/summary) |
+| openstack/openstack-ansible-specs  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-specs/summary) |
+| openstack/openstack-ansible-os_sahara  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_sahara/summary) |
+| openstack/openstack-ansible-os_ceilometer  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_ceilometer/summary) |
+| openstack/openstack-ansible-tests  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-tests/summary) |
+| openstack/openstack-ansible-rabbitmq_server  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-rabbitmq_server/summary) |
+| openstack/openstack-ansible-os_gnocchi  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_gnocchi/summary) |
+| openstack/openstack-ansible-lxc_hosts  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-lxc_hosts/summary) |
+| openstack/openstack-ansible-os_horizon  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_horizon/summary) |
+| openstack/openstack-ansible-os_monasca  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_monasca/summary) |
+| openstack/openstack-ansible-galera_client  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-galera_client/summary) |
+| openstack/openstack-ansible-ceph_client  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-ceph_client/summary) |
+| openstack/openstack-ansible-os_blazar  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_blazar/summary) |
+| openstack/openstack-ansible-rsyslog_server  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-rsyslog_server/summary) |
+| openstack/openstack-ansible-os_nova  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_nova/summary) |
+| openstack/openstack-ansible-security  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-security/summary) |
+| openstack/openstack-ansible-os_swift_sync  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_swift_sync/summary) |
+| openstack/openstack-ansible-galera_server  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-galera_server/summary) |
+| openstack/openstack-ansible-nspawn_container_create  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-nspawn_container_create/summary) |
+| openstack/openstack-ansible-os_neutron  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_neutron/summary) |
+| openstack/openstack-ansible-os_rally  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_rally/summary) |
+| openstack/openstack-ansible-memcached_server  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-memcached_server/summary) |
+| openstack/openstack-ansible-os_keystone  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_keystone/summary) |
+| openstack/openstack-ansible-os_masakari  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_masakari/summary) |
+| openstack/openstack-ansible-repo_server  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-repo_server/summary) |
+| openstack/openstack-ansible-os_almanach  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_almanach/summary) |
+| openstack/openstack-ansible-plugins  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-plugins/summary) |
+| openstack/openstack-ansible-repo_build  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-repo_build/summary) |
+| openstack/openstack-ansible-os_cloudkitty  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_cloudkitty/summary) |
+| openstack/openstack-ansible-pip_install  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-pip_install/summary) |
+| openstack/openstack-ansible-os_searchlight  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_searchlight/summary) |
+| openstack/openstack-ansible-apt_package_pinning  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-apt_package_pinning/summary) |
+| openstack/openstack-ansible-os_tacker  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_tacker/summary) |
+| openstack/openstack-ansible-haproxy_server  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-haproxy_server/summary) |
+| openstack/openstack-ansible-openstack_openrc  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-openstack_openrc/summary) |
+| openstack/openstack-ansible-os_cinder  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_cinder/summary) |
+| openstack/openstack-ansible-os_panko  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_panko/summary) |
+| openstack/openstack-ansible-os_karbor  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_karbor/summary) |
+| openstack/openstack-ansible-os_zun  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_zun/summary) |
+| openstack/openstack-ansible-os_heat  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_heat/summary) |
+| openstack/openstack-ansible-os_swift  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_swift/summary) |
+| openstack/openstack-ansible-pip_lock_down  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-pip_lock_down/summary) |
+| openstack/openstack-ansible-nspawn_hosts  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-nspawn_hosts/summary) |
+| openstack/openstack-ansible-os_freezer  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_freezer/summary) |
+| openstack/openstack-ansible-os_tempest  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_tempest/summary) |
+| openstack/openstack-ansible-lxc_container_create  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-lxc_container_create/summary) |
+| openstack/openstack-ansible-py_from_git  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-py_from_git/summary) |
+| openstack/openstack-ansible-os_glance  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_glance/summary) |
+| openstack/openstack-ansible-openstack_hosts  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-openstack_hosts/summary) |
+| openstack/openstack-ansible-os_trove  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_trove/summary) |
+| openstack/openstack-ansible-ops  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-ops/summary) |
+| openstack/openstack-ansible-os_monasca-agent  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_monasca-agent/summary) |
+| openstack/openstack-ansible-os_octavia  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_octavia/summary) |
+| openstack/openstack-ansible-os_molteniron  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_molteniron/summary) |
+| openstack/openstack-ansible-os_barbican  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_barbican/summary) |
+| openstack/openstack-ansible-os_watcher  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_watcher/summary) |
+| openstack/openstack-ansible-os_zaqar  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_zaqar/summary) |
+| openstack/openstack-ansible-os_designate  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_designate/summary) |
+| openstack/openstack-ansible-os_ironic  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_ironic/summary) |
+| openstack/openstack-ansible-os_magnum  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_magnum/summary) |
+| openstack/openstack-ansible-os_congress  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_congress/summary) |
+| openstack/openstack-ansible-os_aodh  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-os_aodh/summary) |
+| openstack/openstack-ansible-rsyslog_client  | [summary](https://git.openstack.org/cgit/openstack/openstack-ansible-rsyslog_client/summary) |
+
+
+
+## oslo: 34 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/sphinx-feature-classification  | [summary](https://git.openstack.org/cgit/openstack/sphinx-feature-classification/summary) |
+| openstack/oslo.service  | [summary](https://git.openstack.org/cgit/openstack/oslo.service/summary) |
+| openstack/oslo.limit  | [summary](https://git.openstack.org/cgit/openstack/oslo.limit/summary) |
+| openstack/oslo.policy  | [summary](https://git.openstack.org/cgit/openstack/oslo.policy/summary) |
+| openstack/oslo.vmware  | [summary](https://git.openstack.org/cgit/openstack/oslo.vmware/summary) |
+| openstack/taskflow  | [summary](https://git.openstack.org/cgit/openstack/taskflow/summary) |
+| openstack/oslo.i18n  | [summary](https://git.openstack.org/cgit/openstack/oslo.i18n/summary) |
+| openstack/oslo.utils  | [summary](https://git.openstack.org/cgit/openstack/oslo.utils/summary) |
+| openstack/oslo.rootwrap  | [summary](https://git.openstack.org/cgit/openstack/oslo.rootwrap/summary) |
+| openstack/tooz  | [summary](https://git.openstack.org/cgit/openstack/tooz/summary) |
+| openstack/castellan  | [summary](https://git.openstack.org/cgit/openstack/castellan/summary) |
+| openstack/oslo.cache  | [summary](https://git.openstack.org/cgit/openstack/oslo.cache/summary) |
+| openstack/oslo.privsep  | [summary](https://git.openstack.org/cgit/openstack/oslo.privsep/summary) |
+| openstack/oslo.reports  | [summary](https://git.openstack.org/cgit/openstack/oslo.reports/summary) |
+| openstack/oslo.log  | [summary](https://git.openstack.org/cgit/openstack/oslo.log/summary) |
+| openstack/oslotest  | [summary](https://git.openstack.org/cgit/openstack/oslotest/summary) |
+| openstack/automaton  | [summary](https://git.openstack.org/cgit/openstack/automaton/summary) |
+| openstack/oslo.versionedobjects  | [summary](https://git.openstack.org/cgit/openstack/oslo.versionedobjects/summary) |
+| openstack/futurist  | [summary](https://git.openstack.org/cgit/openstack/futurist/summary) |
+| openstack/osprofiler  | [summary](https://git.openstack.org/cgit/openstack/osprofiler/summary) |
+| openstack/stevedore  | [summary](https://git.openstack.org/cgit/openstack/stevedore/summary) |
+| openstack/oslo.concurrency  | [summary](https://git.openstack.org/cgit/openstack/oslo.concurrency/summary) |
+| openstack/mox3  | [summary](https://git.openstack.org/cgit/openstack/mox3/summary) |
+| openstack/debtcollector  | [summary](https://git.openstack.org/cgit/openstack/debtcollector/summary) |
+| openstack/oslo.context  | [summary](https://git.openstack.org/cgit/openstack/oslo.context/summary) |
+| openstack/oslo.db  | [summary](https://git.openstack.org/cgit/openstack/oslo.db/summary) |
+| openstack/oslo-incubator  | [summary](https://git.openstack.org/cgit/openstack/oslo-incubator/summary) |
+| openstack/oslo.middleware  | [summary](https://git.openstack.org/cgit/openstack/oslo.middleware/summary) |
+| openstack/oslo-specs  | [summary](https://git.openstack.org/cgit/openstack/oslo-specs/summary) |
+| openstack/oslo.serialization  | [summary](https://git.openstack.org/cgit/openstack/oslo.serialization/summary) |
+| openstack/oslo.messaging  | [summary](https://git.openstack.org/cgit/openstack/oslo.messaging/summary) |
+| openstack/oslo.tools  | [summary](https://git.openstack.org/cgit/openstack/oslo.tools/summary) |
+| openstack/oslosphinx  | [summary](https://git.openstack.org/cgit/openstack/oslosphinx/summary) |
+| openstack/oslo.config  | [summary](https://git.openstack.org/cgit/openstack/oslo.config/summary) |
+
+
+
+## puppet: 58 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/puppet-mistral  | [summary](https://git.openstack.org/cgit/openstack/puppet-mistral/summary) |
+| openstack/puppet-tempest  | [summary](https://git.openstack.org/cgit/openstack/puppet-tempest/summary) |
+| openstack/puppet-openstack_spec_helper  | [summary](https://git.openstack.org/cgit/openstack/puppet-openstack_spec_helper/summary) |
+| openstack/puppet-glare  | [summary](https://git.openstack.org/cgit/openstack/puppet-glare/summary) |
+| openstack/puppet-openstack-specs  | [summary](https://git.openstack.org/cgit/openstack/puppet-openstack-specs/summary) |
+| openstack/puppet-openstack_extras  | [summary](https://git.openstack.org/cgit/openstack/puppet-openstack_extras/summary) |
+| openstack/puppet-congress  | [summary](https://git.openstack.org/cgit/openstack/puppet-congress/summary) |
+| openstack/puppet-ganesha  | [summary](https://git.openstack.org/cgit/openstack/puppet-ganesha/summary) |
+| openstack/puppet-monasca  | [summary](https://git.openstack.org/cgit/openstack/puppet-monasca/summary) |
+| openstack/puppet-autossh  | [summary](https://git.openstack.org/cgit/openstack/puppet-autossh/summary) |
+| openstack/puppet-nova  | [summary](https://git.openstack.org/cgit/openstack/puppet-nova/summary) |
+| openstack/puppet-setproxy  | [summary](https://git.openstack.org/cgit/openstack/puppet-setproxy/summary) |
+| openstack/puppet-manila  | [summary](https://git.openstack.org/cgit/openstack/puppet-manila/summary) |
+| openstack/puppet-midonet  | [summary](https://git.openstack.org/cgit/openstack/puppet-midonet/summary) |
+| openstack/puppet-ceph  | [summary](https://git.openstack.org/cgit/openstack/puppet-ceph/summary) |
+| openstack/puppet-horizon  | [summary](https://git.openstack.org/cgit/openstack/puppet-horizon/summary) |
+| openstack/puppet-rally  | [summary](https://git.openstack.org/cgit/openstack/puppet-rally/summary) |
+| openstack/puppet-gnocchi  | [summary](https://git.openstack.org/cgit/openstack/puppet-gnocchi/summary) |
+| openstack/puppet-freezer  | [summary](https://git.openstack.org/cgit/openstack/puppet-freezer/summary) |
+| openstack/puppet-ceilometer  | [summary](https://git.openstack.org/cgit/openstack/puppet-ceilometer/summary) |
+| openstack/puppet-oslo  | [summary](https://git.openstack.org/cgit/openstack/puppet-oslo/summary) |
+| openstack/puppet-ovn  | [summary](https://git.openstack.org/cgit/openstack/puppet-ovn/summary) |
+| openstack/puppet-zaqar  | [summary](https://git.openstack.org/cgit/openstack/puppet-zaqar/summary) |
+| openstack/puppet-tacker  | [summary](https://git.openstack.org/cgit/openstack/puppet-tacker/summary) |
+| openstack/puppet-tripleo  | [summary](https://git.openstack.org/cgit/openstack/puppet-tripleo/summary) |
+| openstack/puppet-murano  | [summary](https://git.openstack.org/cgit/openstack/puppet-murano/summary) |
+| openstack/puppet-neutron  | [summary](https://git.openstack.org/cgit/openstack/puppet-neutron/summary) |
+| openstack/puppet-ironic  | [summary](https://git.openstack.org/cgit/openstack/puppet-ironic/summary) |
+| openstack/puppet-magnum  | [summary](https://git.openstack.org/cgit/openstack/puppet-magnum/summary) |
+| openstack/puppet-pacemaker  | [summary](https://git.openstack.org/cgit/openstack/puppet-pacemaker/summary) |
+| openstack/puppet-senlin  | [summary](https://git.openstack.org/cgit/openstack/puppet-senlin/summary) |
+| openstack/puppet-aodh  | [summary](https://git.openstack.org/cgit/openstack/puppet-aodh/summary) |
+| openstack/puppet-openstacklib  | [summary](https://git.openstack.org/cgit/openstack/puppet-openstacklib/summary) |
+| openstack/puppet-openstack-release-tools  | [summary](https://git.openstack.org/cgit/openstack/puppet-openstack-release-tools/summary) |
+| openstack/puppet-modulesync-configs  | [summary](https://git.openstack.org/cgit/openstack/puppet-modulesync-configs/summary) |
+| openstack/puppet-designate  | [summary](https://git.openstack.org/cgit/openstack/puppet-designate/summary) |
+| openstack/puppet-keystone  | [summary](https://git.openstack.org/cgit/openstack/puppet-keystone/summary) |
+| openstack/puppet-barbican  | [summary](https://git.openstack.org/cgit/openstack/puppet-barbican/summary) |
+| openstack/puppet-openstack-integration  | [summary](https://git.openstack.org/cgit/openstack/puppet-openstack-integration/summary) |
+| openstack/puppet-qdr  | [summary](https://git.openstack.org/cgit/openstack/puppet-qdr/summary) |
+| openstack/puppet-surveil  | [summary](https://git.openstack.org/cgit/openstack/puppet-surveil/summary) |
+| openstack/puppet-sahara  | [summary](https://git.openstack.org/cgit/openstack/puppet-sahara/summary) |
+| openstack/puppet-swift  | [summary](https://git.openstack.org/cgit/openstack/puppet-swift/summary) |
+| openstack/puppet-ec2api  | [summary](https://git.openstack.org/cgit/openstack/puppet-ec2api/summary) |
+| openstack/puppet-trove  | [summary](https://git.openstack.org/cgit/openstack/puppet-trove/summary) |
+| openstack/puppet-octavia  | [summary](https://git.openstack.org/cgit/openstack/puppet-octavia/summary) |
+| openstack/puppet-vitrage  | [summary](https://git.openstack.org/cgit/openstack/puppet-vitrage/summary) |
+| openstack/puppet-cinder  | [summary](https://git.openstack.org/cgit/openstack/puppet-cinder/summary) |
+| openstack/puppet-openstack-guide  | [summary](https://git.openstack.org/cgit/openstack/puppet-openstack-guide/summary) |
+| openstack/puppet-vswitch  | [summary](https://git.openstack.org/cgit/openstack/puppet-vswitch/summary) |
+| openstack/puppet-watcher  | [summary](https://git.openstack.org/cgit/openstack/puppet-watcher/summary) |
+| openstack/puppet-cloudkitty  | [summary](https://git.openstack.org/cgit/openstack/puppet-cloudkitty/summary) |
+| openstack/puppet-tuskar  | [summary](https://git.openstack.org/cgit/openstack/puppet-tuskar/summary) |
+| openstack/puppet-n1k-vsm  | [summary](https://git.openstack.org/cgit/openstack/puppet-n1k-vsm/summary) |
+| openstack/puppet-panko  | [summary](https://git.openstack.org/cgit/openstack/puppet-panko/summary) |
+| openstack/puppet-heat  | [summary](https://git.openstack.org/cgit/openstack/puppet-heat/summary) |
+| openstack/puppet-openstack-cookiecutter  | [summary](https://git.openstack.org/cgit/openstack/puppet-openstack-cookiecutter/summary) |
+| openstack/puppet-glance  | [summary](https://git.openstack.org/cgit/openstack/puppet-glance/summary) |
+
+
+
+## python: 87 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/python-magnetodbclient  | [summary](https://git.openstack.org/cgit/openstack/python-magnetodbclient/summary) |
+| openstack/python-openstackclient  | [summary](https://git.openstack.org/cgit/openstack/python-openstackclient/summary) |
+| openstack/python-valenceclient  | [summary](https://git.openstack.org/cgit/openstack/python-valenceclient/summary) |
+| openstack/python-fuelclient  | [summary](https://git.openstack.org/cgit/openstack/python-fuelclient/summary) |
+| openstack/python-glanceclient  | [summary](https://git.openstack.org/cgit/openstack/python-glanceclient/summary) |
+| openstack/python-tricircleclient  | [summary](https://git.openstack.org/cgit/openstack/python-tricircleclient/summary) |
+| openstack/python-zunclient  | [summary](https://git.openstack.org/cgit/openstack/python-zunclient/summary) |
+| openstack/python-rackclient  | [summary](https://git.openstack.org/cgit/openstack/python-rackclient/summary) |
+| openstack/python-cinderclient  | [summary](https://git.openstack.org/cgit/openstack/python-cinderclient/summary) |
+| openstack/python-magnumclient  | [summary](https://git.openstack.org/cgit/openstack/python-magnumclient/summary) |
+| openstack/python-hnvclient  | [summary](https://git.openstack.org/cgit/openstack/python-hnvclient/summary) |
+| openstack/python-kiteclient  | [summary](https://git.openstack.org/cgit/openstack/python-kiteclient/summary) |
+| openstack/python-iotronicclient  | [summary](https://git.openstack.org/cgit/openstack/python-iotronicclient/summary) |
+| openstack/python-appcatalogclient  | [summary](https://git.openstack.org/cgit/openstack/python-appcatalogclient/summary) |
+| openstack/python-keystoneclient-kerberos  | [summary](https://git.openstack.org/cgit/openstack/python-keystoneclient-kerberos/summary) |
+| openstack/python-ironic-inspector-client  | [summary](https://git.openstack.org/cgit/openstack/python-ironic-inspector-client/summary) |
+| openstack/python-octaviaclient  | [summary](https://git.openstack.org/cgit/openstack/python-octaviaclient/summary) |
+| openstack/python-gnocchiclient  | [summary](https://git.openstack.org/cgit/openstack/python-gnocchiclient/summary) |
+| openstack/python-ironicclient  | [summary](https://git.openstack.org/cgit/openstack/python-ironicclient/summary) |
+| openstack/python-solumclient  | [summary](https://git.openstack.org/cgit/openstack/python-solumclient/summary) |
+| openstack/python-kingbirdclient  | [summary](https://git.openstack.org/cgit/openstack/python-kingbirdclient/summary) |
+| openstack/python-cerberusclient  | [summary](https://git.openstack.org/cgit/openstack/python-cerberusclient/summary) |
+| openstack/python-saharaclient  | [summary](https://git.openstack.org/cgit/openstack/python-saharaclient/summary) |
+| openstack/python-meteosclient  | [summary](https://git.openstack.org/cgit/openstack/python-meteosclient/summary) |
+| openstack/python-cueclient  | [summary](https://git.openstack.org/cgit/openstack/python-cueclient/summary) |
+| openstack/python-neutronclient  | [summary](https://git.openstack.org/cgit/openstack/python-neutronclient/summary) |
+| openstack/python-jenkins  | [summary](https://git.openstack.org/cgit/openstack/python-jenkins/summary) |
+| openstack/python-pankoclient  | [summary](https://git.openstack.org/cgit/openstack/python-pankoclient/summary) |
+| openstack/python-masakariclient  | [summary](https://git.openstack.org/cgit/openstack/python-masakariclient/summary) |
+| openstack/python-tatuclient  | [summary](https://git.openstack.org/cgit/openstack/python-tatuclient/summary) |
+| openstack/python-adjutantclient  | [summary](https://git.openstack.org/cgit/openstack/python-adjutantclient/summary) |
+| openstack/python-karborclient  | [summary](https://git.openstack.org/cgit/openstack/python-karborclient/summary) |
+| openstack/python-aodhclient  | [summary](https://git.openstack.org/cgit/openstack/python-aodhclient/summary) |
+| openstack/python-monascaclient  | [summary](https://git.openstack.org/cgit/openstack/python-monascaclient/summary) |
+| openstack/python-ganttclient  | [summary](https://git.openstack.org/cgit/openstack/python-ganttclient/summary) |
+| openstack/python-manilaclient  | [summary](https://git.openstack.org/cgit/openstack/python-manilaclient/summary) |
+| openstack/python-muranoclient  | [summary](https://git.openstack.org/cgit/openstack/python-muranoclient/summary) |
+| openstack/python-distilclient  | [summary](https://git.openstack.org/cgit/openstack/python-distilclient/summary) |
+| openstack/python-don  | [summary](https://git.openstack.org/cgit/openstack/python-don/summary) |
+| openstack/python-oneviewclient  | [summary](https://git.openstack.org/cgit/openstack/python-oneviewclient/summary) |
+| openstack/python-apmecclient  | [summary](https://git.openstack.org/cgit/openstack/python-apmecclient/summary) |
+| openstack/python-cloudpulseclient  | [summary](https://git.openstack.org/cgit/openstack/python-cloudpulseclient/summary) |
+| openstack/python-searchlightclient  | [summary](https://git.openstack.org/cgit/openstack/python-searchlightclient/summary) |
+| openstack/python-namosclient  | [summary](https://git.openstack.org/cgit/openstack/python-namosclient/summary) |
+| openstack/python-zaqarclient  | [summary](https://git.openstack.org/cgit/openstack/python-zaqarclient/summary) |
+| openstack/python-blazarclient  | [summary](https://git.openstack.org/cgit/openstack/python-blazarclient/summary) |
+| openstack/python-vitrageclient  | [summary](https://git.openstack.org/cgit/openstack/python-vitrageclient/summary) |
+| openstack/python-keystoneclient  | [summary](https://git.openstack.org/cgit/openstack/python-keystoneclient/summary) |
+| openstack/python-freezerclient  | [summary](https://git.openstack.org/cgit/openstack/python-freezerclient/summary) |
+| openstack/python-barbicanclient  | [summary](https://git.openstack.org/cgit/openstack/python-barbicanclient/summary) |
+| openstack/python-mistralclient  | [summary](https://git.openstack.org/cgit/openstack/python-mistralclient/summary) |
+| openstack/python-cognitiveclient  | [summary](https://git.openstack.org/cgit/openstack/python-cognitiveclient/summary) |
+| openstack/python-tuskarclient  | [summary](https://git.openstack.org/cgit/openstack/python-tuskarclient/summary) |
+| openstack/python-group-based-policy-client  | [summary](https://git.openstack.org/cgit/openstack/python-group-based-policy-client/summary) |
+| openstack/python-cloudkittyclient  | [summary](https://git.openstack.org/cgit/openstack/python-cloudkittyclient/summary) |
+| openstack/python-neutron-pd-driver  | [summary](https://git.openstack.org/cgit/openstack/python-neutron-pd-driver/summary) |
+| openstack/python-troveclient  | [summary](https://git.openstack.org/cgit/openstack/python-troveclient/summary) |
+| openstack/python-cratonclient  | [summary](https://git.openstack.org/cgit/openstack/python-cratonclient/summary) |
+| openstack/python-watcherclient  | [summary](https://git.openstack.org/cgit/openstack/python-watcherclient/summary) |
+| openstack/python-scciclient  | [summary](https://git.openstack.org/cgit/openstack/python-scciclient/summary) |
+| openstack/python-moganclient  | [summary](https://git.openstack.org/cgit/openstack/python-moganclient/summary) |
+| openstack/python-qinlingclient  | [summary](https://git.openstack.org/cgit/openstack/python-qinlingclient/summary) |
+| openstack/python-wsmanclient  | [summary](https://git.openstack.org/cgit/openstack/python-wsmanclient/summary) |
+| openstack/python-cyborgclient  | [summary](https://git.openstack.org/cgit/openstack/python-cyborgclient/summary) |
+| openstack/python-swiftclient  | [summary](https://git.openstack.org/cgit/openstack/python-swiftclient/summary) |
+| openstack/python-congressclient  | [summary](https://git.openstack.org/cgit/openstack/python-congressclient/summary) |
+| openstack/python-ceilometerclient  | [summary](https://git.openstack.org/cgit/openstack/python-ceilometerclient/summary) |
+| openstack/python-almanachclient  | [summary](https://git.openstack.org/cgit/openstack/python-almanachclient/summary) |
+| openstack/python-surveilclient  | [summary](https://git.openstack.org/cgit/openstack/python-surveilclient/summary) |
+| openstack/python-senlinclient  | [summary](https://git.openstack.org/cgit/openstack/python-senlinclient/summary) |
+| openstack/python-tackerclient  | [summary](https://git.openstack.org/cgit/openstack/python-tackerclient/summary) |
+| openstack/python-designateclient  | [summary](https://git.openstack.org/cgit/openstack/python-designateclient/summary) |
+| openstack/python-evoqueclient  | [summary](https://git.openstack.org/cgit/openstack/python-evoqueclient/summary) |
+| openstack/python-opentsdbclient  | [summary](https://git.openstack.org/cgit/openstack/python-opentsdbclient/summary) |
+| openstack/python-heatclient  | [summary](https://git.openstack.org/cgit/openstack/python-heatclient/summary) |
+| openstack/python-redfish  | [summary](https://git.openstack.org/cgit/openstack/python-redfish/summary) |
+| openstack/python-novaclient  | [summary](https://git.openstack.org/cgit/openstack/python-novaclient/summary) |
+| openstack/python-tripleoclient  | [summary](https://git.openstack.org/cgit/openstack/python-tripleoclient/summary) |
+| openstack/python-tempestconf  | [summary](https://git.openstack.org/cgit/openstack/python-tempestconf/summary) |
+| openstack/python-rsdclient  | [summary](https://git.openstack.org/cgit/openstack/python-rsdclient/summary) |
+| openstack/python-bileanclient  | [summary](https://git.openstack.org/cgit/openstack/python-bileanclient/summary) |
+| openstack/python-brick-cinderclient-ext  | [summary](https://git.openstack.org/cgit/openstack/python-brick-cinderclient-ext/summary) |
+| openstack/python-glareclient  | [summary](https://git.openstack.org/cgit/openstack/python-glareclient/summary) |
+| openstack/python-picassoclient  | [summary](https://git.openstack.org/cgit/openstack/python-picassoclient/summary) |
+| openstack/python-dracclient  | [summary](https://git.openstack.org/cgit/openstack/python-dracclient/summary) |
+| openstack/python-k8sclient  | [summary](https://git.openstack.org/cgit/openstack/python-k8sclient/summary) |
+| openstack/python-sticksclient  | [summary](https://git.openstack.org/cgit/openstack/python-sticksclient/summary) |
+
+
+
+## qinling: 1 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/qinling  | [summary](https://git.openstack.org/cgit/openstack/qinling/summary) |
+
+
+
+## rally: 3 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/performance-docs  | [summary](https://git.openstack.org/cgit/openstack/performance-docs/summary) |
+| openstack/rally  | [summary](https://git.openstack.org/cgit/openstack/rally/summary) |
+| openstack/rally-openstack  | [summary](https://git.openstack.org/cgit/openstack/rally-openstack/summary) |
+
+
+
+## requirements: 1 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/requirements  | [summary](https://git.openstack.org/cgit/openstack/requirements/summary) |
+
+
+
+## rpm-packaging: 2 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/rpm-packaging-tools  | [summary](https://git.openstack.org/cgit/openstack/rpm-packaging-tools/summary) |
+| openstack/rpm-packaging  | [summary](https://git.openstack.org/cgit/openstack/rpm-packaging/summary) |
+
+
+
+## sahara: 5 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/sahara-extra  | [summary](https://git.openstack.org/cgit/openstack/sahara-extra/summary) |
+| openstack/sahara-image-elements  | [summary](https://git.openstack.org/cgit/openstack/sahara-image-elements/summary) |
+| openstack/sahara-dashboard  | [summary](https://git.openstack.org/cgit/openstack/sahara-dashboard/summary) |
+| openstack/sahara-tests  | [summary](https://git.openstack.org/cgit/openstack/sahara-tests/summary) |
+| openstack/sahara  | [summary](https://git.openstack.org/cgit/openstack/sahara/summary) |
+
+
+
 ## salt: 12 repos 
 
 | Repo                    | GIT Summary|
@@ -2191,6 +1604,575 @@
 | openstack/salt-formula-swift  | [summary](https://git.openstack.org/cgit/openstack/salt-formula-swift/summary) |
 | openstack/salt-formula-glance  | [summary](https://git.openstack.org/cgit/openstack/salt-formula-glance/summary) |
 | openstack/salt-formula-horizon  | [summary](https://git.openstack.org/cgit/openstack/salt-formula-horizon/summary) |
+
+
+
+## searchlight: 2 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/searchlight  | [summary](https://git.openstack.org/cgit/openstack/searchlight/summary) |
+| openstack/searchlight-ui  | [summary](https://git.openstack.org/cgit/openstack/searchlight-ui/summary) |
+
+
+
+## senlin: 2 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/senlin-dashboard  | [summary](https://git.openstack.org/cgit/openstack/senlin-dashboard/summary) |
+| openstack/senlin  | [summary](https://git.openstack.org/cgit/openstack/senlin/summary) |
+
+
+
+## snap: 11 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/snap-nova-hypervisor  | [summary](https://git.openstack.org/cgit/openstack/snap-nova-hypervisor/summary) |
+| openstack/snap-rally  | [summary](https://git.openstack.org/cgit/openstack/snap-rally/summary) |
+| openstack/snap-cinder  | [summary](https://git.openstack.org/cgit/openstack/snap-cinder/summary) |
+| openstack/snap-gnocchi  | [summary](https://git.openstack.org/cgit/openstack/snap-gnocchi/summary) |
+| openstack/snap-glance  | [summary](https://git.openstack.org/cgit/openstack/snap-glance/summary) |
+| openstack/snap-nova  | [summary](https://git.openstack.org/cgit/openstack/snap-nova/summary) |
+| openstack/snap-keystone  | [summary](https://git.openstack.org/cgit/openstack/snap-keystone/summary) |
+| openstack/snap-ceilometer  | [summary](https://git.openstack.org/cgit/openstack/snap-ceilometer/summary) |
+| openstack/snap-neutron  | [summary](https://git.openstack.org/cgit/openstack/snap-neutron/summary) |
+| openstack/snap-tempest  | [summary](https://git.openstack.org/cgit/openstack/snap-tempest/summary) |
+| openstack/snap-openstackclients  | [summary](https://git.openstack.org/cgit/openstack/snap-openstackclients/summary) |
+
+
+
+## solum: 2 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/solum  | [summary](https://git.openstack.org/cgit/openstack/solum/summary) |
+| openstack/solum-dashboard  | [summary](https://git.openstack.org/cgit/openstack/solum-dashboard/summary) |
+
+
+
+## stacktach: 11 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/stacktach-simport  | [summary](https://git.openstack.org/cgit/openstack/stacktach-simport/summary) |
+| openstack/stacktach-notigen  | [summary](https://git.openstack.org/cgit/openstack/stacktach-notigen/summary) |
+| openstack/stacktach-notification-utils  | [summary](https://git.openstack.org/cgit/openstack/stacktach-notification-utils/summary) |
+| openstack/stacktach-quince  | [summary](https://git.openstack.org/cgit/openstack/stacktach-quince/summary) |
+| openstack/stacktach-quincy  | [summary](https://git.openstack.org/cgit/openstack/stacktach-quincy/summary) |
+| openstack/stacktach-winchester  | [summary](https://git.openstack.org/cgit/openstack/stacktach-winchester/summary) |
+| openstack/stacktach-klugman  | [summary](https://git.openstack.org/cgit/openstack/stacktach-klugman/summary) |
+| openstack/stacktach-stackdistiller  | [summary](https://git.openstack.org/cgit/openstack/stacktach-stackdistiller/summary) |
+| openstack/stacktach-timex  | [summary](https://git.openstack.org/cgit/openstack/stacktach-timex/summary) |
+| openstack/stacktach-shoebox  | [summary](https://git.openstack.org/cgit/openstack/stacktach-shoebox/summary) |
+| openstack/stacktach-sandbox  | [summary](https://git.openstack.org/cgit/openstack/stacktach-sandbox/summary) |
+
+
+
+## starlingx: 17 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/stx-nfv  | [summary](https://git.openstack.org/cgit/openstack/stx-nfv/summary) |
+| openstack/stx-root  | [summary](https://git.openstack.org/cgit/openstack/stx-root/summary) |
+| openstack/stx-metal  | [summary](https://git.openstack.org/cgit/openstack/stx-metal/summary) |
+| openstack/stx-upstream  | [summary](https://git.openstack.org/cgit/openstack/stx-upstream/summary) |
+| openstack/stx-config  | [summary](https://git.openstack.org/cgit/openstack/stx-config/summary) |
+| openstack/stx-gui  | [summary](https://git.openstack.org/cgit/openstack/stx-gui/summary) |
+| openstack/stx-fault  | [summary](https://git.openstack.org/cgit/openstack/stx-fault/summary) |
+| openstack/stx-manifest  | [summary](https://git.openstack.org/cgit/openstack/stx-manifest/summary) |
+| openstack/stx-update  | [summary](https://git.openstack.org/cgit/openstack/stx-update/summary) |
+| openstack/stx-clients  | [summary](https://git.openstack.org/cgit/openstack/stx-clients/summary) |
+| openstack/stx-tools  | [summary](https://git.openstack.org/cgit/openstack/stx-tools/summary) |
+| openstack/stx-tis-repo  | [summary](https://git.openstack.org/cgit/openstack/stx-tis-repo/summary) |
+| openstack/stx-ha  | [summary](https://git.openstack.org/cgit/openstack/stx-ha/summary) |
+| openstack/stx-gplv2  | [summary](https://git.openstack.org/cgit/openstack/stx-gplv2/summary) |
+| openstack/stx-gplv3  | [summary](https://git.openstack.org/cgit/openstack/stx-gplv3/summary) |
+| openstack/stx-integ  | [summary](https://git.openstack.org/cgit/openstack/stx-integ/summary) |
+| openstack/stx-utils  | [summary](https://git.openstack.org/cgit/openstack/stx-utils/summary) |
+
+
+
+## storlets: 1 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/storlets  | [summary](https://git.openstack.org/cgit/openstack/storlets/summary) |
+
+
+
+## swift: 2 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/swift-bench  | [summary](https://git.openstack.org/cgit/openstack/swift-bench/summary) |
+| openstack/swift  | [summary](https://git.openstack.org/cgit/openstack/swift/summary) |
+
+
+
+## tacker: 2 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/tacker  | [summary](https://git.openstack.org/cgit/openstack/tacker/summary) |
+| openstack/tacker-horizon  | [summary](https://git.openstack.org/cgit/openstack/tacker-horizon/summary) |
+
+
+
+## tempest: 36 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/barbican-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/barbican-tempest-plugin/summary) |
+| openstack/ironic-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/ironic-tempest-plugin/summary) |
+| openstack/trove-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/trove-tempest-plugin/summary) |
+| openstack/ironic-inspector-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/ironic-inspector-tempest-plugin/summary) |
+| openstack/watcher-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/watcher-tempest-plugin/summary) |
+| openstack/senlin-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/senlin-tempest-plugin/summary) |
+| openstack/tempest-stress  | [summary](https://git.openstack.org/cgit/openstack/tempest-stress/summary) |
+| openstack/heat-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/heat-tempest-plugin/summary) |
+| openstack/freezer-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/freezer-tempest-plugin/summary) |
+| openstack/oswin-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/oswin-tempest-plugin/summary) |
+| openstack/octavia-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/octavia-tempest-plugin/summary) |
+| openstack/zun-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/zun-tempest-plugin/summary) |
+| openstack/mistral-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/mistral-tempest-plugin/summary) |
+| openstack/kuryr-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/kuryr-tempest-plugin/summary) |
+| openstack/neutron-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/neutron-tempest-plugin/summary) |
+| openstack/cinder-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/cinder-tempest-plugin/summary) |
+| openstack/keystone-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/keystone-tempest-plugin/summary) |
+| openstack/tempest-tripleo-ui  | [summary](https://git.openstack.org/cgit/openstack/tempest-tripleo-ui/summary) |
+| openstack/congress-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/congress-tempest-plugin/summary) |
+| openstack/monasca-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/monasca-tempest-plugin/summary) |
+| openstack/ec2api-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/ec2api-tempest-plugin/summary) |
+| openstack/vmware-nsx-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/vmware-nsx-tempest-plugin/summary) |
+| openstack/zaqar-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/zaqar-tempest-plugin/summary) |
+| openstack/cloudkitty-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/cloudkitty-tempest-plugin/summary) |
+| openstack/blazar-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/blazar-tempest-plugin/summary) |
+| openstack/tempest-horizon  | [summary](https://git.openstack.org/cgit/openstack/tempest-horizon/summary) |
+| openstack/manila-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/manila-tempest-plugin/summary) |
+| openstack/vitrage-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/vitrage-tempest-plugin/summary) |
+| openstack/telemetry-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/telemetry-tempest-plugin/summary) |
+| openstack/tempest-lib  | [summary](https://git.openstack.org/cgit/openstack/tempest-lib/summary) |
+| openstack/murano-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/murano-tempest-plugin/summary) |
+| openstack/tempest-plugin-cookiecutter  | [summary](https://git.openstack.org/cgit/openstack/tempest-plugin-cookiecutter/summary) |
+| openstack/magnum-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/magnum-tempest-plugin/summary) |
+| openstack/designate-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/designate-tempest-plugin/summary) |
+| openstack/solum-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/solum-tempest-plugin/summary) |
+| openstack/novajoin-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/novajoin-tempest-plugin/summary) |
+
+
+
+## tricircle: 1 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/tricircle  | [summary](https://git.openstack.org/cgit/openstack/tricircle/summary) |
+
+
+
+## tripleo: 63 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/ansible-role-systemd_networkd  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-systemd_networkd/summary) |
+| openstack/ansible-role-fedmsg  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-fedmsg/summary) |
+| openstack/tripleo-ha-utils  | [summary](https://git.openstack.org/cgit/openstack/tripleo-ha-utils/summary) |
+| openstack/ansible-role-k8s-tripleo  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-k8s-tripleo/summary) |
+| openstack/ansible-role-qdrouterd  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-qdrouterd/summary) |
+| openstack/ansible-role-redhat-subscription  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-redhat-subscription/summary) |
+| openstack/ansible-role-zuul  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-zuul/summary) |
+| openstack/ansible-role-gearman  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-gearman/summary) |
+| openstack/ansible-role-cloud-launcher  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-cloud-launcher/summary) |
+| openstack/ansible-role-nodepool  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-nodepool/summary) |
+| openstack/ansible-role-jenkins-plugins  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-jenkins-plugins/summary) |
+| openstack/tripleo-upgrade  | [summary](https://git.openstack.org/cgit/openstack/tripleo-upgrade/summary) |
+| openstack/ansible-role-ssh  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-ssh/summary) |
+| openstack/ansible-role-systemd_mount  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-systemd_mount/summary) |
+| openstack/dib-utils  | [summary](https://git.openstack.org/cgit/openstack/dib-utils/summary) |
+| openstack/os-apply-config  | [summary](https://git.openstack.org/cgit/openstack/os-apply-config/summary) |
+| openstack/ansible-role-k8s-glance  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-k8s-glance/summary) |
+| openstack/instack-undercloud  | [summary](https://git.openstack.org/cgit/openstack/instack-undercloud/summary) |
+| openstack/ansible-role-tripleo-modify-image  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-tripleo-modify-image/summary) |
+| openstack/os-net-config  | [summary](https://git.openstack.org/cgit/openstack/os-net-config/summary) |
+| openstack/ansible-role-jenkins-job-builder  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-jenkins-job-builder/summary) |
+| openstack/tripleo-heat-templates  | [summary](https://git.openstack.org/cgit/openstack/tripleo-heat-templates/summary) |
+| openstack/tripleo-incubator  | [summary](https://git.openstack.org/cgit/openstack/tripleo-incubator/summary) |
+| openstack/os-collect-config  | [summary](https://git.openstack.org/cgit/openstack/os-collect-config/summary) |
+| openstack/tripleo-quickstart-extras  | [summary](https://git.openstack.org/cgit/openstack/tripleo-quickstart-extras/summary) |
+| openstack/ansible-role-tripleo-keystone  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-tripleo-keystone/summary) |
+| openstack/paunch  | [summary](https://git.openstack.org/cgit/openstack/paunch/summary) |
+| openstack/ansible-role-openstacksdk  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-openstacksdk/summary) |
+| openstack/ansible-role-statsd  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-statsd/summary) |
+| openstack/ansible-role-logrotate  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-logrotate/summary) |
+| openstack/ansible-role-carbon  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-carbon/summary) |
+| openstack/ansible-role-k8s-keystone  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-k8s-keystone/summary) |
+| openstack/ansible-role-bindep  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-bindep/summary) |
+| openstack/tripleo-common-tempest-plugin  | [summary](https://git.openstack.org/cgit/openstack/tripleo-common-tempest-plugin/summary) |
+| openstack/tripleo-specs  | [summary](https://git.openstack.org/cgit/openstack/tripleo-specs/summary) |
+| openstack/tripleo-docs  | [summary](https://git.openstack.org/cgit/openstack/tripleo-docs/summary) |
+| openstack/ansible-role-grafyaml  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-grafyaml/summary) |
+| openstack/ansible-role-zookeeper  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-zookeeper/summary) |
+| openstack/ansible-role-sudoers  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-sudoers/summary) |
+| openstack/ansible-role-k8s-mariadb  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-k8s-mariadb/summary) |
+| openstack/tripleo-quickstart  | [summary](https://git.openstack.org/cgit/openstack/tripleo-quickstart/summary) |
+| openstack/ansible-role-diskimage-builder  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-diskimage-builder/summary) |
+| openstack/tripleo-validations  | [summary](https://git.openstack.org/cgit/openstack/tripleo-validations/summary) |
+| openstack/ansible-role-k8s-rabbitmq  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-k8s-rabbitmq/summary) |
+| openstack/ansible-role-k8s-cinder  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-k8s-cinder/summary) |
+| openstack/tripleo-ipsec  | [summary](https://git.openstack.org/cgit/openstack/tripleo-ipsec/summary) |
+| openstack/ansible-role-whisper  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-whisper/summary) |
+| openstack/ansible-role-virtualenv  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-virtualenv/summary) |
+| openstack/ansible-role-ara  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-ara/summary) |
+| openstack/ansible-role-python_venv_build  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-python_venv_build/summary) |
+| openstack/os-refresh-config  | [summary](https://git.openstack.org/cgit/openstack/os-refresh-config/summary) |
+| openstack/tripleo-image-elements  | [summary](https://git.openstack.org/cgit/openstack/tripleo-image-elements/summary) |
+| openstack/ansible-role-shade  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-shade/summary) |
+| openstack/ansible-role-nginx  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-nginx/summary) |
+| openstack/ansible-role-jenkins  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-jenkins/summary) |
+| openstack/tripleo-common  | [summary](https://git.openstack.org/cgit/openstack/tripleo-common/summary) |
+| openstack/tripleo-ui  | [summary](https://git.openstack.org/cgit/openstack/tripleo-ui/summary) |
+| openstack/ansible-role-container-registry  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-container-registry/summary) |
+| openstack/ansible-role-k8s-cookiecutter  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-k8s-cookiecutter/summary) |
+| openstack/instack  | [summary](https://git.openstack.org/cgit/openstack/instack/summary) |
+| openstack/tripleo-puppet-elements  | [summary](https://git.openstack.org/cgit/openstack/tripleo-puppet-elements/summary) |
+| openstack/ansible-role-systemd_service  | [summary](https://git.openstack.org/cgit/openstack/ansible-role-systemd_service/summary) |
+| openstack/tripleo-repos  | [summary](https://git.openstack.org/cgit/openstack/tripleo-repos/summary) |
+
+
+
+## trove: 2 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/trove  | [summary](https://git.openstack.org/cgit/openstack/trove/summary) |
+| openstack/trove-dashboard  | [summary](https://git.openstack.org/cgit/openstack/trove-dashboard/summary) |
+
+
+
+## unknown: 293 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/entropy  | [summary](https://git.openstack.org/cgit/openstack/entropy/summary) |
+| openstack/cloudcafe  | [summary](https://git.openstack.org/cgit/openstack/cloudcafe/summary) |
+| openstack/uc-recognition  | [summary](https://git.openstack.org/cgit/openstack/uc-recognition/summary) |
+| openstack/driverlog  | [summary](https://git.openstack.org/cgit/openstack/driverlog/summary) |
+| openstack/tuning-box  | [summary](https://git.openstack.org/cgit/openstack/tuning-box/summary) |
+| openstack/openstack-spaceport  | [summary](https://git.openstack.org/cgit/openstack/openstack-spaceport/summary) |
+| openstack/namos  | [summary](https://git.openstack.org/cgit/openstack/namos/summary) |
+| openstack/poppy  | [summary](https://git.openstack.org/cgit/openstack/poppy/summary) |
+| openstack/openstack-service-broker  | [summary](https://git.openstack.org/cgit/openstack/openstack-service-broker/summary) |
+| openstack/kayobe-config  | [summary](https://git.openstack.org/cgit/openstack/kayobe-config/summary) |
+| openstack/sticks-dashboard  | [summary](https://git.openstack.org/cgit/openstack/sticks-dashboard/summary) |
+| openstack/bareon-image-elements  | [summary](https://git.openstack.org/cgit/openstack/bareon-image-elements/summary) |
+| openstack/clouddocs-maven-plugin  | [summary](https://git.openstack.org/cgit/openstack/clouddocs-maven-plugin/summary) |
+| openstack/ranger  | [summary](https://git.openstack.org/cgit/openstack/ranger/summary) |
+| openstack/drbd-devstack  | [summary](https://git.openstack.org/cgit/openstack/drbd-devstack/summary) |
+| openstack/liberasurecode  | [summary](https://git.openstack.org/cgit/openstack/liberasurecode/summary) |
+| openstack/kwapi  | [summary](https://git.openstack.org/cgit/openstack/kwapi/summary) |
+| openstack/cl-openstack-client  | [summary](https://git.openstack.org/cgit/openstack/cl-openstack-client/summary) |
+| openstack/mors  | [summary](https://git.openstack.org/cgit/openstack/mors/summary) |
+| openstack/apmec  | [summary](https://git.openstack.org/cgit/openstack/apmec/summary) |
+| openstack/astara  | [summary](https://git.openstack.org/cgit/openstack/astara/summary) |
+| openstack/packetary  | [summary](https://git.openstack.org/cgit/openstack/packetary/summary) |
+| openstack/nova-mksproxy  | [summary](https://git.openstack.org/cgit/openstack/nova-mksproxy/summary) |
+| openstack/coupler  | [summary](https://git.openstack.org/cgit/openstack/coupler/summary) |
+| openstack/operations-guide  | [summary](https://git.openstack.org/cgit/openstack/operations-guide/summary) |
+| openstack/vm-bm-wg  | [summary](https://git.openstack.org/cgit/openstack/vm-bm-wg/summary) |
+| openstack/osops-tools-logging  | [summary](https://git.openstack.org/cgit/openstack/osops-tools-logging/summary) |
+| openstack/horizon-cisco-ui  | [summary](https://git.openstack.org/cgit/openstack/horizon-cisco-ui/summary) |
+| openstack/ara-server  | [summary](https://git.openstack.org/cgit/openstack/ara-server/summary) |
+| openstack/faafo  | [summary](https://git.openstack.org/cgit/openstack/faafo/summary) |
+| openstack/proliantutils  | [summary](https://git.openstack.org/cgit/openstack/proliantutils/summary) |
+| openstack/os-cloud-config  | [summary](https://git.openstack.org/cgit/openstack/os-cloud-config/summary) |
+| openstack/kingbird-dashboard  | [summary](https://git.openstack.org/cgit/openstack/kingbird-dashboard/summary) |
+| openstack/radar  | [summary](https://git.openstack.org/cgit/openstack/radar/summary) |
+| openstack/ha-guide  | [summary](https://git.openstack.org/cgit/openstack/ha-guide/summary) |
+| openstack/ospurge  | [summary](https://git.openstack.org/cgit/openstack/ospurge/summary) |
+| openstack/ekko  | [summary](https://git.openstack.org/cgit/openstack/ekko/summary) |
+| openstack/osops-tools-contrib  | [summary](https://git.openstack.org/cgit/openstack/osops-tools-contrib/summary) |
+| openstack/pbrx  | [summary](https://git.openstack.org/cgit/openstack/pbrx/summary) |
+| openstack/golang-commons  | [summary](https://git.openstack.org/cgit/openstack/golang-commons/summary) |
+| openstack/inception  | [summary](https://git.openstack.org/cgit/openstack/inception/summary) |
+| openstack/osops-tools-monitoring  | [summary](https://git.openstack.org/cgit/openstack/osops-tools-monitoring/summary) |
+| openstack/os-dpm  | [summary](https://git.openstack.org/cgit/openstack/os-dpm/summary) |
+| openstack/interop  | [summary](https://git.openstack.org/cgit/openstack/interop/summary) |
+| openstack/fixtures-git  | [summary](https://git.openstack.org/cgit/openstack/fixtures-git/summary) |
+| openstack/compass-web  | [summary](https://git.openstack.org/cgit/openstack/compass-web/summary) |
+| openstack/pylockfile  | [summary](https://git.openstack.org/cgit/openstack/pylockfile/summary) |
+| openstack/metalsmith  | [summary](https://git.openstack.org/cgit/openstack/metalsmith/summary) |
+| openstack/broadview-collector  | [summary](https://git.openstack.org/cgit/openstack/broadview-collector/summary) |
+| openstack/shotgun  | [summary](https://git.openstack.org/cgit/openstack/shotgun/summary) |
+| openstack/os-xenapi  | [summary](https://git.openstack.org/cgit/openstack/os-xenapi/summary) |
+| openstack/vmware-vspc  | [summary](https://git.openstack.org/cgit/openstack/vmware-vspc/summary) |
+| openstack/tatu  | [summary](https://git.openstack.org/cgit/openstack/tatu/summary) |
+| openstack/stackube  | [summary](https://git.openstack.org/cgit/openstack/stackube/summary) |
+| openstack/flame  | [summary](https://git.openstack.org/cgit/openstack/flame/summary) |
+| openstack/ec2-driver  | [summary](https://git.openstack.org/cgit/openstack/ec2-driver/summary) |
+| openstack/monitorstack  | [summary](https://git.openstack.org/cgit/openstack/monitorstack/summary) |
+| openstack/broadview-lib  | [summary](https://git.openstack.org/cgit/openstack/broadview-lib/summary) |
+| openstack/scientific-wg  | [summary](https://git.openstack.org/cgit/openstack/scientific-wg/summary) |
+| openstack/api-site  | [summary](https://git.openstack.org/cgit/openstack/api-site/summary) |
+| openstack/ironic-webclient  | [summary](https://git.openstack.org/cgit/openstack/ironic-webclient/summary) |
+| openstack/dox  | [summary](https://git.openstack.org/cgit/openstack/dox/summary) |
+| openstack/trio2o  | [summary](https://git.openstack.org/cgit/openstack/trio2o/summary) |
+| openstack/pyeclib  | [summary](https://git.openstack.org/cgit/openstack/pyeclib/summary) |
+| openstack/magnetodb  | [summary](https://git.openstack.org/cgit/openstack/magnetodb/summary) |
+| openstack/network-checker  | [summary](https://git.openstack.org/cgit/openstack/network-checker/summary) |
+| openstack/anvil  | [summary](https://git.openstack.org/cgit/openstack/anvil/summary) |
+| openstack/monitoring-for-openstack  | [summary](https://git.openstack.org/cgit/openstack/monitoring-for-openstack/summary) |
+| openstack/cerberus  | [summary](https://git.openstack.org/cgit/openstack/cerberus/summary) |
+| openstack/installguide-cookiecutter  | [summary](https://git.openstack.org/cgit/openstack/installguide-cookiecutter/summary) |
+| openstack/downpour  | [summary](https://git.openstack.org/cgit/openstack/downpour/summary) |
+| openstack/nova-dpm  | [summary](https://git.openstack.org/cgit/openstack/nova-dpm/summary) |
+| openstack/openstack-salt  | [summary](https://git.openstack.org/cgit/openstack/openstack-salt/summary) |
+| openstack/osops-example-configs  | [summary](https://git.openstack.org/cgit/openstack/osops-example-configs/summary) |
+| openstack/adjutant-ui  | [summary](https://git.openstack.org/cgit/openstack/adjutant-ui/summary) |
+| openstack/cue-dashboard  | [summary](https://git.openstack.org/cgit/openstack/cue-dashboard/summary) |
+| openstack/git-upstream  | [summary](https://git.openstack.org/cgit/openstack/git-upstream/summary) |
+| openstack/ara  | [summary](https://git.openstack.org/cgit/openstack/ara/summary) |
+| openstack/tap-as-a-service-dashboard  | [summary](https://git.openstack.org/cgit/openstack/tap-as-a-service-dashboard/summary) |
+| openstack/ceilometer-zvm  | [summary](https://git.openstack.org/cgit/openstack/ceilometer-zvm/summary) |
+| openstack/api-wg  | [summary](https://git.openstack.org/cgit/openstack/api-wg/summary) |
+| openstack/git-repo-manifests  | [summary](https://git.openstack.org/cgit/openstack/git-repo-manifests/summary) |
+| openstack/third-party-ci-tools  | [summary](https://git.openstack.org/cgit/openstack/third-party-ci-tools/summary) |
+| openstack/bandit  | [summary](https://git.openstack.org/cgit/openstack/bandit/summary) |
+| openstack/conveyor  | [summary](https://git.openstack.org/cgit/openstack/conveyor/summary) |
+| openstack/fairy-slipper  | [summary](https://git.openstack.org/cgit/openstack/fairy-slipper/summary) |
+| openstack/meghdwar  | [summary](https://git.openstack.org/cgit/openstack/meghdwar/summary) |
+| openstack/os-namos  | [summary](https://git.openstack.org/cgit/openstack/os-namos/summary) |
+| openstack/ara-plugins  | [summary](https://git.openstack.org/cgit/openstack/ara-plugins/summary) |
+| openstack/swiftonhpss  | [summary](https://git.openstack.org/cgit/openstack/swiftonhpss/summary) |
+| openstack/craton-dashboard  | [summary](https://git.openstack.org/cgit/openstack/craton-dashboard/summary) |
+| openstack/windmill  | [summary](https://git.openstack.org/cgit/openstack/windmill/summary) |
+| openstack/app-catalog-common  | [summary](https://git.openstack.org/cgit/openstack/app-catalog-common/summary) |
+| openstack/swift-ceph-backend  | [summary](https://git.openstack.org/cgit/openstack/swift-ceph-backend/summary) |
+| openstack/kloudbuster  | [summary](https://git.openstack.org/cgit/openstack/kloudbuster/summary) |
+| openstack/snap.openstack  | [summary](https://git.openstack.org/cgit/openstack/snap.openstack/summary) |
+| openstack/group-based-policy-automation  | [summary](https://git.openstack.org/cgit/openstack/group-based-policy-automation/summary) |
+| openstack/telcowg-usecases  | [summary](https://git.openstack.org/cgit/openstack/telcowg-usecases/summary) |
+| openstack/alexandria  | [summary](https://git.openstack.org/cgit/openstack/alexandria/summary) |
+| openstack/steth  | [summary](https://git.openstack.org/cgit/openstack/steth/summary) |
+| openstack/picasso  | [summary](https://git.openstack.org/cgit/openstack/picasso/summary) |
+| openstack/openstack  | [summary](https://git.openstack.org/cgit/openstack/openstack/summary) |
+| openstack/cue  | [summary](https://git.openstack.org/cgit/openstack/cue/summary) |
+| openstack/compute-hyperv  | [summary](https://git.openstack.org/cgit/openstack/compute-hyperv/summary) |
+| openstack/spanner  | [summary](https://git.openstack.org/cgit/openstack/spanner/summary) |
+| openstack/cognitive  | [summary](https://git.openstack.org/cgit/openstack/cognitive/summary) |
+| openstack/nova-zvm-virt-driver  | [summary](https://git.openstack.org/cgit/openstack/nova-zvm-virt-driver/summary) |
+| openstack/golang-client  | [summary](https://git.openstack.org/cgit/openstack/golang-client/summary) |
+| openstack/almanach  | [summary](https://git.openstack.org/cgit/openstack/almanach/summary) |
+| openstack/group-based-policy-ui  | [summary](https://git.openstack.org/cgit/openstack/group-based-policy-ui/summary) |
+| openstack/election  | [summary](https://git.openstack.org/cgit/openstack/election/summary) |
+| openstack/gerrit-dash-creator  | [summary](https://git.openstack.org/cgit/openstack/gerrit-dash-creator/summary) |
+| openstack/nfv-filters  | [summary](https://git.openstack.org/cgit/openstack/nfv-filters/summary) |
+| openstack/shaker  | [summary](https://git.openstack.org/cgit/openstack/shaker/summary) |
+| openstack/collectd-openstack-plugins  | [summary](https://git.openstack.org/cgit/openstack/collectd-openstack-plugins/summary) |
+| openstack/k8s-docker-suite-app-murano  | [summary](https://git.openstack.org/cgit/openstack/k8s-docker-suite-app-murano/summary) |
+| openstack/apmec-horizon  | [summary](https://git.openstack.org/cgit/openstack/apmec-horizon/summary) |
+| openstack/governance-sigs  | [summary](https://git.openstack.org/cgit/openstack/governance-sigs/summary) |
+| openstack/valence  | [summary](https://git.openstack.org/cgit/openstack/valence/summary) |
+| openstack/foxnut  | [summary](https://git.openstack.org/cgit/openstack/foxnut/summary) |
+| openstack/cloudv-ostf-adapter  | [summary](https://git.openstack.org/cgit/openstack/cloudv-ostf-adapter/summary) |
+| openstack/nova-lxd  | [summary](https://git.openstack.org/cgit/openstack/nova-lxd/summary) |
+| openstack/marshal  | [summary](https://git.openstack.org/cgit/openstack/marshal/summary) |
+| openstack/vmtp  | [summary](https://git.openstack.org/cgit/openstack/vmtp/summary) |
+| openstack/cloudbase-init  | [summary](https://git.openstack.org/cgit/openstack/cloudbase-init/summary) |
+| openstack/enterprise-wg  | [summary](https://git.openstack.org/cgit/openstack/enterprise-wg/summary) |
+| openstack/app-catalog  | [summary](https://git.openstack.org/cgit/openstack/app-catalog/summary) |
+| openstack/governance  | [summary](https://git.openstack.org/cgit/openstack/governance/summary) |
+| openstack/docker-machine-openstack  | [summary](https://git.openstack.org/cgit/openstack/docker-machine-openstack/summary) |
+| openstack/surveil  | [summary](https://git.openstack.org/cgit/openstack/surveil/summary) |
+| openstack/solar  | [summary](https://git.openstack.org/cgit/openstack/solar/summary) |
+| openstack/pyghmi  | [summary](https://git.openstack.org/cgit/openstack/pyghmi/summary) |
+| openstack/designate-msdnsagent  | [summary](https://git.openstack.org/cgit/openstack/designate-msdnsagent/summary) |
+| openstack/sticks  | [summary](https://git.openstack.org/cgit/openstack/sticks/summary) |
+| openstack/governance-uc  | [summary](https://git.openstack.org/cgit/openstack/governance-uc/summary) |
+| openstack/certbot-dns-openstack  | [summary](https://git.openstack.org/cgit/openstack/certbot-dns-openstack/summary) |
+| openstack/ci-cd-pipeline-app-murano  | [summary](https://git.openstack.org/cgit/openstack/ci-cd-pipeline-app-murano/summary) |
+| openstack/monasca-vagrant  | [summary](https://git.openstack.org/cgit/openstack/monasca-vagrant/summary) |
+| openstack/project-team-guide  | [summary](https://git.openstack.org/cgit/openstack/project-team-guide/summary) |
+| openstack/jacket  | [summary](https://git.openstack.org/cgit/openstack/jacket/summary) |
+| openstack/shovel-horizon  | [summary](https://git.openstack.org/cgit/openstack/shovel-horizon/summary) |
+| openstack/ops-tags-team  | [summary](https://git.openstack.org/cgit/openstack/ops-tags-team/summary) |
+| openstack/stacktach  | [summary](https://git.openstack.org/cgit/openstack/stacktach/summary) |
+| openstack/cloudpulse  | [summary](https://git.openstack.org/cgit/openstack/cloudpulse/summary) |
+| openstack/openstack-ux  | [summary](https://git.openstack.org/cgit/openstack/openstack-ux/summary) |
+| openstack/giftwrap  | [summary](https://git.openstack.org/cgit/openstack/giftwrap/summary) |
+| openstack/scalpels  | [summary](https://git.openstack.org/cgit/openstack/scalpels/summary) |
+| openstack/rack  | [summary](https://git.openstack.org/cgit/openstack/rack/summary) |
+| openstack/gnocchi  | [summary](https://git.openstack.org/cgit/openstack/gnocchi/summary) |
+| openstack/valet  | [summary](https://git.openstack.org/cgit/openstack/valet/summary) |
+| openstack/kosmos  | [summary](https://git.openstack.org/cgit/openstack/kosmos/summary) |
+| openstack/nemesis  | [summary](https://git.openstack.org/cgit/openstack/nemesis/summary) |
+| openstack/development-proposals  | [summary](https://git.openstack.org/cgit/openstack/development-proposals/summary) |
+| openstack/os-log-merger  | [summary](https://git.openstack.org/cgit/openstack/os-log-merger/summary) |
+| openstack/astara-appliance  | [summary](https://git.openstack.org/cgit/openstack/astara-appliance/summary) |
+| openstack/delimiter  | [summary](https://git.openstack.org/cgit/openstack/delimiter/summary) |
+| openstack/shovel  | [summary](https://git.openstack.org/cgit/openstack/shovel/summary) |
+| openstack/slogging  | [summary](https://git.openstack.org/cgit/openstack/slogging/summary) |
+| openstack/gluon  | [summary](https://git.openstack.org/cgit/openstack/gluon/summary) |
+| openstack/governance-website  | [summary](https://git.openstack.org/cgit/openstack/governance-website/summary) |
+| openstack/synergy-service  | [summary](https://git.openstack.org/cgit/openstack/synergy-service/summary) |
+| openstack/ooi  | [summary](https://git.openstack.org/cgit/openstack/ooi/summary) |
+| openstack/goal-tools  | [summary](https://git.openstack.org/cgit/openstack/goal-tools/summary) |
+| openstack/mogan  | [summary](https://git.openstack.org/cgit/openstack/mogan/summary) |
+| openstack/vmware-nsx  | [summary](https://git.openstack.org/cgit/openstack/vmware-nsx/summary) |
+| openstack/bansho  | [summary](https://git.openstack.org/cgit/openstack/bansho/summary) |
+| openstack/arch-wg  | [summary](https://git.openstack.org/cgit/openstack/arch-wg/summary) |
+| openstack/group-based-policy  | [summary](https://git.openstack.org/cgit/openstack/group-based-policy/summary) |
+| openstack/microversion-parse  | [summary](https://git.openstack.org/cgit/openstack/microversion-parse/summary) |
+| openstack/ailuropoda  | [summary](https://git.openstack.org/cgit/openstack/ailuropoda/summary) |
+| openstack/iotronic  | [summary](https://git.openstack.org/cgit/openstack/iotronic/summary) |
+| openstack/openstack-mentoring-scripts  | [summary](https://git.openstack.org/cgit/openstack/openstack-mentoring-scripts/summary) |
+| openstack/solum-infra-guestagent  | [summary](https://git.openstack.org/cgit/openstack/solum-infra-guestagent/summary) |
+| openstack/bareon-ironic  | [summary](https://git.openstack.org/cgit/openstack/bareon-ironic/summary) |
+| openstack/coreos-image-builder  | [summary](https://git.openstack.org/cgit/openstack/coreos-image-builder/summary) |
+| openstack/ipa-example-hardware-managers  | [summary](https://git.openstack.org/cgit/openstack/ipa-example-hardware-managers/summary) |
+| openstack/kingbird  | [summary](https://git.openstack.org/cgit/openstack/kingbird/summary) |
+| openstack/upstream-institute-virtual-environment  | [summary](https://git.openstack.org/cgit/openstack/upstream-institute-virtual-environment/summary) |
+| openstack/mitmstack  | [summary](https://git.openstack.org/cgit/openstack/mitmstack/summary) |
+| openstack/doc8  | [summary](https://git.openstack.org/cgit/openstack/doc8/summary) |
+| openstack/ops-telecom-nfv  | [summary](https://git.openstack.org/cgit/openstack/ops-telecom-nfv/summary) |
+| openstack/packstack  | [summary](https://git.openstack.org/cgit/openstack/packstack/summary) |
+| openstack/neutron-classifier  | [summary](https://git.openstack.org/cgit/openstack/neutron-classifier/summary) |
+| openstack/cathead  | [summary](https://git.openstack.org/cgit/openstack/cathead/summary) |
+| openstack/turbo-hipster  | [summary](https://git.openstack.org/cgit/openstack/turbo-hipster/summary) |
+| openstack/cursive  | [summary](https://git.openstack.org/cgit/openstack/cursive/summary) |
+| openstack/performa  | [summary](https://git.openstack.org/cgit/openstack/performa/summary) |
+| openstack/jenkins-plugins-for-murano  | [summary](https://git.openstack.org/cgit/openstack/jenkins-plugins-for-murano/summary) |
+| openstack/quark  | [summary](https://git.openstack.org/cgit/openstack/quark/summary) |
+| openstack/sqlalchemy-migrate  | [summary](https://git.openstack.org/cgit/openstack/sqlalchemy-migrate/summary) |
+| openstack/cloud-init  | [summary](https://git.openstack.org/cgit/openstack/cloud-init/summary) |
+| openstack/nova-docker  | [summary](https://git.openstack.org/cgit/openstack/nova-docker/summary) |
+| openstack/solar-resources  | [summary](https://git.openstack.org/cgit/openstack/solar-resources/summary) |
+| openstack/osops-coda  | [summary](https://git.openstack.org/cgit/openstack/osops-coda/summary) |
+| openstack/gertty  | [summary](https://git.openstack.org/cgit/openstack/gertty/summary) |
+| openstack/sahara-ci-config  | [summary](https://git.openstack.org/cgit/openstack/sahara-ci-config/summary) |
+| openstack/evoque  | [summary](https://git.openstack.org/cgit/openstack/evoque/summary) |
+| openstack/nova-fusioncompute  | [summary](https://git.openstack.org/cgit/openstack/nova-fusioncompute/summary) |
+| openstack/terracotta  | [summary](https://git.openstack.org/cgit/openstack/terracotta/summary) |
+| openstack/bareon  | [summary](https://git.openstack.org/cgit/openstack/bareon/summary) |
+| openstack/boartty  | [summary](https://git.openstack.org/cgit/openstack/boartty/summary) |
+| openstack/swiftonfile  | [summary](https://git.openstack.org/cgit/openstack/swiftonfile/summary) |
+| openstack/cisco-ironic-contrib  | [summary](https://git.openstack.org/cgit/openstack/cisco-ironic-contrib/summary) |
+| openstack/astara-neutron  | [summary](https://git.openstack.org/cgit/openstack/astara-neutron/summary) |
+| openstack/wsme  | [summary](https://git.openstack.org/cgit/openstack/wsme/summary) |
+| openstack/cerberus-dashboard  | [summary](https://git.openstack.org/cgit/openstack/cerberus-dashboard/summary) |
+| openstack/horizon-mellanox  | [summary](https://git.openstack.org/cgit/openstack/horizon-mellanox/summary) |
+| openstack/compass-adapters  | [summary](https://git.openstack.org/cgit/openstack/compass-adapters/summary) |
+| openstack/workload-ref-archs  | [summary](https://git.openstack.org/cgit/openstack/workload-ref-archs/summary) |
+| openstack/stackalytics  | [summary](https://git.openstack.org/cgit/openstack/stackalytics/summary) |
+| openstack/vahana  | [summary](https://git.openstack.org/cgit/openstack/vahana/summary) |
+| openstack/broadview-ui  | [summary](https://git.openstack.org/cgit/openstack/broadview-ui/summary) |
+| openstack/swauth  | [summary](https://git.openstack.org/cgit/openstack/swauth/summary) |
+| openstack/oaktreemodel  | [summary](https://git.openstack.org/cgit/openstack/oaktreemodel/summary) |
+| openstack/nerd-reviewer  | [summary](https://git.openstack.org/cgit/openstack/nerd-reviewer/summary) |
+| openstack/app-catalog-ui  | [summary](https://git.openstack.org/cgit/openstack/app-catalog-ui/summary) |
+| openstack/virtualpdu  | [summary](https://git.openstack.org/cgit/openstack/virtualpdu/summary) |
+| openstack/trove-integration  | [summary](https://git.openstack.org/cgit/openstack/trove-integration/summary) |
+| openstack/opencafe  | [summary](https://git.openstack.org/cgit/openstack/opencafe/summary) |
+| openstack/k8s-cloud-provider  | [summary](https://git.openstack.org/cgit/openstack/k8s-cloud-provider/summary) |
+| openstack/kite  | [summary](https://git.openstack.org/cgit/openstack/kite/summary) |
+| openstack/meteos-ui  | [summary](https://git.openstack.org/cgit/openstack/meteos-ui/summary) |
+| openstack/requests-mock  | [summary](https://git.openstack.org/cgit/openstack/requests-mock/summary) |
+| openstack/tc-as-a-service  | [summary](https://git.openstack.org/cgit/openstack/tc-as-a-service/summary) |
+| openstack/merlin  | [summary](https://git.openstack.org/cgit/openstack/merlin/summary) |
+| openstack/os-faults  | [summary](https://git.openstack.org/cgit/openstack/os-faults/summary) |
+| openstack/oaktree  | [summary](https://git.openstack.org/cgit/openstack/oaktree/summary) |
+| openstack/astara-horizon  | [summary](https://git.openstack.org/cgit/openstack/astara-horizon/summary) |
+| openstack/intel-nfv-ci-tests  | [summary](https://git.openstack.org/cgit/openstack/intel-nfv-ci-tests/summary) |
+| openstack/rsd-lib  | [summary](https://git.openstack.org/cgit/openstack/rsd-lib/summary) |
+| openstack/bilean  | [summary](https://git.openstack.org/cgit/openstack/bilean/summary) |
+| openstack/stacklight-integration-tests  | [summary](https://git.openstack.org/cgit/openstack/stacklight-integration-tests/summary) |
+| openstack/dash-stack  | [summary](https://git.openstack.org/cgit/openstack/dash-stack/summary) |
+| openstack/openstack-resource-agents  | [summary](https://git.openstack.org/cgit/openstack/openstack-resource-agents/summary) |
+| openstack/mixmatch  | [summary](https://git.openstack.org/cgit/openstack/mixmatch/summary) |
+| openstack/ramdisk-func-test  | [summary](https://git.openstack.org/cgit/openstack/ramdisk-func-test/summary) |
+| openstack/tuskar-ui  | [summary](https://git.openstack.org/cgit/openstack/tuskar-ui/summary) |
+| openstack/browbeat  | [summary](https://git.openstack.org/cgit/openstack/browbeat/summary) |
+| openstack/timmy  | [summary](https://git.openstack.org/cgit/openstack/timmy/summary) |
+| openstack/keystoneauth-saml2  | [summary](https://git.openstack.org/cgit/openstack/keystoneauth-saml2/summary) |
+| openstack/django-openstack-auth-kerberos  | [summary](https://git.openstack.org/cgit/openstack/django-openstack-auth-kerberos/summary) |
+| openstack/bareon-allocator  | [summary](https://git.openstack.org/cgit/openstack/bareon-allocator/summary) |
+| openstack/gantt  | [summary](https://git.openstack.org/cgit/openstack/gantt/summary) |
+| openstack/powervc-driver  | [summary](https://git.openstack.org/cgit/openstack/powervc-driver/summary) |
+| openstack/nova-solver-scheduler  | [summary](https://git.openstack.org/cgit/openstack/nova-solver-scheduler/summary) |
+| openstack/ara-clients  | [summary](https://git.openstack.org/cgit/openstack/ara-clients/summary) |
+| openstack/interop-workloads  | [summary](https://git.openstack.org/cgit/openstack/interop-workloads/summary) |
+| openstack/osops-tools-generic  | [summary](https://git.openstack.org/cgit/openstack/osops-tools-generic/summary) |
+| openstack/omni  | [summary](https://git.openstack.org/cgit/openstack/omni/summary) |
+| openstack/service-types-authority  | [summary](https://git.openstack.org/cgit/openstack/service-types-authority/summary) |
+| openstack/vmware-nsxlib  | [summary](https://git.openstack.org/cgit/openstack/vmware-nsxlib/summary) |
+| openstack/compass-install  | [summary](https://git.openstack.org/cgit/openstack/compass-install/summary) |
+| openstack/tap-as-a-service  | [summary](https://git.openstack.org/cgit/openstack/tap-as-a-service/summary) |
+| openstack/kiloeyes  | [summary](https://git.openstack.org/cgit/openstack/kiloeyes/summary) |
+| openstack/ranger-agent  | [summary](https://git.openstack.org/cgit/openstack/ranger-agent/summary) |
+| openstack/git-nit  | [summary](https://git.openstack.org/cgit/openstack/git-nit/summary) |
+| openstack/kayobe  | [summary](https://git.openstack.org/cgit/openstack/kayobe/summary) |
+| openstack/tatu-dashboard  | [summary](https://git.openstack.org/cgit/openstack/tatu-dashboard/summary) |
+| openstack/evoque-dashboard  | [summary](https://git.openstack.org/cgit/openstack/evoque-dashboard/summary) |
+| openstack/transparency-policy  | [summary](https://git.openstack.org/cgit/openstack/transparency-policy/summary) |
+| openstack/distil-ui  | [summary](https://git.openstack.org/cgit/openstack/distil-ui/summary) |
+| openstack/pandaman  | [summary](https://git.openstack.org/cgit/openstack/pandaman/summary) |
+| openstack/project-navigator-data  | [summary](https://git.openstack.org/cgit/openstack/project-navigator-data/summary) |
+| openstack/cinder-fusioncompute  | [summary](https://git.openstack.org/cgit/openstack/cinder-fusioncompute/summary) |
+| openstack/murano-plugin-networking-sfc  | [summary](https://git.openstack.org/cgit/openstack/murano-plugin-networking-sfc/summary) |
+| openstack/self-healing-sig  | [summary](https://git.openstack.org/cgit/openstack/self-healing-sig/summary) |
+| openstack/bareon-api  | [summary](https://git.openstack.org/cgit/openstack/bareon-api/summary) |
+| openstack/distil  | [summary](https://git.openstack.org/cgit/openstack/distil/summary) |
+| openstack/compass-core  | [summary](https://git.openstack.org/cgit/openstack/compass-core/summary) |
+| openstack/gos-brick  | [summary](https://git.openstack.org/cgit/openstack/gos-brick/summary) |
+| openstack/osel  | [summary](https://git.openstack.org/cgit/openstack/osel/summary) |
+| openstack/cloudroast  | [summary](https://git.openstack.org/cgit/openstack/cloudroast/summary) |
+| openstack/glare  | [summary](https://git.openstack.org/cgit/openstack/glare/summary) |
+| openstack/ironic-staging-drivers  | [summary](https://git.openstack.org/cgit/openstack/ironic-staging-drivers/summary) |
+| openstack/iotronic-lightning-rod  | [summary](https://git.openstack.org/cgit/openstack/iotronic-lightning-rod/summary) |
+| openstack/trove-image-builder  | [summary](https://git.openstack.org/cgit/openstack/trove-image-builder/summary) |
+| openstack/publiccloud-wg  | [summary](https://git.openstack.org/cgit/openstack/publiccloud-wg/summary) |
+| openstack/hurricane  | [summary](https://git.openstack.org/cgit/openstack/hurricane/summary) |
+| openstack/gce-api  | [summary](https://git.openstack.org/cgit/openstack/gce-api/summary) |
+| openstack/xenapi-os-testing  | [summary](https://git.openstack.org/cgit/openstack/xenapi-os-testing/summary) |
+| openstack/swift3  | [summary](https://git.openstack.org/cgit/openstack/swift3/summary) |
+| openstack/ara-web  | [summary](https://git.openstack.org/cgit/openstack/ara-web/summary) |
+| openstack/iotronic-ui  | [summary](https://git.openstack.org/cgit/openstack/iotronic-ui/summary) |
+| openstack/poppy-ui  | [summary](https://git.openstack.org/cgit/openstack/poppy-ui/summary) |
+| openstack/daisycloud-core  | [summary](https://git.openstack.org/cgit/openstack/daisycloud-core/summary) |
+| openstack/novajoin  | [summary](https://git.openstack.org/cgit/openstack/novajoin/summary) |
+| openstack/meteos  | [summary](https://git.openstack.org/cgit/openstack/meteos/summary) |
+| openstack/mogan-ui  | [summary](https://git.openstack.org/cgit/openstack/mogan-ui/summary) |
+| openstack/aeromancer  | [summary](https://git.openstack.org/cgit/openstack/aeromancer/summary) |
+| openstack/craton  | [summary](https://git.openstack.org/cgit/openstack/craton/summary) |
+| openstack/synergy-scheduler-manager  | [summary](https://git.openstack.org/cgit/openstack/synergy-scheduler-manager/summary) |
+| openstack/tuskar  | [summary](https://git.openstack.org/cgit/openstack/tuskar/summary) |
+| openstack/adjutant  | [summary](https://git.openstack.org/cgit/openstack/adjutant/summary) |
+
+
+
+## vitrage: 2 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/vitrage  | [summary](https://git.openstack.org/cgit/openstack/vitrage/summary) |
+| openstack/vitrage-dashboard  | [summary](https://git.openstack.org/cgit/openstack/vitrage-dashboard/summary) |
+
+
+
+## watcher: 2 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/watcher-dashboard  | [summary](https://git.openstack.org/cgit/openstack/watcher-dashboard/summary) |
+| openstack/watcher  | [summary](https://git.openstack.org/cgit/openstack/watcher/summary) |
+
+
+
+## winstackers: 1 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/os-win  | [summary](https://git.openstack.org/cgit/openstack/os-win/summary) |
 
 
 
@@ -2234,5 +2216,23 @@
 | openstack/xstatic-hogan  | [summary](https://git.openstack.org/cgit/openstack/xstatic-hogan/summary) |
 | openstack/xstatic-bootstrap-scss  | [summary](https://git.openstack.org/cgit/openstack/xstatic-bootstrap-scss/summary) |
 | openstack/xstatic-jquery.quicksearch  | [summary](https://git.openstack.org/cgit/openstack/xstatic-jquery.quicksearch/summary) |
+
+
+
+## zaqar: 2 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/zaqar-ui  | [summary](https://git.openstack.org/cgit/openstack/zaqar-ui/summary) |
+| openstack/zaqar  | [summary](https://git.openstack.org/cgit/openstack/zaqar/summary) |
+
+
+
+## zun: 2 repos 
+
+| Repo                    | GIT Summary|
+| ----------------------- | ---------- |
+| openstack/zun  | [summary](https://git.openstack.org/cgit/openstack/zun/summary) |
+| openstack/zun-ui  | [summary](https://git.openstack.org/cgit/openstack/zun-ui/summary) |
 
 
