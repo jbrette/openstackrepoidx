@@ -1,4 +1,4 @@
-# openstackrepoidx
+# OpenStack Repo Indices
 
 ## Overview
 
